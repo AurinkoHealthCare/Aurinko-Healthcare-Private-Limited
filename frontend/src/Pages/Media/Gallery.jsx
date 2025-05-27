@@ -39,7 +39,7 @@ const Gallery = () => {
         >
           <Link to="/photos" className="block" onClick={(e) => reloadPage(e, "/photos")}>
             <img
-              src="Assets/Media/Gallery/Photos/17.jpeg"
+              src="Assets/Media/Photos/17.jpeg"
               alt="Photos"
               className="w-full h-48 object-cover rounded-t-xl"
             />
@@ -57,7 +57,7 @@ const Gallery = () => {
         >
           <Link to="/videos" className="block" onClick={(e) => reloadPage(e, "/videos")}>
             <img
-              src="Assets/Media/Gallery/Photos/25.jpeg"
+              src="Assets/Media/Photos/25.jpeg"
               alt="Videos"
               className="w-full h-48 object-cover rounded-t-xl"
             />

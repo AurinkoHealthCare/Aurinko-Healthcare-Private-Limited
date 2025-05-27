@@ -26,38 +26,38 @@ const V_Neunaparticles_data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 2,
-    name: "Copper Neuna",
-    description:
-      "Copper Neuna is an advanced nano-enabled agricultural solu on designed to enhance plant health, boost crop yield, and provide eco-friendly disease control. ",
-    segment: "",
-    type: "",
-    category: "",
-    packaging: "",
-    Productimg: "/Assets/Product images/",
-    Productname: "/Assets/Product name/",
-    composition: [
-      "Copper Neunapar cle 5000 PPM",
-      "Encapsulated with Chitosan "
-    ],
-    indications:
-      [
-        "Fungal infec ons such as powdery mildew,",
-        "Bacterial infec ons such as Leaf spot",
-        "Crops grown in sandy, organic, or highly leached soils with low na ve copper content."
-      ],
-    usage:
-      [
-        "Soluble liquid formula on: Suitable for spraying, applying through drip irriga on (micro irriga on) and drenching.",
-        "5000 ppm: 0.5 ml / L water",
-        "Typical acre dose: 0.5-1 L",
-        "Typical Hectare dose :1.25-2.5 L"
-      ],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 2,
+  //   name: "Copper Neuna",
+  //   description:
+  //     "Copper Neuna is an advanced nano-enabled agricultural solu on designed to enhance plant health, boost crop yield, and provide eco-friendly disease control. ",
+  //   segment: "",
+  //   type: "",
+  //   category: "",
+  //   packaging: "",
+  //   Productimg: "/Assets/Product images/",
+  //   Productname: "/Assets/Product name/",
+  //   composition: [
+  //     "Copper Neunapar cle 5000 PPM",
+  //     "Encapsulated with Chitosan "
+  //   ],
+  //   indications:
+  //     [
+  //       "Fungal infec ons such as powdery mildew,",
+  //       "Bacterial infec ons such as Leaf spot",
+  //       "Crops grown in sandy, organic, or highly leached soils with low na ve copper content."
+  //     ],
+  //   usage:
+  //     [
+  //       "Soluble liquid formula on: Suitable for spraying, applying through drip irriga on (micro irriga on) and drenching.",
+  //       "5000 ppm: 0.5 ml / L water",
+  //       "Typical acre dose: 0.5-1 L",
+  //       "Typical Hectare dose :1.25-2.5 L"
+  //     ],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
     {
     id: 3,
     name: "Instantly Bioavailable Nano Calcium and Magnesium with Nanogel Technology",
