@@ -1,41 +1,234 @@
 const pet_data = [
-  // {
-  //   id: 1,
-  //   name: "Complementary Food Supplement",
-  //   description:
-  //     "Auribery® Plus Pet is an advanced formula on of gut ac ng probiotics enriched with Cranberry extract and Vitamin A to support Urinary Tract Health and reduce UTI symptoms like altered pH, inflamma on etc.",
-  //   segment: "Pet",
-  //   type: "capsules",
-  //   category: "Other Specialty",
-  //   packaging: "250 mg and 500 mg pack with 60 & 90 capsules",
-  //   Productimg: "/Assets/Product images/Veterinary/Pet/AuriBery Plus Pet.webp",
-  //   Productname: "/Assets/Product name/Pet/AuriBery Plus Pet.webp",
-  //   composition: [
-  //     "Serving Size : 1 Capsule",
-  //     "Each 500 mg Capsule contains:",
-  //     "Lactobacillus acidophilus 0.25 billion CFU",
-  //     "Lactobacillus Plantarum 0.25 billion  CFU ",
-  //     "Cranberry extract(Proanthocyanidins 1.8 %) 18 mg",
-  //     "Retinyl acetate(Vitamin A) 160 mcg  ",
-  //     "FOS 100 mg"
-  //   ],
-  //   indications:
-  //     [
-  //       "Reports suggest that Vaccinium macrocarpon extract supplementation supports Urinary Tract Health.",
-  //       "Auribery® is a natural plant active health supplement with technologically advanced bioenhancer and metabolic potentiator technology enriched with gut friendly probiotics and Vitamin A."
-  //     ],
-  //   usage:
-  //     [
-  //       "Cat/Pups/Small breeds: 250 mg capsule once or twice daily",
-  //       "Large breeds: 500 mg capsule once or twice daily",
-  //       "As suppor ve therapy- 1-2 capsules twice daily for 7-14 days."
-  //     ],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 1,
+    name: "Complementary Food Supplement",
+    description:
+      " Supoj is an advanced formula on of chi n hydrolysate enriched with essen al amino acids and vitamins to support joint health. Chi n helps to improve car lage forma on to maintain func onal joints.",
+    segment: "Pet",
+    type: "Liquid",
+    category: "Other Specialty",
+    packaging: "100 ml, 200 ml",
+    Productimg: "/Assets/Product images/Veterinary/Pet/Supoj.webp",
+    Productname: "/Assets/Product name/Pet/Supoj.webp",
+    composition: [
+      "Each 100 ml contains:",
+      "Chi n Hydrolysate...............................12 gm",
+      "Arginine..................................................1 gm",
+      "Folic acid...........................................0.66 mg",
+      "L-cysteine..............................................0.5 g",
+      "Potassium sorbate................................0.2 g",
+      "Sodium benzoate..................................0.2 g",
+      "Meat flavour.......................................0.4 gm",
+      "Water q.s."
+    ],
+    indications:
+      [
+        "Improves Joint Health",
+        "Eases Difficulty in Walking",
+        "Improves Abnormal Gait"
+      ],
+    usage:
+      [
+        "Dogs & Cats: 1 ml per 5 kg bwt. twice daily Or as recommended by qualified veterinarian"
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 2,
+    name: "An Ultimate Pet Tonic",
+    description:
+      "Nomino Pet is a multi - vitamin, amino - acids, micro - minerals, electrolytes solution fortified with essential fatty acids, grape polyphenols and Neucleotides.Nomino Pet is an ultimate pet tonic, which enhances growth, improves fertility, nourishes skin and increases immunity in pets.",
+    segment: "Pet",
+    type: "Liquid",
+    category: "Immunomodulator, Performance Enhancer, Nutrition Supplement, Other Specialty",
+    packaging: "100 ml, 250 ml",
+    Productimg: "/Assets/Product images/Veterinary/Pet/Nomino pet.webp",
+    Productname: "/Assets/Product name/Pet/Nomino Pet.webp",
+    composition: [
+      "Each 100 ml contains:|",
+      "Vitamin A 500000 IU|",
+      "Vitamin D3 75000 IU|",
+      "Vitamin E 10000 IU|",
+      "Vitamin B1 1250 mg|",
+      "Vitamin B2 500 mg|",
+      "Vitamin B6 625 mg|",
+      "Vitamin B12 5300 mcg|",
+      "Vitamin K 350 mg|",
+      "Vitamin H 1250 mcg|",
+      "Vitamin C 1000 mg|",
+      "Niacin 1400 mg|",
+      "D Panthenol 625 mg|",
+      "Folic Acid Precusor 625 mg|",
+      "Lysine 100 mg|",
+      "Carbohydrates 2500 mg|",
+      "DL - Methionine 1500 mg|",
+      "Antioxidants 2.00 mg|",
+      "Protein Hydrolysate 1000 mg|",
+      "Iodine 500 mg|",
+      "Selenium 125 mg|",
+      "Cobalt 500 mg|",
+      "Organic Copper 2000 mg|",
+      "Organic Manganese 1000 mg|",
+      "Organic Zinc 3000 mg|",
+      "Sodium Chloride 9.815 g|",
+      "Potassium Chloride 82.430 g|",
+      "Magnesium sulphate Heptahydrate 455 mg|",
+      "Citric Acid 3280 mg"
+    ],
+    indications:
+      ["To accelerate growth in pups.",
+        "Essential vitamins, amino acids, micro-minerals and electrolytes improve growth, energy and health status.",
+        "Essential fatty acids and grape polyphenols improves fertility and reproductive life of pets.",
+        "Nucleotides and grape polyphenols augments immunity during period of stress, vaccination, heat stress, loss of appetite and disease challenges."],
+    usage:
+      ["Cats: 3 ml to 5 ml per day Pups: 3 ml to 5 ml per day Small breeds: 5 ml per day Medium breeds: 7 ml to 8 ml per day Large breeds: 10 ml per day To be administered orally or through drinking water on regular basis or as directed by a Veterinarian."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 3,
+    name: "Potent Organic Immunomodulator",
+    description:
+      "Aurimune Pet is a potent immunomodulator and growth promoter. Aurimune Pet improves immunity, augments therapeutic response and helps in faster recovery from disease ailments.",
+    segment: "Pet",
+    type: "Liquid",
+    category: "Immunomodulator",
+    packaging: "100 ml, 250 ml",
+    Productimg: "/Assets/Product images/Veterinary/Pet/Aurimune.webp",
+    Productname: "/Assets/Product name/Pet/Auri Mune Pet.webp",
+    composition: [
+      "Each 100 ml contains:",
+      "β- Glucan 540 mg",
+      "Mannan oligo saccharide 540 mg",
+      "Vitamin C 600 mg",
+      "Betaine 600 mg",
+      "Vitamin E 450 IU",
+      "Grape polyphenol eq. to 900 IU Vitamin E activity",
+      "Selenium 20 mg",
+      "Nucleotides 200 mg",
+      "Amino acid complex 2000 mg",
+      "Fortified with phytochemical principle of Ocimum sanctum, Allium sativum and Phyllanthus emblica."
+    ],
+    indications:
+      ["Improves immunity, reduces mortality, enhances growth and provides better health in pets.",
+        "Acts as supportive therapy during disease exposure and helps in faster recovery.",
+        "Growth Promoter"],
+    usage:
+      ["Dogs: For 1 to 2 weeks supplementation Up to 2.5 kg bwt: 1 ml tid 3 to 5 kg bwt: 2 ml tid 6 to 7 kg bwt: 3 ml bid 8 to 15 kg bwt: 6 ml bid 16 TO 22 kg bwt: 8 ml bid 23 to 30 kg bwt: 12 ml bid more than 31 kg bwt: 15 ml bid Cats: For 1 to 2 weeks supplementation Up to 2 kg bwt: 1 ml tid 2.5 to 4 kg bwt: 2 ml tid 4.5 to 6 kg bwt: 3 ml bid 6.5 kg bwt and more: 3 ml bid"],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 4,
+    name: "Appetizer and Digestive Stimulant",
+    description:
+      "Digyme is combination of digestive enzymes and vitamins to improve appetite and help in better digestion of food.",
+    segment: "Pet",
+    type: "Liquid",
+    category: "Enzyme",
+    packaging: "100 ml, 250 ml",
+    Productimg: "/Assets/Product images/Veterinary/Pet/Digyme.webp",
+    Productname: "/Assets/Product name/Pet/Digyme.webp",
+    composition: [
+      "Each 5 ml contains:",
+      "Fungal Diastase 1: 2000 I.P. 20 mg",
+      "Pepsin I.P. 60 mg",
+      "Thiamine HCl I.P. 4.5 mg",
+      "Riboflavin Phosphate Sodium I.P. 4.5 mg",
+      "Pyridoxine HCl I.P. 1.5 mg",
+      "Niacinamide I.P. 45 mg",
+      "Syrup base q.s."
+    ],
+    indications:
+      ["Loss of appetite",
+        "Indigestion",
+        "Weakness",
+        "Digestive Disturbances"],
+    usage:
+      ["Cats: 3 ml to 5 ml per day Pups: 3 ml to 5 ml per day Small breeds: 5 ml per day Medium breeds: 7 ml to 8 ml per day Large breeds: 10 ml per day To be administered orally or through drinking water on regular basis or as directed by a Veterinarian"],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 5,
+    name: "Herbal Liver Tonic and Appetite Stimulant",
+    description:
+      "LivauroForte Pet is a potent combina on of phytochemical extracts helpful to protect liver from toxins, rejuvenate damaged hepatocytes and augment liver func ons. LivauroForte Pet helps to protect the liver, corrects liver dysfunc on and improves appe te in pets",
+    segment: "Pet",
+    type: "Liquid",
+    category: "Liver Stimulant",
+    packaging: "500 ml",
+    Productimg: "/Assets/Product images/Veterinary/Pet/LivauroForte.webp",
+    Productname: "/Assets/Product name/Pet/Livauro Forte.webp",
+    composition: [
+      "Each 5 ml Contains:",
+      "Andrographis paniculata...800 mg ",
+      "Eclipta alba .......................600 mg ",
+      "Phyllanthus niruri ............500 mg ",
+      "Boerhavia diffusa............ 400 mg ",
+      "Picrorhiza kurroa .............. 60 mg ",
+      "Cichorium intybus ...........200 mg ",
+      "Tephrosia purpurea ......1000 mg",
+      " Syrup base q.s."
+    ],
+    indications:
+      ["During Non specific anorexia and indigestion.",
+        "Supportive Therapy during Tick Fever (Canine Ehrlichiosis), Babesiosis, Leishmaniasis, Canine idiopathic thrombocytopenia, Pancreatitis etc.",
+        "Supplement for hound species during any infection.",
+        "Protects and promotes platelet synthesis therapy.",
+        "During the liver distress due to constant exposure to antibiotics, chemicals, pollutants & toxic agents."],
+    usage:
+      [" Through oral route",
+        "Cats, Pups & Small breeds : 2 ml twice daily",
+        "Medium breeds : 5 ml twice daily ",
+        "Large breeds  : 10 ml twice daily ",
+        "To be administered orally or through drinking water on regular basis or as directed by a qualified Veterinary practitioner "],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 6,
+    name: "Complementary Food Supplement",
+    description:
+      "Auribery® Plus Pet is an advanced formula on of gut ac ng probiotics enriched with Cranberry extract and Vitamin A to support Urinary Tract Health and reduce UTI symptoms like altered pH, inflamma on etc.",
+    segment: "Pet",
+    type: "capsules",
+    category: "Other Specialty",
+    packaging: "250 mg and 500 mg pack with 60 & 90 capsules",
+    Productimg: "/Assets/Product images/Veterinary/Pet/AuriBery Plus Pet.webp",
+    Productname: "/Assets/Product name/Pet/AuriBery Plus Pet.webp",
+    composition: [
+      "Serving Size : 1 Capsule",
+      "Each 500 mg Capsule contains:",
+      "Lactobacillus acidophilus 0.25 billion CFU",
+      "Lactobacillus Plantarum 0.25 billion  CFU ",
+      "Cranberry extract(Proanthocyanidins 1.8 %) 18 mg",
+      "Retinyl acetate(Vitamin A) 160 mcg  ",
+      "FOS 100 mg"
+    ],
+    indications:
+      [
+        "Reports suggest that Vaccinium macrocarpon extract supplementation supports Urinary Tract Health.",
+        "Auribery® is a natural plant active health supplement with technologically advanced bioenhancer and metabolic potentiator technology enriched with gut friendly probiotics and Vitamin A."
+      ],
+    usage:
+      [
+        "Cat/Pups/Small breeds: 250 mg capsule once or twice daily",
+        "Large breeds: 500 mg capsule once or twice daily",
+        "As suppor ve therapy- 1-2 capsules twice daily for 7-14 days."
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 7,
     name: "Complementary Food Supplement",
     description:
       [
@@ -80,7 +273,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 3,
+    id: 8,
     name: "Complementary Food Supplement",
     description:
       "Aurigus Pet is a unique advanced formula on blend of Asparagus racemosus root extract that helps in breast milk produc on, maintain hormonal balance, augments energy levels and better health in Canines.",
@@ -109,7 +302,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 4,
+    id: 9,
     name: "Maggoticidal Topical Wound Healer 100% Actives No Gas",
     description:
       "Auriheal is a topical gasless spray formulation fortified with powerful essential oils for higher maggoticidal, wound healer and fly repellent action.",
@@ -139,7 +332,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 5,
+    id: 10,
     name: "Curcumin Nanophosphosome with Boswellia serrata Extract",
     description:
       "Aurijoint Pet is a Nanophosphosome form of Curcumin with Boswellia serrata extract enriched with bio - enhancer and metabolic potentiator technology.Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves the absorption of the actives and also prevents their metabolic reduction through inhibition of P - gp, efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
@@ -170,7 +363,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 6,
+    id: 11,
     name: "Complementary Food Supplement",
     description:
       "Aurimaca Pet is a unique advanced formula on blend of Lepidium meyenii root extract that helps to improve reproduc ve health, enhances vitality & performance in Canines.",
@@ -199,7 +392,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 7,
+    id: 12,
     name: "Brain Health & Cognition Support",
     description:
       "Aurimind Plus Pet is a unique advanced formula on blend of Withania somnifera, Convolvulus prostrates & Bacopa monnieri that helps to boost brain health, reduce anxiety and mental fa gue, improves concentra on and cogni ve func on.",
@@ -234,7 +427,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 8,
+    id: 13,
     name: "Powerful Growth Promoter And Performance Enhancer",
     description:
       "Aurimino Pet is a balanced combination of essential amino acids, micro - minerals, yeast, digestive enzyme and energy sources.Aurimino Pet is highly useful for growth in pups and maintains good health in weak and debilitated animals.",
@@ -290,41 +483,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 9,
-    name: "Potent Organic Immunomodulator",
-    description:
-      "Aurimune Pet is a potent immunomodulator and growth promoter. Aurimune Pet improves immunity, augments therapeutic response and helps in faster recovery from disease ailments.",
-    segment: "Pet",
-    type: "Liquid",
-    category: "Immunomodulator",
-    packaging: "100 ml, 250 ml",
-    Productimg: "/Assets/Product images/Veterinary/Pet/Aurimune.webp",
-    Productname: "/Assets/Product name/Pet/Auri Mune Pet.webp",
-    composition: [
-      "Each 100 ml contains:",
-      "β- Glucan 540 mg",
-      "Mannan oligo saccharide 540 mg",
-      "Vitamin C 600 mg",
-      "Betaine 600 mg",
-      "Vitamin E 450 IU",
-      "Grape polyphenol eq. to 900 IU Vitamin E activity",
-      "Selenium 20 mg",
-      "Nucleotides 200 mg",
-      "Amino acid complex 2000 mg",
-      "Fortified with phytochemical principle of Ocimum sanctum, Allium sativum and Phyllanthus emblica."
-    ],
-    indications:
-      ["Improves immunity, reduces mortality, enhances growth and provides better health in pets.",
-        "Acts as supportive therapy during disease exposure and helps in faster recovery.",
-        "Growth Promoter"],
-    usage:
-      ["Dogs: For 1 to 2 weeks supplementation Up to 2.5 kg bwt: 1 ml tid 3 to 5 kg bwt: 2 ml tid 6 to 7 kg bwt: 3 ml bid 8 to 15 kg bwt: 6 ml bid 16 TO 22 kg bwt: 8 ml bid 23 to 30 kg bwt: 12 ml bid more than 31 kg bwt: 15 ml bid Cats: For 1 to 2 weeks supplementation Up to 2 kg bwt: 1 ml tid 2.5 to 4 kg bwt: 2 ml tid 4.5 to 6 kg bwt: 3 ml bid 6.5 kg bwt and more: 3 ml bid"],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 10,
+    id: 14,
     name: "Complementary Food Supplement",
     description:
       "Aurinal Pet is an advanced liquid formula on enriched with natural plant extract, vitamins and minerals to reduces kidney stone forma on, urinary infec ons and enhances kidney health in Cannins.",
@@ -372,7 +531,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 11,
+    id: 15,
     name: "Moringa oleifera Extract",
     description:
       "Auringa Pet is a powerful blend of Moringa oleifera extract to support immune system. Moringa oleifera extract consists of Vitamin C and antioxidants which are helpful to scavenge harmful free radicals in the body. It contains Magnesium, Potassium, Calcium, Phosphorus, Zinc, Iron, Vitamin A, Thiamine, Riboflavin, Niacin, Vitamin B6, Folate and amino acids which not only fulfills body’s nutritional requirement but also promotes better growth and development.",
@@ -397,10 +556,10 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 12,
+    id: 16,
     name: "Complementary Food Supplement",
     description:
-      "Aurisom® pet(Withania somnifera Nanophosphosome®) contains active principles i.e. Withanolides, Withaferin A and Withanosides that easily crosses the gut barrier resulting in significantly higher blood levels. Poten ated phospholipid complex acts as carrier mediated transport system, which directs the Withanolides, Withaferin A and Withanosides to reach the systemic circula on and also increases its absorp on and bioavailability.",
+      "Aurisom pet (Withania somnifera Nanophosphosome®) contains active principles i.e. Withanolides, Withaferin A and Withanosides that easily crosses the gut barrier resulting in significantly higher blood levels. Poten ated phospholipid complex acts as carrier mediated transport system, which directs the Withanolides, Withaferin A and Withanosides to reach the systemic circula on and also increases its absorp on and bioavailability.",
     segment: "Pet",
     type: "capsules",
     category: "Other Specialty",
@@ -432,7 +591,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 13,
+    id: 17,
     name: "Mucolytic and Bronchodilator",
     description:
       "Auro RD Pet is a unique essential oils blend to prevent the respiratory distress due to severe cough and cold. It is a powerful mucolytic, expectorant and bronchodilator. Helps oxygen transition in lungs, decongests lungs for healthy respiration and builds immunity & boosts health of the pets.",
@@ -464,7 +623,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 14,
+    id: 18,
     name: "Premium Calcium Supplementation enriched with chelated zinc, Cu and Cr",
     description:
       "Aurocal Pet is a premium Calcium liquid supplementation. Potassium iodide and organic Chromium enhances energy metabolism in the body. Biotin helps to improve skin and fur condition. High concentration of Ca, P, Mg and Vitamin D3 improves mineral supplementation level with strong immunity and body defense mechanism due to Zinc glycinate, Copper glycinate and Lycopene.",
@@ -501,7 +660,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 15,
+    id: 19,
     name: "Terminalia arjuna Extract",
     description:
       "Aurojuna Pet is a powerful blend of Terminalia arjuna extract to support heart health. Studies suggest that the bark of Arjuna shows a significant reduction in chest pain by lowering the level of cortisol i.e., the stress hormone. Arjuna also improves exercise tolerance, improves HDL levels and reduces blood pressure. It supports cardiovascular health and strengthens & tones the heart muscles.",
@@ -526,7 +685,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 16,
+    id: 20,
     name: "Orodispersible Gut Acting Probiotic Food Supplement",
     description:
       "Aurolac Powder Pet is an orodispersible gut acting probiotic formulation enriched with a blend of 4 different probiotics for management of digestive disturbances like indigestion, diarrhea, constipation, IBS etc.",
@@ -557,39 +716,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 17,
-    name: "Appetizer and Digestive Stimulant",
-    description:
-      "Digyme is combination of digestive enzymes and vitamins to improve appetite and help in better digestion of food.",
-    segment: "Pet",
-    type: "Liquid",
-    category: "Enzyme",
-    packaging: "100 ml, 250 ml",
-    Productimg: "/Assets/Product images/Veterinary/Pet/Digyme.webp",
-    Productname: "/Assets/Product name/Pet/Digyme.webp",
-    composition: [
-      "Each 5 ml contains:",
-      "Fungal Diastase 1: 2000 I.P. 20 mg",
-      "Pepsin I.P. 60 mg",
-      "Thiamine HCl I.P. 4.5 mg",
-      "Riboflavin Phosphate Sodium I.P. 4.5 mg",
-      "Pyridoxine HCl I.P. 1.5 mg",
-      "Niacinamide I.P. 45 mg",
-      "Syrup base q.s."
-    ],
-    indications:
-      ["Loss of appetite",
-        "Indigestion",
-        "Weakness",
-        "Digestive Disturbances"],
-    usage:
-      ["Cats: 3 ml to 5 ml per day Pups: 3 ml to 5 ml per day Small breeds: 5 ml per day Medium breeds: 7 ml to 8 ml per day Large breeds: 10 ml per day To be administered orally or through drinking water on regular basis or as directed by a Veterinarian"],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 18,
+    id: 21,
     name: "Powerful Hematinic",
     description:
       "Ferauri Plus Pet is a powerful hema nic for pets which contains Chelated forms of Ferrous glycinate and Copper glycinate with Cobalt, Cholecalciferol, Niacinamide, Pyridoxine, Vit E, Folic acid and GPP. Enriched with hepatoprotec ve and hepatosmulant phytoac ves.",
@@ -635,7 +762,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 19,
+    id: 22,
     name: " Fluorescein Sodium ophthalmic strips U.S.P",
     description:
       "Fluorescein Sodium is a brightly colored dye. It is used to check the surface of the eye for scratches, corneal and conjunc va problems, evalua on of contact lens fi ng and applana on tonometry.",
@@ -663,45 +790,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 20,
-    name: "Herbal Liver Tonic and Appetite Stimulant",
-    description:
-      "LivauroForte Pet is a potent combina on of phytochemical extracts helpful to protect liver from toxins, rejuvenate damaged hepatocytes and augment liver func ons. LivauroForte Pet helps to protect the liver, corrects liver dysfunc on and improves appe te in pets",
-    segment: "Pet",
-    type: "Liquid",
-    category: "Liver Stimulant",
-    packaging: "500 ml",
-    Productimg: "/Assets/Product images/Veterinary/Pet/LivauroForte.webp",
-    Productname: "/Assets/Product name/Pet/Livauro Forte.webp",
-    composition: [
-      "Each 5 ml Contains:",
-      "Andrographis paniculata...800 mg ",
-      "Eclipta alba .......................600 mg ",
-      "Phyllanthus niruri ............500 mg ",
-      "Boerhavia diffusa............ 400 mg ",
-      "Picrorhiza kurroa .............. 60 mg ",
-      "Cichorium intybus ...........200 mg ",
-      "Tephrosia purpurea ......1000 mg",
-      " Syrup base q.s."
-    ],
-    indications:
-      ["During Non specific anorexia and indigestion.",
-        "Supportive Therapy during Tick Fever (Canine Ehrlichiosis), Babesiosis, Leishmaniasis, Canine idiopathic thrombocytopenia, Pancreatitis etc.",
-        "Supplement for hound species during any infection.",
-        "Protects and promotes platelet synthesis therapy.",
-        "During the liver distress due to constant exposure to antibiotics, chemicals, pollutants & toxic agents."],
-    usage:
-      [" Through oral route",
-        "Cats, Pups & Small breeds : 2 ml twice daily",
-        "Medium breeds : 5 ml twice daily ",
-        "Large breeds  : 10 ml twice daily ",
-        "To be administered orally or through drinking water on regular basis or as directed by a qualified Veterinary practitioner "],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 21,
+    id: 23,
     name: "Mega Spectrum Dewormer For Small Pets",
     description:
       "Mecfen Plus Small Pets is a broad spectrum anthelmintic tablet for small pets. Mecfen Plus Small Pets is used to treat round worm, tapeworm and ectoparasite infestation.",
@@ -728,60 +817,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 22,
-    name: "An Ultimate Pet Tonic",
-    description:
-      "Nomino Pet is a multi - vitamin, amino - acids, micro - minerals, electrolytes solution fortified with essential fatty acids, grape polyphenols and Neucleotides.Nomino Pet is an ultimate pet tonic, which enhances growth, improves fertility, nourishes skin and increases immunity in pets.",
-    segment: "Pet",
-    type: "Liquid",
-    category: "Immunomodulator, Performance Enhancer, Nutrition Supplement, Other Specialty",
-    packaging: "100 ml, 250 ml",
-    Productimg: "/Assets/Product images/Veterinary/Pet/Nomino pet.webp",
-    Productname: "/Assets/Product name/Pet/Nomino Pet.webp",
-    composition: [
-      "Each 100 ml contains:|",
-      "Vitamin A 500000 IU|",
-      "Vitamin D3 75000 IU|",
-      "Vitamin E 10000 IU|",
-      "Vitamin B1 1250 mg|",
-      "Vitamin B2 500 mg|",
-      "Vitamin B6 625 mg|",
-      "Vitamin B12 5300 mcg|",
-      "Vitamin K 350 mg|",
-      "Vitamin H 1250 mcg|",
-      "Vitamin C 1000 mg|",
-      "Niacin 1400 mg|",
-      "D Panthenol 625 mg|",
-      "Folic Acid Precusor 625 mg|",
-      "Lysine 100 mg|",
-      "Carbohydrates 2500 mg|",
-      "DL - Methionine 1500 mg|",
-      "Antioxidants 2.00 mg|",
-      "Protein Hydrolysate 1000 mg|",
-      "Iodine 500 mg|",
-      "Selenium 125 mg|",
-      "Cobalt 500 mg|",
-      "Organic Copper 2000 mg|",
-      "Organic Manganese 1000 mg|",
-      "Organic Zinc 3000 mg|",
-      "Sodium Chloride 9.815 g|",
-      "Potassium Chloride 82.430 g|",
-      "Magnesium sulphate Heptahydrate 455 mg|",
-      "Citric Acid 3280 mg"
-    ],
-    indications:
-      ["To accelerate growth in pups.",
-        "Essential vitamins, amino acids, micro-minerals and electrolytes improve growth, energy and health status.",
-        "Essential fatty acids and grape polyphenols improves fertility and reproductive life of pets.",
-        "Nucleotides and grape polyphenols augments immunity during period of stress, vaccination, heat stress, loss of appetite and disease challenges."],
-    usage:
-      ["Cats: 3 ml to 5 ml per day Pups: 3 ml to 5 ml per day Small breeds: 5 ml per day Medium breeds: 7 ml to 8 ml per day Large breeds: 10 ml per day To be administered orally or through drinking water on regular basis or as directed by a Veterinarian."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 23,
+    id: 24,
     name: "Cissus quadrangularis Extract with Probiotics",
     description:
       "Quadrical Pet is a unique and advanced blend of technologically superior extract of Cissus quadrangularis (Phyto BiocalphosTM Technology) and probiotics for improved growth and bone health.",
@@ -813,7 +849,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 24,
+    id: 25,
     name: "Complementary Food Supplement",
     description:
       "Reintoni is a powerful probio cs formula on enriched with 3 probio cs i.e Lactobacillus acidophilus, Bifidobacterium longum, Streptococcus thermophilus which improves  Kidney filtra on func on and health and Fructo oligosaccharide (FOS) that reduces inflamma on, kidney failure risk and nephrotoxicity.",
@@ -849,37 +885,37 @@ const pet_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 25,
-  //   name: "Mark Blue Schirmer Tear Test",
-  //   description:
-  //     "Schirmer Tear Test strips are gauged for easy reading, helps in measuring the amount of tears produced by an eye. Your diagnosis for dry eye syndrome. The Mark Blu strips have a blue colour mark, making an ideal strip to be used by clinical assistants.",
-  //   segment: "Pet",
-  //   type: "Strips",
-  //   category: "Other Specialty",
-  //   packaging: "Pack size 100 Sterile Strips",
-  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Schirmer.webp",
-  //   Productname: "/Assets/Product name/Pet/Pticein.webp",
-  //   composition: [
-  //     ""
-  //   ],
-  //   indications:
-  //     [
-  //       "Ophthalmic Sterile Strips, individually wrapped, are gauged for easy reading, helps measure the amount of tear production. If wetting ",
-  //       "Normal   >10mm",
-  //       "Mild Dry Eyes  10mm",
-  //       "Moderate Dry Eyes  05mm-10mm",
-  //       "Severe Dry Eyes  03mm-05mm",
-  //       "Very Severe Dry Eyes  <03mm"
-  //     ],
-  //   usage:
-  //     [""],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
   {
     id: 26,
+    name: "Mark Blue Schirmer Tear Test",
+    description:
+      "Schirmer Tear Test strips are gauged for easy reading, helps in measuring the amount of tears produced by an eye. Your diagnosis for dry eye syndrome. The Mark Blu strips have a blue colour mark, making an ideal strip to be used by clinical assistants.",
+    segment: "Pet",
+    type: "Strips",
+    category: "Other Specialty",
+    packaging: "Pack size 100 Sterile Strips",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/Schirmer.webp",
+    Productname: "/Assets/Product name/Pet/Pticein.webp",
+    composition: [
+      ""
+    ],
+    indications:
+      [
+        "Ophthalmic Sterile Strips, individually wrapped, are gauged for easy reading, helps measure the amount of tear production. If wetting ",
+        "Normal   >10mm",
+        "Mild Dry Eyes  10mm",
+        "Moderate Dry Eyes  05mm-10mm",
+        "Severe Dry Eyes  03mm-05mm",
+        "Very Severe Dry Eyes  <03mm"
+      ],
+    usage:
+      [""],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 27,
     name: "Natural Dry Bath Foam Shampoo",
     description:
       "Smilie is essential oil based natural dry bath foam shampoo. It’s antimicrobial efficacy prevent skin infections, cleanses the skin coat and instantly deodrises the foul smell.",
@@ -910,7 +946,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 27,
+    id: 28,
     name: " Complementary Food Supplement",
     description:
       "Sugarcalm-M Pet is blend of high metabolic an oxidants and immunogens of bacillus & lactobacillus probio cs that protect cells from oxida ve stress or slow damage caused by free radicals, protects cellular and organ damage.",
@@ -944,7 +980,7 @@ const pet_data = [
     feedback: " "
   },
   {
-    id: 28,
+    id: 29,
     name: " Complementary Food Supplement",
     description:
       "Sugarcalm-plus Pet is a unique blend of Probio cs, prebiotic and berberine Hcl that improves insulin sensi vity, glycemic control, reduces inflamma on in body and modulates gut microbiota in individuals with hyperglycemia.",
@@ -975,42 +1011,6 @@ const pet_data = [
         "Small Breeds:  ½ Capsule daily",
         "Medium Breeds: 1 capsule daily",
         "Large Breeds: 1 capsule once or twice daily Supplementation is recommended for 12-18 weeks  or as directed by qualified Veterinary Practitioner."
-      ],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 29,
-    name: "Complementary Food Supplement",
-    description:
-      " Supoj is an advanced formula on of chi n hydrolysate enriched with essen al amino acids and vitamins to support joint health. Chi n helps to improve car lage forma on to maintain func onal joints.",
-    segment: "Pet",
-    type: "Liquid",
-    category: "Other Specialty",
-    packaging: "100 ml, 200 ml",
-    Productimg: "/Assets/Product images/Veterinary/Pet/Supoj.webp",
-    Productname: "/Assets/Product name/Pet/Supoj.webp",
-    composition: [
-      "Each 100 ml contains:",
-      "Chi n Hydrolysate...............................12 gm",
-      "Arginine..................................................1 gm",
-      "Folic acid...........................................0.66 mg",
-      "L-cysteine..............................................0.5 g",
-      "Potassium sorbate................................0.2 g",
-      "Sodium benzoate..................................0.2 g",
-      "Meat flavour.......................................0.4 gm",
-      "Water q.s."
-    ],
-    indications:
-      [
-        "Improves Joint Health",
-        "Eases Difficulty in Walking",
-        "Improves Abnormal Gait"
-      ],
-    usage:
-      [
-        "Dogs & Cats: 1 ml per 5 kg bwt. twice daily Or as recommended by qualified veterinarian"
       ],
     report: " ",
     brochure: " ",

@@ -5,7 +5,7 @@ const images = [
   "/Assets/banner/Nanophosphosom.webp",
   "/Assets/banner/Neuna particle.webp",
   "/Assets/banner/Nunamin.webp",
-  "/Assets/banner/Ad banner.webp",
+  "/Assets/banner/aurinko banner.jpg",
 ];
 
 export default function ImageSlider() {

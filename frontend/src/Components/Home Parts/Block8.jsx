@@ -42,7 +42,8 @@ const Block8 = () => {
         >
           <div className="h-[75%] relative hover:h-full">
             <img
-              src={hoveredIndex === index ? item.hoverImage : item.image}
+              // src={hoveredIndex === index ? item.hoverImage : item.image}
+              src={item.image}
               alt={item.title}
               className="w-full h-full object-cover transition-opacity duration-300"
               loading="lazy"

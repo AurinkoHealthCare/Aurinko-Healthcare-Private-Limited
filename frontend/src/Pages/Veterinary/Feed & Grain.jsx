@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Components/Human/ProductCard";
+import ProductCard from "../../Components/Human/ProductCard.jsx";
 import feedgrain_data from "../../Data/feed & grain_Data.jsx";
 
 const FeedGrain = () => {

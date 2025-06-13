@@ -32,7 +32,7 @@ const Block10 = () => {
               Aurinko Health Care Pvt. Ltd
             </h2>
           </div>
-          <Link to={"/rating"}><button className="mt-4 px-6 py-3 bg-orange-600 text-white text-lg font-medium rounded-full shadow-lg hover:bg-green-700 transition-all duration-300">
+          <Link to={"https://www.google.com/maps/place/Aurinko+Healthcare+Private+Limited/@28.3499754,77.3424805,17z/data=!4m8!3m7!1s0x390cdb9766d62aab:0x499dcf82d3074077!8m2!3d28.3499707!4d77.3450554!9m1!1b1!16s%2Fg%2F11shjs9rvx?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D"}><button className="mt-4 px-6 py-3 bg-orange-600 text-white text-lg font-medium rounded-full shadow-lg hover:bg-green-700 transition-all duration-300">
             Go Review
           </button></Link>
         </div>

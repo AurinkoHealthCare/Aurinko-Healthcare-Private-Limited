@@ -2,7 +2,7 @@ import React from "react";
 
 const ManufacturingFacility = () => {
   const images = [
-    "/Assets/Manufactring facilities/Automatic-Bottle-Filling-machine.jpg",
+    "/Assets/Manufactring facilities/Automatic-Bottle-Filling-machine.JPG",
     "/Assets/Manufactring facilities/Machine2.jpg",
     "/Assets/Manufactring facilities/blender.jpg",
     "/Assets/Manufactring facilities/induction-machine.jpg",
@@ -30,7 +30,7 @@ const ManufacturingFacility = () => {
         <div className="flex flex-col md:flex-row md:space-x-8">
           <div className="md:w-1/2">
             <img
-              src="/Assets/Manufactring facilities/Automatic-Bottle-Filling-machine.jpg"
+              src="/Assets/Manufactring facilities/Automatic-Bottle-Filling-machine.JPG"
               alt="Manufacturing process"
               className="w-full h-auto rounded shadow"
               loading="lazy"

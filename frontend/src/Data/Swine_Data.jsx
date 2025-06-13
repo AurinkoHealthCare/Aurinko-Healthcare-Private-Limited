@@ -173,32 +173,32 @@ const Swine_Data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 6,
-    name: "All Natural Non-Antibiotic Growth Promoter",
-    description:
-      "Aurigrow is a unique non-antibiotic growth promoter fortified with phytochemicals, nucleotides, vitamins, minerals, FOS and organic acids to ensure potent antibacterial and antifungal action, improve immunity, egg production and aquaculture yield.",
-    segment: "Poultry , Aqua , Swine",
-    type: "Powder",
-    category: "Performance Enhancer , Immunomodulator",
-    packaging: "100 gm and 500 gm HDPE bottle",
-    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurigrow.webp",
-    Productname: "/Assets/Product name/Poultry/Aurigrow.webp",
-    composition: [
-      " "
-    ],
-    indications:
-      [
-        "Growth promoter",
-        "Immunity enhancer",
-        "Strong antibacterial and antifungal supplement"
-      ],
-    usage:
-      ["1 gm to 2 gm per kg of feed once a day as growth promoter 2 gm to 4 gm per kg of feed twice a day during bacterial and fungal infections. Poultry and Swine – 750 gms to 1 kg per ton as growth promoter."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 6,
+  //   name: "All Natural Non-Antibiotic Growth Promoter",
+  //   description:
+  //     "Aurigrow is a unique non-antibiotic growth promoter fortified with phytochemicals, nucleotides, vitamins, minerals, FOS and organic acids to ensure potent antibacterial and antifungal action, improve immunity, egg production and aquaculture yield.",
+  //   segment: "Poultry , Aqua , Swine",
+  //   type: "Powder",
+  //   category: "Performance Enhancer , Immunomodulator",
+  //   packaging: "100 gm and 500 gm HDPE bottle",
+  //   Productimg: "/Assets/Product images/Veterinary/Poultry/Aurigrow.webp",
+  //   Productname: "/Assets/Product name/Poultry/Aurigrow.webp",
+  //   composition: [
+  //     " "
+  //   ],
+  //   indications:
+  //     [
+  //       "Growth promoter",
+  //       "Immunity enhancer",
+  //       "Strong antibacterial and antifungal supplement"
+  //     ],
+  //   usage:
+  //     ["1 gm to 2 gm per kg of feed once a day as growth promoter 2 gm to 4 gm per kg of feed twice a day during bacterial and fungal infections. Poultry and Swine – 750 gms to 1 kg per ton as growth promoter."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 7,
     name: "Electrolytes for Heat Stress",
@@ -233,35 +233,6 @@ const Swine_Data = [
       ],
     usage:
       ["Calves/Sheep/ Goat: 10 to 30 gm per day. Cow/Buffalo/Horse/Camel: 50 gm per day. In case of heat induced panting administer 100 gm twice daily for 3 to 5 days or as directed by the veterinarians. Poultry: 10 gm per litre of water for 100 birds. Swine: 10 to 30 gm per day. In case of heat induced panting, administer 100 gm twice daily for 3 to 5 days or as directed by the veterinarians."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 8,
-    name: "Maggoticidal Topical Wound Healer 100% Actives No Gas",
-    description:
-      "AURIVIR is a unique blend of phytogenic extracts and antioxidants to prevent and control RNA viral infections in poultry, swine and cattle. It is highly effective against Infectious Bronchitis, Avain Influenza, New Castle Disease, Infectious Bursal Disease, Swine Flu, Swine enteric Coronavirus disease and Bovine respiratory disease complex.",
-    segment: "Poultry , Swine",
-    type: "Powder , Liquid",
-    category: "Immunomodulator , Other Specialty",
-    packaging: " 1 Ltr 5 Ltr 25 Ltr Jar 1 kg 25 Kg Drum",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/AURIVIR.webp",
-    Productname: "/Assets/Product name/Livestock/AURIVIR.webp",
-    composition:
-      [
-        "Each kg contains:",
-        "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin-3-gallate, Grape Skin Nanophosphosome© Vitamin C 75 gm, Selenium 3.96 mg, Copper (as glycinate complex) 600 mg, Manganese (as glycinate complex) 300 mg, Fortified with Carum carvi and Piperine"
-      ],
-    indications:
-      [
-        "To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease, Infectious Bursal Disease)",
-        "Help to reduce the incidence of bacterial and viral diseases",
-        "Ensures faster recovery during disease outbreaks. Improves the antibody titre when given along with vaccinations Regular use prevents recurrence of infection",
-        "Effective against RNA viral infections in swine (Swine Flu, Swine enteric Corona virus, Bovine respiratory disease complex)"
-      ],
-    usage:
-      ["For Poultry: Powder supplementation- For prevention- 600-700 gm per tonne of feed for 1-2 weeks. As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days. Liquid supplementation: *Preventive supplementation (for 1-2 weeks):- 1 ltr. diluted with 100 ltr. water for 2000 birds of 1.5 kg bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 750 gm bwt. 1 ltr. diluted with 200 ltr. water for 12000 birds of 250 gm bwt. 1 ltr. diluted with 200 ltr. water for 30000 birds of 100 gm bwt. *As Supportive therapy during acute infection (for 5-7 days):- 1 ltr. diluted with 50 ltr. water for 700 birds of 1.5 kg bwt. 1 ltr. diluted with 50 ltr. water for 1400 birds of 750 gm bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 250 gm bwt. 1 ltr. diluted with 100 ltr. water for 10000 birds of 100 gm bwt. For Swine: 1-2 weeks supplementation period. 1st Month 1.5 gm OD 5 ml BID 2nd Month 3 gm OD 10 ml BID 3rd Month 5 gm OD 18 ml BID 4th Month 7.5 gm OD 27 ml BID 5th Month 10 gm OD 35 ml BID 6th Month 12.5 gm OD 45 ml BID"],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -326,7 +297,7 @@ const Swine_Data = [
     id: 11,
     name: "Powerful Toxin Binder",
     description:
-      "AURITOX-BIO is highly effective toxin binder fortified with Activated Carbon, Calcium Propionate, Sodium Benzoate and MOS to bind Mycotoxins, Reduce liver stress, Improve immunity and performance.",
+      "Auritox-Bio is highly effective toxin binder fortified with Activated Carbon, Calcium Propionate, Sodium Benzoate and MOS to bind Mycotoxins, Reduce liver stress, Improve immunity and performance.",
     segment: "Swine,Poultry",
     type: "Powder",
     category: "Toxin Binder , Other Specialty",
@@ -381,39 +352,39 @@ const Swine_Data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 13,
-    name: "Phytogenic Anti-viral Prevention Programme",
-    description:
-      "Aurivir is a unique blend of phytogenic extracts and antioxidants to prevent and control RNA viral infections in poultry, swine and cattle. It is highly effective against Infectious Bronchitis, Avain Influenza, New Castle Disease, Infectious Bursal Disease, Swine Flu, Swine enteric Coronavirus disease and Bovine respiratory disease complex.",
-    segment: "Swine, Poultry",
-    type: "Liquid, Powder",
-    category: "Immunomodulator , Other Specialty",
-    packaging: "1 Ltr 5 Ltr 25 Ltr Jar 1 kg 25 Kg Drum",
-    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir.webp",
-    Productname: "/Assets/Product name/Poultry/Aurivir.webp",
-    composition: [
-      "Each kg contains:",
-      "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin-3-gallate, Grape Skin Nanophosphosome©",
-      "Vitamin C 75 gm",
-      "Selenium 3.96 mg",
-      "Copper (as glycinate complex) 600 mg",
-      "Manganese (as glycinate complex) 300 mg",
-      "Fortified with Carum carvi and Piperine"
-    ],
-    indications:
-      [
-        "To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease, Infectious Bursal Disease)",
-        "Help to reduce the incidence of bacterial and viral diseases",
-        "Ensures faster recovery during disease outbreaks. Improves the antibody titre when given along with vaccinations Regular use prevents recurrence of infection",
-        "Effective against RNA viral infections in swine (Swine Flu, Swine enteric Corona virus, Bovine respiratory disease complex)"
-      ],
-    usage:
-      ["For Poultry: Powder supplementation- For prevention- 600-700 gm per tonne of feed for 1-2 weeks. As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days. Liquid supplementation: *Preventive supplementation (for 1-2 weeks):- 1 ltr. diluted with 100 ltr. water for 2000 birds of 1.5 kg bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 750 gm bwt. 1 ltr. diluted with 200 ltr. water for 12000 birds of 250 gm bwt. 1 ltr. diluted with 200 ltr. water for 30000 birds of 100 gm bwt. *As Supportive therapy during acute infection (for 5-7 days):- 1 ltr. diluted with 50 ltr. water for 700 birds of 1.5 kg bwt. 1 ltr. diluted with 50 ltr. water for 1400 birds of 750 gm bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 250 gm bwt. 1 ltr. diluted with 100 ltr. water for 10000 birds of 100 gm bwt. For Swine: 1-2 weeks supplementation period. 1st Month 1.5 gm OD 5 ml BID 2nd Month 3 gm OD 10 ml BID 3rd Month 5 gm OD 18 ml BID 4th Month 7.5 gm OD 27 ml BID 5th Month 10 gm OD 35 ml BID 6th Month 12.5 gm OD 45 ml BID."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 13,
+  //   name: "Phytogenic Anti-viral Prevention Programme",
+  //   description:
+  //     "Aurivir is a unique blend of phytogenic extracts and antioxidants to prevent and control RNA viral infections in poultry, swine and cattle. It is highly effective against Infectious Bronchitis, Avain Influenza, New Castle Disease, Infectious Bursal Disease, Swine Flu, Swine enteric Coronavirus disease and Bovine respiratory disease complex.",
+  //   segment: "Swine, Poultry",
+  //   type: "Liquid, Powder",
+  //   category: "Immunomodulator , Other Specialty",
+  //   packaging: "1 Ltr 5 Ltr 25 Ltr Jar 1 kg 25 Kg Drum",
+  //   Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir.webp",
+  //   Productname: "/Assets/Product name/Poultry/Aurivir.webp",
+  //   composition: [
+  //     "Each kg contains:",
+  //     "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin-3-gallate, Grape Skin Nanophosphosome©",
+  //     "Vitamin C 75 gm",
+  //     "Selenium 3.96 mg",
+  //     "Copper (as glycinate complex) 600 mg",
+  //     "Manganese (as glycinate complex) 300 mg",
+  //     "Fortified with Carum carvi and Piperine"
+  //   ],
+  //   indications:
+  //     [
+  //       "To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease, Infectious Bursal Disease)",
+  //       "Help to reduce the incidence of bacterial and viral diseases",
+  //       "Ensures faster recovery during disease outbreaks. Improves the antibody titre when given along with vaccinations Regular use prevents recurrence of infection",
+  //       "Effective against RNA viral infections in swine (Swine Flu, Swine enteric Corona virus, Bovine respiratory disease complex)"
+  //     ],
+  //   usage:
+  //     ["For Poultry: Powder supplementation- For prevention- 600-700 gm per tonne of feed for 1-2 weeks. As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days. Liquid supplementation: *Preventive supplementation (for 1-2 weeks):- 1 ltr. diluted with 100 ltr. water for 2000 birds of 1.5 kg bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 750 gm bwt. 1 ltr. diluted with 200 ltr. water for 12000 birds of 250 gm bwt. 1 ltr. diluted with 200 ltr. water for 30000 birds of 100 gm bwt. *As Supportive therapy during acute infection (for 5-7 days):- 1 ltr. diluted with 50 ltr. water for 700 birds of 1.5 kg bwt. 1 ltr. diluted with 50 ltr. water for 1400 birds of 750 gm bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 250 gm bwt. 1 ltr. diluted with 100 ltr. water for 10000 birds of 100 gm bwt. For Swine: 1-2 weeks supplementation period. 1st Month 1.5 gm OD 5 ml BID 2nd Month 3 gm OD 10 ml BID 3rd Month 5 gm OD 18 ml BID 4th Month 7.5 gm OD 27 ml BID 5th Month 10 gm OD 35 ml BID 6th Month 12.5 gm OD 45 ml BID."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 14,
     name: "Phytogenic Anti-viral Prevention Programme",
@@ -661,7 +632,7 @@ const Swine_Data = [
     category: "Liver Stimulant , Other Specialty",
     packaging: "500 ml Bottle 1 litre Bottle 5 litre Jar 25 litre Jar",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Livauroforte.webp",
-    Productname: "/Assets/Product name/Poultry/Livauro Forte.webp",
+    Productname: "/Assets/Product name/Livestock/Livauro Forte.webp",
     composition: [
       "Each 5 ml contains extracts derived from:",
       "Andrographis paniculata 800 mg, Eclipta alba 600 mg, Phyllanthus niruri 500 mg, Boerahavia diffusa 400 mg, Picrorhiza kurroa 60 mg, Cichorium intybus 200 mg, Tephrosia purpurea 1000 mg, Aqueous base q.s."

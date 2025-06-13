@@ -7,12 +7,13 @@ const Block6 = () => {
   const navigate = useNavigate();
 
   const speciesPaths = {
+    Livestock: "/livestock",
     Poultry: "/poultry",
     Aqua: "/aqua",
     Swine: "/swine",
     Pet: "/pet",
     Equine: "/equine",
-    "Feed & Grain": "/feed-grain"
+    "Feed & Grain": "/feed-grain",
   };
 
   const handleClick = (e, speciesTitle) => {
@@ -25,11 +26,11 @@ const Block6 = () => {
 
   return (
     <div className="relative flex justify-center py-8 px-4 md:px-8 lg:px-12 min-h-48">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
         {speciesData.map((species, index) => (
           <div
             key={index}
-            className={`relative w-40 h-40 md:w-48 lg:w-48 flex flex-col items-center bg-white rounded-lg shadow-lg cursor-pointer border-2 border-transparent transition-transform duration-300 ${
+            className={`relative w-36 h-36 md:w-44 lg:w-44 flex flex-col items-center bg-white rounded-lg shadow-lg cursor-pointer border-2 border-transparent transition-transform duration-300 ${
               expandedIndex === index ? "scale-105" : ""
             }`}
             onMouseEnter={() => setExpandedIndex(index)}

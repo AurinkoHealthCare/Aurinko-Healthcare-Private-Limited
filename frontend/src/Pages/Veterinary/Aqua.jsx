@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Components/Human/ProductCard";
+import ProductCard from "../../Components/Human/ProductCard.jsx";
 import aqua_data from "../../Data/aqua_data.jsx";
 
 const Aqua = () => {

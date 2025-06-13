@@ -68,7 +68,6 @@ const Navbar = () => {
               Human
             </button>
             <div className="absolute left-0 bg-white shadow-lg rounded mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <Link to="/health-supplements" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/health-supplements")}>Health Supplements</Link>
               <div className="relative group/nano">
                 <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
                   Nano-biotechnology Compounds
@@ -85,6 +84,7 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+              <Link to="/health-supplements" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/health-supplements")}>Health Supplements</Link>
               <Link to="/personal-care" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/personal-care")}>Personal Care</Link>
               <Link to="/yeppuen" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/yeppuen")}>Yeppuen</Link>
             </div>
@@ -94,13 +94,6 @@ const Navbar = () => {
               Veterinary
             </button>
             <div className="absolute left-0 bg-white shadow-lg rounded mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <Link to="/livestock" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/livestock")}>Livestock</Link>
-              <Link to="/poultry" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/poultry")}>Poultry</Link>
-              <Link to="/aqua" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/aqua")}>Aqua</Link>
-              <Link to="/swine" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/swine")}>Swine</Link>
-              <Link to="/equine" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/equine")}>Equine</Link>
-              <Link to="/pet" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/pet")}>Pet</Link>
-              <Link to="/feed-grain" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/feed-grain")}>Feed & Grain</Link>
               <div className="relative group/nano">
                 <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
                   Nano-biotechnology Compounds
@@ -117,6 +110,13 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+              <Link to="/livestock" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/livestock")}>Livestock</Link>
+              <Link to="/poultry" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/poultry")}>Poultry</Link>
+              <Link to="/aqua" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/aqua")}>Aqua</Link>
+              <Link to="/swine" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/swine")}>Swine</Link>
+              <Link to="/equine" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/equine")}>Equine</Link>
+              <Link to="/pet" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/pet")}>Pet</Link>
+              <Link to="/feed-grain" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/feed-grain")}>Feed & Grain</Link>
             </div>
           </div>
 
@@ -141,7 +141,6 @@ const Navbar = () => {
             <div className="absolute left-0 bg-white shadow-lg rounded mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <Link to="/reports" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/reports")}>Reports</Link>
               <Link to="/gallery" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/gallery")}>Gallery</Link>
-              {/* <Link to="/rating" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/rating")}>Review & Feedback</Link> */}
               <Link to="/productbrochures" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/productbrochures")}>Brochures</Link>
               <Link to="/blog" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/blog")}>Blogs</Link>
               <Link to="/articles" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => reloadPage(e, "/articles")}>Articles</Link>
@@ -210,9 +209,6 @@ const Navbar = () => {
               Human
             </button>
             <div className={`pl-4 ${isDropdownOpen === "human" ? 'block' : 'hidden'}`}>
-              <Link to="/health-supplements" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/health-supplements"); }}>
-                Health Supplements
-              </Link>
               <div className="relative group/nano">
                 <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
                   Nano-biotechnology Compounds
@@ -229,6 +225,9 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+              <Link to="/health-supplements" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/health-supplements"); }}>
+                Health Supplements
+              </Link>
               <Link to="/personal-care" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/personal-care"); }}>
                 Personal Care
               </Link>
@@ -243,6 +242,22 @@ const Navbar = () => {
               Veterinary
             </button>
             <div className={`pl-4 ${isDropdownOpen === "veterinary" ? 'block' : 'hidden'}`}>
+              <div className="relative group/nano">
+                <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
+                  Nano-biotechnology Compounds
+                </button>
+                <div className="absolute right-0 top-0 bg-white shadow-lg rounded w-48 hidden group-hover/nano:block transition-all duration-200">
+                  <Link to="/v-nanophosphosome" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/v-nanophosphosome"); }}>
+                    Nanophosphosomes®
+                  </Link>
+                  <Link to="/v-neunamin" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/v-neunamin"); }}>
+                    Neuna®mins
+                  </Link>
+                  <Link to="/v-neuna-particles" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/v-neuna-particles"); }}>
+                    Neuna®particles
+                  </Link>
+                </div>
+              </div>
               <Link to="/livestock" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/livestock"); }}>
                 Livestock
               </Link>
@@ -264,22 +279,6 @@ const Navbar = () => {
               <Link to="/feed-grain" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/feed-grain"); }}>
                 Feed & Grain
               </Link>
-              <div className="relative group/nano">
-                <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
-                  Nano-biotechnology Compounds
-                </button>
-                <div className="absolute right-0 top-0 bg-white shadow-lg rounded w-48 hidden group-hover/nano:block transition-all duration-200">
-                  <Link to="/v-nanophosphosome" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/v-nanophosphosome"); }}>
-                    Nanophosphosomes®
-                  </Link>
-                  <Link to="/v-neunamin" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/v-neunamin"); }}>
-                    Neuna®mins
-                  </Link>
-                  <Link to="/v-neuna-particles" className="block px-4 py-2 hover:bg-gray-100" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/v-neuna-particles"); }}>
-                    Neuna®particles
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -312,7 +311,6 @@ const Navbar = () => {
               <Link to="/gallery" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/gallery"); }}>
                 Gallery
               </Link>
-              {/* <Link to="/rating" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => {closeMobileMenu(); reloadPage(e, "/rating");}}> Review & Feedback </Link> */}
               <Link to="/productbrochures" className="block py-2 px-4 hover:bg-gray-100 rounded" onClick={(e) => { closeMobileMenu(); reloadPage(e, "/productbrochures"); }}>
                 Brochures
               </Link>

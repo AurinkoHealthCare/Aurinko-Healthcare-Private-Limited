@@ -588,7 +588,7 @@ const livestock_data = [
     category: "Milk Enhancer",
     packaging: "25 gm X 10 Sachet",
     Productimg: "/Assets/Product images/Veterinary/Livestock/milky vet nano.webp",
-    Productname: "/Assets/Product name/Livestock/Milk Vet.webp",
+    Productname: "/Assets/Product name/Livestock/Milk Vet Nano.webp",
     composition: [
       "Each kg Contains:",
       "Calcium 200 gm, Phosphorous 100 gm, Magnesium 6 gm, Zinc Neunamin 9.6 gm, Copper Neunamin 4.5 gm, Maganese Neunamin 9.6 gm, Ferrous Neunamin 3.84 gm, Selenium Neunamin 24 mg, Iodine Neunamin 384 mg, Chromium Neunamin 48 mg, Niacin 2 gm, Vitamin A 10 Lakh IU, Vitamin D3 6 Lakh IU, Vitamin E 1000 IU, Sulphur 5.4 gm, Elemental cobalt 200 mg, Biotin 400 mg, DL Methionine 20 gm, Bacillus subtilis 12000 million cfu, Bacillus licheniformis 12000 million cfu, Propionibacterium fredenreichii 6000 million cfu, Live yeast culture 20 gm, Potassium 75 mg, Sodium 5 gm, Mos 10 gm."
@@ -731,35 +731,35 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 24,
-    name: "Supports Immunity and Liver Health",
-    description:
-      "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
-    segment: "Livestock",
-    type: "Liquid",
-    category: "Immunomodulator , Liver Stimulant , Other Specialty",
-    packaging: "100 ml 250 ml 1 Ltr",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
-    Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
-    composition: [
-      "Each 100 ml contains:",
-      "Andrographis paniculata extract with Andrographoloids 900 mg",
-      "Tinospora cordifolia 300mg",
-      "Fortified with Bioenhancer",
-      "Technology"
-    ],
-    indications:
-      ["Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
-        "Helps to rejuvenate liver cells",
-        "Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
-      ],
-    usage:
-      ["Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days. Sheep/Goat: 3 ml/25 kg body weight for 5-7 days. For regular supplementation, 1/4 of dose is recommended."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 24,
+  //   name: "Supports Immunity and Liver Health",
+  //   description:
+  //     "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
+  //   segment: "Livestock",
+  //   type: "Liquid",
+  //   category: "Immunomodulator , Liver Stimulant , Other Specialty",
+  //   packaging: "100 ml 250 ml 1 Ltr",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
+  //   Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
+  //   composition: [
+  //     "Each 100 ml contains:",
+  //     "Andrographis paniculata extract with Andrographoloids 900 mg",
+  //     "Tinospora cordifolia 300mg",
+  //     "Fortified with Bioenhancer",
+  //     "Technology"
+  //   ],
+  //   indications:
+  //     ["Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
+  //       "Helps to rejuvenate liver cells",
+  //       "Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
+  //     ],
+  //   usage:
+  //     ["Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days. Sheep/Goat: 3 ml/25 kg body weight for 5-7 days. For regular supplementation, 1/4 of dose is recommended."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 25,
     name: "Maggoticidal Topical Wound Healer 100% Actives No Gas",
@@ -954,34 +954,34 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 31,
-    name: "Kidney Tonic, Rejuvenator and Protectant",
-    description:
-      "Aurinal is an advanced kidney tonic rejuvenator with phyto-chemical extracts, Vitamins and minerals to support Kidney Health and reduces the risk of Kidney disorders.",
-    segment: "Livestock",
-    type: "Liquid",
-    category: "Kidney Tonic Rejuvenator, Other Specialty",
-    packaging: "500 ml, 1 Ltr, 2 Ltr and 5 Ltr.",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/aurinal.webp",
-    Productname: "/Assets/Product name/Livestock/Aurinal.webp",
-    composition: [
-      "Each 200 ml contains phytochemical extracts of:",
-      "Mentha piperita 1.16 gm, Coriandrum sativum 3 gm, Boerhavia diffusa 3 gm, Tinospora cordifolia 2 gm, Ocimum basilicum 3 gm, Tribulus terrestris 3 gm, Cyperus rotundus 2 gm, Ficus religiosa 2.9 gm, Trigonella foenum-graecum 2.9 gm, Moringa olifera 3 gm, Vitamin D3 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
-    ],
-    indications:
-      [
-        "Reduces risk of kidney stones formation (Urolithiasis) & deposition. Reduces kidney failure risk and nephrotoxicity.",
-        "Improves FCR and reduces mortality.",
-        "Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
-      ],
-    usage:
-      ["Cow/Buffalo: 200 ml twice daily for 7 to 10 days.",
-        "Sheep/Goat: 30 ml twice daily for 7 to 10 days."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 31,
+  //   name: "Kidney Tonic, Rejuvenator and Protectant",
+  //   description:
+  //     "Aurinal is an advanced kidney tonic rejuvenator with phyto-chemical extracts, Vitamins and minerals to support Kidney Health and reduces the risk of Kidney disorders.",
+  //   segment: "Livestock",
+  //   type: "Liquid",
+  //   category: "Kidney Tonic Rejuvenator, Other Specialty",
+  //   packaging: "500 ml, 1 Ltr, 2 Ltr and 5 Ltr.",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurinal.webp",
+  //   Productname: "/Assets/Product name/Livestock/Aurinal.webp",
+  //   composition: [
+  //     "Each 200 ml contains phytochemical extracts of:",
+  //     "Mentha piperita 1.16 gm, Coriandrum sativum 3 gm, Boerhavia diffusa 3 gm, Tinospora cordifolia 2 gm, Ocimum basilicum 3 gm, Tribulus terrestris 3 gm, Cyperus rotundus 2 gm, Ficus religiosa 2.9 gm, Trigonella foenum-graecum 2.9 gm, Moringa olifera 3 gm, Vitamin D3 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
+  //   ],
+  //   indications:
+  //     [
+  //       "Reduces risk of kidney stones formation (Urolithiasis) & deposition. Reduces kidney failure risk and nephrotoxicity.",
+  //       "Improves FCR and reduces mortality.",
+  //       "Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
+  //     ],
+  //   usage:
+  //     ["Cow/Buffalo: 200 ml twice daily for 7 to 10 days.",
+  //       "Sheep/Goat: 30 ml twice daily for 7 to 10 days."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 32,
     name: "Powerful Phosphorus Bolus Supplement",
@@ -1966,61 +1966,61 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 65,
-    name: "Proven Digestive Stimulant",
-    description:
-      "Probirum is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for Simple Indigestion and Anorexia.",
-    segment: "Livestock",
-    type: "Granule",
-    category: "Digestive",
-    packaging: "15 gm sachet, Pack containing 25 sachet",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum.webp",
-    Productname: "/Assets/Product name/Livestock/Probirum.webp",
-    composition: [
-      "Each 15 gm Sachet contains :",
-      "Saccharomyces cerevisiae",
-      "5 X 1010 CFU",
-      "Lactobacillus sporogenes",
-      "1 X 109 CFU",
-      "Aspergillus oryzae 1 X 109 CFU",
-      "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
-    ],
-    indications:
-      ["Simple indigestion and anorexia",
-        "Rumen Acidosis",
-        "Low milk yield",
-      ],
-    usage:
-      ["Cattle/ Buffalo- 1 sachet orally B.I.D. for 2-3 days; Sheep/ Goat – ½ sachet orally B.I.D. for 2-3 days"],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 66,
-    name: "Proven Digestive Stimulant",
-    description:
-      "Probirum- vet Bolus is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for simple indigestion and anorexia.",
-    segment: "Livestock",
-    type: "Bolus",
-    category: "Digestive Enhancer",
-    packaging: "10X2 Bolis Pack",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum-vet Bolus.webp",
-    Productname: "/Assets/Product name/Livestock/Probirum-vet Bolus.webp",
-    composition: [
-      "Each Bolus contains:",
-      "Cellulase 6000 units , Hemicellulase 150 units , Xylanase 4000 units, Pectinase 750 units , Lipase 1000 units , Papain 500 units , Protease 3000 units , Myo Inositol 75 mg, Biotin (Pure) 20 mg , Aspergillus oryzae 1000 million cfu, Saccharomyces cerevisiae 50000 million cfu, Lactobacillus sporogenes 2000 million cfu, Niacin 1 gm , DL Methionine 5 gm, Copper sulphate 100 mg , Zinc sulphate 200 mg, Cobalt sulphate 20 mg , MOS 300 mg Andrographis paniculata ext. 300 mg Phyllanthus niruri ext. 250 mg Eclipta alba ext. 300 mg Boerhavia diffusa ext. 125 mg"
-    ],
-    indications:
-      ["Simple indigestion and anorexia Rumen Acidosis Low milk yield"
-      ],
-    usage:
-      ["Recommended Usage- 1 Bolus daily for 2-3 days"],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 65,
+  //   name: "Proven Digestive Stimulant",
+  //   description:
+  //     "Probirum is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for Simple Indigestion and Anorexia.",
+  //   segment: "Livestock",
+  //   type: "Granule",
+  //   category: "Digestive",
+  //   packaging: "15 gm sachet, Pack containing 25 sachet",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum.webp",
+  //   Productname: "/Assets/Product name/Livestock/Probirum.webp",
+  //   composition: [
+  //     "Each 15 gm Sachet contains :",
+  //     "Saccharomyces cerevisiae",
+  //     "5 X 1010 CFU",
+  //     "Lactobacillus sporogenes",
+  //     "1 X 109 CFU",
+  //     "Aspergillus oryzae 1 X 109 CFU",
+  //     "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
+  //   ],
+  //   indications:
+  //     ["Simple indigestion and anorexia",
+  //       "Rumen Acidosis",
+  //       "Low milk yield",
+  //     ],
+  //   usage:
+  //     ["Cattle/ Buffalo- 1 sachet orally B.I.D. for 2-3 days; Sheep/ Goat – ½ sachet orally B.I.D. for 2-3 days"],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
+  // {
+  //   id: 66,
+  //   name: "Proven Digestive Stimulant",
+  //   description:
+  //     "Probirum- vet Bolus is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for simple indigestion and anorexia.",
+  //   segment: "Livestock",
+  //   type: "Bolus",
+  //   category: "Digestive Enhancer",
+  //   packaging: "10X2 Bolis Pack",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum-vet Bolus.webp",
+  //   Productname: "/Assets/Product name/Livestock/Probirum-vet Bolus.webp",
+  //   composition: [
+  //     "Each Bolus contains:",
+  //     "Cellulase 6000 units , Hemicellulase 150 units , Xylanase 4000 units, Pectinase 750 units , Lipase 1000 units , Papain 500 units , Protease 3000 units , Myo Inositol 75 mg, Biotin (Pure) 20 mg , Aspergillus oryzae 1000 million cfu, Saccharomyces cerevisiae 50000 million cfu, Lactobacillus sporogenes 2000 million cfu, Niacin 1 gm , DL Methionine 5 gm, Copper sulphate 100 mg , Zinc sulphate 200 mg, Cobalt sulphate 20 mg , MOS 300 mg Andrographis paniculata ext. 300 mg Phyllanthus niruri ext. 250 mg Eclipta alba ext. 300 mg Boerhavia diffusa ext. 125 mg"
+  //   ],
+  //   indications:
+  //     ["Simple indigestion and anorexia Rumen Acidosis Low milk yield"
+  //     ],
+  //   usage:
+  //     ["Recommended Usage- 1 Bolus daily for 2-3 days"],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 67,
     name: "Supports Joint Health",
@@ -2103,40 +2103,40 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 70,
-    name: "An Innovative Metabolic Activator for Weight Gain",
-    description:
-      "Aurigain Bolus is unique blend of phytochemical extracts, probiotics, amino acid and growth enzymes that enhance growth and weight gain in cattle.",
-    segment: "Livestock",
-    type: "Bolus",
-    category: "Growth Promoter, Other Specialty",
-    packaging: "10X2 Bolus",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurigain Bolus.webp",
-    Productname: "/Assets/Product name/Livestock/Aurigain bolus.webp",
-    composition: [
-      "Each Bolus contains:",
-      "Phytochemical extract derived from Leptadenia reticulata 30 gm, Asparagus recemosus 6 gm, Trigonella foenum 7gm ",
-      "Andrographis paniculata 3 gm",
-      "Phyllanthus niruri 2.5 gm, Eclipta alba 3 gm, Boerhavia diffusa 1 gm",
-      "Saccharomyces cerevisiae 25000 million cfu, Bacillus licheniformis 36000 million cfu, Bacillus subtilis 50000 million cfu, Aspergillus oryzae 250 million cfu, DL Methionine 1 gm, Niacin 500 mg, MOS 1000 mg,Biotin (Pure) 20 mg, Cobalt sulphate 20 mg",
-      "Enriched with Phytase enzyme"
-    ],
-    indications:
-      [
-        "Initiates faster growth in growing calf and heifer to achieve higher and early weight gain.",
-        "Helps in fattening of weak animals.",
-        "Improves milk quality and production."
-      ],
-    usage:
-      [
-        "Cow & Buffalo: 1 bolus B.I.D for 30 to 60 days.",
-        "Calf/Heifer/Goat1/2 bolus daily for 60 days."
-      ],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 70,
+  //   name: "An Innovative Metabolic Activator for Weight Gain",
+  //   description:
+  //     "Aurigain Bolus is unique blend of phytochemical extracts, probiotics, amino acid and growth enzymes that enhance growth and weight gain in cattle.",
+  //   segment: "Livestock",
+  //   type: "Bolus",
+  //   category: "Growth Promoter, Other Specialty",
+  //   packaging: "10X2 Bolus",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Aurigain Bolus.webp",
+  //   Productname: "/Assets/Product name/Livestock/Aurigain bolus.webp",
+  //   composition: [
+  //     "Each Bolus contains:",
+  //     "Phytochemical extract derived from Leptadenia reticulata 30 gm, Asparagus recemosus 6 gm, Trigonella foenum 7gm ",
+  //     "Andrographis paniculata 3 gm",
+  //     "Phyllanthus niruri 2.5 gm, Eclipta alba 3 gm, Boerhavia diffusa 1 gm",
+  //     "Saccharomyces cerevisiae 25000 million cfu, Bacillus licheniformis 36000 million cfu, Bacillus subtilis 50000 million cfu, Aspergillus oryzae 250 million cfu, DL Methionine 1 gm, Niacin 500 mg, MOS 1000 mg,Biotin (Pure) 20 mg, Cobalt sulphate 20 mg",
+  //     "Enriched with Phytase enzyme"
+  //   ],
+  //   indications:
+  //     [
+  //       "Initiates faster growth in growing calf and heifer to achieve higher and early weight gain.",
+  //       "Helps in fattening of weak animals.",
+  //       "Improves milk quality and production."
+  //     ],
+  //   usage:
+  //     [
+  //       "Cow & Buffalo: 1 bolus B.I.D for 30 to 60 days.",
+  //       "Calf/Heifer/Goat1/2 bolus daily for 60 days."
+  //     ],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
 ];
 
 export default livestock_data;

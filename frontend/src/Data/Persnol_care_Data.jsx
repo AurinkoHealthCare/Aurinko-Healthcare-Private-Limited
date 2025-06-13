@@ -48,35 +48,35 @@ const Persnol_care_Data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 3,
-    name: "Auriglow Massage Oil",
-    description:
-      "Auriglow Massage oil is an unique blend of novel essential oils i.e, Lemon oil, Cedarwood oil, Frankincense oil, Turmeric oil, Ginger oil; Basil oil, Eucalyptus oil, Lavender oil, Carrot seed oil with Natural Tocopherols, Unsaturated fatty acid i.e, Omega-6-fatty acid, Linoleic acid, Oleic acid, Essential fatty acid i.e, Omega-3-fatty acid with propolis. Auriglow Massage oil promotes the natural radiance, heals the damage skin, relaxes the body, reduces exhaustion and pain.",
-    segment: "Human OTC",
-    type: "Liquid",
-    category: "Other Specialty",
-    packaging: "100 gm",
-    Productimg: "/Assets/Product images/Human/Personal Care/Auriglow-massage-oil.webp",
-    Productname: "/Assets/Product name/Persnol product/Auriglow-massage-oil.webp",
-    composition: [
-      "Each 100 gm contain:",
-      "A proprietary blend of natural essential",
-      "oils containing Lemon oil, Cedarwood oil,",
-      "Frankincense oil, Turmeric oil, Ginger oil,",
-      "Basil oil, Eucalyptus oil, Lavender oil,",
-      "Carrot seed oil, Natural Tocopherols,",
-      "Omega-6-Falty Acid, Omega-3-Fatty Acid,",
-      "Linoleic Acid, Oleic acid with propolis."
-    ],
-    indications:
-      ["Reduces exhaustion & pain. Relaxes body & elevates mood. Moisturises dry, rough and sensitive skin with softness and soothing effect. Enhances natural radiance. Slow the signs of aging and improves the suppleness of skin. Heal damaged skin and removes skin cracks."],
-    usage:
-      ["Apply daily all over your body, suitable for use by entire family."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 3,
+  //   name: "Auriglow Massage Oil",
+  //   description:
+  //     "Auriglow Massage oil is an unique blend of novel essential oils i.e, Lemon oil, Cedarwood oil, Frankincense oil, Turmeric oil, Ginger oil; Basil oil, Eucalyptus oil, Lavender oil, Carrot seed oil with Natural Tocopherols, Unsaturated fatty acid i.e, Omega-6-fatty acid, Linoleic acid, Oleic acid, Essential fatty acid i.e, Omega-3-fatty acid with propolis. Auriglow Massage oil promotes the natural radiance, heals the damage skin, relaxes the body, reduces exhaustion and pain.",
+  //   segment: "Human OTC",
+  //   type: "Liquid",
+  //   category: "Other Specialty",
+  //   packaging: "100 gm",
+  //   Productimg: "/Assets/Product images/Human/Personal Care/Auriglow-massage-oil.webp",
+  //   Productname: "/Assets/Product name/Persnol product/Auriglow-massage-oil.webp",
+  //   composition: [
+  //     "Each 100 gm contain:",
+  //     "A proprietary blend of natural essential",
+  //     "oils containing Lemon oil, Cedarwood oil,",
+  //     "Frankincense oil, Turmeric oil, Ginger oil,",
+  //     "Basil oil, Eucalyptus oil, Lavender oil,",
+  //     "Carrot seed oil, Natural Tocopherols,",
+  //     "Omega-6-Falty Acid, Omega-3-Fatty Acid,",
+  //     "Linoleic Acid, Oleic acid with propolis."
+  //   ],
+  //   indications:
+  //     ["Reduces exhaustion & pain. Relaxes body & elevates mood. Moisturises dry, rough and sensitive skin with softness and soothing effect. Enhances natural radiance. Slow the signs of aging and improves the suppleness of skin. Heal damaged skin and removes skin cracks."],
+  //   usage:
+  //     ["Apply daily all over your body, suitable for use by entire family."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 4,
     name: "Hair Growth Serum",
@@ -242,103 +242,103 @@ const Persnol_care_Data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 10,
-    name: "Dusting powder",
-    description:
-      "Auriwell Dusting powder is a powerful phytobiotic formulation containing unique blend of antibacterial, antimycotic and antimicrobial essential oils fortified with nano-encapsulation technology. Auriwell Dusting powder provides faster healing of fresh cuts, lacerations, oozing wounds and burns by preventing the spread of pathogenic microorganism and augmenting wound granulation.",
-    segment: "Human OTC",
-    type: "Powder",
-    category: "Other Specialty",
-    packaging: "120 gm and 50 gm",
-    Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-dusting-powder.webp",
-    Productname: "/Assets/Product name/Persnol product/Auriwell Dusting.webp",
-    composition: [
-      "Each 10 gm contains:",
-      "1,8-Cineole…………………..……14 mg",
-      "Thymol………………………………..22 mg",
-      "Terpinen-4-ol………………….…15 mg"
-    ],
-    indications:
-      ["Wound and burn healer Prevents bacterial and fungal infections Recommended in fresh cut wounds, ulcerated wounds, deep wounds, lacerations and burn wounds."],
-    usage:
-      ["Sprinkle 2 to 4 times on wound and burn affected parts during the day."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 11,
-    name: "Greyness control Oil",
-    description:
-      "Auriwell Greyness Control oil contains natural cold-pressed Grapeseed oil enriched with essential fatty acids i.e., Oleic acid, Linoleic acid; Saturated fatty acid i.e., Palmitic acid; Unsaturated fatty acid i.e., Omega-6-fatty acid with natural tocopherol. Auriwell Greyness Control oil rejuvenates hair, improves blood circulation and helps to stop premature greying of hair.",
-    segment: "Human OTC",
-    type: "Liquid",
-    category: "Other Specialty",
-    packaging: "Packaging: 50 gm and 100 gm",
-    Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-greyness-control-oil.webp",
-    Productname: "/Assets/Product name/Persnol product/Auriwell plane.webp",
-    composition: [
-      "Each Pack contains:",
-      "Grapeseed oil",
-      "Natural Lavender oil fragrance"
-    ],
-    indications:
-      ["Stops premature greying of hair and stops the further spread. Improves the melanin pigmentation. Improves the blood circulation. Provides nutrition for rejuvenation of hair."],
-    usage:
-      [" "],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 12,
-    name: "Hair Growth Oil",
-    description:
-      "Auriwell Hair Growth oil is a blend of natural cold-pressed Jojoba and Castor oils consisting of essential fatty acids i.e., Oleic acid, Linoleic acid; Saturated fatty acids i.e., Stearic acid, Palmitic acid, Behenic acid; Unsaturated fatty acids i.e., Eicosenoic acid, Ricinoleic acid with natural micro minerals i.e., Copper, Zinc, Chromium; Natural tocopherol and Natural Vitamin B complex. Auriwell Hair Growth oil improves the growth of hair follicle, blood circulation and helps to reduce alopecia.",
-    segment: "Human OTC",
-    type: "Liquid",
-    category: "Other Specialty",
-    packaging: "50 gm and 100 gm",
-    Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-hair-growth-oil.webp",
-    Productname: "/Assets/Product name/Persnol product/Auriwell plane.webp",
-    composition: [
-      "Each pack contains:",
-      "Jojoba Oil, Caster oil",
-      "Natural Lavender oil fragrance"
-    ],
-    indications:
-      ["Provide strength to the hair in the scalp.Stops hair falling."],
-    usage:
-      ["For women :- 3-5 gm For men :- 1-2 gm; Method of Application:Apply Auroshine Hair Essentials Anti-dandruff Serum through gentle massage of scalp in circular motion with your fingers."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 13,
-    name: "Anti Dandruff Oil",
-    description:
-      "Auriwell Antidandruff oil is a blend of natural cold-pressed Avocado and Jojoba oils consisting of essential fatty acids i.e., Oleic acid, Linoleic acid, Omega-3-fatty acid; Saturated fatty acids i.e., Stearic acid, Palmitic acid, Behenic acid; Unsaturated fatty acids i.e., Eicosenoic acid with Lecithin, natural microminerals i.e., Potassium, Copper, Zinc, Chromium, Natural tocopherol, Natural Vitamin B complex. Auriwell Antidandruff oil nourishes the scalp, improves blood circulation and helps to reduce dandruff.",
-    segment: "Human OTC",
-    type: "Liquid",
-    category: "Other Specialty",
-    packaging: "50 gm and 100 gm",
-    Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-anti-danruff-oil.webp",
-    Productname: "/Assets/Product name/Persnol product/Auriwell plane.webp",
-    composition: [
-      "Each Pack contains:",
-      "Jojoba Oil, Avocado Oil,",
-      "Natural Lavender oil fragrance"
-    ],
-    indications:
-      ["Effectively controls dandruff. Soothes itchiness and irritation. Help nourish and moisturize the scalp. Improves blood circulation to the scalp."],
-    usage:
-      ["For women :- 3-5 gm For men :- 1-2 gm; Method of Application:Apply Auroshine Hair Essentials Anti-dandruff Serum through gentle massage of scalp in circular motion with your fingers."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 10,
+  //   name: "Dusting powder",
+  //   description:
+  //     "Auriwell Dusting powder is a powerful phytobiotic formulation containing unique blend of antibacterial, antimycotic and antimicrobial essential oils fortified with nano-encapsulation technology. Auriwell Dusting powder provides faster healing of fresh cuts, lacerations, oozing wounds and burns by preventing the spread of pathogenic microorganism and augmenting wound granulation.",
+  //   segment: "Human OTC",
+  //   type: "Powder",
+  //   category: "Other Specialty",
+  //   packaging: "120 gm and 50 gm",
+  //   Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-dusting-powder.webp",
+  //   Productname: "/Assets/Product name/Persnol product/Auriwell Dusting.webp",
+  //   composition: [
+  //     "Each 10 gm contains:",
+  //     "1,8-Cineole…………………..……14 mg",
+  //     "Thymol………………………………..22 mg",
+  //     "Terpinen-4-ol………………….…15 mg"
+  //   ],
+  //   indications:
+  //     ["Wound and burn healer Prevents bacterial and fungal infections Recommended in fresh cut wounds, ulcerated wounds, deep wounds, lacerations and burn wounds."],
+  //   usage:
+  //     ["Sprinkle 2 to 4 times on wound and burn affected parts during the day."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
+  // {
+  //   id: 11,
+  //   name: "Greyness control Oil",
+  //   description:
+  //     "Auriwell Greyness Control oil contains natural cold-pressed Grapeseed oil enriched with essential fatty acids i.e., Oleic acid, Linoleic acid; Saturated fatty acid i.e., Palmitic acid; Unsaturated fatty acid i.e., Omega-6-fatty acid with natural tocopherol. Auriwell Greyness Control oil rejuvenates hair, improves blood circulation and helps to stop premature greying of hair.",
+  //   segment: "Human OTC",
+  //   type: "Liquid",
+  //   category: "Other Specialty",
+  //   packaging: "Packaging: 50 gm and 100 gm",
+  //   Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-greyness-control-oil.webp",
+  //   Productname: "/Assets/Product name/Persnol product/Auriwell plane.webp",
+  //   composition: [
+  //     "Each Pack contains:",
+  //     "Grapeseed oil",
+  //     "Natural Lavender oil fragrance"
+  //   ],
+  //   indications:
+  //     ["Stops premature greying of hair and stops the further spread. Improves the melanin pigmentation. Improves the blood circulation. Provides nutrition for rejuvenation of hair."],
+  //   usage:
+  //     [" "],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
+  // {
+  //   id: 12,
+  //   name: "Hair Growth Oil",
+  //   description:
+  //     "Auriwell Hair Growth oil is a blend of natural cold-pressed Jojoba and Castor oils consisting of essential fatty acids i.e., Oleic acid, Linoleic acid; Saturated fatty acids i.e., Stearic acid, Palmitic acid, Behenic acid; Unsaturated fatty acids i.e., Eicosenoic acid, Ricinoleic acid with natural micro minerals i.e., Copper, Zinc, Chromium; Natural tocopherol and Natural Vitamin B complex. Auriwell Hair Growth oil improves the growth of hair follicle, blood circulation and helps to reduce alopecia.",
+  //   segment: "Human OTC",
+  //   type: "Liquid",
+  //   category: "Other Specialty",
+  //   packaging: "50 gm and 100 gm",
+  //   Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-hair-growth-oil.webp",
+  //   Productname: "/Assets/Product name/Persnol product/Auriwell plane.webp",
+  //   composition: [
+  //     "Each pack contains:",
+  //     "Jojoba Oil, Caster oil",
+  //     "Natural Lavender oil fragrance"
+  //   ],
+  //   indications:
+  //     ["Provide strength to the hair in the scalp.Stops hair falling."],
+  //   usage:
+  //     ["For women :- 3-5 gm For men :- 1-2 gm; Method of Application:Apply Auroshine Hair Essentials Anti-dandruff Serum through gentle massage of scalp in circular motion with your fingers."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
+  // {
+  //   id: 13,
+  //   name: "Anti Dandruff Oil",
+  //   description:
+  //     "Auriwell Antidandruff oil is a blend of natural cold-pressed Avocado and Jojoba oils consisting of essential fatty acids i.e., Oleic acid, Linoleic acid, Omega-3-fatty acid; Saturated fatty acids i.e., Stearic acid, Palmitic acid, Behenic acid; Unsaturated fatty acids i.e., Eicosenoic acid with Lecithin, natural microminerals i.e., Potassium, Copper, Zinc, Chromium, Natural tocopherol, Natural Vitamin B complex. Auriwell Antidandruff oil nourishes the scalp, improves blood circulation and helps to reduce dandruff.",
+  //   segment: "Human OTC",
+  //   type: "Liquid",
+  //   category: "Other Specialty",
+  //   packaging: "50 gm and 100 gm",
+  //   Productimg: "/Assets/Product images/Human/Personal Care/Auriwell-anti-danruff-oil.webp",
+  //   Productname: "/Assets/Product name/Persnol product/Auriwell plane.webp",
+  //   composition: [
+  //     "Each Pack contains:",
+  //     "Jojoba Oil, Avocado Oil,",
+  //     "Natural Lavender oil fragrance"
+  //   ],
+  //   indications:
+  //     ["Effectively controls dandruff. Soothes itchiness and irritation. Help nourish and moisturize the scalp. Improves blood circulation to the scalp."],
+  //   usage:
+  //     ["For women :- 3-5 gm For men :- 1-2 gm; Method of Application:Apply Auroshine Hair Essentials Anti-dandruff Serum through gentle massage of scalp in circular motion with your fingers."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
     id: 14,
     name: "Anti Stress Oil",

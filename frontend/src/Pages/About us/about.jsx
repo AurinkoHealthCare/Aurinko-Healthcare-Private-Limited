@@ -8,7 +8,7 @@ const About = () => {
     <div className="font-sans">
       <div className="relative">
         <img
-          src="/Assets/banner/About us.webp"
+          src="/Assets/Aurinko Home 1.png"
           alt="About Us"
           className="w-full"
         />
@@ -21,50 +21,58 @@ const About = () => {
       </div>
       <div className="px-10 py-8 md:px-14 lg:px-20">
         <section className="mt-6">
-          <Paragraph> 
-            Aurinko Healthcare is an innovation-driven pharmaceutical company incorporated on 21st November 2014,
-            received Startup recognition and certification from the Department of Industrial Policy and Promotion, Govt. of India.
-            Aurinko Healthcare is a WHO-GMP, FSSAI, APEDA, and HACCP-certified company with ISO 9001-2015 and ISO 22000-2018 certifications
-            received for robust management systems.
+          <Paragraph>
+            Aurinko Healthcare is an innovation driven pharmaceutical and nanobiotechnology company incorporated
+            on 21st November 2014, received Start up recognition and certification from Department of Industrial
+            Policy and Promotion, Govt. of India. Aurinko Healthcare is a WHO-GMP, FSSAI, APEDA and HACCP certified
+            company with ISO 9001-2015, ISO 22000-2018 certifications received for robust management systems.
           </Paragraph>
           <Paragraph>
-            Promoters of this organization are well-qualified pharmaceutical and financial business professionals having
-            illustrious recognition in the areas of strategic marketing, branding, innovation, formulation development,
-            and business finance with over 28 years of rich domain experience.
+            Promoters of this organization are well qualified pharmaceutical and financial business professionals
+            having illustrious recognition in the areas of strategic marketing, branding, innovation, formulation
+            development and business finance with over 30 years of rich domain experience.
           </Paragraph>
           <Paragraph>
-            Aurinko Healthcare is a member of elite business regulatory bodies of India, i.e., Federation of Indian Chamber
-            of Commerce and Industry, Federation of Indian Export Organizations, Pharmaceutical Export Promotion Council,
-            PHD Chamber of Commerce, Indian Drug Manufacturers’ Association, and Spice Board of India.
+            Aurinko Healthcare is a member of elite business regulatory bodies of India i.e. Federation of Indian
+            Chamber of Commerce and Industry, Federation of Indian Export Organizations, Pharmaceutical Export
+            Promotion Council, PHD Chamber of Commerce and Spice Board of India.
           </Paragraph>
           <Paragraph>
-            The company specializes in the human healthcare segment and evolves the concept of “Organic Therapy” by using advanced
-            research in nanotechnology, bioenhancers, and phytochemical molecules to develop path-breaking technology in osteoarthritis,
-            cancer, dengue, and chikungunya supportive therapy, mosquito repellents and killers, etc. A major breakthrough has been achieved
-            with Nanophosphosome, a novel technology to multiply the power of traditional herbal phytochemicals. Several innovative health
-            supplements have been invented based on Nanophosphosome technology.
+            Company is specialized in human healthcare segment and evolving the concept of “Organic Therapy” by
+            using advance research in nano-biotechnology, bioenhancers and phytochemical molecules to develop
+            path-breaking technologies for improvement of human health. A major breakthrough has been achieved
+            with “Nanophosphosome”, a novel drug delivery system to multiply the power of phytoactives. Number of
+            innovative health supplements have been invented based on Nanophosphosome technology.  “Molecoat”
+            technology is developed as colon targeted drug delivery system for drugs and probiotics and
+            “Neunaparticles” (Drug Nanoparticles) of 10 to 30 nm has been developed to support human healthcare.
           </Paragraph>
           <Paragraph>
-            The company aims towards total health solutions by delivering values with quality herbs, spices, essential oils, fresh and sun-dried
-            fruits and vegetables as consumables to its elite customers.
+            Company is aiming towards total health solutions by delivering values with quality herbs, spices, essential
+            oils, fresh and sun dried fruits and vegetables as consumables to it’s elite customers.
           </Paragraph>
           <Paragraph>
-            In line with global research, Aurinko Healthcare is developing new concepts and solutions in preventive nutrition and biotechnology
-            segments to prevent and control economically important animal diseases and conditions, such as mastitis, metritis, anoestrus,
-            and repeat breeding. They are working towards a “disease-free farming” concept. Essential oils, phytochemicals, probiotics, and
-            high-value nutrition are the latest instruments in disease prevention for animals. This also helps develop technology for an
-            “antibiotic-free farming” concept in dairy, poultry, and swine segments.
+            In line with the global research, Aurinko Healthcare is developing new concepts and solutions in preventive
+            nutrition and nanobiotechnology segment to prevent and control the economically important animal
+            diseases and conditions i.e. mastitis, metritis, anoestrus and repeat breeding; and working towards
+            “disease free and antibiotic free farming concept”. Essential oils, phytochemicals, probiotics and high value
+            nutrition are the latest instruments in disease prevention of animals. The latest invention is “Neunamin”,
+            an innovation in animal nutrition with carbon technology nano-minerals.
           </Paragraph>
           <Paragraph>
-            Aurinko Healthcare is well-equipped with research, formulation development, quality control, and quality assurance systems to develop
-            specialized and technologically advanced nutritional and organic concepts through in-house and contract research and partnerships with
-            leading research institutes. These innovative concepts benefit human health and wellness along with the dairy, poultry, swine, pet, and
-            aqua industries by improving health, performance, and cost concerns. The company has filed for trademarks and patents and has been
-            awarded more than 30 trademarks and copyrights for its product portfolio.
+            Aurinko Healthcare is well equipped with research, formulation development, quality control and quality
+            assurance systems to develop specialized and technologically advanced nutritional and organic concepts
+            through in-house, contract research as well as partnership/collaboration with leading research institutes.
           </Paragraph>
           <Paragraph>
-            Aurinko Healthcare also delivers value to consumers, professionals, and farmers beyond India by exporting its quality products to South
-            and Southeast Asia, SAARC, Gulf, Middle East, and African regions.
+            These innovative concepts provide overall benefit to human health & wellness along with dairy, poultry,
+            swine, pet and aqua industry by improving in the areas of health, performance and cost concerns.
+            Company has filed for trademark & patents, and has been awarded with more than 50 trademarks,
+            copyrights for its product portfolio.
+          </Paragraph>
+          <Paragraph>
+            Aurinko Healthcare is also delivering the values to the consumers, professionals and farmers beyond India
+            by exporting it’s quality products to South and South-East Asia, SAARC, Gulf, Middle-East and African
+            regions.
           </Paragraph>
         </section>
       </div>

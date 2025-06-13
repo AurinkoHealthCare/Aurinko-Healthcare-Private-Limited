@@ -45,22 +45,14 @@ export const block3Data = [
 export const block8Data = [
   {
     id: 1,
-    image: "/Assets/Product images/Human/Health Supplements/Auritrol.webp",
+    image: "/Assets/Product images/Human/Health Supplements/auribery plus c.webp",
     hoverImage: "/Assets/banner/Add banner/Auritrol.webp",
-    title: "Auritrol",
+    title: "Auribery plus",
     segment: "Health Supplements",
     rating: 4.5,
   },
   {
     id: 2,
-    image: "/Assets/Product images/Human/Health Supplements/Aurijoint.webp",
-    hoverImage: "/Assets/banner/Add banner/Aurijoint.webp",
-    title: "Aurijoint",
-    segment: "Health Supplements",
-    rating: 4.0,
-  },
-  {
-    id: 3,
     image: "/Assets/Product images/Human/Health Supplements/Auricur Plus.webp",
     hoverImage: "/Assets/banner/Add banner/Auricur Plus.webp",
     title: "Auricur Plus",
@@ -68,10 +60,18 @@ export const block8Data = [
     rating: 4.5,
   },
   {
+    id: 3,
+    image: "/Assets/Product images/Human/Health Supplements/Reintoni c.webp",
+    hoverImage: "/Assets/banner/Add banner/Aurijoint.webp",
+    title: "Reintoni",
+    segment: "Health Supplements",
+    rating: 4.0,
+  },
+  {
     id: 4,
-    image: "/Assets/Product images/Human/Health Supplements/Aurisom.webp",
+    image: "/Assets/Product images/Human/Health Supplements/Moringa oleifera.webp",
     hoverImage: "/Assets/banner/Add banner/Aurisom.webp",
-    title: "Aurisom",
+    title: "Moringa oleifera",
     segment: "Health Supplements",
     rating: 4.0,
   },
@@ -125,6 +125,10 @@ export const productTypes = [
 
 export const speciesData = [
   {
+    title: "Livestock",
+    image: "/Assets/block 5/livestock.webp"
+  },
+  {
     title: "Poultry",
     image: "/Assets/block 5/Block5 img1.jpg"
   },
@@ -154,31 +158,31 @@ export const reviews = [
   {
     id: 1,
     name: "John Doe",
-    image: "/data/user1.png",
+    image: "/Assets/block 5/men review.jpg",
     text: "Excellent service! Highly recommended.",
   },
   {
     id: 2,
     name: "Jane Smith",
-    image: "/data/user2.png",
+    image: "/Assets/block 5/women review.jpg",
     text: "Great experience, very professional team!",
   },
   {
     id: 3,
     name: "Alex Johnson",
-    image: "/data/user3.png",
+    image: "/Assets/block 5/men review.jpg",
     text: "Quick and reliable healthcare services.",
   },
   {
     id: 4,
     name: "Emma Brown",
-    image: "/data/user4.png",
+    image: "/Assets/block 5/women review.jpg",
     text: "Loved the friendly staff and fast service.",
   },
   {
     id: 5,
     name: "Michael Wilson",
-    image: "/data/user5.png",
+    image: "/Assets/block 5/men review.jpg",
     text: "Affordable and efficient medical solutions.",
   },
 ];

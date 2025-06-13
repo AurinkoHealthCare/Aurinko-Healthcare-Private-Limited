@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Components/Human/ProductCard";
+import ProductCard from "../../Components/Human/ProductCard.jsx";
 import human_data from "../../Data/Human_Data.jsx";
 
 const Healthsupplements = () => {
@@ -12,7 +12,7 @@ const Healthsupplements = () => {
           className="w-full"
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-2">
+        <div className="absolute inset-0 flex flex-col justify-start items-center text-white p-9">
           <h1 className="lg:text-4xl font-bold">Health Supplements</h1>
         </div>
       </div>
