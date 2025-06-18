@@ -21,7 +21,7 @@ const Swine_Data = [
       "Mangifera indica",
       "Andrographis paniculata",
       "Eclipta alba",
-      "Fortified with Vitamin B1, Vitamin B2, Niacin, Vitamin B6, Vitamin B12 and Phytobiotic essential oils."
+      "Fortified with Vitamin B₁, Vitamin B₂, Niacin, Vitamin B₆, Vitamin B₁₂ and Phytobiotic essential oils."
     ],
     indications:
       [
@@ -58,7 +58,7 @@ const Swine_Data = [
       "Mangifera indica",
       "Andrographis paniculata",
       "Eclipta alba",
-      "Vitamins - B1, B2, Niacin, B6, B12",
+      "Vitamins - B₁, B₂, Niacin, B₆, B₁₂",
       "Probiotics - Saccharomyces boulardii, Bacillus coagulans, Bacillus clausii, Lactobacillus rhamnosus GG and Mannan oligosaccharide"
     ],
     indications:
@@ -90,7 +90,7 @@ const Swine_Data = [
       "Phytochemical extracts derived from:",
       "Andrographis paniculata",
       "Eclipta alba",
-      "Vitamins - B1, B2, Niacin, B6, B12",
+      "Vitamins - B₁, B₂, Niacin, B₆, B₁₂",
       "Probiotics - Saccharomyces boulardii, Bacillus coagulans, Bacillus clausii, Lactobacillus rhamnosus GG and Mannan oligosaccharide",
       "(Total Probiotic count 13.5 billion cfu per kg)"
     ],
@@ -422,16 +422,16 @@ const Swine_Data = [
     id: 15,
     name: "Fertility Vitamin Complex",
     description:
-      "Aurivit AD3E is an advanced fetility complex enriched with vitamin A, Vitamin D3, Vitamin E and Selenium.",
+      "Aurivit AD₃E is an advanced fetility complex enriched with vitamin A, Vitamin D₃, Vitamin E and Selenium.",
     segment: "Swine,Livestock",
     type: "Liquid",
     category: "Performance Enhancer , Other Specialty",
     packaging: "100 ml 250 ml 500 ml 1 L",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD3.webp",
-    Productname: "/Assets/Product name/Livestock/Aurivit AD3E.webp",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD₃.webp",
+    Productname: "/Assets/Product name/Livestock/Aurivit AD₃E.webp",
     composition: [
       "Each ml contains:",
-      "Vitamin A 1,00,000 IU, Vitamin D3 40,000 IU, Vitamin E 40 IU, Sodium selenite 100 mcg"
+      "Vitamin A 1,00,000 IU, Vitamin D₃ 40,000 IU, Vitamin E 40 IU, Sodium selenite 100 mcg"
     ],
     indications:
       [
@@ -449,16 +449,16 @@ const Swine_Data = [
     id: 16,
     name: "Fertility Vitamin Complex",
     description:
-      "Aurivit AD3E Plus is an advanced fetility complex enriched with vitamin A, Vitamin C, Vitamin D3, Vitamin E and Selenium.",
+      "Aurivit AD₃E Plus is an advanced fetility complex enriched with vitamin A, Vitamin C, Vitamin D₃, Vitamin E and Selenium.",
     segment: "Swine,Livestock",
     type: "Liquid",
     category: "Performance Enhancer , Other Specialty",
     packaging: "100 ml 250 ml 500 ml 1 L",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD3 Plus.webp",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD₃ Plus.webp",
     Productname: "/Assets/Product name/Livestock/Aurivit plus.webp",
     composition: [
       "Each ml contains:",
-      "Vitamin A 1,00,000 IU, Vitamin C 20 mg, Vitamin D3 40,000 IU, Vitamin E 40 IU, Sodium selenite 100 mcg"
+      "Vitamin A 1,00,000 IU, Vitamin C 20 mg, Vitamin D₃ 40,000 IU, Vitamin E 40 IU, Sodium selenite 100 mcg"
     ],
     indications:
       [
@@ -486,7 +486,7 @@ const Swine_Data = [
     composition: [
       "Each kg contains:",
       "Vitamin A palmitate 60,00,000 IU",
-      "Vitamin D3 24,00,000 IU",
+      "Vitamin D₃ 24,00,000 IU",
       "1,8-Cineole 48,000 mg",
       "Menthol 45,000 mg",
       "Thymol 1500 mg",
@@ -521,7 +521,7 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Poultry/AuroRD DS.webp",
     composition: [
       "Each Kg essential oil contains -",
-      "Vitamin A Palmitate 1,00,00,000 IU, Vitamin D3 40,00,000 IU, Eucalyptus oil(1 - 8 cineole, Limonene)125 gm, Holy basil oil(Eugenol, Linalool) 50 gm, Peppermint oil(Menthol, 1 - 8 cineole) 250 gm, Clove oil(Eugenol) 10 gm",
+      "Vitamin A Palmitate 1,00,00,000 IU, Vitamin D₃ 40,00,000 IU, Eucalyptus oil(1 - 8 cineole, Limonene)125 gm, Holy basil oil(Eugenol, Linalool) 50 gm, Peppermint oil(Menthol, 1 - 8 cineole) 250 gm, Clove oil(Eugenol) 10 gm",
       "Thyme oil(Thymol) 10 gm",
       "Lemon oil(Linalool, Limonene) 2 gm",
       "Camphor oil(Linalool, 1 - 8 cineole) 20 gm, Ginger oil(Zingiberene) 5 gm"
@@ -542,7 +542,7 @@ const Swine_Data = [
     id: 19,
     name: "Super Anti-oxidant and Immunomodulator",
     description:
-      "Aurovita is a strong anti-oxidant and immuno-modulator enriched with Vitamin E, Selenium, Vitamin A, D3, Grape polyphenol and Biotin. Aurovita provides powerful stress buster, performance enhancer and immuno-stimulant efficacy to improve health and growth even during periods of stress and disease challenges",
+      "Aurovita is a strong anti-oxidant and immuno-modulator enriched with Vitamin E, Selenium, Vitamin A, D₃, Grape polyphenol and Biotin. Aurovita provides powerful stress buster, performance enhancer and immuno-stimulant efficacy to improve health and growth even during periods of stress and disease challenges",
     segment: "Swine,Poultry",
     type: "Powder",
     category: "Immunomodulator , Other Specialty",
@@ -663,7 +663,7 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Poultry/Neuna Premium.webp",
     composition: [
       "Contains high concentration of:",
-      "Vitamin A, D3 and E(coated), Nicotinamide and Vitamin C, Copper, Manganese, Iron and Zinc(MHA), Organic Chromium, Selenium, Magnesium and Iodine",
+      "Vitamin A, D₃ and E(coated), Nicotinamide and Vitamin C, Copper, Manganese, Iron and Zinc(MHA), Organic Chromium, Selenium, Magnesium and Iodine",
       "Esterified Butyrate, Phytase, Beta glucan and Mannon oligosaccharide, Bacillus subtilis, Bacillus licheniformis, Lactobacillus sporogenes, Saccharomyces cerevisiae, Energy booster complex, Pyto - bio CalphosTM and Grape polyphenols ext."
     ],
     indications:
@@ -691,7 +691,7 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Livestock/Nomino.webp",
     composition: [
       "Each gm contains:",
-      "Vitamin A 500,000 IU, Vitamin D3 75,000 IU, Vitamin E 10,000 mg, Vitamin B1 1, 250 mg, Vitamin B2 500 mg, Vitamin B6 625 mg, Vitamin B12 5, 300 mcg, Vitamin K 350 mg, Vitamin H12, 500 mcg, Vitamin C 1,000 mg, Niacin 1, 400 mg, D Panthenol 625 mg, Folic Acid precursor 625 mg, Lysine 100 mg, DL - Methionine 1, 500 mg, Protein Hydrolysate 1,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 2000 mg, Organic Manganese 1,000 mg, Organic Zinc 3,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3, 280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq.to 3,000 IU Vitamin E activity"
+      "Vitamin A 500,000 IU, Vitamin D₃ 75,000 IU, Vitamin E 10,000 mg, Vitamin B₁ 1, 250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg, Vitamin B₁₂ 5, 300 mcg, Vitamin K 350 mg, Vitamin H12, 500 mcg, Vitamin C 1,000 mg, Niacin 1, 400 mg, D Panthenol 625 mg, Folic Acid precursor 625 mg, Lysine 100 mg, DL - Methionine 1, 500 mg, Protein Hydrolysate 1,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 2000 mg, Organic Manganese 1,000 mg, Organic Zinc 3,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3, 280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq.to 3,000 IU Vitamin E activity"
     ],
     indications:
       [
@@ -717,7 +717,7 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Poultry/Olbac.webp",
     composition: [
       "Each 100 gm of Essential oil contains:",
-      "Thymol 7900 mg, Terpinene-4-ol 5400 mg, 1,8-Cineole 1800 mg, Carvacrol 850 mg, Vitamin A 40,00,000 IU, Vitamin D3 16,00,000 IU."
+      "Thymol 7900 mg, Terpinene-4-ol 5400 mg, 1,8-Cineole 1800 mg, Carvacrol 850 mg, Vitamin A 40,00,000 IU, Vitamin D₃ 16,00,000 IU."
     ],
     indications:
       [
@@ -807,10 +807,10 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Poultry/Unilyz Penta.webp",
     composition: [
       "Each kg contains:",
-      "Lysozyme HCl 5000 FIP unit/mg, Vitamin A 2500000 IU, Vitamin D3 1000000 IU, Vitamin E 75000 IU, Selenium 200 mg, Vitamin C 80 gm",
+      "Lysozyme HCl 5000 FIP unit/mg, Vitamin A 2500000 IU, Vitamin D₃ 1000000 IU, Vitamin E 75000 IU, Selenium 200 mg, Vitamin C 80 gm",
       "Grape Polyphenols eq. to 3,00,000 IU activity of Vitamin E.",
       "Each litre contains:",
-      "Lysozyme HCl.5000 FIP unit/mg, Vitamin A 2500000 IU, Vitamin D3 1000000 IU, Vitamin E 40000 IU, Selenium 200 mg, Vitamin C 80 gm."
+      "Lysozyme HCl.5000 FIP unit/mg, Vitamin A 2500000 IU, Vitamin D₃ 1000000 IU, Vitamin E 40000 IU, Selenium 200 mg, Vitamin C 80 gm."
     ],
     indications:
       [
@@ -836,15 +836,15 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Aqua/Vitoaqua Forte.webp",
     composition: [
       "Each Litre contains:",
-      "Vitamin B1 7000 mg",
-      "Vitamin B2 14000 mg",
+      "Vitamin B₁ 7000 mg",
+      "Vitamin B₂ 14000 mg",
       "Vitamin B3 35000 mg",
       "Vitamin B5 35000 mg",
-      "Vitamin B6 17500 mg",
+      "Vitamin B₆ 17500 mg",
       "Vitamin C 250000 mg",
       "Vitamin B7 875000 mcg",
       "Vitamin B9 17500 mg",
-      "Vitamin B12 44500 mcg"
+      "Vitamin B₁₂ 44500 mcg"
     ],
     indications:
       [

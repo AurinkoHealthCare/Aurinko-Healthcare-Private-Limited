@@ -7,32 +7,27 @@ const livestock_data = [
     segment: "Livestock",
     type: "Liquid",
     category: "Other Specialty",
-    packaging: "200 ml, 1 litre Bottle, 5 litre Jar,  25 litre Jar",
+    packaging: "200 ml and 1 litre Bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auriplanta.webp",
     Productname: "/Assets/Product name/Livestock/Auriplanta.webp",
     composition: [
-      "Each 100 ml contains phytochemical extracts of:",
-      "Achyranthes aspera 12000 mg ",
-      "Adhatoda vasica nees 9000 mg",
-      "Costus speciosus 5000 mg",
-      "Crotalaria retusa 6000 mg",
-      "Cyperus rotundus 10,000 mg",
-      "Gloriosa superba 5000 mg",
-      "Peganum harmala 3000 mg",
-      "Plumbago zeylanicum 2500 mg",
-      "Copper sulphate 320 mg",
-      "Ferrous sulphate 640 mg",
-      "Cobalt sulphate 20 mg",
-      "Vitamin E 500 IU",
-      "Sodium selenite 500 mcg"
+      "Each 100 ml contains",
+      "phytochemical extracts of: Achyranthes aspera 12000 mg, Adhatoda vasica nees 9000 mg, Costus speciosus 5000 mg, Crotalaria retusa 6000 mg, Cyperus rotundus 10,000 mg, Gloriosa superba 5000 mg, Peganum harmala 3000 mg, Plumbago zeylanica 2500 mg, Copper sulphate 320 mg, Ferrous sulphate 640 mg, Cobalt sulphate 20 mg, Vitamin E 500 IU, Sodium selenite 500 mcg"
     ],
     indications:
-      ["Supports easy parturition",
-        "Helps easy expulsion of placenta",
-        "Minimizes the risk of placental retention"
+      [
+        "• Supports easy parturition",
+        "• Helps easy expulsion of placenta",
+        "• Minimizes the risk of placental retention"
       ],
     usage:
-      ["For easy Parturition- Cow/Buffalo: 50-100 ml at the time of Parturition (divided in 2 doses of 50 ml each at an interval of 3 hrs, if required) Followed by 100 ml after 6 Hrs. of Parturition for easy expulsion of placenta, If required. (Should be used in consultation with a qualified veterinarian practitioner) For Retention of Placenta- Cow/Buffalo: 200 ml once Sheep/Goat: 50 ml once Repeat after 6 Hrs. if required"],
+      [
+        "-For easy Parturition-",
+        "• Cow/Buffalo: 50-100 ml at the time of Parturition (divided in 2 doses of 50 ml each at an interval of 3 hrs, if required) Followed by 100 ml after 6 Hrs. of Parturition for easy expulsion of placenta, If required. (Should be used in consultation with a qualified veterinarian practitioner)",
+        "-For Retention of Placenta-",
+        "• Cow/Buffalo: 200 ml once",
+        "• Sheep/Goat: 50 ml once Repeat after 6 Hrs. if required"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -50,14 +45,15 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Turbogil Vet.webp",
     composition: [
       "Each bolus contains :",
-      "Bacillus coagulans 3200 million cfu,",
-      "Saccharomyces boulardii 600 million cfu, Bacillus subtilis 300 million cfu, Bacillus licheniformis 300 million cfu, Aspergillus oryzae 250 million cfu, Vitamin B1 30 mg, Vitamin B6 30 mg, Vitamin C 60 mg, Zinc sulphate 100 mg, Cobalt sulphate 20 mg, Copper sulphate 50 mg, Magnesium sulphate 40 mg, Alpha amylase 125 units, Acid protease 125 units, Cellulase 300 units, Phytase 60 units, Biotin 5 mg, Strychni semen 500 mg, Mannan-oligosaccharide 300 mg "
+      "Bacillus coagulans 3200 million cfu, Saccharomyces boulardii 600 million cfu, Bacillus subtilis 300 million cfu, Bacillus licheniformis 300 million cfu, Aspergillus oryzae 250 million cfu, Vitamin B₁ 30 mg, Vitamin B₆ 30 mg, Vitamin C 60 mg, Zinc sulphate 100 mg, Cobalt sulphate 20 mg, Copper sulphate 50 mg, Magnesium sulphate 40 mg, Alpha amylase 125 units, Acid protease 125 units, Cellulase 300 units, Phytase 60 units, Biotin 5 mg, Strychni semen 500 mg, Mannan-oligosaccharide 300 mg "
     ],
     indications:
-      ["Chronic anorexia",
-        "Impaction",
-        "Rumen acidosis",
-        "Adjunct to Antibiotic therapy"],
+      [
+        "• Chronic anorexia",
+        "• Impaction",
+        "• Rumen acidosis",
+        "• Adjunct to Antibiotic therapy"
+      ],
     usage:
       ["Large ruminants: 1-2 bolus/ animal/day Small ruminants: 1/2 bolus/ animal/day Or as per direction of registered Veterinarian/ Consultant."],
     report: " ",
@@ -72,26 +68,25 @@ const livestock_data = [
     segment: "Livestock",
     type: "Bolus",
     category: "Digestive , Other Specialty",
-    packaging: "4 Bolus in Strip 2 Strips in a unit carton",
+    packaging: "4 Bolus in Strip, 2 Strips in a unit carton",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Salacgil.webp",
     Productname: "/Assets/Product name/Livestock/Salacgil.webp",
     composition: [
       "Each bolus contains :",
-      "Saccharomyces cerevisiae",
-      "25 X 109 CFU",
-      "Lactobacillus sporogenes",
-      "25 X 106 CFU",
-      "Aspergillus oryzae 25 X 106 CFU",
-      "Biotin 5 mg, DL-Methionine 2 gm,",
-      "Zinc Sulphate 100 mg, Cobalt Sulphate 20 mg, Copper Sulphate 50 mg, Fructo-oligosaccharide 300 mg, Strychni semen 500 mg"
+      "Saccharomyces cerevisiae 25 X 10⁹ CFU, Lactobacillus sporogenes 25 X 10⁶ CFU, Aspergillus oryzae 25 X 10⁶ CFU, Biotin 5 mg, DL-Methionine 2 gm, Zinc Sulphate 100 mg, Cobalt Sulphate 20 mg, Copper Sulphate 50 mg, Fructo-oligosaccharide 300 mg, Strychni semen 500 mg"
     ],
     indications:
-      ["Chronic anorexia",
-        "Impaction",
-        "Rumen acidosis",
-        "Adjunct to Antibiotic therapy"],
+      [
+        "• Chronic anorexia",
+        "• Impaction",
+        "• Rumen acidosis",
+        "• Adjunct to Antibiotic therapy"
+      ],
     usage:
-      ["Cow/ Buffalo- 2 bolus orally B.I.D. for 2-3 days Sheep/ Goat- ½ bolus orally B.I.D. for 2-3 days"],
+      [
+        "Cow/ Buffalo- 2 bolus orally B.I.D. for 2-3 days",
+        "Sheep/ Goat- ½ bolus orally B.I.D. for 2-3 days"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -109,20 +104,24 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Salacgil DS.webp",
     composition: [
       "Each 12 g Sachet Contains:",
-      "Saccharomyces cerevisiae 5 X 1010 CFU",
-      "Lactobacillus sporogenes 5 X 107 CFU",
-      "Aspergillus oryzae 5 X 107 CFU",
+      "Saccharomyces cerevisiae 5 X 10¹⁰ CFU",
+      "Lactobacillus sporogenes 5 X 10⁷ CFU",
+      "Aspergillus oryzae 5 X 10⁷ CFU",
       "Biotin 10 mg, DL- Methionine 4 g",
       "Zinc Sulphate 200 mg, Cobalt Sulphate 40 mg",
       "Copper Sulphate 100 mg, Fructo-oligosaccharide 600 mg, Strychni semen 1000 mg",
     ],
     indications:
-      ["Chronic anorexia",
-        "Impaction",
-        "Rumen acidosis",
-        "Adjunct to Antibiotic therapy"],
+      [
+        "• Chronic anorexia",
+        "• Impaction",
+        "• Rumen acidosis",
+        "• Adjunct to Antibiotic therapy"
+      ],
     usage:
-      ["Cow/Buffalo: 1-2 Sachets orally B.I.D. for consecutive 2-3 days. Calves/Goat/ Sheep: 1/2-1 Sachet orally 1-2 times per day for consecutive 2-3 days. or, as per direction of registered Veterinarian/ Consultant."],
+      [
+        "Cow/Buffalo: 1-2 Sachets orally B.I.D. for consecutive 2-3 days.",
+        "Calves/Goat/ Sheep: 1/2-1 Sachet orally 1-2 times per day for consecutive 2-3 days. or, as per direction of registered Veterinarian/ Consultant."],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -174,11 +173,13 @@ const livestock_data = [
     Productimg: "/Assets/Product images/Veterinary/Livestock/Gelmil Advanced 500.webp",
     Productname: "/Assets/Product name/Livestock/Gelmil Advanced-500.webp",
     composition: [
-      "Each 450 gm contains:",
-      "Calcium 40 gm, Phosphorus 13 gm, Magnesium 6 gm,",
-      "Phytobio-CalphosTM 300 mg,",
-      "Vitamin D3 40,000 IU,",
-      "Glucogenic precursors (Propylene glycol, organic honey & Glycerol) eq. to metabolizable energy value of 4,535 kilojoules."
+      "Each 500 gm Contains:",
+      "Calcium ……………......... 40 gm,",
+      "Phosphorus…………….…13 gm,",
+      "Magnesium…………………6 gm ,",
+      "Phyto bio- Calphos® ….....300 mg,",
+      "Vitamin D₃ ………...……50000 IU,",
+      "Gluconeogenic precursors (Propylene glycol, organic honey & Glycerol) eq. to Metabolizable energy value of 6,710 Kilojoules"
     ],
     indications:
       ["Comprehensive nutrition supplement for Milk Fever and negative energy balance management",
@@ -199,23 +200,26 @@ const livestock_data = [
     segment: "Livestock",
     type: "Gel",
     category: "Nutrition Supplement",
-    packaging: "300 gm squeezable bottle",
+    packaging: "350 gm squeezable bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Gelmil Nano.webp",
     Productname: "/Assets/Product name/Livestock/Gelmil Nano.webp",
     composition: [
-      "Each 300 gm Contains:",
+      "Each 350 gm Contains:",
       "Calcium ……….….....  40 gm",
       "Phosphorus..………...…13 gm",
       "Magnesium…….…….…6 gm",
       "Phyto bio- Calphos®..300 mg",
-      "Vitamin D3………….50000 IU",
-      "Gluconeogenic precursors ",
-      "(Propylene glycol & Glycerol) eq. to Metabolizable energy value of 3027 Kilojoules"
+      "Vitamin D₃………….50000 IU",
+      "Gluconeogenic precursors (Propylene glycol & Glycerol) eq. to Metabolizable energy value of 4000 Kilojoules"
     ],
     indications:
-      ["Comprehensive nutrition supplement for Milk Fever management Reduce the chances of Milk Fever relapse after I/V Calcium administration Recommended during antihemoprotozoal treatment, impaction, uterine inertia, retention of placenta and to support normal parturition"],
+      ["Comprehensive nutrition supplement for Milk Fever management Reduce the chances of Milk Fever relapse after I/V Calcium administration Recommended during anti hemoprotozoal treatment, impaction, uterine inertia, retention of placenta and to support normal parturition"],
     usage:
-      ["Regular Use- Administer one bottle at the first sign of calving to support normal parturition, alleviate negative energy balance and reduce the chances of milk fever and associated complications. Milk Fever Management- Administer one bottle post-parturition (upon observing milk fever symptoms or follow-up therapy after I/V calcium administration) by oral route, repeat after 24 hrs if required Directions for use: Remove the seal of the bottle. Hold the head of the animal in a normal to slightly elevated position. Carefully place the nozzle by side of the muzzle and squeeze the center of the tube slowly. Note: Do not administer to animals that are unable to swallow."],
+      [
+        "Regular Use- Administer one bottle at the first sign of calving to support normal parturition, alleviate negative energy balance and reduce the chances of milk fever and associated complications.",
+        "Milk Fever Management- Administer one bottle post parturition (upon observing milk fever symptoms or followup therapy after I/V calcium administration) by oral route, repeat after 24-48 hrs if required",
+        "Directions for use: Remove the seal of the bottle. Hold the head of the animal in a normal to slightly elevated position. Carefully place the nozzle by side of the muzzle and squeeze the center of the tube slowly. Note: Do not administer to animals that are unable to swallow."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -235,7 +239,7 @@ const livestock_data = [
       "Each 450 gm contains:",
       "Phosphorus...…....................20 gm",
       "Vitamin A………………..100000 IU",
-      "Vitamin D3…………….….50000 IU",
+      "Vitamin D₃…………….….50000 IU",
       "Cobalt Sulfate……...…….….50 mg",
       "Vitamin E…………….….....2000 IU",
       "Selenium Neunamin…….....10 mg",
@@ -264,7 +268,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Maspre ultimate.webp",
     composition: [
       "Each 100 gm contains:",
-      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D3 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg, Microbial Lysozyme 2,50,000 units, Phospholipase 1,000 units."
+      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg, Microbial Lysozyme 2,50,000 units, Phospholipase 1,000 units."
     ],
     indications:
       ["Augments the efficacy of antibiotics.",
@@ -292,8 +296,8 @@ const livestock_data = [
     composition: [
       "Each Kg contains:",
       "Salvia officinalis ext., Mentha piperita oil, Petroselinum crispum ext., Vitex agnus-castus berry ext.",
-      "Vitamin D3 180 IU, Vitamin E 180 IU, Vitamin B1 12.96 mg, Vitamin B2 11.88 mg, Vitamin B6 12.24 mg,",
-      "Vitamin B12 43.2 mcg, D-Panthenol 13.68 mg, Vitamin C 1440 mg, Niacinamide 120 mg, Copper glycinate 25 mg ,",
+      "Vitamin D₃ 180 IU, Vitamin E 180 IU, Vitamin B₁ 12.96 mg, Vitamin B₂ 11.88 mg, Vitamin B₆ 12.24 mg,",
+      "Vitamin B₁₂ 43.2 mcg, D-Panthenol 13.68 mg, Vitamin C 1440 mg, Niacinamide 120 mg, Copper glycinate 25 mg ,",
       "Manganese Chloride tetrahydrate 42.5 mg, Zinc glycinate 100 mg, Potassium iodide 0.68 mg,",
       "Cobalt (ll) sulphate 0.1 mg, Lactic acid 1.36 mg, Tocopherol extracts from vegetable oil 4.86 mg,",
       "Enriched with banana Flavour"
@@ -317,14 +321,12 @@ const livestock_data = [
     segment: "Livestock , Poultry , Swine",
     type: "Liquid",
     category: "Performance Enhancer , Nutrition Supplement",
-    packaging: "250 ml Bottle 500 ml Bottle 1 Ltr Bottle 5 Ltr Jar",
+    packaging: "250 ml Bottle, 500 ml Bottle, 1 Ltr Bottle and 5 Ltr Jar",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Nomino.webp",
     Productname: "/Assets/Product name/Livestock/Nomino.webp",
     composition: [
       "Each Ltr. contains:",
-      "Vitamin A 500,000 IU, Vitamin D3 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B1 1,250 mg, Vitamin B2 500 mg, Vitamin B6 625 mg,",
-      "Vitamin B12 5,300 mcg, Vitamin K 350 mg, Vitamin H12,500 mcg, Vitamin C 1,000 mg, Niacin 1,400 mg, D Panthenol 625 mg, Folic Acid precursor 625 mg, Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 1,000 mg,",
-      "Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 2000 mg, Organic Manganese 1,000 mg, Organic Zinc 3,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
+      "Vitamin A 500,000 IU, Vitamin D₃ 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B₁ 1,250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg,Vitamin B₁₂ 5,300 mcg, Vitamin K 350 mg, Vitamin H₁₂,500 mcg, Vitamin C 1,000 mg, Niacin 1,400 mg, D Panthenol 625 mg, Folic Acid precursor 625 mg, Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 1,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 2000 mg, Organic Manganese 1,000 mg, Organic Zinc 3,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
     ],
     indications:
       ["Improves growth & production",
@@ -466,7 +468,7 @@ const livestock_data = [
     composition: [
       "Each pack contains :",
       "Very high concentrations of Coated Vitamin A",
-      "Coated Vitamin D3",
+      "Coated Vitamin D₃",
       "Coated Vitamin E",
       "Magnesium",
       "Nicotinamide",
@@ -513,7 +515,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Auro Milk Forte.webp",
     composition: [
       "Each 1 kg contains :",
-      "Calcium 240 gm, Phosphorus 120 gm, Magnesium 20 gm, Sulphur 24 gm, Selenium 5 mg, Potassium iodide 300 mg, Cobalt Sulphate 300 mg, Chromium propionate 360 mg, Nutripro NPN 60 gm, Bypass Fat 300 gm, Bypass Protein 240 gm, Vitamin A (Coated) 15 Lakh IU, Vitamin D3 (Coated) 7.5 Lakh IU, Vitamin E (Coated) 5000 IU, Biotin 300 mg, Niacin 10000 mg, Saccharomyces cerevisiae 500 Billion CFU, Lactobacillus sporogenes 2.5 billion CFU, Aspergillus oryzae 2.5 billion CFU, Bacillus subtilis 100 billion CFU, Bacillus licheniformis 100 billion CFU, Propionibacterium freudenrechii 30 billion CFU, Propionibacterium acidipropionici 0.3 billion CFU, Beta-glucan 21000 mg, Mannan oligosaccharide 27000 mg, Grape Polyphenols extract equivalent to Vitamin E acitivity 10,000 IU ,",
+      "Calcium 240 gm, Phosphorus 120 gm, Magnesium 20 gm, Sulphur 24 gm, Selenium 5 mg, Potassium iodide 300 mg, Cobalt Sulphate 300 mg, Chromium propionate 360 mg, Nutripro NPN 60 gm, Bypass Fat 300 gm, Bypass Protein 240 gm, Vitamin A (Coated) 15 Lakh IU, Vitamin D₃ (Coated) 7.5 Lakh IU, Vitamin E (Coated) 5000 IU, Biotin 300 mg, Niacin 10000 mg, Saccharomyces cerevisiae 500 Billion CFU, Lactobacillus sporogenes 2.5 billion CFU, Aspergillus oryzae 2.5 billion CFU, Bacillus subtilis 100 billion CFU, Bacillus licheniformis 100 billion CFU, Propionibacterium freudenrechii 30 billion CFU, Propionibacterium acidipropionici 0.3 billion CFU, Beta-glucan 21000 mg, Mannan oligosaccharide 27000 mg, Grape Polyphenols extract equivalent to Vitamin E acitivity 10,000 IU ,",
       "Phytase Enzyme 1.8 gm. "
     ],
     indications:
@@ -554,7 +556,7 @@ const livestock_data = [
     id: 18,
     name: "Premium Calcium supplementation for High Milk Yield and Mastitis Prevention",
     description:
-      "Aurocal Plus Gold is 3 times stronger Calcium liquid supplementation for enhanced milk yield with reduced incidence of mastitis. Potassium iodide, Organic chromium, Biotin, Cobalt improves galactopoiesis mechanism in the udder. High concentration of Ca, P, Mg and Vitamin D3 improves mineral supplementation level in high yielding animals with strong immunity and udder defense mechanism due to Zinc Glycinate, Copper Glycinate and Lycopene.",
+      "Aurocal Plus Gold is 3 times stronger Calcium liquid supplementation for enhanced milk yield with reduced incidence of mastitis. Potassium iodide, Organic chromium, Biotin, Cobalt improves galactopoiesis mechanism in the udder. High concentration of Ca, P, Mg and Vitamin D₃ improves mineral supplementation level in high yielding animals with strong immunity and udder defense mechanism due to Zinc Glycinate, Copper Glycinate and Lycopene.",
     segment: "Livestock",
     type: "Liquid",
     category: "Milk Enhancer",
@@ -563,7 +565,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Aurocal Plus Gold.webp",
     composition: [
       "Each 100 ml contains:",
-      "Calcium 7000 mg, Phosphorus 3500 mg, Cobalt Sulphate 40 mg, Potassium iodide 20 mg, Carbohydrate 40000 mg, Magnesium 350 mg, Vitamin D 70000 IU, Vitamin B 400 mcg, Biotin 20 mg, Organic Chromium 24 mg, Zinc Glycinate 2000 mg, Copper Glycinate 700 mg"
+      "Calcium 7000 mg, Phosphorus 3500 mg, Cobalt Sulphate 40 mg, Potassium iodide 20 mg, Carbohydrate 40000 mg, Magnesium 350 mg, Vitamin D₃ 70000 IU, Vitamin B₁₂ 400 mcg, Biotin 20 mg, Organic Chromium 24 mg, Zinc Glycinate 2000 mg, Copper Glycinate 700 mg"
     ],
     indications:
       ["Improves milk yield in lactating animals",
@@ -591,7 +593,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Milk Vet Nano.webp",
     composition: [
       "Each kg Contains:",
-      "Calcium 200 gm, Phosphorous 100 gm, Magnesium 6 gm, Zinc Neunamin 9.6 gm, Copper Neunamin 4.5 gm, Maganese Neunamin 9.6 gm, Ferrous Neunamin 3.84 gm, Selenium Neunamin 24 mg, Iodine Neunamin 384 mg, Chromium Neunamin 48 mg, Niacin 2 gm, Vitamin A 10 Lakh IU, Vitamin D3 6 Lakh IU, Vitamin E 1000 IU, Sulphur 5.4 gm, Elemental cobalt 200 mg, Biotin 400 mg, DL Methionine 20 gm, Bacillus subtilis 12000 million cfu, Bacillus licheniformis 12000 million cfu, Propionibacterium fredenreichii 6000 million cfu, Live yeast culture 20 gm, Potassium 75 mg, Sodium 5 gm, Mos 10 gm."
+      "Calcium 200 gm, Phosphorous 100 gm, Magnesium 6 gm, Zinc Neunamin 9.6 gm, Copper Neunamin 4.5 gm, Maganese Neunamin 9.6 gm, Ferrous Neunamin 3.84 gm, Selenium Neunamin 24 mg, Iodine Neunamin 384 mg, Chromium Neunamin 48 mg, Niacin 2 gm, Vitamin A 10 Lakh IU, Vitamin D₃ 6 Lakh IU, Vitamin E 1000 IU, Sulphur 5.4 gm, Elemental cobalt 200 mg, Biotin 400 mg, DL Methionine 20 gm, Bacillus subtilis 12000 million cfu, Bacillus licheniformis 12000 million cfu, Propionibacterium fredenreichii 6000 million cfu, Live yeast culture 20 gm, Potassium 75 mg, Sodium 5 gm, Mos 10 gm."
     ],
     indications:
       ["Improves milk yield in lactating animals.",
@@ -654,7 +656,7 @@ const livestock_data = [
       "Iodine Neunamin…………………………………..6, 400 mcg",
       "Chromium Neunamin…………………………….3200 mcg",
       "Vitamin A………………………………………………….50,000 IU",
-      "Vitamin D3………………………………………………..20,000 IU",
+      "Vitamin D₃………………………………………………..20,000 IU",
       "Vitamin E……………………………………………………….500 IU",
       "MOS………………………………………………………………300 mg",
       "Grape Polyphenol Ext.equivalent to",
@@ -967,7 +969,7 @@ const livestock_data = [
   //   Productname: "/Assets/Product name/Livestock/Aurinal.webp",
   //   composition: [
   //     "Each 200 ml contains phytochemical extracts of:",
-  //     "Mentha piperita 1.16 gm, Coriandrum sativum 3 gm, Boerhavia diffusa 3 gm, Tinospora cordifolia 2 gm, Ocimum basilicum 3 gm, Tribulus terrestris 3 gm, Cyperus rotundus 2 gm, Ficus religiosa 2.9 gm, Trigonella foenum-graecum 2.9 gm, Moringa olifera 3 gm, Vitamin D3 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
+  //     "Mentha piperita 1.16 gm, Coriandrum sativum 3 gm, Boerhavia diffusa 3 gm, Tinospora cordifolia 2 gm, Ocimum basilicum 3 gm, Tribulus terrestris 3 gm, Cyperus rotundus 2 gm, Ficus religiosa 2.9 gm, Trigonella foenum-graecum 2.9 gm, Moringa olifera 3 gm, Vitamin D₃ 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
   //   ],
   //   indications:
   //     [
@@ -997,7 +999,7 @@ const livestock_data = [
       "Each bolus contains:",
       "Sodium acid phosphate…………………10 gm",
       "Vitamin A…………………25000 IU",
-      "Vitamin D3………………………………20000 IU",
+      "Vitamin D₃………………………………20000 IU",
       "Cobalt sulphate……………………………20 mg",
       "Vitamin E………………………………500 IU",
       "Selenium Neunamin……1600 mcg",
@@ -1084,7 +1086,7 @@ const livestock_data = [
     id: 35,
     name: "Fertility Vitamin Complex",
     description:
-      "Aurivit AD3E is an advanced fetility complex enriched with vitamin A, Vitamin D3, Vitamin E and Selenium.",
+      "Aurivit AD3E is an advanced fetility complex enriched with vitamin A, Vitamin D₃, Vitamin E and Selenium.",
     segment: "Livestock , Swine",
     type: "Liquid",
     category: "Performance Enhancer , Other Specialty",
@@ -1094,7 +1096,7 @@ const livestock_data = [
     composition: [
       "Each ml contains:",
       "Vitamin A 1,00,000 IU",
-      "Vitamin D3 40,000 IU",
+      "Vitamin D₃ 40,000 IU",
       "Vitamin E 40 IU",
       "Sodium selenite 100 mcg",
     ],
@@ -1112,7 +1114,7 @@ const livestock_data = [
     id: 36,
     name: "Fertility Vitamin Complex",
     description:
-      "Aurivit AD3E Plus is an advanced fetility complex enriched with vitamin A, Vitamin C, Vitamin D3, Vitamin E and Selenium.",
+      "Aurivit AD3E Plus is an advanced fetility complex enriched with vitamin A, Vitamin C, Vitamin D₃, Vitamin E and Selenium.",
     segment: "Livestock , Swine",
     type: "Liquid",
     category: "Performance Enhancer , Other Specialty",
@@ -1123,7 +1125,7 @@ const livestock_data = [
       "Each ml contains:",
       "Vitamin A 1,00,000 IU,",
       "Vitamin C 20 mg,",
-      "Vitamin D3 40,000 IU,",
+      "Vitamin D₃ 40,000 IU,",
       "Vitamin E 40 IU,",
       "Sodium selenite 100 mcg"
     ],
@@ -1142,7 +1144,7 @@ const livestock_data = [
     id: 37,
     name: "Powerful Calcium Supplementation for High Milk Yield, Better Health & Mastitis Prevention",
     description:
-      "Aurocal Plus is powerful Calcium liquid supplementation for enhanced milk yield with reduced incidence of mastitis. Potassium iodide, Organic chromium, Biotin, Cobalt improves Galactopoiesis mechanism in the udder. High concentration of Ca, P, Mg and Vitamin D3 improves mineral supplementation level in high yielding animals with strong immunity and udder defense mechanism due to Zinc Glycinate, Copper Glycinate and Lycopene.",
+      "Aurocal Plus is powerful Calcium liquid supplementation for enhanced milk yield with reduced incidence of mastitis. Potassium iodide, Organic chromium, Biotin, Cobalt improves Galactopoiesis mechanism in the udder. High concentration of Ca, P, Mg and Vitamin D₃ improves mineral supplementation level in high yielding animals with strong immunity and udder defense mechanism due to Zinc Glycinate, Copper Glycinate and Lycopene.",
     segment: "Livestock",
     type: "Liquid",
     category: "Milk Enhancer",
@@ -1151,7 +1153,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Aurocal Plus.webp",
     composition: [
       "Each 100 ml contains:",
-      "Calcium 6100 mg, Phosphorus 3050 mg, Vitamin A 45000 IU, Vitamin D 12000 IU, Vitamin B 3 12 100 mcg, Chromium 200 ppm, Asparagus racemosus 1000 mg",
+      "Calcium 6100 mg, Phosphorus 3050 mg, Vitamin A 45000 IU, Vitamin D₃ 12000 IU, Vitamin B₁₂ 100 mcg, Chromium 200 ppm, Asparagus racemosus 1000 mg",
       "Leptadenia reticulata 1000 mg, Piper longum 400 mg, Zinc 1500 mg, Copper 500 mg, Silymarin 450 mg, Carbohydrate 25000 mg"
     ],
     indications:
@@ -1177,7 +1179,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Auro Milk.webp",
     composition: [
       "Each 1 kg contains :",
-      "Yeast 300 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 150 gm, Phosphorus 75 gm, Magnesium 14 gm, Elemental Zinc 9 gm, Elemental Copper 4.5 gm, Elemental Manganese 4 gm, Elemental Ferrus 2.5 gm, Methionine 100 gm, Niacin 7 gm, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D3 4 Lakh IU, Sulphur 16 gm, Selenium 4 mg, Potassium iodide 200 mg, Cobalt sulphate 200 mg, Chromium propionate 240 mg."
+      "Yeast 300 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 150 gm, Phosphorus 75 gm, Magnesium 14 gm, Elemental Zinc 9 gm, Elemental Copper 4.5 gm, Elemental Manganese 4 gm, Elemental Ferrus 2.5 gm, Methionine 100 gm, Niacin 7 gm, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D₃ 4 Lakh IU, Sulphur 16 gm, Selenium 4 mg, Potassium iodide 200 mg, Cobalt sulphate 200 mg, Chromium propionate 240 mg."
     ],
     indications:
       ["Improves milk yield, Milk fat and SNF in dairy animals"],
@@ -1200,7 +1202,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Auro Milk Plus.webp",
     composition: [
       "Each 1 kg contains :",
-      "Yeast 333 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 160 gm, Phosphorus 80 gm, Magnesium 14 gm, Zinc Neunamin 1600 mg, Manganese Neunamin 1600 mg, Copper Neunamin 550 mg, Iron Neunamin 640mg, Selenium Neunamin 16 mg, Iodine Neunamin 128 mg, Chromium Neunamin 32 mg Methionine 100 gm, Niacin 7 gm, Biotin 200 mg, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D3 5 Lakh IU, Vitamin E 3300 IU, Grape polyphenol ext.equivalent to Vitamin E activity 6600 IU, Sulphur 16 gm, Cobalt sulphate 200 mg."
+      "Yeast 333 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 160 gm, Phosphorus 80 gm, Magnesium 14 gm, Zinc Neunamin 1600 mg, Manganese Neunamin 1600 mg, Copper Neunamin 550 mg, Iron Neunamin 640mg, Selenium Neunamin 16 mg, Iodine Neunamin 128 mg, Chromium Neunamin 32 mg Methionine 100 gm, Niacin 7 gm, Biotin 200 mg, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D₃ 5 Lakh IU, Vitamin E 3300 IU, Grape polyphenol ext.equivalent to Vitamin E activity 6600 IU, Sulphur 16 gm, Cobalt sulphate 200 mg."
     ],
     indications:
       ["Improves milk yield and Milk fat in dairy animals.",
@@ -1252,8 +1254,8 @@ const livestock_data = [
       "Ginger extract 50 mg",
       "Andrographis paniculata 60 mg",
       "DL-Methionine 80 mg",
-      "Vitamin B6 0.42 mg",
-      "Vitamin B3 8 mg",
+      "Vitamin B₆ 0.42 mg",
+      "Vitamin B₃ 8 mg",
       "Biotin 80 mcg",
       "Cobalt carbonate 0.2 mg",
       "Anhydrous Dextrose 870 mg"
@@ -1384,7 +1386,7 @@ const livestock_data = [
     composition: [
       "Each sachet contains:",
       "Copper (MHA) 120 mg, Zinc (MHA) 240 mg, Iron (MHA) 50 mg, Manganese (MHA) 240 mg,",
-      "Cobalt 5 mg, Iodine 6.5 mg, Selenium 1 mg, Bioactive chromium 2 mg, Vitamin A 50000 IU, Vitamin D3 10000 IU, Vitamin B3 10 mg, Vitamin E 250 IU,",
+      "Cobalt 5 mg, Iodine 6.5 mg, Selenium 1 mg, Bioactive chromium 2 mg, Vitamin A 50000 IU, Vitamin D₃ 10000 IU, Vitamin B₃ 10 mg, Vitamin E 250 IU,",
       "Grape polyphenols eq. to 525 IU of Vitamin E activity.",
     ],
     indications:
@@ -1420,8 +1422,8 @@ const livestock_data = [
       "Selenium 2 mg",
       "Bioactive chromium 4 mg",
       "Vitamin A (coated) 100000 IU",
-      "Vitamin D3 (coated) 20000 IU",
-      "Vitamin B3 20 mg",
+      "Vitamin D₃ (coated) 20000 IU",
+      "Vitamin B₃ 20 mg",
       "Vitamin E (coated) 500 IU",
       "Grape polyphenols eq. to 1050 IU Vitamin E activity"
     ],
@@ -1451,10 +1453,10 @@ const livestock_data = [
     composition: [
       "Each 15 gm Sachet contains :",
       "Saccharomyces cerevisiae",
-      "5 X 1010 CFU",
+      "5 X 10¹⁰ CFU",
       "Lactobacillus sporogenes",
-      "1 X 109 CFU",
-      "Aspergillus oryzae 1 X 109 CFU",
+      "1 X 10⁹ CFU",
+      "Aspergillus oryzae 1 X 10⁹ CFU",
       "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU,",
       "Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg,",
       "Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
@@ -1510,7 +1512,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Masti 24.webp",
     composition: [
       "Each 100 gm contains:",
-      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D3 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, Saccharomyces cerevisiae 100 billion CFU, Aspergillus oryzae 1000 million CFU, Bacillus coagulans 1000 million CFU, Bacillus subtilis 25 billion CFU, Bacillus licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg.",
+      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, Saccharomyces cerevisiae 100 billion CFU, Aspergillus oryzae 1000 million CFU, Bacillus coagulans 1000 million CFU, Bacillus subtilis 25 billion CFU, Bacillus licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg.",
     ],
     indications:
       ["Prevents sub-clinical mastitis & reduces the prevalence of mastitis Increases immunity & milk quality when milk production decreases"],
@@ -1533,7 +1535,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Maspre.webp",
     composition: [
       "Each 75 gm contains:",
-      "Trisodium citrate 30 gm, Vitamin A 200000 IU, Vitamin D3 40000 IU, Vitamin E 1000 IU, Biotin 20 mg, Vitamin K 50 mg, Selenium 10 mg, Copper sulphate 1000 mg, Cobalt sulphate 50 mg, Zinc sulphate 3000 mg, Manganese sulphate 3000 mg, Potassium iodide 10 mg, Lactic acid bacillus 1 billion CFU, Live yeast 50 billion CFU, Serratiopeptidase 75 mg, Aspergillus oryzae 1 billion CFU, Methionine 5 gm, Bacillus subtilis 15 billion CFU, Bacillus licheniformis 15 billion CFU"
+      "Trisodium citrate 30 gm, Vitamin A 200000 IU, Vitamin D₃ 40000 IU, Vitamin E 1000 IU, Biotin 20 mg, Vitamin K 50 mg, Selenium 10 mg, Copper sulphate 1000 mg, Cobalt sulphate 50 mg, Zinc sulphate 3000 mg, Manganese sulphate 3000 mg, Potassium iodide 10 mg, Lactic acid bacillus 1 billion CFU, Live yeast 50 billion CFU, Serratiopeptidase 75 mg, Aspergillus oryzae 1 billion CFU, Methionine 5 gm, Bacillus subtilis 15 billion CFU, Bacillus licheniformis 15 billion CFU"
     ],
     indications:
       ["Prevents sub-clinical mastitis & reduces the prevalence of mastitis",
@@ -1587,7 +1589,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Maspre forte.webp",
     composition: [
       "Each 100 gm contains:",
-      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D3 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg."
+      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg."
     ],
     indications:
       ["Prevention of sub clinical mastitis.",
@@ -1795,7 +1797,7 @@ const livestock_data = [
       "Calcium…………….. 2000 mg",
       "Phosphorus… …..….1000 mg",
       "Vitamin A…………….50000 IU",
-      "Vitamin D…………… 25000 IU",
+      "Vitamin D₃…………… 25000 IU",
       "Vitamin E…………….. 100 mg",
       "Biotin……………… 20000 mcg",
       "Cobalt sulphate…..…… 20 mg",
@@ -1894,7 +1896,7 @@ const livestock_data = [
       "Iodine Neunamin…………………………………..12, 800 mcg",
       "Chromium Neunamin…………………………….4, 800 mcg",
       "Vitamin A…………………………………………………1,00,000 IU",
-      "Vitamin D3……………………………………………….. 40,000 IU",
+      "Vitamin D₃……………………………………………….. 40,000 IU",
       "Vitamin E………………………………………………………..750 IU",
       "MOS………………………………………………………………300 mg",
       "Grape Polyphenol Ext.equivalent to",
@@ -1928,7 +1930,7 @@ const livestock_data = [
     composition: [
       "Each gm contains:",
       "Butaphosphan INN 100 mg",
-      "Vitamin B12 50 mg"
+      "Vitamin B₁₂ 50 mg"
     ],
     indications:
       ["Increases Meat, Milk & Egg Production",
@@ -1980,10 +1982,10 @@ const livestock_data = [
   //   composition: [
   //     "Each 15 gm Sachet contains :",
   //     "Saccharomyces cerevisiae",
-  //     "5 X 1010 CFU",
+  //     "5 X 10¹⁰ CFU",
   //     "Lactobacillus sporogenes",
-  //     "1 X 109 CFU",
-  //     "Aspergillus oryzae 1 X 109 CFU",
+  //     "1 X 10⁹ CFU",
+  //     "Aspergillus oryzae 1 X 10⁹ CFU",
   //     "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
   //   ],
   //   indications:
@@ -2034,7 +2036,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Suportho.webp",
     composition: [
       "Each Ltr contains-",
-      "Calcium chloride 30 gm, Sodium chloride 10 gm, Chondroitin sulphate 500 mg, Glucosamine 500 mg, Orthophosphoric acid 30 gm, Vitamin D3 20000 IU,",
+      "Calcium chloride 30 gm, Sodium chloride 10 gm, Chondroitin sulphate 500 mg, Glucosamine 500 mg, Orthophosphoric acid 30 gm, Vitamin D₃ 20000 IU,",
       "Choline chloride 50 gm, MHA 10 gm, Manganese glycinate 2.5 gm, Zinc glycinate 2.5 gm,",
       "Copper glycinate 100 mg, Biotin 15 mg"
     ],

@@ -334,7 +334,7 @@ const poultry_data = [
     Productname: "/Assets/Product name/Aqua/Auripro Plus.webp",
     composition: [
       "Each kg contains:",
-      "Vitamin B1 5 gm, Vitamin B6 5 gm, Vitamin C 10 gm, Alpha-amylase 10,00,000 IU, Protease 1,00,000 IU, Phytase 10,000 IU, Cellulase 1,00,000 IU, Bacillus subtilis, Bacillus licheniformis, Bacillus coagulans, Aspergillus oryzae, Saccharomyces boulardii, Aspergillus niger",
+      "Vitamin B₁ 5 gm, Vitamin B₆ 5 gm, Vitamin C 10 gm, Alpha-amylase 10,00,000 IU, Protease 1,00,000 IU, Phytase 10,000 IU, Cellulase 1,00,000 IU, Bacillus subtilis, Bacillus licheniformis, Bacillus coagulans, Aspergillus oryzae, Saccharomyces boulardii, Aspergillus niger",
       "(Total probiotic count NLT 3500 Billion CFU)"
     ],
     indications:
@@ -629,7 +629,7 @@ const poultry_data = [
   //   Productname: "/Assets/Product name/Poultry/Acitox Forte Liquid.webp",
   //   composition: [
   //     "Each ltr contains:",
-  //     "Citric acid monohydrate 60 gm, Phosphoric acid 60 gm, Lactic acid 20 gm, Biotin 0.015 gm, Nicotinamide 1 gm, Calcium chloride 3 gm, Potassium Iodide 0.046 gm, Sodium Selenite 0.788 gm, Zinc chloride 3.2 gm, Ferric chloride 3 gm, Magnesium chloride hexahydrate 2.5 gm, Manganese chloride 6.31 gm, Copper sulphate 0.32 gm, Cobalt sulphate 0.0338 gm, Vitamin B 1 gm, Vitamin B 0.06 gm,  Vitamin B 0.8 gm, Vitamin B 0.006  gm, Yeast extract 20 gm  (Saccharomyces cerevisiae 4.125x10 CFU, equivalent to 0.12 gm Nitrogen content) Protein hydrolysate (40% Amino acid, 20 gm Nitrogen from Amino acid)"
+  //     "Citric acid monohydrate 60 gm, Phosphoric acid 60 gm, Lactic acid 20 gm, Biotin 0.015 gm, Nicotinamide 1 gm, Calcium chloride 3 gm, Potassium Iodide 0.046 gm, Sodium Selenite 0.788 gm, Zinc chloride 3.2 gm, Ferric chloride 3 gm, Magnesium chloride hexahydrate 2.5 gm, Manganese chloride 6.31 gm, Copper sulphate 0.32 gm, Cobalt sulphate 0.0338 gm, Vitamin B₁ 1 gm, Vitamin B₂ 0.06 gm,  Vitamin B₆ 0.8 gm, Vitamin B₁₂ 0.006  gm, Yeast extract 20 gm  (Saccharomyces cerevisiae 4.125x10 CFU, equivalent to 0.12 gm Nitrogen content) Protein hydrolysate (40% Amino acid, 20 gm Nitrogen from Amino acid)"
   //   ],
   //   indications:
   //     ["Effectively neutralizes mycotoxins, improves immune system, improves vaccination response, reduces mortality, improves feed conversion ratio, improves growth, bodyweight and egg production"],
@@ -684,7 +684,7 @@ const poultry_data = [
     Productname: "/Assets/Product name/Poultry/Nomino.webp",
     composition: [
       "Each Litre contains:",
-      "Vitamin A 5,00,000 IU, Vitamin D3 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B1 1,250 mg, Vitamin B2 500 mg, Vitamin B6 625 mg, Vitamin B12 5,300 mcg, Vitamin K 350 mg, Vitamin H 10,00,000 mcg, Vitamin C 10,000 mg, Niacin 1,400 mg, D-Panthenol 625 mg, Folic Acid precursor 625 mg, L-Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 10,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 4,000 mg, Organic Manganese 10,000 mg, Organic Zinc 10,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
+      "Vitamin A 5,00,000 IU, Vitamin D3 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B1 1,250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg, Vitamin B₁₂ 5,300 mcg, Vitamin K 350 mg, Vitamin H 10,00,000 mcg, Vitamin C 10,000 mg, Niacin 1,400 mg, D-Panthenol 625 mg, Folic Acid precursor 625 mg, L-Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 10,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 4,000 mg, Organic Manganese 10,000 mg, Organic Zinc 10,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
       "Enriched with banana flavour"
     ],
     indications:
@@ -781,7 +781,7 @@ const poultry_data = [
       "Mangifera indica",
       "Andrographis paniculata",
       "Eclipta alba",
-      "Fortified with Vitamin B1, Vitamin B2, Niacin, Vitamin B6, Vitamin B12 and Phytobiotic essential oils."
+      "Fortified with Vitamin B₁, Vitamin B₂, Niacin, Vitamin B₆, Vitamin B₁₂ and Phytobiotic essential oils."
     ],
     indications:
       ["Helps to control non-specific diarrhea.",
@@ -810,7 +810,7 @@ const poultry_data = [
       "Phytochemical extracts derived from:",
       "Andrographis paniculata",
       "Eclipta alba",
-      "Vitamins- B1,B2, Niacin, B6, B12",
+      "Vitamins- B₁,B₂, Niacin, B₆, B₁₂",
       "Probiotics- Saccharomyces boulardii,",
       "Bacillus coagulans, Bacillus clausii,",
       "Lactobacillus rhamnosus GG and Mannan oligosaccharide",
@@ -849,7 +849,7 @@ const poultry_data = [
       "Mangifera indica",
       "Andrographis paniculata",
       "Eclipta alba",
-      "Vitamins- B1,B2, Niacin, B6, B12",
+      "Vitamins- B₁,B₂, Niacin, B₆, B₁₂",
       "Probiotics- Saccharomyces boulardii, Bacillus coagulans, Bacillus clausii, Lactobacillus rhamnosus GG and Mannan oligosaccharide",
       "(Total Probiotic count 2.131 billion cfu per gm)"
     ],
@@ -1305,7 +1305,7 @@ const poultry_data = [
     composition: [
       "Each Kg essential oil contains-",
       "Vitamin A Palmitate 60,00,000 IU",
-      "Vitamin D3 24,00,000 IU",
+      "Vitamin D₃ 24,00,000 IU",
       "Eucalyptus oil (1-8 cineole, Limonene) 85 gm",
       "Holy basil oil (Eugenol, Linalool) 35 gm",
       "Peppermint oil (Menthol, 1-8 cineole) 150 gm",
@@ -1345,7 +1345,7 @@ const poultry_data = [
     Productname: "/Assets/Product name/Poultry/AuroRD DS.webp",
     composition: [
       "Each Kg essential oil contains-",
-      "Vitamin A Palmitate 1,00,00,000 IU, Vitamin D3 40,00,000 IU, Eucalyptus oil (1-8 cineole, Limonene) 125 gm, Holy basil oil (Eugenol, Linalool) 50 gm, Peppermint oil(Menthol, 1-8 cineole) 250 gm, Clove oil (Eugenol) 10 gm, Thyme oil (Thymol) 10 gm, Lemon oil (Linalool, Limonene) 2 gm, Camphor oil (Linalool, 1-8 cineole) 20 gm, Ginger oil (Zingiberene) 5 gm"
+      "Vitamin A Palmitate 1,00,00,000 IU, Vitamin D₃ 40,00,000 IU, Eucalyptus oil (1-8 cineole, Limonene) 125 gm, Holy basil oil (Eugenol, Linalool) 50 gm, Peppermint oil(Menthol, 1-8 cineole) 250 gm, Clove oil (Eugenol) 10 gm, Thyme oil (Thymol) 10 gm, Lemon oil (Linalool, Limonene) 2 gm, Camphor oil (Linalool, 1-8 cineole) 20 gm, Ginger oil (Zingiberene) 5 gm"
     ],
     indications:
       ["Mucolytic, Expectorant, Bronchodilator",
@@ -1361,7 +1361,7 @@ const poultry_data = [
     id: 48,
     name: "Super Anti-oxidant and Immunomodulator",
     description:
-      "Aurovita is a strong anti-oxidant and immuno-modulator enriched with Vitamin E, Selenium, Vitamin A, D3, Grape polyphenol and Biotin. Aurovita provides powerful stress buster, performance enhancer and immuno-stimulant efficacy to improve health and growth even during periods of stress and disease challenges",
+      "Aurovita is a strong anti-oxidant and immuno-modulator enriched with Vitamin E, Selenium, Vitamin A, D₃, Grape polyphenol and Biotin. Aurovita provides powerful stress buster, performance enhancer and immuno-stimulant efficacy to improve health and growth even during periods of stress and disease challenges",
     segment: "Poultry, Swine",
     type: "Powder",
     category: "Immunomodulator , Other Specialty",
@@ -1372,7 +1372,7 @@ const poultry_data = [
       "Aurovita",
       "Each 100 gm contains:",
       "Vitamin E 5,000 IU, Selenium 20 mg Grape polyphenol eq. to 15,000 IU Vitamin E activity",
-      "Vitamin A 10,00,000 IU, Vitamin D 2,00.000 IU, Biotin 60,000 mcg"
+      "Vitamin A 10,00,000 IU, Vitamin D₃ 2,00.000 IU, Biotin 60,000 mcg"
     ],
     indications:
       ["Improves immunity and prevents disease occurrence",
@@ -1425,7 +1425,7 @@ const poultry_data = [
       "1 - 8 cineole 3900 mg",
       "Terpinene 4 - ol 4200 mg",
       "Thymol 6150 mg, Vitamin A 2000000 IU",
-      "Vitamin D3 800000 IU"
+      "Vitamin D₃ 800000 IU"
     ],
     indications:
       ["Prevents and controls Bacterial and Coccidial infections.",
@@ -1479,7 +1479,7 @@ const poultry_data = [
     composition: [
       "Each kg Contains:",
       "Thymol 3500 mg, Terpinene-4-ol 2400 mg, 1,8-Cineole 800 mg, Carvacrol 375 mg, Vitamin A 16,00,000 IU,",
-      "Vitamin D3 3,20,000 IU"
+      "Vitamin D₃ 3,20,000 IU"
     ],
     indications:
       ["Prevents and controls Bacterial and Coccidial infections",
@@ -1509,7 +1509,7 @@ const poultry_data = [
   //     "Soya isoflavones ",
   //     "Salvia officinalis ext. ",
   //     "Vitamin A 1,00,00,000 IU, ",
-  //     "Vitamin D3 20,00,000 IU ",
+  //     "Vitamin D₃ 20,00,000 IU ",
   //     "Cu (as glycinate complex) 600 mg, ",
   //     "Zn (as glycinate complex) 1800 mg, ",
   //     "Mn (as glycinate complex) 1800 mg ",
@@ -1674,7 +1674,7 @@ const poultry_data = [
     Productname: "/Assets/Product name/Poultry/Neuna Premium.webp",
     composition: [
       "Contains high concentration of:",
-      "Vitamin A, D3 and E(coated), Nicotinamide and Vitamin C, Copper, Manganese, Iron and Zinc(MHA), Organic Chromium, Selenium, Magnesium and Iodine",
+      "Vitamin A, D₃ and E(coated), Nicotinamide and Vitamin C, Copper, Manganese, Iron and Zinc(MHA), Organic Chromium, Selenium, Magnesium and Iodine",
       "Esterified Butyrate, Phytase, Beta glucan and Mannon oligosaccharide, Bacillus subtilis, Bacillus licheniformis, Lactobacillus sporogenes, Saccharomyces cerevisiae, Energy booster complex, Pyto - bio CalphosTM and Grape polyphenols ext."
     ],
     indications:
@@ -1702,7 +1702,7 @@ const poultry_data = [
     Productname: "/Assets/Product name/Poultry/Olbac.webp",
     composition: [
       "Each 100 gm of Essential oil contains:",
-      "Thymol 7900 mg, Terpinene-4-ol 5400 mg, 1,8-Cineole 1800 mg, Carvacrol 850 mg, Vitamin A 40,00,000 IU, Vitamin D3 16,00,000 IU."
+      "Thymol 7900 mg, Terpinene-4-ol 5400 mg, 1,8-Cineole 1800 mg, Carvacrol 850 mg, Vitamin A 40,00,000 IU, Vitamin D₃ 16,00,000 IU."
     ],
     indications:
       ["Prevents and controls Bacterial and Coccidial infections.",
@@ -1733,7 +1733,7 @@ const poultry_data = [
     composition: [
       "Each gm contains:",
       "Butaphosphan INN 100 mg",
-      "Vitamin B12 50 mg"
+      "Vitamin B₁₂ 50 mg"
     ],
     indications:
       ["Increases Meat, Milk & Egg Production",
@@ -1810,21 +1810,22 @@ const poultry_data = [
     segment: "Poultry, Swine",
     type: "Powder, Liquid",
     category: "Enzyme, Other Specialty",
-    packaging: "500 gm 1 kg 5 kg 500 ml 1 Ltr",
+    packaging: "500 gm, 1 kg, 5 kg and 500 ml, 1 Ltr",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Unilyz Penta.webp",
     Productname: "/Assets/Product name/Poultry/Unilyz Penta.webp",
     composition: [
       "Each gm contains:",
       "Microbial Lysozyme 3, 50,000 units",
       "Vitamin A 25000 IU",
-      "Vitamin D3 5,000 IU", 
+      "Vitamin D₃ 5,000 IU", 
       "Vitamin E 40 IU",
       "Selenium 200 mcg",
       "Vitamin C 80 mg",
+      "-",
       "Each ml contains:",
       "Microbial Lysozyme 3, 50,000 units",
       "Vitamin A 25000 IU",
-      "Vitamin D, 5,000 IU",
+      "Vitamin D₃ 5,000 IU",
       "Vitamin E 40 IU",
       "Selenium 200 mcg",
       "Vitamin C 80 mg"

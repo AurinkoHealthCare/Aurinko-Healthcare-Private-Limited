@@ -489,7 +489,7 @@ const human_data = [
     composition: [
       "Serving Size : 1 Capsule",
       "Servings Per Container :30, 60 and 90 servings",
-      "Asparagus racemosus root extract..............400 mg (1000 mg %Daily value)",
+      "Asparagus racemosus root extract..............400 mg (1000 mg % Daily value)",
       "Saponins.............. 80 mg",
       "Daily Value not established ",
       "For fied with Piperine"
@@ -792,15 +792,15 @@ const human_data = [
     composition: [
       "Serving Size : 1 Capsule",
       "Servings Per Container : 30, 60 and 90 servings",
-      "Bilberry extract....... 275 mg (600 mg %Daily value)",
+      "Bilberry extract....... 275 mg (600 mg % Daily value)",
       "Thiamine..........1.15 mg (2.3 mg %Daily value)",
-      "Vitamin C.......50 mg (100 mg %Daily value)",
+      "Vitamin C.......50 mg (100 mg % Daily value)",
       "Copper.......1 mg (2 mg %Daily value)",
       "Zinc.......8.5 mg (17 mg %Daily value)",
-      "Retinyl Acetate.......300 mcg (1000 mcg %Daily value)",
+      "Retinyl Acetate.......300 mcg (1000 mcg % Daily value)",
       "Lutein - Zeaxanthin Nanophosphosome®.......30 mg containing",
       "Lutein.......2.65 mg",
-      "Zeaxanthin.......0.53 mg (4 mg %Daily value)",
+      "Zeaxanthin.......0.53 mg (4 mg % Daily value)",
       "Daily Value not established",
       "For fied with Piperine"
     ],
@@ -1005,7 +1005,7 @@ const human_data = [
     id: 32,
     name: "Auringa Extract",
     description:
-      "Auringa is a powerful blend of Moringa oleifera extract to support immune system. Moringa oleifera extract consists of Vitamin C and an oxidants which are helpful to scavenge harmful free radicals in the body. It contains Magnesium, Potassium, Calcium, Phosphorus, Zinc, Iron, Vitamin A, Thiamine, Riboflavin, Niacin, Vitamin B6, Folate and amino 6 acids which not only fulfils body’s nutri onal requirement but also promotes be er growth and development.",
+      "Auringa is a powerful blend of Moringa oleifera extract to support immune system. Moringa oleifera extract consists of Vitamin C and an oxidants which are helpful to scavenge harmful free radicals in the body. It contains Magnesium, Potassium, Calcium, Phosphorus, Zinc, Iron, Vitamin A, Thiamine, Riboflavin, Niacin, Vitamin B₆, Folate and amino 6 acids which not only fulfils body’s nutri onal requirement but also promotes be er growth and development.",
     segment: "Human OTC",
     type: "Capsule",
     category: "Immunomodulator,Other Specialty",
@@ -1088,9 +1088,9 @@ const human_data = [
   },
   {
     id: 35,
-    name: "5 Phyto-essentials with Extra Power of Vitamin D3 and Natural Milk Ingredients",
+    name: "5 Phyto-essentials with Extra Power of Vitamin D₃ and Natural Milk Ingredients",
     description:
-      "Aurinko® Golden Milk Latte is an unique blend of powerful extracts of Curcumin, Ginger, Cinnamon, Piper Nigrum, Turmerone essential oil fortified with Vitamin D3 and natural milk ingredients. These Phytoactives enhances the value of milk and turns it a super health drink. Aurinko® Golden Milk Latte has been developed after extensive research by Phytoscientists and taste testers of Aurinko Healthcare.",
+      "Aurinko® Golden Milk Latte is an unique blend of powerful extracts of Curcumin, Ginger, Cinnamon, Piper Nigrum, Turmerone essential oil fortified with Vitamin D₃ and natural milk ingredients. These Phytoactives enhances the value of milk and turns it a super health drink. Aurinko® Golden Milk Latte has been developed after extensive research by Phytoscientists and taste testers of Aurinko Healthcare.",
     segment: "Human OTC",
     type: "Powder",
     category: "Immunomodulator, Other Specialty",
@@ -1103,7 +1103,7 @@ const human_data = [
       "Cinnamaldehyde 40 mg,",
       "Lactose 250 mg,",
       "Casein 160 mg",
-      "Fortified with Piperine, Turmerone & Vitamin D3"
+      "Fortified with Piperine, Turmerone & Vitamin D₃"
     ],
     indications:
       ["Prepares a fortified Super Health Drink Acts as rejuvenator and stress reliever. Strengthens body immunity and stabilizes cellular integrity. Enriched with antioxidants and immunity boosters."],
@@ -1115,9 +1115,9 @@ const human_data = [
   },
   {
     id: 36,
-    name: "5 Phyto-essentials with Extra Power of Vitamin D3 and Natural Milk Ingredients",
+    name: "5 Phyto-essentials with Extra Power of Vitamin D₃ and Natural Milk Ingredients",
     description:
-      "Golden Milk Latte Plus is a unique blend of powerful extracts of Curcumin, Ginger, Cinnamon for fied with Piper Nigrum, Turmerone essen al oil for fied with Vitamin D3 and 5 gut ac ng probio cs. These Phyto ac ves enhances the value of milk and turns it a super health drink. Golden Milk Latte has been developed a er extensive research by Phyto scien sts and taste testers of Aurinko Healthcare.",
+      "Golden Milk Latte Plus is a unique blend of powerful extracts of Curcumin, Ginger, Cinnamon for fied with Piper Nigrum, Turmerone essen al oil for fied with Vitamin D₃ and 5 gut ac ng probio cs. These Phyto ac ves enhances the value of milk and turns it a super health drink. Golden Milk Latte has been developed a er extensive research by Phyto scien sts and taste testers of Aurinko Healthcare.",
     segment: "Human OTC",
     type: "Powder",
     category: "Immunomodulator, Other Specialty",

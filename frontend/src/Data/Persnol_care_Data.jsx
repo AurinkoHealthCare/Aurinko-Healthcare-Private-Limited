@@ -125,7 +125,7 @@ const Persnol_care_Data = [
       "α - cedrol, Anethole, Caffeic acid, patchoulol",
       "Essential fatty acids -",
       "Omega - 6 - fatty acids, Linoleic acid, Oleic acid",
-      "With Vitamin E, Vitamin C, Vitamin B5, Biotin, Shea Butter, Cyclomethicone, Cetromonium Chloride and added preservatives."
+      "With Vitamin E, Vitamin C, Vitamin B₅, Biotin, Shea Butter, Cyclomethicone, Cetromonium Chloride and added preservatives."
     ],
     indications:
       ["Dryness of scalp Controls Dandruff. Reduces Premature Graying of Hair. Reduces Hair Fall & Improves Hair Follicular Growth."],
