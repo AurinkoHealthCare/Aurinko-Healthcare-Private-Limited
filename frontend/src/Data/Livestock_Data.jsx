@@ -12,7 +12,8 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Auriplanta.webp",
     composition: [
       "Each 100 ml contains",
-      "phytochemical extracts of: Achyranthes aspera 12000 mg, Adhatoda vasica nees 9000 mg, Costus speciosus 5000 mg, Crotalaria retusa 6000 mg, Cyperus rotundus 10,000 mg, Gloriosa superba 5000 mg, Peganum harmala 3000 mg, Plumbago zeylanica 2500 mg, Copper sulphate 320 mg, Ferrous sulphate 640 mg, Cobalt sulphate 20 mg, Vitamin E 500 IU, Sodium selenite 500 mcg"
+      "Phytochemical extracts derived from: ",
+      "Achyranthes aspera 12000 mg, Adhatoda vasica nees 9000 mg, Costus speciosus 5000 mg, Crotalaria retusa 6000 mg, Cyperus rotundus 10,000 mg, Gloriosa superba 5000 mg, Peganum harmala 3000 mg, Plumbago zeylanica 2500 mg, Copper sulphate 320 mg, Ferrous sulphate 640 mg, Cobalt sulphate 20 mg, Vitamin E 500 IU, Sodium selenite 500 mcg"
     ],
     indications:
       [
@@ -435,7 +436,8 @@ const livestock_data = [
     Productimg: "/Assets/Product images/Veterinary/Livestock/Partum 11.webp",
     Productname: "/Assets/Product name/Livestock/Partum 11.webp",
     composition: [
-      "Each 100 ml contains phytochemical extracts of:",
+      "Each 100 ml contains ",
+      "phytochemical extracts derived from:",
       "Saraca indica linn 5 gm, Clerodendrum phlomidis 5 gm, Stereospermum suaveolens 5 gm, Desmodium gangeticum 5 gm, Uraria picta 5 gm, Aegle marmelos 5 gm, Solanum indicum 5 gm, Solanum xanthocarpum 5 gm, Gmelina arborea 5 gm, Tribulus terrestris 5 gm,",
       "Aloe barbadensis 2 gm",
       "Enriched with-",
@@ -618,7 +620,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Omega Concept.webp",
     composition: [
       "Each 5 ml contains:",
-      "Phytochemical extracts of Vitex agnus castus berry, Lepidium meyenii, Salvia officinalis",
+      "Phytochemical extracts derived from Vitex agnus castus berry, Lepidium meyenii, Salvia officinalis",
       "Omega 3 fatty acids 125 mg, Omega 6 fatty acids 500 mg, Vitamin A 12000 IU, Vitamin E 500 IU, Copper 50 mg, Zinc 25 mg,",
       "Manganese 25 mg, Potassium iodide 1.5 mg, Folic acid 16 mg, Selenium 67.5 mcg, Fortified with tocopherols from natural origin",
       "Enriched with- Fertility enhancer Herbs, 3 & 6 Omega Fatty acids, Essential Vitamins & Minerals"
@@ -733,35 +735,35 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 24,
-  //   name: "Supports Immunity and Liver Health",
-  //   description:
-  //     "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
-  //   segment: "Livestock",
-  //   type: "Liquid",
-  //   category: "Immunomodulator , Liver Stimulant , Other Specialty",
-  //   packaging: "100 ml 250 ml 1 Ltr",
-  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
-  //   Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
-  //   composition: [
-  //     "Each 100 ml contains:",
-  //     "Andrographis paniculata extract with Andrographoloids 900 mg",
-  //     "Tinospora cordifolia 300mg",
-  //     "Fortified with Bioenhancer",
-  //     "Technology"
-  //   ],
-  //   indications:
-  //     ["Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
-  //       "Helps to rejuvenate liver cells",
-  //       "Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
-  //     ],
-  //   usage:
-  //     ["Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days. Sheep/Goat: 3 ml/25 kg body weight for 5-7 days. For regular supplementation, 1/4 of dose is recommended."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 24,
+    name: "Supports Immunity and Liver Health",
+    description:
+      "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
+    segment: "Livestock",
+    type: "Liquid",
+    category: "Immunomodulator , Liver Stimulant , Other Specialty",
+    packaging: "100 ml 250 ml 1 Ltr",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
+    Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
+    composition: [
+      "Each 100 ml contains:",
+      "Andrographis paniculata extract with Andrographoloids 900 mg",
+      "Tinospora cordifolia 300mg",
+      "Fortified with Bioenhancer",
+      "Technology"
+    ],
+    indications:
+      ["Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
+        "Helps to rejuvenate liver cells",
+        "Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
+      ],
+    usage:
+      ["Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days. Sheep/Goat: 3 ml/25 kg body weight for 5-7 days. For regular supplementation, 1/4 of dose is recommended."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 25,
     name: "Maggoticidal Topical Wound Healer 100% Actives No Gas",
@@ -900,7 +902,8 @@ const livestock_data = [
     Productimg: "/Assets/Product images/Veterinary/Livestock/Aurimet.webp",
     Productname: "/Assets/Product name/Livestock/Aurimet.webp",
     composition: [
-      "Each 100 ml contains phytochemical extracts of:",
+      "Each 100 ml contains",
+      "Phytochemical extracts derived from",
       "Saraca indica linn 25000 mg",
       "Tribulus terrestris 6250 gm",
       "Pedalium murex 6000 mg",
@@ -956,34 +959,35 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 31,
-  //   name: "Kidney Tonic, Rejuvenator and Protectant",
-  //   description:
-  //     "Aurinal is an advanced kidney tonic rejuvenator with phyto-chemical extracts, Vitamins and minerals to support Kidney Health and reduces the risk of Kidney disorders.",
-  //   segment: "Livestock",
-  //   type: "Liquid",
-  //   category: "Kidney Tonic Rejuvenator, Other Specialty",
-  //   packaging: "500 ml, 1 Ltr, 2 Ltr and 5 Ltr.",
-  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurinal.webp",
-  //   Productname: "/Assets/Product name/Livestock/Aurinal.webp",
-  //   composition: [
-  //     "Each 200 ml contains phytochemical extracts of:",
-  //     "Mentha piperita 1.16 gm, Coriandrum sativum 3 gm, Boerhavia diffusa 3 gm, Tinospora cordifolia 2 gm, Ocimum basilicum 3 gm, Tribulus terrestris 3 gm, Cyperus rotundus 2 gm, Ficus religiosa 2.9 gm, Trigonella foenum-graecum 2.9 gm, Moringa olifera 3 gm, Vitamin D₃ 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
-  //   ],
-  //   indications:
-  //     [
-  //       "Reduces risk of kidney stones formation (Urolithiasis) & deposition. Reduces kidney failure risk and nephrotoxicity.",
-  //       "Improves FCR and reduces mortality.",
-  //       "Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
-  //     ],
-  //   usage:
-  //     ["Cow/Buffalo: 200 ml twice daily for 7 to 10 days.",
-  //       "Sheep/Goat: 30 ml twice daily for 7 to 10 days."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 31,
+    name: "Kidney Tonic, Rejuvenator and Protectant",
+    description:
+      "Aurinal is an advanced kidney tonic rejuvenator with phyto-chemical extracts, Vitamins and minerals to support Kidney Health and reduces the risk of Kidney disorders.",
+    segment: "Livestock",
+    type: "Liquid",
+    category: "Kidney Tonic Rejuvenator, Other Specialty",
+    packaging: "500 ml, 1 Ltr, 2 Ltr and 5 Ltr.",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/aurinal.webp",
+    Productname: "/Assets/Product name/Livestock/Aurinal.webp",
+    composition: [
+      "Each 200 ml contains",
+      "Phytochemical extracts derived from",
+      "Mentha piperita 1.16 gm, Coriandrum sativum 3 gm, Boerhavia diffusa 3 gm, Tinospora cordifolia 2 gm, Ocimum basilicum 3 gm, Tribulus terrestris 3 gm, Cyperus rotundus 2 gm, Ficus religiosa 2.9 gm, Trigonella foenum-graecum 2.9 gm, Moringa olifera 3 gm, Vitamin D₃ 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
+    ],
+    indications:
+      [
+        "Reduces risk of kidney stones formation (Urolithiasis) & deposition. Reduces kidney failure risk and nephrotoxicity.",
+        "Improves FCR and reduces mortality.",
+        "Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
+      ],
+    usage:
+      ["Cow/Buffalo: 200 ml twice daily for 7 to 10 days.",
+        "Sheep/Goat: 30 ml twice daily for 7 to 10 days."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 32,
     name: "Powerful Phosphorus Bolus Supplement",
@@ -1344,7 +1348,7 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Digerum.webp",
     composition: [
       "Each gm contains",
-      "phytochemical extracts of-",
+      "Phytochemical extracts derived from",
       "Trachyspermum ammi linn ext. 60 mg",
       "Ginger ext. 50 mg",
       "Andrographis paniculata ext. 60 mg",
@@ -1766,17 +1770,21 @@ const livestock_data = [
     Productname: "/Assets/Product name/Livestock/Metriwin.webp",
     composition: [
       "Each 80 gm contains:",
-      "Garlic extract 20 gm, Azadirachta indica extract 20 gm,",
-      "Curcuminoids 495 mg, Bitter flavonoids from Tinospora cordifolia 50 mg, Thymol 260 mg, Terpinine 4-ol 180 mg, 1,8 Cineole 160 mg",
-      "*Fortified with Piperine and Cuminum cyminum"
+      "Phytochemical extracts derived from:",
+      "Allium sativum 80 gm, Azadirachta indica 200 gm, Tinospora cordifolia 5000 mg, Phytoactive principles of Curcuminoids, Thymol, Terpinine 4 ol, 1,8 Cineole, Microbial Lysozyme 2,50,000 units, Phospholipase 1,000 units Fortified with Piperine and Cuminum cyminum."
     ],
     indications:
-      ["Enhances body immunity and reduces the chance of uterine infection",
-        "Improves disease recovery period",
-        "Supportive therapy in cases of metritis"
+      [
+        "Enhances body immunity and reduces the chance of uterine infection.",
+        "As an adjunct therapy with antibiotics in clinical metritis.",
+        "Improves the efficacy of antibiotics and reduces therapeutic failure.",
+        "Hastens the process of recovery and reduces the chance of relapse."
       ],
     usage:
-      ["For Cow, Buffalo, Mare & Camel Cow, (Each 100Kg Bwt) During periparturient period as immunomodulator- 20 gm daily for 10-15 days During exposure to metritis as supportive therapy- 20 gm twice daily for 5-7 days"],
+      [
+        " For Cow, Buffalo, Mare & Camel CowDuring periparturient period as immunomodulator- 20 gm/100 kg bwt daily for 10-15 days",
+        "During exposure to metritis as supportive therapy- 20 gm/100 kg bwt twice daily for 5-7 days"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -2105,40 +2113,38 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 70,
-  //   name: "An Innovative Metabolic Activator for Weight Gain",
-  //   description:
-  //     "Aurigain Bolus is unique blend of phytochemical extracts, probiotics, amino acid and growth enzymes that enhance growth and weight gain in cattle.",
-  //   segment: "Livestock",
-  //   type: "Bolus",
-  //   category: "Growth Promoter, Other Specialty",
-  //   packaging: "10X2 Bolus",
-  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Aurigain Bolus.webp",
-  //   Productname: "/Assets/Product name/Livestock/Aurigain bolus.webp",
-  //   composition: [
-  //     "Each Bolus contains:",
-  //     "Phytochemical extract derived from Leptadenia reticulata 30 gm, Asparagus recemosus 6 gm, Trigonella foenum 7gm ",
-  //     "Andrographis paniculata 3 gm",
-  //     "Phyllanthus niruri 2.5 gm, Eclipta alba 3 gm, Boerhavia diffusa 1 gm",
-  //     "Saccharomyces cerevisiae 25000 million cfu, Bacillus licheniformis 36000 million cfu, Bacillus subtilis 50000 million cfu, Aspergillus oryzae 250 million cfu, DL Methionine 1 gm, Niacin 500 mg, MOS 1000 mg,Biotin (Pure) 20 mg, Cobalt sulphate 20 mg",
-  //     "Enriched with Phytase enzyme"
-  //   ],
-  //   indications:
-  //     [
-  //       "Initiates faster growth in growing calf and heifer to achieve higher and early weight gain.",
-  //       "Helps in fattening of weak animals.",
-  //       "Improves milk quality and production."
-  //     ],
-  //   usage:
-  //     [
-  //       "Cow & Buffalo: 1 bolus B.I.D for 30 to 60 days.",
-  //       "Calf/Heifer/Goat1/2 bolus daily for 60 days."
-  //     ],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 70,
+    name: "An Innovative Metabolic Activator for Weight Gain",
+    description:
+      "Aurigain Bolus is unique blend of phytochemical extracts, probiotics, amino acid and growth enzymes that enhance growth and weight gain in cattle.",
+    segment: "Livestock",
+    type: "Bolus",
+    category: "Growth Promoter, Other Specialty",
+    packaging: "10X2 Bolus",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurigain Bolus.webp",
+    Productname: "/Assets/Product name/Livestock/Aurigain bolus.webp",
+    composition: [
+      "Each Bolus contains:",
+      "Phytochemical extract derived from ",
+      "Leptadenia reticulata 30 gm, Asparagus recemosus 6 gm, Trigonella foenum 7gm ,Andrographis paniculata 3 gm, Phyllanthus niruri 2.5 gm, Eclipta alba 3 gm, Boerhavia diffusa 1 gm, Saccharomyces cerevisiae 25000 million cfu, Bacillus licheniformis 36000 million cfu, Bacillus subtilis 50000 million cfu, Aspergillus oryzae 250 million cfu, DL Methionine 1 gm, Niacin 500 mg, MOS 1000 mg, Biotin 20 mg, Cobalt sulphate 20 mg",
+      "Enriched with Phytase enzyme"
+    ],
+    indications:
+      [
+        "Initiates faster growth in growing calf and heifer to achieve higher and early weight gain.",
+        "Helps in fattening of weak animals.",
+        "Improves milk quality and production. "
+      ],
+    usage:
+      [
+        "Cow & Buffalo: 1 bolus B.I.D for 30 to 60 days.",
+        "Calf/Heifer/Goat 1/2 bolus daily for 60 days."
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
 ];
 
 export default livestock_data;

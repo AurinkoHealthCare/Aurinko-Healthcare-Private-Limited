@@ -46,7 +46,6 @@ export const block8Data = [
   {
     id: 1,
     image: "/Assets/Product images/Human/Health Supplements/auribery plus c.webp",
-    hoverImage: "/Assets/banner/Add banner/Auritrol.webp",
     title: "Auribery plus",
     segment: "Health Supplements",
     rating: 4.5,
@@ -54,7 +53,6 @@ export const block8Data = [
   {
     id: 2,
     image: "/Assets/Product images/Human/Health Supplements/Auricur Plus.webp",
-    hoverImage: "/Assets/banner/Add banner/Auricur Plus.webp",
     title: "Auricur Plus",
     segment: "Health Supplements",
     rating: 4.5,
@@ -62,23 +60,20 @@ export const block8Data = [
   {
     id: 3,
     image: "/Assets/Product images/Human/Health Supplements/Reintoni c.webp",
-    hoverImage: "/Assets/banner/Add banner/Aurijoint.webp",
     title: "Reintoni",
     segment: "Health Supplements",
     rating: 4.0,
   },
   {
     id: 4,
-    image: "/Assets/Product images/Human/Health Supplements/Moringa oleifera.webp",
-    hoverImage: "/Assets/banner/Add banner/Aurisom.webp",
-    title: "Moringa oleifera",
+    image: "/Assets/Product images/Human/Health Supplements/Shilajit.webp",
+    title: "Wellness Honey enriched with Shilajit",
     segment: "Health Supplements",
     rating: 4.0,
   },
   {
     id: 5,
     image: "/Assets/Product images/Human/Health Supplements/Quadrical.webp",
-    hoverImage: "/Assets/banner/Add banner/Quadrical.webp",
     title: "Quadrical",
     segment: "Health Supplements",
     rating: 4.5,
