@@ -1,5 +1,5 @@
 const aqua_data = [
-    {
+  {
     id: 1,
     name: "Advanced Mineral Zeolite with Unique Probiotics",
     description:
@@ -41,18 +41,8 @@ const aqua_data = [
     Productimg: "/Assets/Product images/Veterinary/Aqua/Pondlite pro Ds.webp",
     Productname: "/Assets/Product name/Aqua/Pondlite Pro DS.webp",
     composition: [
-      "Each kg contains",
-      "Bacillus subtilis",
-      "Paenibacillus polymyxa",
-      "Bacillus licheniformis",
-      "Nitrosomonas SPP",
-      "Nitrobacter SPP",
-      "Rhodococcus SPP",
-      "Rhodobacter SPP",
-      "Aluminium oxide 5-10%",
-      "Ferrous oxide (Iron) 2-3%",
-      "Calcium oxide 2-4%",
-      "Silicon dioxide 70-80%",
+      "Each kg contains , Bacillus subtilis , Paenibacillus polymyxa , Bacillus licheniformis , Nitrosomonas SPP , Nitrobacter SPP , Rhodococcus SPP , Rhodobacter SPP , Aluminium oxide 5-10% , Ferrous oxide (Iron) 2-3%",
+      "Calcium oxide 2-4% , Silicon dioxide 70-80%",
       "(Total probiotic count is 120 billion CFU per Kg)"
     ],
     indications:
@@ -81,15 +71,13 @@ const aqua_data = [
     Productname: "/Assets/Product name/Aqua/Pondlte pro Power.webp",
     composition: [
       "Each kg contains:",
-      "Silicon dioxide 70 % -80 %",
-      "Aluminium oxide 5 % -10 %",
-      "Ferrous oxide 2 % -3 %, Xylanase 22500 unit, Acid Protease 1250 unit, Cellulase 15000 unit, Pectinase 5000 unit, Beta glucanase 1250 unit, Alpha Amylase 1000 unit, Bacillus subtilis, Bacillus licheniformis, Bacillus megaterium, Paenibacillus polymyxa",
+      "Silicon dioxide 70 % -80 %, Aluminium oxide 5 % -10 %, Ferrous oxide 2 % -3 %, Xylanase 22500 unit, Acid Protease 1250 unit, Cellulase 15000 unit, Pectinase 5000 unit, Beta glucanase 1250 unit, Alpha Amylase 1000 unit, Bacillus subtilis, Bacillus licheniformis, Bacillus megaterium, Paenibacillus polymyxa",
       "(Total Probiotic count is 1000 billion CFU per Kg)"
     ],
     indications:
       [
         "Turbidity remover Improves nutrients absorption.",
-        "Drive faster fish growth rates",
+        "Drive faster fish growth rates.",
         "Toxin binder",
         "Water quality stabilizer Aquaculture growth and disease resistance"
       ],
@@ -129,9 +117,9 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
- {
+  {
     id: 5,
-    name: "Advanced Plankton Growth Controller",
+    name: "Advanced Plankton Growth Booster",
     description:
       "Plankto Grow is a fortified combination of Rhodococcus spp, Rhodobacter spp, Bacillus spp, Paenibacillus spp, Nitrifying and Denitrifying bacteria stabilized in liquid form to provide better ecological balance and superior health conditions for aquaculture farming. It helps in reducing pathogenic microbes, controls the sludge build up, removes malodour and improves water quality to stabilize the algal bloom and grow zooplankton. Plankto Grow is a double strength formulation fortified with Active Growth Medium.",
     segment: "Aqua",
@@ -152,10 +140,10 @@ const aqua_data = [
     ],
     indications:
       [
-        "Zooplankton enhancement Sludge and malodour reduction",
-        "Better protein breakdown and absorption",
-        "Inhibiting the growth of pathogenic bacteria",
-        "Complete water quality improvement and stabilizing algal growth"
+        "Zooplankton enhancement, Sludge and malodour reduction,",
+        "Better protein breakdown and absorption,",
+        "Inhibiting the growth of pathogenic bacteria,",
+        "Complete water quality, improvement and stabilizing algal growth"
       ],
     usage:
       ["500 ml-2 liter/ Acre."],
@@ -176,11 +164,11 @@ const aqua_data = [
     Productname: "/Assets/Product name/Aqua/Plankto Grow Gel.webp",
     composition: [
       "Each Pack Contains :",
-      "Sargassum wightii",
+      "Sargassum wightii,",
       "Ulva lactuca",
       "Enriched with-",
-      "Bacillus licheniformis",
-      "Paenibacillus polymyxa",
+      "Bacillus licheniformis,",
+      "Paenibacillus polymyxa,",
       "Bacillus megaterium",
       "(Total probiotics count 50 million cfu per gm)"
     ],
@@ -192,7 +180,7 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
- {
+  {
     id: 7,
     name: "Yucca schidigera extract",
     description:
@@ -212,7 +200,13 @@ const aqua_data = [
         "For management of ammonia in pond water."
       ],
     usage:
-      ["Mix 1 Litre with 100 litres of pond water and splash around the pond. High level of ammonia in pond: 500 ml/Acre Moderate level of ammonia in pond: 350 ml/Acre Prevention of ammonia and management of pond: 150-200 ml/Acre, use in every 15 days. Or as Recommended 0by Qualified Aquaculture Practitioner only."],
+      [
+        "Mix 1 Litre with 100 litres of pond water and splash around the pond.",
+        "High level of ammonia in pond: 500 ml/Acre",
+        "Moderate level of ammonia in pond: 350 ml/Acre",
+        "Prevention of ammonia and management of pond: 150-200 ml/Acre, use in every 15 days.",
+        "Or as Recommended 0by Qualified Aquaculture Practitioner only."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -230,8 +224,8 @@ const aqua_data = [
     Productname: "/Assets/Product name/Aqua/Yuschi Pro Plus.webp",
     composition: [
       "Each Kg Contains:",
-      "Yucca schidigera 30 % extract 100 gm, Bacillus subtilis, Bacillus licheniformis, Bacillus polymyxa, Bacillus megaterium, Bacillus coagulans",
-      "SiO₂……25 %, Al₂O₃……4 %, CaO……1 %, Na₂O……0.025 %, MgO……0.5 %, Fe₂O₃……0.5 %, K₂O……0.5 %",
+      "Yucca schidigera 30 % extract 100 gm, Bacillus subtilis, Bacillus licheniformis, Bacillus polymyxa, Bacillus megaterium, Bacillus coagulans,",
+      "SiO₂ 25%, Al₂O₃ 4%, CaO 1%, Na₂O 0.025%, MgO 0.5%, Fe₂O₃ 0.5%, K₂O 0.5%",
       "Enriched with Xylanase, Protease, Cellulase, Lipase, Beta glucanase, Alpha amylase enzymes.",
       "(Total Probiotic Count NLT 8000 Billion CFU)"
     ],
@@ -239,7 +233,8 @@ const aqua_data = [
       [
         "For management of ammonia, sludge, oxygen and toxicity in pond water.",
         "Reconditioning of aqua pond and improve water quality.",
-        "Reduces pathogen levels in pond. Improves growth rate, survival rate and productivity.",
+        "Reduces pathogen levels in pond.",
+        "Improves growth rate, survival rate and productivity.",
         "Controls development of harmful microorganism for shrimp/fish."
       ],
     usage:
@@ -288,7 +283,7 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-{
+  {
     id: 10,
     name: "Oxygen Management Solution",
     description:
@@ -335,10 +330,7 @@ const aqua_data = [
       "Calcium peroxide..............230 gm",
       "Ferrous glycinate.............75 gm",
       "Copper glycinate..............25 gm",
-      "Bacillus subtilis ",
-      "Bacillus megatarium",
-      "Bacillus licheniformis",
-      "Paenibacillus polymyxa",
+      "Bacillus subtilis , Bacillus megatarium , Bacillus  , Paenibacillus polymyxa",
       "(Total probiotic count is 30 billion CFU)"
     ],
     indications:
@@ -353,7 +345,7 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-{
+  {
     id: 12,
     name: "Corrects Nitrite Levels and Promotes Aqua Health",
     description:
@@ -375,7 +367,7 @@ const aqua_data = [
     indications:
       [
         "Reduces toxic nitrite and nitrate concentration to support loss of valuable fish",
-        "Sludge and malodour reduction",
+        "Sludge and malodour reduction,",
         "Improves water quality for good aquaculture health"
       ],
     usage:
@@ -478,7 +470,7 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-{
+  {
     id: 16,
     name: "Super Nutrition for Aqua",
     description:
@@ -533,15 +525,17 @@ const aqua_data = [
         "Acute and chronic liver disorders due to constant exposure to Antibiotics, Chemicals, Pollutants & Toxic agents. Accelerates growth in aqua crop. Improves FCR and egg production, Increases growth in chicks,"
       ],
     usage:
-      ["Livestock: Through oral route Animals- Sheep/ Goat- 10-15 ml B.I.D. for 5-7 days",
+      [
+        "Livestock: Through oral route Animals- Sheep/ Goat- 10-15 ml B.I.D. for 5-7 days",
         "Calves/ Foals- 15- 20 ml B.I.D. for 5-7 days",
         "Cow/ Buffalo/ Horse- 50 ml B.I.D. for 5-7 days",
         "Aqua: 200 ml to 500 ml per day/per ton of Aqua crop for 5 to 7 days.",
-        "Poultry: Birds- Broiler up to 2 week- 5 ml daily per 100 birds 3rd and 4th week- 10 ml daily per 100 birds 5th week onwards- 15 ml daily per 100 birds Chicks- 5 ml daily per 100 birds Growers- 10 ml daily per 100 birds Layers- 15 ml daily per 100 birds Breeders- 20 ml daily per 100 birds. Swine: Swine 15-20 ml BID for 5-7 days"],
+        "Poultry: Birds- Broiler up to 2 week- 5 ml daily per 100 birds 3rd and 4th week- 10 ml daily per 100 birds 5th week onwards- 15 ml daily per 100 birds Chicks- 5 ml daily per 100 birds Growers- 10 ml daily per 100 birds Layers- 15 ml daily per 100 birds Breeders- 20 ml daily per 100 birds. Swine: Swine 15-20 ml BID for 5-7 days"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
-  },  
+  },
   {
     id: 18,
     name: "Unique Probiotic Blend For Nitrification of Ammonia and Nitrite",
@@ -574,61 +568,61 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 19,
-  //   name: "Potent Aqua Immunomodulator",
-  //   description:
-  //     "Aquasyn is unique immunomodulator enriched with potentiated probiotics and algal extract. Highly effective for mortality prevention programme during WSSV, Vibriosis and other infections outbreak in shrimp and fish.",
-  //   segment: "Aqua",
-  //   type: "Powder",
-  //   category: "Immunomodulator , Other Specialty",
-  //   packaging: "1 Kg Pack",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Aquasyn.webp",
-  //   Productname: "/Assets/Product name/Aqua/Aqua Syn.webp",
-  //   composition: [
-  //     "Each kg contains:",
-  //     "Lactobacillus plantarum, Bacillus amyloliquefaciens, Sargassum spp.Extract, Beta Glucan Mannan Oligosaccharide, Vitamin E, Grape Polyphenol, Ascorbic Acid",
-  //     "(Total probiotic count is 22,000 billion CFU per kg)"
-  //   ],
-  //   indications:
-  //     [
-  //       "Immuno-stimulation and better survivability against WSSV, Vibriosis and other infections in shrimp and fish",
-  //       "Growth promoter in fish"
-  //     ],
-  //   usage:
-  //     ["400 gm per 100 Kg of feed for Mortality Prevention Programme 40 gms per 100 Kg of feed as regular supplementation for immune stimulation and growth promotion"],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
-  // {
-  //   id: 20,
-  //   name: "Nano Technology Based and Specific Ig Y Enriched Immunomodulator for Vibriosis",
-  //   description:
-  //     "A nano technology based and specific lgY enriched formulation, fortified with Silver nano particles and potent immuno-stimulants. Enhances cell-mediated and antibody-mediated immunity to improve disease resistance and survivability against fatal shrimp diseases like Vibriosis etc. Highly effective against White Feces Syndrome, White Gut Disease, White Muscle Disease, stunted growth and Loose Shell Syndrome.",
-  //   segment: "Aqua",
-  //   type: "Powder",
-  //   category: "Immunomodulator , Other Specialty",
-  //   packaging: "1 Kg Pack",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Aquasyn Plus.webp",
-  //   Productname: "/Assets/Product name/Aqua/Aquasyn Plus.webp",
-  //   composition: [
-  //     "Each kg Contains:",
-  //     "Specific Ig Y antibodies for Vibriosis",
-  //     "Nano particles, Phytochemicals and Polyphenols, Beta Glucan, Mannan Oligosaccharide",
-  //     "Nano technology based delivery system"
-  //   ],
-  //   indications:
-  //     [
-  //       "Enhances Cell-mediated and Humoral Immunity",
-  //       "Improves disease resistance and Survivability against Vibriosis"
-  //     ],
-  //   usage:
-  //     ["500 gm per 100 Kg of feed"],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 19,
+    name: "Potent Aqua Immunomodulator",
+    description:
+      "Aquasyn is unique immunomodulator enriched with potentiated probiotics and algal extract. Highly effective for mortality prevention programme during WSSV, Vibriosis and other infections outbreak in shrimp and fish.",
+    segment: "Aqua",
+    type: "Powder",
+    category: "Immunomodulator , Other Specialty",
+    packaging: "1 Kg Pack",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Aquasyn.webp",
+    Productname: "/Assets/Product name/Aqua/Aqua Syn.webp",
+    composition: [
+      "Each kg contains:",
+      "Lactobacillus plantarum, Bacillus amyloliquefaciens, Sargassum spp.Extract, Beta Glucan Mannan Oligosaccharide, Vitamin E, Grape Polyphenol, Ascorbic Acid",
+      "(Total probiotic count is 22,000 billion CFU per kg)"
+    ],
+    indications:
+      [
+        "Immuno-stimulation and better survivability against WSSV, Vibriosis and other infections in shrimp and fish",
+        "Growth promoter in fish"
+      ],
+    usage:
+      ["400 gm per 100 Kg of feed for Mortality Prevention Programme 40 gms per 100 Kg of feed as regular supplementation for immune stimulation and growth promotion"],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 20,
+    name: "Nano Technology Based and Specific Ig Y Enriched Immunomodulator for Vibriosis",
+    description:
+      "A nano technology based and specific lgY enriched formulation, fortified with Silver nano particles and potent immuno-stimulants. Enhances cell-mediated and antibody-mediated immunity to improve disease resistance and survivability against fatal shrimp diseases like Vibriosis etc. Highly effective against White Feces Syndrome, White Gut Disease, White Muscle Disease, stunted growth and Loose Shell Syndrome.",
+    segment: "Aqua",
+    type: "Powder",
+    category: "Immunomodulator , Other Specialty",
+    packaging: "1 Kg Pack",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Aquasyn Plus.webp",
+    Productname: "/Assets/Product name/Aqua/Aquasyn Plus.webp",
+    composition: [
+      "Each kg Contains:",
+      "Specific Ig Y antibodies for Vibriosis",
+      "Nano particles, Phytochemicals and Polyphenols, Beta Glucan, Mannan Oligosaccharide",
+      "Nano technology based delivery system"
+    ],
+    indications:
+      [
+        "Enhances Cell-mediated and Humoral Immunity",
+        "Improves disease resistance and Survivability against Vibriosis"
+      ],
+    usage:
+      ["500 gm per 100 Kg of feed"],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 21,
     name: "Benzalkonium Chloride-80%",
@@ -685,63 +679,63 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 23,
-  //   name: "Management of Acidified Ponds",
-  //   description:
-  //     "Aurifung pH is a unique pond alkalizer enriched with potent pond alkalizers and organic anti-bacterial and anti-fungals for management of acidified ponds.",
-  //   segment: "Aqua",
-  //   type: "Powder",
-  //   category: "Other Specialty",
-  //   packaging: "25 Kg pack",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Aurifung.webp",
-  //   Productname: "/Assets/Product name/Aqua/Aurifung PH.webp",
-  //   composition: [
-  //     "Each pack contains:",
-  //     "Pond Alkalizers",
-  //     "Organic Anti-bacterial and Anti-fungals"
-  //   ],
-  //   indications:
-  //     [
-  //       "Sheep Gastro- intestinal Nematodes, Pulmonary Nematodes, Ostertagia, Oestrous ovis",
-  //       "Dogs Gastro-intestinal Nematodes & Heart worms",
-  //       "Cattle Gastro-intestinal Nematodes, Lung worms, Eye worms, Skin worms Horses Gastro- intestinal nematodes, Lung worms, Ostertagia Strongylus",
-  //       "Aquaculture Ectoparasitic copepods (Sea lice), Gastro-intestinal Nematodes Lung worms Eye worms Skin worms"
-  //     ],
-  //   usage:
-  //     ["25 ml/100 kg body weight or as directed by Veterinarian.",
-  //       "Aquaculture:-25-40 kg/ton of feed or as directed by Veterinarian/ Aquaculture consultant."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
-  // {
-  //   id: 24,
-  //   name: "Fish Gel Binder to Support Growth",
-  //   description:
-  //     "Aurifgel is a unique fish gel binder enriched with amino acids, vitamins, probiotics and seaweed extract to support growth of aquaculture.",
-  //   segment: "Aqua",
-  //   type: "Gel",
-  //   category: "Other Specialty",
-  //   packaging: "1 Ltr & 5 Ltr",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Aurifgel.webp",
-  //   Productname: "/Assets/Product name/Aqua/Aurifgel.webp",
-  //   composition: [
-  //     "Each Ltr contains:",
-  //     "Essential enzymes, Highly concentrated herbal substances along with Arginine 5200 mg, Phenylalanine 3400 mg, Tryptophan 2900 mg, Glycine 3500 mg, Inositol 2800 mg, L-Lysine 500 mg, DL-Methionine 500 mg, Vitamin B1 4000 mg, Vitamin B2 3750 mg, Vitamin B5 2000 mg, Vitamin B12 15000 mcg, Vitamin A 50000 IU, Vitamin D3 10000 IU, Vitamin C 1000 mg, Seaweed extract 10 gm, Bacillus subtilis, Bacillus licheniformis, Bacillus coagulans, Bacillus amyloliquefaciens (Total probiotic count 100 Billion) with Binding agents, pH stabilizersand attractants Q.S. to 1 Litre"
-  //   ],
-  //   indications:
-  //     [
-  //       "Excellent carrier and binder for fish supplement and feed.",
-  //       "Enriched with amino acids, vitamins, probiotics and seaweed extract to support growth of aquaculture."
-  //     ],
-  //   usage:
-  //     ["5-6 ml per kg of feed.",
-  //       "Or as directed by aquaculture consultant or technician."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 23,
+    name: "Management of Acidified Ponds",
+    description:
+      "Aurifung pH is a unique pond alkalizer enriched with potent pond alkalizers and organic anti-bacterial and anti-fungals for management of acidified ponds.",
+    segment: "Aqua",
+    type: "Powder",
+    category: "Other Specialty",
+    packaging: "25 Kg pack",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Aurifung.webp",
+    Productname: "/Assets/Product name/Aqua/Aurifung PH.webp",
+    composition: [
+      "Each pack contains:",
+      "Pond Alkalizers",
+      "Organic Anti-bacterial and Anti-fungals"
+    ],
+    indications:
+      [
+        "Sheep Gastro- intestinal Nematodes, Pulmonary Nematodes, Ostertagia, Oestrous ovis",
+        "Dogs Gastro-intestinal Nematodes & Heart worms",
+        "Cattle Gastro-intestinal Nematodes, Lung worms, Eye worms, Skin worms Horses Gastro- intestinal nematodes, Lung worms, Ostertagia Strongylus",
+        "Aquaculture Ectoparasitic copepods (Sea lice), Gastro-intestinal Nematodes Lung worms Eye worms Skin worms"
+      ],
+    usage:
+      ["25 ml/100 kg body weight or as directed by Veterinarian.",
+        "Aquaculture:-25-40 kg/ton of feed or as directed by Veterinarian/ Aquaculture consultant."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 24,
+    name: "Fish Gel Binder to Support Growth",
+    description:
+      "Aurifgel is a unique fish gel binder enriched with amino acids, vitamins, probiotics and seaweed extract to support growth of aquaculture.",
+    segment: "Aqua",
+    type: "Gel",
+    category: "Other Specialty",
+    packaging: "1 Ltr & 5 Ltr",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Aurifgel.webp",
+    Productname: "/Assets/Product name/Aqua/Aurifgel.webp",
+    composition: [
+      "Each Ltr contains:",
+      "Essential enzymes, Highly concentrated herbal substances along with Arginine 5200 mg, Phenylalanine 3400 mg, Tryptophan 2900 mg, Glycine 3500 mg, Inositol 2800 mg, L-Lysine 500 mg, DL-Methionine 500 mg, Vitamin B1 4000 mg, Vitamin B2 3750 mg, Vitamin B5 2000 mg, Vitamin B12 15000 mcg, Vitamin A 50000 IU, Vitamin D3 10000 IU, Vitamin C 1000 mg, Seaweed extract 10 gm, Bacillus subtilis, Bacillus licheniformis, Bacillus coagulans, Bacillus amyloliquefaciens (Total probiotic count 100 Billion) with Binding agents, pH stabilizersand attractants Q.S. to 1 Litre"
+    ],
+    indications:
+      [
+        "Excellent carrier and binder for fish supplement and feed.",
+        "Enriched with amino acids, vitamins, probiotics and seaweed extract to support growth of aquaculture."
+      ],
+    usage:
+      ["5-6 ml per kg of feed.",
+        "Or as directed by aquaculture consultant or technician."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 25,
     name: "An Innovative Non-Antibiotic Growth Promoter",
@@ -755,7 +749,7 @@ const aqua_data = [
     Productname: "/Assets/Product name/Aqua/Aurigain Aqua.webp",
     composition: [
       "Each pack contains:",
-      "Phytochemical extracts of -",
+      "Phytochemical extracts derived from:",
       "Leptadenia reticulata, Asparagus racemosus, Trigonella foenum, Ocimum sanctum, Phyllanthus embllica, Andrographis paniculata, Eclipta alba, Sacchromyces cerevisiae, Bacillus coagulans, Aspergillus oryzae, DL - Methionine, Niacin, Biotin",
       "Fortified with Essential oils"
     ],
@@ -769,33 +763,36 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 26,
-  //   name: "All Natural Non-Antibiotic Growth Promoter",
-  //   description:
-  //     "Aurigrow is a unique non-antibiotic growth promoter fortified with phytochemicals, nucleotides, vitamins, minerals, FOS and organic acids to ensure potent antibacterial and antifungal action, improve immunity, egg production and aquaculture yield.",
-  //   segment: "Aqua , Swine , Poultry",
-  //   type: "Powder",
-  //   category: "Performance Enhancer , Immunomodulator",
-  //   packaging: "100 gm and 250 gm and 1 Kg pack",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Aurigrow.webp",
-  //   Productname: "/Assets/Product name/Aqua/Auri Grow.webp",
-  //   composition: [
-  //     "Each pack Contains:",
-  //     "Extracts of Allium sativum and Ocimum sanctum, Phytochemical principles of Thymol, Eugenol, Curcumin and Capsaicin, Nucleotides, Vitamin C, Mannan oligosaccharide, Selenium, Zinc, Organic acid derivatives, Postbiotic Metabolites of Bacillus Spp., Protease enzyme  & Inulin"
-  //   ],
-  //   indications:
-  //     [
-  //       "Improves immunity and reduce mortality rate",
-  //       "Growth promoter",
-  //       "Strong anti-bacterial and anti-fungal supplement."
-  //     ],
-  //   usage:
-  //     ["1 gm to 2 gm per kg of feed once a day as growth promoter 2 gm to 4 gm per kg of feed twice a day during bacterial and fungal infections."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 26,
+    name: "All Natural Non-Antibiotic Growth Promoter",
+    description:
+      "Aurigrow is a unique non-antibiotic growth promoter fortified with phytochemicals, nucleotides, vitamins, minerals, FOS and organic acids to ensure potent antibacterial and antifungal action, improve immunity, egg production and aquaculture yield.",
+    segment: "Aqua , Swine , Poultry",
+    type: "Powder",
+    category: "Performance Enhancer , Immunomodulator",
+    packaging: "100 gm and 250 gm and 1 Kg pack",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Aurigrow.webp",
+    Productname: "/Assets/Product name/Aqua/Auri Grow.webp",
+    composition: [
+      "Each pack Contains:",
+      "Extracts of Allium sativum and Ocimum sanctum, Phytochemical principles of Thymol, Eugenol, Curcumin and Capsaicin, Nucleotides, Vitamin C, Mannan oligosaccharide, Selenium, Zinc, Organic acid derivatives, Postbiotic Metabolites of Bacillus Spp., Protease enzyme  & Inulin"
+    ],
+    indications:
+      [
+        "Improves immunity and reduce mortality rate",
+        "Growth promoter,",
+        "Strong anti-bacterial and anti-fungal supplement."
+      ],
+    usage:
+      [
+        "1 gm to 2 gm per kg of feed once a day as growth promoter",
+        "2 gm to 4 gm per kg of feed twice a day during bacterial and fungal infections."
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 27,
     name: "Ivermectin Oral Solution Bp (vet) 0.08% W/v",
@@ -875,32 +872,32 @@ const aqua_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 30,
-  //   name: "Premium Aqua Nutrition",
-  //   description:
-  //     "Auromin Forte Chelated.",
-  //   segment: "Aqua",
-  //   type: "Powder",
-  //   category: "Nutrition Supplement , Other Specialty",
-  //   packaging: "10 Kg Pack 25 Kg Pack",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Auromin Forten Chelated.webp",
-  //   Productname: "/Assets/Product name/Aqua/Auromin Forten Chelated.webp",
-  //   composition: [
-  //     "Each kg contains:",
-  //     "Cobalt sulphate100 mg, Potassium iodate 325 mg, Magnesium oxide 36 gm, Iron MHA 58.3 gm (Elemental Fe 7 gm), Manganese MHA 41.6 gm (Elemental Mn 5 gm), Copper MHA 16.6 gm (Elemental Cu 2 gm), Zinc MHA 83.3 gm (Elemental Zinc 10 gm), Chromium Nicotinate 403 mg (Elemental Cr 50 mg) Calcium 236 gm, Phosphorus 118 gm, DL- Methionine 2 gm, L- Lysine Mono Hydrochloride 4.4 gm, Selenium 15 mg, Potassium 100 mg, Sodium 5.9 gm, Sulphur 8.1 gm, Cellulase 150000 IU, Xylanase 225000 IU, Beta glucanase 12500 IU, Alphaamylase 10000 IU, Fungal Protease 12500 IU, Phytase 50000 IU, Pectinase 50000 IU, Mannase 12500 IU, Hemicellulase 3750 IU, Saccharomyces cerevisiae 2x10 CFU, Lactobacillus sporogenes 1x10 CFU, Bacillus subtilis 1x10 CFU, Bacillus megaterium 1x10 CFU, Bacillus licheniformis 1x10 CFU, Vitamin A (Coated) 1200000 IU, Vitamin D3 (Coated) 240000 IU, Vitamin E (Coated) 3000 IU, Vitamin C 10 gm, Grape Polyphenol Extract 300 mg"
-  //   ],
-  //   indications:
-  //     [
-  //       " Premium buffer chelated micro-minerals, macro-minerals, amino acids, special probiotics, vitamins, enzymes and anti-oxidants",
-  //       "Premium nutrition supplementation for higher crop yield and better disease resistance in aquaculture."
-  //     ],
-  //   usage:
-  //     ["3-4kg/ton of feed"],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 30,
+    name: "Premium Aqua Nutrition",
+    description:
+      "Auromin Forte Chelated.",
+    segment: "Aqua",
+    type: "Powder",
+    category: "Nutrition Supplement , Other Specialty",
+    packaging: "10 Kg Pack 25 Kg Pack",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Auromin Forten Chelated.webp",
+    Productname: "/Assets/Product name/Aqua/Auromin Forten Chelated.webp",
+    composition: [
+      "Each kg contains:",
+      "Cobalt sulphate100 mg, Potassium iodate 325 mg, Magnesium oxide 36 gm, Iron MHA 58.3 gm (Elemental Fe 7 gm), Manganese MHA 41.6 gm (Elemental Mn 5 gm), Copper MHA 16.6 gm (Elemental Cu 2 gm), Zinc MHA 83.3 gm (Elemental Zinc 10 gm), Chromium Nicotinate 403 mg (Elemental Cr 50 mg) Calcium 236 gm, Phosphorus 118 gm, DL- Methionine 2 gm, L- Lysine Mono Hydrochloride 4.4 gm, Selenium 15 mg, Potassium 100 mg, Sodium 5.9 gm, Sulphur 8.1 gm, Cellulase 150000 IU, Xylanase 225000 IU, Beta glucanase 12500 IU, Alphaamylase 10000 IU, Fungal Protease 12500 IU, Phytase 50000 IU, Pectinase 50000 IU, Mannase 12500 IU, Hemicellulase 3750 IU, Saccharomyces cerevisiae 2x10 CFU, Lactobacillus sporogenes 1x10 CFU, Bacillus subtilis 1x10 CFU, Bacillus megaterium 1x10 CFU, Bacillus licheniformis 1x10 CFU, Vitamin A (Coated) 1200000 IU, Vitamin D3 (Coated) 240000 IU, Vitamin E (Coated) 3000 IU, Vitamin C 10 gm, Grape Polyphenol Extract 300 mg"
+    ],
+    indications:
+      [
+        " Premium buffer chelated micro-minerals, macro-minerals, amino acids, special probiotics, vitamins, enzymes and anti-oxidants",
+        "Premium nutrition supplementation for higher crop yield and better disease resistance in aquaculture."
+      ],
+    usage:
+      ["3-4kg/ton of feed"],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 31,
     name: "Potent Organic Immunomodulator",
@@ -979,7 +976,7 @@ const aqua_data = [
     segment: "Aqua",
     type: "Powder",
     category: "Performance Enhancer, Immunomodulator, Other Specialty",
-    packaging: "1 Kg Pack 25 Kg Pack",
+    packaging: "1 Kg Pack and 25 Kg Pack",
     Productimg: "/Assets/Product images/Veterinary/Aqua/Metagrow Aqua.webp",
     Productname: "/Assets/Product name/Aqua/Metagrow Aqua.webp",
     composition: [
@@ -1002,7 +999,7 @@ const aqua_data = [
     report: " ",
     brochure: " ",
     feedback: " "
-  }, 
+  },
   {
     id: 34,
     name: "Immunopotentiator and Growth Promoter",
@@ -1022,52 +1019,52 @@ const aqua_data = [
     ],
     indications:
       [
-        "Improves eubiosis, stimulates digestive enzyme production",
-        "Promotes digestion and prevents harmful pathogens.",
-        "Relieves stress and restores immunity in the corp.",
+        "Improves gut eubiosis, stimulates digestive enzyme production, promotes digestion and prevents harmful pathogens.",
+        "Relieves stress and restores immunity in the crop.",
         "Improves metabolism, FCR and body weight gain.",
-        "Increases egg production and hatchability.",
-        "Supports molting and help quickly harden the shell.",
-        "Enhance immunity and reduce mortality rate."
+        "Increases egg production and hatchability. ",
+        "Supports molting and help quickly harden the shell."
       ],
     usage:
-      ["Feed 1 time/day for every day.",
+      [
+        "Feed 1 time/day for every day.",
         "Support feed digestion, absorption and balance the intestinal microflora",
         "Shrimp < 45 days old: 2 g/kg of feed.",
         "Shrimp > 45 days old: 1 g/kg of feed.",
-        "Unsuccessful molting in shrimp: 2-3 g/kg of feed, feed 5-7 consecutive days."],
+        "Unsuccessful molting in shrimp: 2-3 g/kg of feed, feed 5-7 consecutive days."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 35,
-  //   name: "Unique Antioxidant-Yield Booster Formulation with Carotenoid Pigment",
-  //   description:
-  //     "Phytacanth is an antioxidant-yield booster enriched with Grape Polyphenol, Canthaxanthin, enzymes and Vitamins.Phytacanth improves the pigmentation in Shrimp, Salmon, Trout, Gold fish, Red and Gilthead Sea bream and increases crop yield and mineral absorption in aqua culture.",
-  //   segment: "Aqua",
-  //   type: "Powder",
-  //   category: "Performance Enhancer, Immunomodulator, Other Specialty",
-  //   packaging: "1 Kg Pack 25 Kg Pack",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Phyta Canth.webp",
-  //   Productname: "/Assets/Product name/Aqua/Phyta Canth.webp",
-  //   composition: [
-  //     "Each kg contains:",
-  //     "Phytase 150000 IU, Vitamin E 15000 IU, Vitamin C 15000 IU, Grape polyphenol eq. to 15000 IU Vitamin E activity, Canthaxanthin 10%, Tartrazine yellow"
-  //   ],
-  //   indications:
-  //     [
-  //       "Improves the pigmentation in Shrimp, Salmon, Trout, Gold fish, Red and Gilthead sea bream.",
-  //       "Growth promoter Increases crop yield.",
-  //       "Increases mineral absorption from gut.",
-  //       "Improves fertility in aqua culture."
-  //     ],
-  //   usage:
-  //     ["500 gm to 1 Kg per 100 Kg of feed"],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 35,
+    name: "Unique Antioxidant-Yield Booster Formulation with Carotenoid Pigment",
+    description:
+      "Phytacanth is an antioxidant-yield booster enriched with Grape Polyphenol, Canthaxanthin, enzymes and Vitamins.Phytacanth improves the pigmentation in Shrimp, Salmon, Trout, Gold fish, Red and Gilthead Sea bream and increases crop yield and mineral absorption in aqua culture.",
+    segment: "Aqua",
+    type: "Powder",
+    category: "Performance Enhancer, Immunomodulator, Other Specialty",
+    packaging: "1 Kg Pack 25 Kg Pack",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Phyta Canth.webp",
+    Productname: "/Assets/Product name/Aqua/Phyta Canth.webp",
+    composition: [
+      "Each kg contains:",
+      "Phytase 150000 IU, Vitamin E 15000 IU, Vitamin C 15000 IU, Grape polyphenol eq. to 15000 IU Vitamin E activity, Canthaxanthin 10%, Tartrazine yellow"
+    ],
+    indications:
+      [
+        "Improves the pigmentation in Shrimp, Salmon, Trout, Gold fish, Red and Gilthead sea bream.",
+        "Growth promoter Increases crop yield.",
+        "Increases mineral absorption from gut.",
+        "Improves fertility in aqua culture."
+      ],
+    usage:
+      ["500 gm to 1 Kg per 100 Kg of feed"],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 36,
     name: "Plankton Bloom Controller",
@@ -1088,42 +1085,42 @@ const aqua_data = [
     ],
     indications:
       [
-        "Controls overgrowth of planktons",
-        "Sludge and malodour reduction",
-        "Inhibits the growth of pathogenic bacteria",
+        "Controls overgrowth of planktons,",
+        "Sludge and malodour reduction,",
+        "Inhibits the growth of pathogenic bacteria,",
         "Reduce the chances of plankton bloom"
       ],
     usage:
-      ["80 gm with 5 ltr. lukewarm pond water along with jaggery and keep it for72-96 hrs for fermentation. Afterwards, mix 50 ltr water to spread over 1 acre pond."],
+      ["80 gm with 5 ltr. lukewarm pond water along with jaggery and keep it for 72-96 hrs for fermentation. Afterwards, mix 50 ltr water to spread over 1 acre pond."],
     report: " ",
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 37,
-  //   name: "Pond Acidifier",
-  //   description:
-  //     "Ponci, the pond acidifier, is a unique combination of organic acids for neutralizing the harmful high pH in ponds and thus supporting the aqua production.",
-  //   segment: "Aqua",
-  //   type: "Liquid",
-  //   category: "Other Specialty",
-  //   packaging: "10 Ltr & 35 Ltr",
-  //   Productimg: "/Assets/Product images/Veterinary/Aqua/Ponci.webp",
-  //   Productname: "/Assets/Product name/Aqua/Ponci.webp",
-  //   composition: [
-  //     "Organic acids"
-  //   ],
-  //   indications:
-  //     [
-  //       "Restores normal pond pH",
-  //       "Reduces mortality and help to minimize the ill-effects of high pond alkalinity"
-  //     ],
-  //   usage:
-  //     ["Use 10-12.5 L of Ponci in 1 Acre pond after reconstitution in 50 L water. Repeat after 12 hours, if necessary. Better results observed with Planktoban."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 37,
+    name: "Pond Acidifier",
+    description:
+      "Ponci, the pond acidifier, is a unique combination of organic acids for neutralizing the harmful high pH in ponds and thus supporting the aqua production.",
+    segment: "Aqua",
+    type: "Liquid",
+    category: "Other Specialty",
+    packaging: "10 Ltr & 35 Ltr",
+    Productimg: "/Assets/Product images/Veterinary/Aqua/Ponci.webp",
+    Productname: "/Assets/Product name/Aqua/Ponci.webp",
+    composition: [
+      "Organic acids"
+    ],
+    indications:
+      [
+        "Restores normal pond pH",
+        "Reduces mortality and help to minimize the ill-effects of high pond alkalinity"
+      ],
+    usage:
+      ["Use 10-12.5 L of Ponci in 1 Acre pond after reconstitution in 50 L water. Repeat after 12 hours, if necessary. Better results observed with Planktoban."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 38,
     name: "Advanced Mineral Zeolite",
@@ -1137,7 +1134,7 @@ const aqua_data = [
     Productname: "/Assets/Product name/Aqua/Pond Lite.webp",
     composition: [
       "Each kg contains:",
-      "Silicon dioxide……. 75-85%",
+      "Silicon dioxide……. 70-80%",
       "Aluminium oxide……. 5-10%",
       "Ferrous oxide (Iron).. 2-3%",
       "Calcium oxide……… 2-4%"
