@@ -1794,12 +1794,32 @@ const livestock_data = [
     composition: 
     [
       "Each 25 gm Sachet contains :",
-      ""
+      "Phytochemical extracts equivalent to",
+"Andrographis paniculata 800 mg, Picrorhiza kurroa 225 mg, Ocimum sanctum 10000 mg, Aloe vera 1000 mg,
+Silymarin Nanophosphosome® 400 mg
+Serratiopeptidase, MOS,
+Potassium iodide 200 mg, Niacin 1000
+mg, Saccharomyces cerevisiae
+60,000 million cfu, Bacillus coagulans
+6,000 million cfu, Aspergillus oryzae
+1000 million cfu, Chromium propionate
+20 mg, Biotin 20 mg, DL Methionine,
+Grape polyphenols eq. to Vitamin E
+activity 1500 IU, Vitamin A 50,000 IU,
+Vitamin D 10,000 IU, Vitamin C 300 mg,3
+Zinc glycinate 300 mg, Bromelain &
+Microbial lysozyme 2,50,000 units,
+Enriched with Zingibain"
     ],
     indications:
-      [""],
+      [
+        "Cleaves the peptide bond of collagen fibers to reduce the tissue fibrosis.",
+"Improves tissue healing, reduces udder inflammation and supports in the cases of fibrous mastitis.",
+"Effective in the cases of haemorrhagic mastitis.",
+"Helps to restore the milk yield."
+],
     usage:
-      ["1 Sachet daily for 5 days or as per the recommendation of registered vetenary practitioner"],
+      ["1 Sachet daily for 5 days or as per the recommendation of registered veterinary practitioner"],
     report: " ",
     brochure: " ",
     feedback: " "
