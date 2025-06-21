@@ -231,7 +231,8 @@ const human_data = [
     packaging: "30, 60 and 90 Capsules Container",
     Productimg: "/Assets/Product images/Human/Health Supplements/auribery plus.webp",
     Productname: "/Assets/Product name/Health suppliments/Auribery Plus.webp",
-    composition: [
+    composition: 
+    [
       "Each 500 mg Capsule contains:",
       "Lactobacillus acidophilis 0.25 billion",
       "Lactobacillus Plantarum 0.25 billion",
@@ -258,7 +259,8 @@ const human_data = [
     packaging: "30, 60 and 90 tablet/Capsules Container",
     Productimg: "/Assets/Product images/Human/Health Supplements/Reintoni.webp",
     Productname: "/Assets/Product name/Health suppliments/Reintoni.webp",
-    composition: [
+    composition: 
+    [
       "Serving Size : 1 Capsule",
       "Servings Per Container : 30, 60 and 90 servings",
       "Each 500 mg Capsule contains:",

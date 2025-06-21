@@ -267,7 +267,7 @@ const livestock_data = [
   },
   {
     id: 32,
-    name: "Powerful Phosphorus Bolus Supplement",
+    name: "Fortified Phosphorus Bolus",
     description:
       "Auriphos Bolus is an innovative nutritional supplement that supports reproductive health, metabolic functions and overall productivity by providing essential nutrients like phosphorus and vitamins. Auriphos Bolus significantly helps to prevent metabolic disorders like ketosis and milk fever, improves estrus cycle regularity and enhances overall reproductive efficiency of cattle and dairy animals.",
     segment: "Livestock",
@@ -276,26 +276,25 @@ const livestock_data = [
     packaging: "5X4 Boli",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auriphos.webp",
     Productname: "/Assets/Product name/Livestock/Auriphos.webp",
-    composition: [
-      "Each bolus contains:",
-      "Sodium acid phosphate…………………10 gm",
-      "Vitamin A…………………25000 IU",
-      "Vitamin D₃………………………………20000 IU",
-      "Cobalt sulphate……………………………20 mg",
-      "Vitamin E………………………………500 IU",
-      "Selenium Neunamin……1600 mcg",
-      "Chromium Neunamin……………………3200 mcg",
-      "Phytase Enzyme………………………20000 Units",
-      "Myo Inositol …………………10 mg"
-    ],
-    indications:
+    composition:
       [
-        "Pica and poor appetite, Milk leakage in dairy cows through teat, Metabolic disorder i.e. post-parturient hemoglobinuria (Red urine), Ketosis and Milk fever, Drop in milk production, Infertility (Delayed maturity, Anoestrus and Delayed ovulation) associated with phosphorus deficiency."
+        "Each bolus contains:",
+        "Sodium acid phosphate…………………10 gm",
+        "Vitamin A…………………25000 IU",
+        "Vitamin D₃………………………………20000 IU",
+        "Cobalt sulphate……………………………20 mg",
+        "Vitamin E………………………………500 IU",
+        "Selenium Neunamin……1600 mcg",
+        "Chromium Neunamin……………………3200 mcg",
+        "Phytase Enzyme………………………20000 Units",
+        "Myo Inositol …………………10 mg"
       ],
+    indications:
+      ["Pica and poor appetite, Milk leakage in dairy cows through teat, Metabolic disorder i.e. post-parturient hemoglobinuria (Red urine), Ketosis and Milk fever, Drop in milk production, Infertility (Delayed maturity, Anoestrus and Delayed ovulation) associated with phosphorus deficiency."],
     usage:
       [
         "Cow and buffalo: 1 bolus b.i.d. for 3-5 days.",
-        "Sheep and goat: ½ bolus b.i.d. for 3-5 days."
+        "Sheep and goat: 1/2 bolus b.i.d. for 3-5 days."
       ],
     report: " ",
     brochure: " ",
@@ -312,20 +311,24 @@ const livestock_data = [
     packaging: "450 gm Bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auripos Nano Gel.webp",
     Productname: "/Assets/Product name/Livestock/Auriphos Nano Gel.webp",
-    composition: [
-      "Each 450 gm contains:",
-      "Phosphorus...…....................20 gm",
-      "Vitamin A………………..100000 IU",
-      "Vitamin D₃…………….….50000 IU",
-      "Cobalt Sulfate……...…….….50 mg",
-      "Vitamin E…………….….....2000 IU",
-      "Selenium Neunamin…….....10 mg",
-      "Chromium Neunamin….......30 mg",
-      "Gluconeogenic Precursor ",
-      "Metabolizable energy value of 6,480 kj"
-    ],
+    composition:
+      [
+        "Each 450 gm contains:",
+        "Phosphorus...…....................20 gm",
+        "Vitamin A………………..100000 IU",
+        "Vitamin D₃…………….….50000 IU",
+        "Cobalt Sulfate……...…….….50 mg",
+        "Vitamin E…………….….....2000 IU",
+        "Selenium Neunamin…….....10 mg",
+        "Chromium Neunamin….......30 mg",
+        "Gluconeogenic Precursor ",
+        "Metabolizable energy value of 6,750 kj"
+      ],
     indications:
-      ["Pica and poor appetite, Milk leakage in dairy cows through teat, Metabolic disorder i.e. post-parturient hemoglobinuria (Red urine), Ketosis and Milk fever, Drop in milk production, Infertility (Delayed maturity, Anoestrus and Delayed ovulation) associated with phosphorus deficiency."],
+      [
+        "• Infertility (Delayed maturity, Anoestrus and Delayed ovulation) associated with phosphorus deficiency.",
+        "• Metabolic disorder i.e. post-parturient hemoglobinuria (Red urine), Pica and poor appetite, Milk leakage in dairy cows through teat, Ketosis and sudden drop in milk production,"
+      ],
     usage:
       ["Regular use: Administer one bottle at the first sign of deficiency to support normal breeding, alleviates negative energy balance and associated complications"],
     report: " ",
@@ -687,34 +690,15 @@ const livestock_data = [
     packaging: "500 gm, 5 Kg and 25 Kg pack",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Neunaforte.webp",
     Productname: "/Assets/Product name/Livestock/Neuna Forte.webp",
-    composition: [
-      "Each pack contains :",
-      "Very high concentrations of Coated Vitamin A",
-      "Coated Vitamin D₃",
-      "Coated Vitamin E",
-      "Magnesium",
-      "Nicotinamide",
-      "Cobalt",
-      "Zinc Neunamin",
-      "Manganese Neunamin",
-      "Copper Neunamin",
-      "Iron Neunamin",
-      "Selenium Neunamin",
-      "Iodine Neunamin",
-      "Chromium Neunamin",
-      "Sulphur",
-      "Potassium",
-      "Sodium",
-      "Saccharomyces cerevisiae",
-      "Aspergillus oryzae",
-      "Lactobacillus sporogenes",
-      "Grape PP extract",
-      "Phytobio-Calphos©",
-      "Myo-inositol-hexakisphosphate-3-phosphohydrolase concentrate",
-      "Energy Booster Complex"
-    ],
+    composition:
+      [
+        "Each pack contains :",
+        "Very high concentrations of Coated Vitamin A",
+        "Coated Vitamin D₃, Coated Vitamin E, Magnesium, Nicotinamide, Cobalt, Zinc Neunamin, Manganese Neunamin, Copper Neunamin, Iron Neunamin, Selenium Neunamin, Iodine Neunamin, Chromium Neunamin, Sulphur, Potassium, Sodium, Saccharomyces cerevisiae, Aspergillus oryzae, Lactobacillus sporogenes, Grape PP extract, Phytobio-Calphos©, Myo-inositol-hexakisphosphate-3-phosphohydrolase concentrate, Energy Booster Complex"
+      ],
     indications:
-      ["Premium super rich nutrition supplementation for lactating dairy cows and buffaloes to optimise milk production",
+      [
+        "Premium super rich nutrition supplementation for lactating dairy cows and buffaloes to optimise milk production",
         "Improves reproductive efficiency and fertile estrus with higher conception rate",
         "Enhances immunity against diseases",
       ],
@@ -1232,32 +1216,35 @@ const livestock_data = [
   },
   {
     id: 27,
-    name: "Electrolytes for Heat Stress",
+    name: "Electrolytes Powder",
     description:
       "Aurilyte Plus is unique electrolyte formulation with a powerful combination of essential electrolytes, i.e. sodium, potassium, chloride; essential minerals, i.e. calcium, magnesium, phosphorus; and enriched with bicarbonates, betaine, probiotics and vitamin C to maintain electrolyte balance and mineral need in body especially during the cases of heat stress and dehydration.",
     segment: "Livestock , Poultry , Swine",
     type: "Powder",
     category: "Other Specialty",
-    packaging: "1 Kg 25 Kg",
+    packaging: "1 Kg and 25 Kg",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurilyte Plus.webp",
     Productname: "/Assets/Product name/Livestock/Aurilyte Plus.webp",
-    composition: [
-      "Each 100 gm contains:",
-      "Sodium chloride 0.8 gm",
-      "Potassium chloride 5.0 gm",
-      "Sodium bicarbonate 3.0 gm",
-      "Sodium acid phosphate 0.8 gm",
-      "Sodium citrate 6.5 gm",
-      "Calcium citrate 2 gm",
-      "Betaine 0.3 gm",
-      "Vitamin C 1200 mg",
-      "Magnesium sulphate 1 gm",
-      "Lactobacillus sporogenes viable spore 3000 million",
-      "Bacillus licheniformis viable spores 30000 million",
-      "Dextrose q.s.",
-    ],
+    composition:
+      [
+        "Each 100 gm contains:",
+        "Sodium chloride 0.8 gm",
+        "Potassium chloride 5.0 gm",
+        "Sodium bicarbonate 3.0 gm",
+        "Sodium acid phosphate 0.8 gm",
+        "Sodium citrate 6.5 gm",
+        "Calcium citrate 2 gm",
+        "Betaine 0.3 gm",
+        "Vitamin C 1200 mg",
+        "Magnesium sulphate 1 gm",
+        "Lactobacillus sporogenes viable spore 3 billion",
+        "Bacillus licheniformis viable spores 30 billion",
+        "Saccharomyces boulardii 1.5 billion",
+        "Dextrose q.s.",
+      ],
     indications:
-      ["Helps in diarrhea, In extreme temperatures (high or low) and all kind of stress maintains electrolyte balance",
+      [
+        "Helps in diarrhea, In extreme temperatures (high or low) and all kind of stress maintains electrolyte balance",
         "Reduces mortality rate during heat stress",
         "Improves layer and broiler performance to increase processing yield and feed consumption"
       ],
@@ -1278,19 +1265,24 @@ const livestock_data = [
     packaging: "1 L",
     Productimg: "/Assets/Product images/Veterinary/Livestock/aurimec.webp",
     Productname: "/Assets/Product name/Livestock/Aurimec.webp",
-    composition: [
-      "Each ml contains:",
-      "Ivermectin IP 0.8 mg,",
-      "Benzyl Alcohol IP (As Preservative) 0.02 ml",
-      "Aqueous base q.s."
-    ],
+    composition:
+      [
+        "Each ml contains:",
+        "Ivermectin IP 0.8 mg,",
+        "Benzyl Alcohol IP (As Preservative) 0.02 ml",
+        "Aqueous base q.s."
+      ],
     indications:
-      ["Sheep Gastro- intestinal Nematodes, Pulmonary Nematodes, Ostertagia, Oestrous ovis",
+      [
+        "Sheep Gastro- intestinal Nematodes, Pulmonary Nematodes, Ostertagia, Oestrous ovis",
         "Dogs Gastro-intestinal Nematodes & Heart worms",
-        "Cattle Gastro-intestinal Nematodes, Lung worms, Eye worms, Skin worms Horses Gastro- intestinal nematodes, Lung worms, Ostertagia Strongylus",
-        "Aquaculture Ectoparasitic copepods (Sea lice), Gastro-intestinal Nematodes Lung worms Eye worms Skin worms"],
+        "Cattle Gastro-intestinal Nematodes, Lung worms, Eye worms, Skin worms Horses Gastro- intestinal nematodes, Lung worms, Ostertagia Strongylus"
+      ],
     usage:
-      ["25 ml/100 kg body weight or as directed by Veterinarian. 25 ml/100 kg body weight Aquaculture:-10-13 ml/100 kg body weight or as directed by Veterinarian/ Aquaculture consultant."],
+      [
+        "25 ml/100 kg body weight or as directed by Veterinarian.",
+        "25 ml/100 kg body weight Aquaculture:-10-13 ml/100 kg body weight or as directed by Veterinarian/ Aquaculture consultant."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -1362,7 +1354,7 @@ const livestock_data = [
       "Linalool…………………2400 mg"
     ],
     indications:
-      ["IPrevent from the incidence of all kind of mosquitoes infections including Dengue, Chikungunya, Malariya, Zika"],
+      ["Prevent from the incidence of all kind of mosquitoes infections including Dengue, Chikungunya, Malaria, Zika virus"],
     usage:
       ["10-20 gm needs to be diluted in 1 ltr of water to spray over 1000 sq. feet area, mainly roof, pillar and walls. The dilution depends on the intensity of mosquito problem in the area."],
     report: " ",
@@ -1824,13 +1816,15 @@ const livestock_data = [
     packaging: "Single bolus strip in a unit carton",
     Productimg: "/Assets/Product images/Veterinary/Livestock/mecfen.webp",
     Productname: "/Assets/Product name/Livestock/Mecfen.webp",
-    composition: [
-      "Each bolus contains:",
-      "Fenbendazole…………….3 gm",
-      "Ivermectin…………….100 mg"
-    ],
+    composition:
+      [
+        "Each bolus contains:",
+        "Fenbendazole…………….3 gm",
+        "Ivermectin…………….100 mg"
+      ],
     indications:
-      ["Round worm",
+      [
+        "Round worm",
         "Tape worm",
         "Ectoparasite infestation"
       ],
@@ -1842,7 +1836,7 @@ const livestock_data = [
   },
   {
     id: 55,
-    name: "Fenbendazole and Ivermectin Bolus",
+    name: "High Power Combination of Fenbendazole and lvermectin ",
     description:
       "Mecfen Forte bolus is combination of Fenbendazole and Ivermectin that is used against gastrointestinal parasites.",
     segment: "Livestock",
@@ -1851,26 +1845,28 @@ const livestock_data = [
     packaging: "Single bolus strip in a unit carton",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Mecfen forte.webp",
     Productname: "/Assets/Product name/Livestock/Mecfen Forte.webp",
-    composition: [
-      "Each bolus contains:",
-      "Fenbendazole…………….5 gm",
-      "Ivermectin…………….150 mg"
+    composition:
+      [
+        "Each bolus contains:",
+        "Fenbendazole…………….5 gm",
+        "Ivermectin…………….150 mg"
 
-    ],
+      ],
     indications:
-      ["Broad spectrum action against Roundworm, Tapeworms and ectoparasites.",
-        "Effective against immature, arrested Larval stages and adult worms.",
-        "Suitable for all age group of animal.",
+      [
+        "Round worm",
+        "Tape worm",
+        "Ectoparasite infestation"
       ],
     usage:
-      ["Cow/ buffalo- 10 mg per kg bwt by oral route for 400 - 500 kg bwt."],
+      ["Cow/Buffalo/ Horse/Camel-7.5 to 10 mg per kg bwt by oral route for heavy weight animals for 450-650 kg bwt "],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
     id: 56,
-    name: "Broad Spectrum Anthelmintic for Small Animals",
+    name: "Mega Spectrum Dewormer for Small Animals",
     description:
       "Mecfen Plus is unique combination of Fenbendazole, Ivermectin and Praziquantel. Mecfen Plus ensures complete protection against round worm and tape worm infestation in small animal like- Sheep, Goat, Calf, Foals and Pig.",
     segment: "Livestock",
@@ -1879,19 +1875,21 @@ const livestock_data = [
     packaging: "6 tablets strip in a unit carton, 100 ml, 250 ml and 500 ml bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/mecefen plus.webp",
     Productname: "/Assets/Product name/Livestock/Mecfen Plus.webp",
-    composition: [
-      "Each tablet contains:",
-      "Fenbendazole………..300 mg",
-      "Praziquantel…………………..150 mg",
-      "Ivermectin…………….12 mg",
-      "",
-      "Each ml contains:",
-      "Fenbendazole…………….75 mg",
-      "Praziquantel……………..37.5 mg",
-      "Ivermectin…………….3 mg"
-    ],
+    composition:
+      [
+        "Each tablet contains:",
+        "Fenbendazole………..300 mg",
+        "Praziquantel…………………..150 mg",
+        "Ivermectin…………….12 mg",
+        "-",
+        "Each ml contains:",
+        "Fenbendazole…………….75 mg",
+        "Praziquantel……………..37.5 mg",
+        "Ivermectin…………….3 mg"
+      ],
     indications:
-      ["Round worm",
+      [
+        "Round worm",
         "Tape worm",
         "Ectoparasite infestation"
       ],
@@ -1970,7 +1968,7 @@ const livestock_data = [
   },
   {
     id: 60,
-    name: "New Generation Fluoroquinolone",
+    name: "Advanced Antibacterial for Acute Infections",
     description:
       "Neubac the latest fourth-generation fluoroquinolone with wide antimicrobial spectrum, quick response time and least chances of resistance. It is effective against gram positive and negative aerobes and anaerobes, mycoplasma and chlamydia. Highly effective against acute infections of respiratory, uterine and mammary system",
     segment: "Livestock",
@@ -1979,10 +1977,11 @@ const livestock_data = [
     packaging: "30 ml Vial in a unit carton with Tray and Antiseptic swab",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Neubac.webp",
     Productname: "/Assets/Product name/Livestock/Neubac.webp",
-    composition: [
-      "Each ml contains:",
-      "Moxifloxacin 100 mg"
-    ],
+    composition:
+      [
+        "Each ml contains:",
+        "Moxifloxacin 100 mg"
+      ],
     indications:
       ["Endometritis, Metritis, Pyometra, Prolapse of uterus, Pneumonia, HS, CCPP, CBPP and Mastitis"],
     usage:
@@ -2028,23 +2027,26 @@ const livestock_data = [
     segment: "Livestock, Poultry, Aqua",
     type: "Powder",
     category: "Other Specialty",
-    packaging: "100 gm, 1 kg",
+    packaging: "100 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Phosbol.webp",
     Productname: "/Assets/Product name/Livestock/Phosbol.webp",
-    composition: [
+    composition: 
+    [
       "Each gm contains:",
       "Butaphosphan INN 100 mg",
       "Vitamin B₁₂ 50 mg"
     ],
     indications:
-      ["Increases Meat, Milk & Egg Production",
+      [
+        "Increases Meat, Milk & Egg Production",
         "Augments body Metabolism",
         "Improves FCR",
         "Prevents Cannibalism",
         "Improves Appetite",
-        "Removes deficiency signs of phosphorus"],
+        "Removes deficiency signs of phosphorus"
+      ],
     usage:
-      ["Poultry: 1gm / 1-2 Ltr.  of drinking water as per direction of Qualified  veterinary Practitioner"],
+      ["Cattle: 10-25 gm per animal in feed or, as per direction of registered veterinarian Consultant."],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -2144,14 +2146,16 @@ const livestock_data = [
     packaging: "1 Ltr",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Suportho.webp",
     Productname: "/Assets/Product name/Livestock/Suportho.webp",
-    composition: [
-      "Each Ltr contains-",
-      "Calcium chloride 30 gm, Sodium chloride 10 gm, Chondroitin sulphate 500 mg, Glucosamine 500 mg, Orthophosphoric acid 30 gm, Vitamin D₃ 20000 IU,",
-      "Choline chloride 50 gm, MHA 10 gm, Manganese glycinate 2.5 gm, Zinc glycinate 2.5 gm,",
-      "Copper glycinate 100 mg, Biotin 15 mg"
-    ],
+    composition:
+      [
+        "Each Ltr contains-",
+        "Calcium chloride 30 gm, Sodium chloride 10 gm, Chondroitin sulphate 500 mg, Glucosamine 500 mg, Orthophosphoric acid 30 gm, Vitamin D₃ 20000 IU,",
+        "Choline chloride 50 gm, DL-Methionine 10 gm, Manganese glycinate 2.5 gm, Zinc glycinate 2.5 gm,",
+        "Copper glycinate 100 mg, Biotin 15 mg"
+      ],
     indications:
-      ["Supports musculo-skeletal health",
+      [
+        "Supports musculo-skeletal health",
         "Helps to reduce the onset of arthritic joint pain",
         "Helps to improve the mobility of joints"
       ],
