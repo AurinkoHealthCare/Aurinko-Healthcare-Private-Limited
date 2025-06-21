@@ -23,9 +23,9 @@ const livestock_data = [
       ],
     usage:
       [
-        "-For easy Parturition-",
+        "For easy Parturition-",
         "• Cow/Buffalo: 50-100 ml at the time of Parturition (divided in 2 doses of 50 ml each at an interval of 3 hrs, if required) Followed by 100 ml after 6 Hrs. of Parturition for easy expulsion of placenta, If required. (Should be used in consultation with a qualified veterinarian practitioner)",
-        "-For Retention of Placenta-",
+        "For Retention of Placenta-",
         "• Cow/Buffalo: 200 ml once",
         "• Sheep/Goat: 50 ml once Repeat after 6 Hrs. if required"
       ],
@@ -72,11 +72,11 @@ const livestock_data = [
     packaging: "4 Bolus in Strip, 2 Strips in a unit carton",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Salacgil.webp",
     Productname: "/Assets/Product name/Livestock/Salacgil.webp",
-    composition: 
-    [
-      "Each bolus contains :",
-      "Saccharomyces cerevisiae 25 X 10⁹ CFU, Lactobacillus sporogenes 25 X 10⁶ CFU, Aspergillus oryzae 25 X 10⁶ CFU, Biotin 5 mg, DL-Methionine 2 gm, Zinc Sulphate 100 mg, Cobalt Sulphate 20 mg, Copper Sulphate 50 mg, Fructo-oligosaccharide 300 mg, Strychni semen 500 mg"
-    ],
+    composition:
+      [
+        "Each bolus contains :",
+        "Saccharomyces cerevisiae 25 X 10⁹ CFU, Lactobacillus sporogenes 25 X 10⁶ CFU, Aspergillus oryzae 25 X 10⁶ CFU, Biotin 5 mg, DL-Methionine 2 gm, Zinc Sulphate 100 mg, Cobalt Sulphate 20 mg, Copper Sulphate 50 mg, Fructo-oligosaccharide 300 mg, Strychni semen 500 mg"
+      ],
     indications:
       [
         "• Chronic anorexia",
@@ -104,16 +104,16 @@ const livestock_data = [
     packaging: "12 gm Sachets and 30 Sachets in box",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Salacgil ds.webp",
     Productname: "/Assets/Product name/Livestock/Salacgil DS.webp",
-    composition: 
-    [
-      "Each 12 g Sachet Contains:",
-      "Saccharomyces cerevisiae 5 X 10¹⁰ CFU",
-      "Lactobacillus sporogenes 5 X 10⁷ CFU",
-      "Aspergillus oryzae 5 X 10⁷ CFU",
-      "Biotin 10 mg, DL- Methionine 4 g",
-      "Zinc Sulphate 200 mg, Cobalt Sulphate 40 mg",
-      "Copper Sulphate 100 mg, Fructo-oligosaccharide 600 mg, Strychni semen 1000 mg",
-    ],
+    composition:
+      [
+        "Each 12 g Sachet Contains:",
+        "Saccharomyces cerevisiae 5 X 10¹⁰ CFU",
+        "Lactobacillus sporogenes 5 X 10⁷ CFU",
+        "Aspergillus oryzae 5 X 10⁷ CFU",
+        "Biotin 10 mg, DL- Methionine 4 g",
+        "Zinc Sulphate 200 mg, Cobalt Sulphate 40 mg",
+        "Copper Sulphate 100 mg, Fructo-oligosaccharide 600 mg, Strychni semen 1000 mg",
+      ],
     indications:
       [
         "• Chronic anorexia",
@@ -198,13 +198,13 @@ const livestock_data = [
   },
   {
     id: 6,
-    name: "Instantly Bioavailable Anionic Calcium-Magnesium Gel",
+    name: "Instantly Bioavailable Nano Calcium and Magnesium with High Metabolizable Energy",
     description:
       "Gelmil Advanced 500 is instantly bioavailable oral anionic Calcium and Magnesium gel fortified with phosphorus and glucogenic precursers. Each bottle provides calcium equivalent to 5 bottles of I/V calcium. Serum calcium reaches to significant levels within 15 minutes and stays for extended periods. Self-dispensing squeezable bottle provides ease of administration",
     segment: "Livestock",
     type: "Gel",
     category: "Nutrition Supplement",
-    packaging: "400 gm squeezable bottle",
+    packaging: "500 gm squeezable bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Gelmil Advanced 500.webp",
     Productname: "/Assets/Product name/Livestock/Gelmil Advanced-500.webp",
     composition: [
@@ -217,12 +217,17 @@ const livestock_data = [
       "Gluconeogenic precursors (Propylene glycol, organic honey & Glycerol) eq. to Metabolizable energy value of 6,710 Kilojoules"
     ],
     indications:
-      ["Comprehensive nutrition supplement for Milk Fever and negative energy balance management",
+      [
+        "Comprehensive nutrition supplement for Milk Fever and negative energy balance management",
         "Reduce the chances of milk fever relapse after I/V calcium administration",
         "Recommended during anti-hemoprotozoal treatment, impaction, uterine inertia, retention of placenta and to support normal parturition."
       ],
     usage:
-      ["Regular Use- Administer one bottle at the first sign of calving to support normal parturition, alleviate negative energy balance and reduce the chances of milk fever and associated complications. Milk Fever Management- Administer one bottle post-parturition (upon observing milk fever symptoms or follow-up therapy after I/V calcium administration) by oral route, repeat after 24 hrs if required Directions for use: Remove the seal of the bottle. Hold the head of the animal in a normal to slightly elevated position. Carefully place the nozzle by side of the muzzle and squeeze the center of the tube slowly. Note: Do not administer to animals that are unable to swallow."],
+      [
+        "Regular Use- Administer one bottle at the first sign of calving to support normal parturition, alleviate negative energy balance and reduce the chances of milk fever and associated complications.",
+        "Milk Fever Management- Administer one bottle post parturition (upon observing milk fever symptoms or followup therapy after I/V calcium administration) by oral route, repeat after 24-48 hrs if required",
+        "Directions for use: Remove the seal of the bottle. Hold the head of the animal in a normal to slightly elevated position. Carefully place the nozzle by side of the muzzle and squeeze the center of the tube slowly. Note: Do not administer to animals that are unable to swallow."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -238,15 +243,16 @@ const livestock_data = [
     packaging: "350 gm squeezable bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Gelmil Nano.webp",
     Productname: "/Assets/Product name/Livestock/Gelmil Nano.webp",
-    composition: [
-      "Each 350 gm Contains:",
-      "Calcium ……….….....  40 gm",
-      "Phosphorus..………...…13 gm",
-      "Magnesium…….…….…6 gm",
-      "Phyto bio- Calphos®..300 mg",
-      "Vitamin D₃………….50000 IU",
-      "Gluconeogenic precursors (Propylene glycol & Glycerol) eq. to Metabolizable energy value of 4000 Kilojoules"
-    ],
+    composition:
+      [
+        "Each 350 gm Contains:",
+        "Calcium ……….….....  40 gm",
+        "Phosphorus..………...…13 gm",
+        "Magnesium…….…….…6 gm",
+        "Phyto bio- Calphos®..300 mg",
+        "Vitamin D₃………….50000 IU",
+        "Gluconeogenic precursors (Propylene glycol & Glycerol) eq. to Metabolizable energy value of 4000 Kilojoules"
+      ],
     indications:
       ["Comprehensive nutrition supplement for Milk Fever management Reduce the chances of Milk Fever relapse after I/V Calcium administration Recommended during anti hemoprotozoal treatment, impaction, uterine inertia, retention of placenta and to support normal parturition"],
     usage:
@@ -381,7 +387,7 @@ const livestock_data = [
     segment: "Livestock",
     type: "Liquid Gel",
     category: "Other Specialty",
-    packaging: "1 Ltr, 5 Ltr, 25 Ltr, 50 Ltr and 200 Ltr",
+    packaging: "1 Ltr, 5 Ltr, 25 Ltr and 50 Ltr",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Maspre dip.webp",
     Productname: "/Assets/Product name/Livestock/Maspre dip.webp",
     composition: [
@@ -435,32 +441,37 @@ const livestock_data = [
     segment: "Livestock",
     type: "Gel",
     category: "Other Specialty",
-    packaging: "125 gm",
+    packaging: "125 gm , 500 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Maspre gel.webp",
     Productname: "/Assets/Product name/Livestock/Maspre gel.webp",
-    composition: [
-      "Each Pack Contains:",
-      "Turmeric",
-      "Glycyrrhiza glabra",
-      "Eucalyptus globulus",
-      "Calendula officinalis",
-      "Cedrus deodara",
-      "Aloe vera",
-      "Vitamin E with Humectants"
-    ],
+    composition:
+      [
+        "Each Pack Contains:",
+        "Turmeric",
+        "Glycyrrhiza glabra",
+        "Eucalyptus globulus",
+        "Calendula officinalis",
+        "Cedrus deodara",
+        "Aloe vera",
+        "Vitamin E with Humectants"
+      ],
     indications:
-      ["Prophylaxis and management of mastitis",
-        "Helps in strengthening the keratin layer of the teat canal lumen",
-        "Enhances the udder defense mechanism."],
+      [
+        "Gel formula for better penetration and easier application on the udder and teats.",
+        "Indicated for prophylaxis and management of mastitis, Helps in strengthening the keratin layer of the teat canal lumen, Enhances the udder defense mechanism."
+      ],
     usage:
-      ["Wash udder and teats thoroughly after each milking,Dry with a clean cloth/towel and apply a sufficient quantity of Maspre gel to cover the udder/infected quarters twice daily for 5 days."],
+      [
+        "Wash udder and teats thoroughly after each milking,",
+        "Dry with a clean cloth/towel and apply a sufficient quantity of Maspre gel to cover the udder/infected quarters twice daily for 5 days."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
     id: 9,
-    name: "Novel Formulation To Enhance Antibiotic Efficacy During Mastitis",
+    name: "Unique Formulation for faster recovery from Mastitis",
     description:
       "Maspre Ultimate is a unique blend of phospholipase, Microbial lysozyme, bacteriocins producing Bacillus and other Probiotics, Vitamins, chelated minerals and enzymes to improve the efficacy of antibiotics & act as adjunct therapy in clinical mastitis.",
     segment: "Livestock",
@@ -469,16 +480,17 @@ const livestock_data = [
     packaging: "100 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Maspre ultimate.webp",
     Productname: "/Assets/Product name/Livestock/Maspre ultimate.webp",
-    composition: [
-      "Each 100 gm contains:",
-      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg, Microbial Lysozyme 2,50,000 units, Phospholipase 1,000 units."
-    ],
+    composition:
+      [
+        "Each 100 gm contains:",
+        "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg, Microbial Lysozyme 2,50,000 units, Phospholipase 1,000 units."
+      ],
     indications:
-      ["Augments the efficacy of antibiotics.",
-        "Supports faster recovery from clinical Mastitis.",
-        "Increases body immunity and reduces the chance of recurrence of Mastitis.",
-        "Improves udder and reproductive health.",
-        "Restores milk pH, quality and milk yield."],
+      [
+        "As an adjunct therapy with antibiotics in clinical mastitis.",
+        "Improves the efficacy of antibiotics and reduces therapeutic failure.",
+        "Hastens the procces of recovery and reduces the chance of relapse. "
+      ],
     usage:
       ["For Cows and Buffaloes:As an adjunct to Mastitis therapy: 100 gm daily for 4 - 5 days."],
     report: " ",
@@ -487,7 +499,7 @@ const livestock_data = [
   },
   {
     id: 10,
-    name: "For management of dry period",
+    name: "Optimizes Dry Period In Lactating Animals",
     description:
       "Drylact is an advance formulation enriched with herbal extracts, essential vitamins and minerals to improve hyperprolactinemia, metabolism and reproductive health in pre and postnatal lactation period.",
     segment: "Livestock",
@@ -502,16 +514,10 @@ const livestock_data = [
       "Vitamin D₃ 180 IU, Vitamin E 180 IU, Vitamin B₁ 12.96 mg, Vitamin B₂ 11.88 mg, Vitamin B₆ 12.24 mg,",
       "Vitamin B₁₂ 43.2 mcg, D-Panthenol 13.68 mg, Vitamin C 1440 mg, Niacinamide 120 mg, Copper glycinate 25 mg ,",
       "Manganese Chloride tetrahydrate 42.5 mg, Zinc glycinate 100 mg, Potassium iodide 0.68 mg,",
-      "Cobalt (ll) sulphate 0.1 mg, Lactic acid 1.36 mg, Tocopherol extracts from vegetable oil 4.86 mg,",
-      "Enriched with banana Flavour"
+      "Cobalt (ll) sulphate 0.1 mg, Lactic acid 1.36 mg, Tocopherol extracts from vegetable oil 4.86 mg"
     ],
-    indications:
-      ["Reduces milk production in high-producing cows.",
-        "Improves udder health and immunity.",
-        "Improves reproductive health."
-      ],
-    usage:
-      ["Give to high- Yielding cows orally with an infusion during drying off period in an amount of 500 g per 600 kg body weight a day. Up to 350 Kg bwt- it may be given 300 gms. If required, may be repeated after 2 days."],
+    indications: ["Drylact is intended for high-yielding cows entering the dry period, which still have high milk production. The product inhibits milk secretion and has a positive effect on udder tissue regeneration during the dry period. The product for oral use."],
+    usage: ["Give to high- Yielding cows orally with an infusion during drying off period in an amount of 500 g per 600 kg body weight a day. Up to 350 Kg bwt- it may be given 300 gms. May be repeated next days."],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -653,17 +659,18 @@ const livestock_data = [
       ],
     indications:
       [
-        "Retention of placenta",
-        "Silent heat",
-        "Repeat breeding",
-        "Uterine infections with infertility",
-        "Delayed involution of uterus"
+        "• Retention of placenta",
+        "• Silent heat",
+        "• Repeat breeding",
+        "• Uterine infections with infertility",
+        "• Delayed involution of uterus"
       ],
     usage:
       [
-        "To support uterine involution and release of lochial discharges- After 5-7 days of delivery, supplement 100 ml orel daily for 5 days",
+        "To support uterine involution and release of lochial discharges-",
+        "• After 5-7 days of delivery, supplement 100 ml orel daily for 5 days",
         "For early induction of estrus-",
-        "After 25-30 days of delivery, 100 ml orel daily for 5 days or as advised by the qualified veterinary practitioner"
+        "• After 25-30 days of delivery, 100 ml orel daily for 5 days or as advised by the qualified veterinary practitioner"
       ],
     report: " ",
     brochure: " ",
@@ -803,11 +810,12 @@ const livestock_data = [
     packaging: "500 ml and 1 Ltr",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Aurilum Plus.webp",
     Productname: "/Assets/Product name/Livestock/Aurilum Plus.webp",
-    composition: [
-      "Each ml contains:",
-      "Eugenia jambolaua ext. 50mg",
-      "Acacia arabica ext. 10mg"
-    ],
+    composition:
+      [
+        "Each ml contains:",
+        "Phytochemical extracts derived from",
+        "Eugenia jambolana 500 mg, Acacia arabica  100 mg Enriched with Methylene blue"
+      ],
     indications:
       ["Management of Lumpy Skin Disease Symptoms Supportive therapy in cases of PPR affected animals"],
     usage:
@@ -1094,19 +1102,15 @@ const livestock_data = [
     segment: "Livestock",
     type: "Liquid",
     category: "Other Specialty",
-    packaging: "11 litre Bottle 5 litre Jar",
+    packaging: "1 litre Bottle and 5 litre Jar",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auribloat natura.webp",
     Productname: "/Assets/Product name/Livestock/Auribloat Natura.webp",
-    composition: [
-      "Each 10 ml conains:",
-      "Trachyspermum ammi linn extract 6.25 ml",
-      "Oleum Pinus longifolia 1 ml",
-      "Oleum Linseed 2 ml",
-      "Asafoetida extract 8.34 mg",
-      "Yavkashar 33.33 mg",
-      "Ginger extract 200 mg",
-      "Mannan oligosaccharides 240 mg"
-    ],
+    composition:
+      [
+        "Each 10 ml contains",
+        "Phytochemical extracts derived from:",
+        "Trachyspermum ammi linn 62.5 gm, Ginger 2 gm, Oleum Pinus longifolia, Oleum Linseed, Asafoetida extract, Yavkashar, Mannan oligosaccharides"
+      ],
     indications:
       [
         "Quick and prompt relief from Tympany and Bloat.",
@@ -1383,15 +1387,15 @@ const livestock_data = [
     ],
     indications:
       [
-        "Reduces risk of kidney stones formation (Urolithiasis) & deposition.",
-        "Reduces kidney failure risk and nephrotoxicity.",
-        "Improves FCR and reduces mortality.",
-        "Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
+        "• Reduces risk of kidney stones formation (Urolithiasis) & deposition.",
+        "• Reduces kidney failure risk and nephrotoxicity.",
+        "• Improves FCR and reduces mortality.",
+        "• Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
       ],
     usage:
       [
-        "Cow/Buffalo: 75-100 ml twice daily for 7 to 10 days.",
-        "Sheep/Goat: 30 ml twice daily for 7 to 10 days."
+        "• Cow/Buffalo: 75-100 ml twice daily for 7 to 10 days.",
+        "• Sheep/Goat: 30 ml twice daily for 7 to 10 days."
       ],
     report: " ",
     brochure: " ",
@@ -1444,11 +1448,11 @@ const livestock_data = [
     packaging: "100 ml",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auripro gut Liquid.webp",
     Productname: "/Assets/Product name/Livestock/Auripro gut Liquid.webp",
-    composition: 
-    [
-      "Each Ltr contains:",
-      "Mannan oligosaccharides 240000 mg, Bacillus subtilis, Bacillus licheniformis, Bacillus mesentericus, Lactobacillus plantarum, Pediococcus acidilactici Streptococcus faecalis, Clostridium butyricum, Enterococcus faecium Saccharomyces boulardii, Bacillus coagulans, Lactobacillus acidophilus (Probiotic count is 3,000 Billion CFU per Ltr)"
-    ],
+    composition:
+      [
+        "Each Ltr contains:",
+        "Mannan oligosaccharides 240000 mg, Bacillus subtilis, Bacillus licheniformis, Bacillus mesentericus, Lactobacillus plantarum, Pediococcus acidilactici Streptococcus faecalis, Clostridium butyricum, Enterococcus faecium Saccharomyces boulardii, Bacillus coagulans, Lactobacillus acidophilus (Probiotic count is 3,000 Billion CFU per Ltr)"
+      ],
     indications:
       [
         "Optimizes gut health. Improves digestibility and enhances nutrient absorption.",
@@ -1617,7 +1621,7 @@ const livestock_data = [
     segment: "Livestock",
     type: "Powder",
     category: "Other Specialty",
-    packaging: "100 gm 200 gm",
+    packaging: "100 gm and 200 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/bufto forte.webp",
     Productname: "/Assets/Product name/Livestock/Bufto Forte.webp",
     composition: [
@@ -1652,20 +1656,20 @@ const livestock_data = [
     packaging: "30 gm sachet",
     Productimg: "/Assets/Product images/Veterinary/Livestock/digerum.webp",
     Productname: "/Assets/Product name/Livestock/Digerum.webp",
-    composition: 
-    [
-      "Each gm contains",
-      "Phytochemical extracts derived from:",
-      "Trachyspermum ammi linn 60 mg",
-      "Ginger 50 mg",
-      "Andrographis paniculata 60 mg",
-      "Strychni semen 8 mg",
-      "DL-Methionine 80 mg",
-      "Pyridoxine Hcl 0.42 mg",
-      "Niacin 8 mg",
-      "Biotin 80 mcg",
-      "Cobalt carbonate 0.2 mg"
-    ],
+    composition:
+      [
+        "Each gm contains",
+        "Phytochemical extracts derived from:",
+        "Trachyspermum ammi linn 60 mg",
+        "Ginger 50 mg",
+        "Andrographis paniculata 60 mg",
+        "Strychni semen 8 mg",
+        "DL-Methionine 80 mg",
+        "Pyridoxine Hcl 0.42 mg",
+        "Niacin 8 mg",
+        "Biotin 80 mcg",
+        "Cobalt carbonate 0.2 mg"
+      ],
     indications:
       [
         "Bloat, Digestive disorders caused by decreased activity of reticulum and rumen or sudden dietary changes and/or intoxication.",
@@ -1791,35 +1795,20 @@ const livestock_data = [
     packaging: "25 gm Sachets and 5 Sachets in unit carton",
     Productimg: "/Assets/Product images/Veterinary/Livestock/.webp",
     Productname: "/Assets/Product name/Livestock/.webp",
-    composition: 
-    [
-      "Each 25 gm Sachet contains :",
-      "Phytochemical extracts equivalent to",
-"Andrographis paniculata 800 mg, Picrorhiza kurroa 225 mg, Ocimum sanctum 10000 mg, Aloe vera 1000 mg,
-Silymarin Nanophosphosome® 400 mg
-Serratiopeptidase, MOS,
-Potassium iodide 200 mg, Niacin 1000
-mg, Saccharomyces cerevisiae
-60,000 million cfu, Bacillus coagulans
-6,000 million cfu, Aspergillus oryzae
-1000 million cfu, Chromium propionate
-20 mg, Biotin 20 mg, DL Methionine,
-Grape polyphenols eq. to Vitamin E
-activity 1500 IU, Vitamin A 50,000 IU,
-Vitamin D 10,000 IU, Vitamin C 300 mg,3
-Zinc glycinate 300 mg, Bromelain &
-Microbial lysozyme 2,50,000 units,
-Enriched with Zingibain"
-    ],
+    composition:
+      [
+        "Each 25 gm Sachet contains :",
+        "Phytochemical extracts equivalent to Andrographis paniculata 800 mg Picrorhiza kurroa 225 mg, Ocimum sanctum 10000 mg, Aloe vera 1000 mg, Silymarin Nanophosphosome® 400 mg Serratiopeptidase, MOS,  Potassium iodide 200 mg, Niacin 1000 mg, Saccharomyces cerevisiae 60,000 million cfu, Bacillus coagulans 6,000 million cfu, Aspergillus oryzae 1000 million cfu, Chromium propionate 20 mg, Biotin 20 mg, DL Methionine,  Grape polyphenols eq. to Vitamin E activity 1500 IU, Vitamin A 50,000 IU, Vitamin D₃ 10,000 IU, Vitamin C 300 mg, Zinc glycinate 300 mg, Bromelain  & Microbial lysozyme 2,50,000 units, Enriched with Zingibain"
+      ],
     indications:
       [
-        "Cleaves the peptide bond of collagen fibers to reduce the tissue fibrosis.",
-"Improves tissue healing, reduces udder inflammation and supports in the cases of fibrous mastitis.",
-"Effective in the cases of haemorrhagic mastitis.",
-"Helps to restore the milk yield."
-],
+        "• Cleaves the peptide bond of collagen fibers to reduce the tissue fibrosis.",
+        "• Improves tissue healing, reduces udder inflammation and supports in the cases of fibrous mastitis.",
+        "• Effective in the cases of haemorrhagic mastitis.",
+        "• Helps to restore the milk yield."
+      ],
     usage:
-      ["1 Sachet daily for 5 days or as per the recommendation of registered veterinary practitioner"],
+      ["1  Sachet daily for 5 days or as per the recommendation of registered veterinary practitioner."],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -1965,10 +1954,10 @@ Enriched with Zingibain"
       ],
     indications:
       [
-        "Enhances body immunity and reduces the chance of uterine infection.",
-        "As an adjunct therapy with antibiotics in clinical metritis.",
-        "Improves the efficacy of antibiotics and reduces therapeutic failure.",
-        "Hastens the process of recovery and reduces the chance of relapse."
+        "• Enhances body immunity and reduces the chance of uterine infection.",
+        "• As an adjunct therapy with antibiotics in clinical metritis.",
+        "• Improves the efficacy of antibiotics and reduces therapeutic failure.",
+        "• Hastens the process of recovery and reduces the chance of relapse."
       ],
     usage:
       [
@@ -2010,18 +1999,19 @@ Enriched with Zingibain"
     segment: "Livestock",
     type: "Powder",
     category: "Performance Enhancer , Immunomodulator",
-    packaging: "1Box containing 48 sachets",
+    packaging: "1 Box containing 48 sachets",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Neulact.webp",
     Productname: "/Assets/Product name/Livestock/Neulact.webp",
-    composition: [
-      "Each sachet contains :",
-      "Macro Minerals",
-      "Micro Nutrients",
-      "Multi-probiotics",
-      "Prebiotic",
-      "Amino Acid",
-      "Immunomodulators"
-    ],
+    composition:
+      [
+        "Each sachet contains :",
+        "Macro Minerals",
+        "Micro Nutrients",
+        "Multi-probiotics",
+        "Prebiotic",
+        "Amino Acid",
+        "Immunomodulators"
+      ],
     indications:
       [" Prevents the chance of ROP, Milk Fever, Mastitis and Metritis in dairy animals Improves udder conformity (increases value of animal), Uterine cleansing and involution process to initiate early heat in recently parturated animal with higher conception rate"],
     usage:
@@ -2093,24 +2083,24 @@ Enriched with Zingibain"
     packaging: "15 gm sachets, 25 sachets in box",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum.webp",
     Productname: "/Assets/Product name/Livestock/Probirum.webp",
-    composition: 
-    [
-      "Each 15 gm Sachet contains :",
-      "Saccharomyces cerevisiae  5 X 10¹⁰ CFU,",
-      "Lactobacillus sporogenes 1 X 10⁹ CFU,",
-      "Aspergillus oryzae 1 X 10⁹ CFU",
-      "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
-    ],
+    composition:
+      [
+        "Each 15 gm Sachet contains :",
+        "Saccharomyces cerevisiae  5 X 10¹⁰ CFU,",
+        "Lactobacillus sporogenes 1 X 10⁹ CFU,",
+        "Aspergillus oryzae 1 X 10⁹ CFU",
+        "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
+      ],
     indications:
       [
-        "Simple indigestion and anorexia",
-        "Rumen Acidosis",
-        "Low milk yield",
+        "• Simple indigestion and anorexia",
+        "• Rumen Acidosis",
+        "• Low milk yield",
       ],
     usage:
       [
-        "Cattle/ Buffalo- 1 sachet orally B.I.D. for 2-3 days;",
-        "Sheep/ Goat – ½ sachet orally B.I.D. for 2-3 days"
+        "• Cattle/ Buffalo- 1 sachet orally B.I.D. for 2-3 days;",
+        "• Sheep/ Goat – ½ sachet orally B.I.D. for 2-3 days"
       ],
     report: " ",
     brochure: " ",
@@ -2127,18 +2117,18 @@ Enriched with Zingibain"
     packaging: "10X2 Bolis Pack",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum-vet Bolus.webp",
     Productname: "/Assets/Product name/Livestock/Probirum-vet Bolus.webp",
-    composition: [
-      "Each Bolus contains:",
-      "Cellulase 6000 units , Hemicellulase 150 units , Xylanase 4000 units, Pectinase 750 units , Lipase 1000 units , Papain 500 units , Protease 3000 units , Myo Inositol 75 mg, Biotin (Pure) 20 mg , Aspergillus oryzae 1000 million cfu, Saccharomyces cerevisiae 50000 million cfu, Lactobacillus sporogenes 2000 million cfu, Niacin 1 gm , DL Methionine 5 gm, Copper sulphate 100 mg , Zinc sulphate 200 mg, Cobalt sulphate 20 mg , MOS 300 mg Andrographis paniculata ext. 300 mg Phyllanthus niruri ext. 250 mg Eclipta alba ext. 300 mg Boerhavia diffusa ext. 125 mg"
-    ],
+    composition:
+      [
+        "Each Bolus contains:",
+        "Cellulase 6000 units , Hemicellulase 150 units , Xylanase 4000 units, Pectinase 750 units , Lipase 1000 units , Papain 500 units , Protease 3000 units , Myo Inositol 75 mg, Biotin (Pure) 20 mg , Aspergillus oryzae 1000 million cfu, Saccharomyces cerevisiae 50000 million cfu, Lactobacillus sporogenes 2000 million cfu, Niacin 1 gm , DL Methionine 5 gm, Copper sulphate 100 mg , Zinc sulphate 200 mg, Cobalt sulphate 20 mg , MOS 300 mg Andrographis paniculata ext. 300 mg Phyllanthus niruri ext. 250 mg Eclipta alba ext. 300 mg Boerhavia diffusa ext. 125 mg"
+      ],
     indications:
       [
-        "Simple indigestion and anorexia",
-        "Rumen Acidosis",
-        "Low milk yield"
+        "• Simple indigestion and anorexia",
+        "• Rumen Acidosis",
+        "• Low milk yield"
       ],
-    usage:
-      ["Recommended Usage- 1 Bolus daily for 2-3 days"],
+    usage: ["Recommended Usage- 1 Bolus daily for 2-3 days"],
     report: " ",
     brochure: " ",
     feedback: " "
