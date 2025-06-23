@@ -1,6 +1,43 @@
 export const block3Data = [
   {
     id: 1,
+    image: "/Assets/Product images/Human/Health Supplements/auribery plus c.webp",
+    title: "Auribery plus",
+    segment: "Health Supplements",
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    image: "/Assets/Product images/Human/Health Supplements/Auricur Plus.webp",
+    title: "Auricur Plus",
+    segment: "Health Supplements",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    image: "/Assets/Product images/Human/Health Supplements/Reintoni c.webp",
+    title: "Reintoni",
+    segment: "Health Supplements",
+    rating: 4.0,
+  },
+  {
+    id: 4,
+    image: "/Assets/Product images/Human/Health Supplements/Shilajit.webp",
+    title: "Wellness Honey enriched with Shilajit",
+    segment: "Health Supplements",
+    rating: 4.0,
+  },
+  {
+    id: 5,
+    image: "/Assets/Product images/Human/Health Supplements/Quadrical.webp",
+    title: "Quadrical",
+    segment: "Health Supplements",
+    rating: 4.5,
+  }
+];
+export const block8Data = [
+  {
+    id: 1,
     image: "/Assets/Product images/Veterinary/Livestock/Auriplanta.webp",
     hoverImage: "/Assets/banner/Add banner/Auriplanta.webp",
     title: "Auriplanta",
@@ -40,46 +77,6 @@ export const block3Data = [
     rating: 4.5,
   }
 ];
-
-
-export const block8Data = [
-  {
-    id: 1,
-    image: "/Assets/Product images/Human/Health Supplements/auribery plus c.webp",
-    title: "Auribery plus",
-    segment: "Health Supplements",
-    rating: 4.5,
-  },
-  {
-    id: 2,
-    image: "/Assets/Product images/Human/Health Supplements/Auricur Plus.webp",
-    title: "Auricur Plus",
-    segment: "Health Supplements",
-    rating: 4.5,
-  },
-  {
-    id: 3,
-    image: "/Assets/Product images/Human/Health Supplements/Reintoni c.webp",
-    title: "Reintoni",
-    segment: "Health Supplements",
-    rating: 4.0,
-  },
-  {
-    id: 4,
-    image: "/Assets/Product images/Human/Health Supplements/Shilajit.webp",
-    title: "Wellness Honey enriched with Shilajit",
-    segment: "Health Supplements",
-    rating: 4.0,
-  },
-  {
-    id: 5,
-    image: "/Assets/Product images/Human/Health Supplements/Quadrical.webp",
-    title: "Quadrical",
-    segment: "Health Supplements",
-    rating: 4.5,
-  }
-];
-
 export const productTypes = [
   {
     title: "POWDER / GRANULES",

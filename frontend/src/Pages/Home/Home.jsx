@@ -15,13 +15,13 @@ const Home = () => {
     <div className="w-full h-auto bg-gradient-to-br from-white to-gray-100">
       <ImageSlider />
       <Block1 />
-      <Block7 />
-      <Block8 />
+      <Block2 />
+      <Block3 />
       <Block4 />
       <Block5 />
       <Block6 />
-      <Block2 />
-      <Block3 />
+      <Block7 />
+      <Block8 />
       <Block9 />
       <Block10 />
     </div>

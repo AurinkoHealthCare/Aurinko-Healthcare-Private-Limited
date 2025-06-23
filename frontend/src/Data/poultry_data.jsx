@@ -10,30 +10,35 @@ const poultry_data = [
     packaging: "1 Kg Pack 25 Kg Drum",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Yeco Nanophosphosome.webp",
     Productname: "/Assets/Product name/Poultry/Yeco.webp",
-    composition: [
-      "Each kg contains:",
-      "Lutein-Zeaxanthin Nanophosphosome",
-      "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine Inositol-Serine Complex) 200 gm",
-      "Lutein 32 gm",
-      "Zeaxanthin 2 gm",
-      "Each kg contains:",
-      "Curcumin-Lutein-Zeaxanthin Nanophosphosome",
-      "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine-Inositol-Serine Complex) 400 gm",
-      "Curcumin 85 gm",
-      "Lutein 32 gm",
-      "Zeaxanthin 2 gm",
-      "Fortified with Piperine"
-    ],
+    composition:
+      [
+        "Each kg contains:",
+        "Lutein-Zeaxanthin Nanophosphosome",
+        "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine Inositol-Serine Complex) 200 gm",
+        "Lutein 32 gm",
+        "Zeaxanthin 2 gm",
+        "Each kg contains:",
+        "Curcumin-Lutein-Zeaxanthin Nanophosphosome",
+        "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine-Inositol-Serine Complex) 400 gm",
+        "Curcumin 85 gm",
+        "Lutein 32 gm",
+        "Zeaxanthin 2 gm",
+        "Fortified with Piperine"
+      ],
     indications:
-      ["Provides consistent and uniform color for egg yolk and broiler skin.",
+      [
+        "Provides consistent and uniform color for egg yolk and broiler skin.",
         "Improves egg shell thickness and egg quality.",
-        "Increases immunity."],
+        "Increases immunity."
+      ],
     usage:
-      ["Broilers:",
+      [
+        "Broilers:",
         "For skin pigmentation- 250 gm to 500 gm per ton of feed.",
         "Layers:",
         "Egg yolk coloration- 50 gm to 75 gm per ton of feed",
-        "Egg shell coloration- 100 gm to 150 gm per ton of feed"],
+        "Egg shell coloration- 100 gm to 150 gm per ton of feed"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -57,8 +62,15 @@ const poultry_data = [
     indications:
       ["Reduces early chick mortality, Improves growth, body weight gain, feed conversion efficiency, and nutrient digestibility.",
         "Helps to maintain gut balance Supports the immune system, Promotes good health and reduces use of antibiotics"],
-    usage:
-      ["Recommended usage (Water soluble) Broilers – 10,000 Birds"],
+    usage: [
+      "Recommended usage (Water soluble) Broilers - 10,000 Birds",
+      "Week-wise Dosage Schedule:",
+      "Week 1: Morning - 0.4 kg, Evening - 0.4 kg, Total - 0.8 kg/day, 5.6 kg/week",
+      "Week 2: Morning - 0.8 kg, Evening - 0.8 kg, Total - 1.6 kg/day, 11.2 kg/week",
+      "Week 3: Morning - 1.1 kg, Evening - 1.1 kg, Total - 2.2 kg/day, 15.4 kg/week",
+      "Week 4: Morning - 1.4 kg, Evening - 1.4 kg, Total - 2.8 kg/day, 19.6 kg/week",
+      "Total Usage: 51.8 kg over 4 weeks"
+    ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -332,16 +344,19 @@ const poultry_data = [
     packaging: "100 gm 1 kg Pack",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Auripro Plus.webp",
     Productname: "/Assets/Product name/Aqua/Auripro Plus.webp",
-    composition: [
+    composition: 
+    [
       "Each kg contains:",
       "Vitamin B₁ 5 gm, Vitamin B₆ 5 gm, Vitamin C 10 gm, Alpha-amylase 10,00,000 IU, Protease 1,00,000 IU, Phytase 10,000 IU, Cellulase 1,00,000 IU, Bacillus subtilis, Bacillus licheniformis, Bacillus coagulans, Aspergillus oryzae, Saccharomyces boulardii, Aspergillus niger",
       "(Total probiotic count NLT 3500 Billion CFU)"
     ],
     indications:
-      ["Improves gut health for enhanced growth and production.",
+      [
+        "Improves gut health for enhanced growth and production.",
         "Increases digestibility and enhances nutrient absorption.",
         "Improves health, body weight gain and FCR.",
-        "Supports body immunity and reduces mortality. Enriched with Fish attractant flavor."],
+        "Supports body immunity and reduces mortality. Enriched with Fish attractant flavor."
+      ],
     usage:
       ["Inclusion rate: In mash feed, Layer/Breeder/ Grower: 125 g/ton of feed. For Layer: 75-125 g/ton of feed. For Aqua: Mixing Ratio: (Gm/Kg of feed) For disease resistance: Fish: 1-2 gm Giant river prawn: 2-3 gm Tiger prawn: 4-5 gm For Therapeutic support: Fish: 2-3 gm Giant river prawn: 4-5 gm Tiger prawn: 6-8 gm"],
     report: " ",
@@ -350,64 +365,102 @@ const poultry_data = [
   },
   {
     id: 13,
-    name: "Phytogenic Anti-viral Prevention Programme",
+    name: "Powerful Phytogenic Immunomodulator against DNA Virus Infections",
     description:
       "Aurivir-S is a unique blend of phytogenic extracts and antioxidants to prevent and control DNA viral infections in poultry, swine and cattle. It is highly effective against Chicken Anemia Virus, Fowl Pox Virus, Marek’s Disease Virus, Swine Fever Virus, Pseudorabies Virus and Infectious Bovine Rhinotracheitis Virus.",
     segment: "Poultry, Swine",
     type: "Powder",
     category: "Immunomodulator , Other Specialty",
-    packaging: "250 gm 500 gm 1 kg",
+    packaging: "1 kg & 25 kg",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-S.webp",
     Productname: "/Assets/Product name/Poultry/Aurivir - S.webp",
-    composition: [
-      "Each kg contains:",
-      "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin-3-gallate, Grape Skin Nanophosphosome®",
-      "Vitamin C 75 gm",
-      "Selenium 3.96 mg",
-      "Copper (as glycinate complex) 600 mg",
-      "Manganese (as glycinate complex) 300 mg",
-      "Fortified with Carum carvi and Piperine"
-    ],
+    composition:
+      [
+        "Each kg contains:",
+        "Phytochemical principles of Isoflavons, polyphenols,Camellia sinensis Nanophosphosome®",
+        "Grape Skin Nanophosphosome®, ",
+        "Vitamin C 75 gm, Cu (as glycinate complex) 600 mg, Mn (as glycinate complex) 300 mg Fortified with Piperine and Selenium"
+      ],
     indications:
-      ["To prevent and control DNA viral infections (Chicken Anemia Virus, Fowl Pox Virus, Marek’s Disease Virus).",
-        "Helps to reduce the incidence of bacterial and viral diseases.",
+      [
+        "Helps to prevent and control DNA viral infections (Chicken Anemia Virus, Inclusion Body Hepatitis Virus, Fowl Pox Virus, Marek’s Disease Virus).",
         "Ensures faster recovery during disease outbreaks.",
         "Improves the antibody titre when given along with vaccinations.",
-        "Regular use prevents recurrence of infection."],
+        "Regular use prevents recurrence of infection."
+      ],
     usage:
-      ["For Poultry:",
-        "Powder supplementation-",
-        "For prevention- 200 gm per tonne of feed for 2-4 weeks.",
-        "As Supportive therapy during acute infections- 600 gm per tonne of feed for 7-14 days."],
+      [
+        "For Poultry:",
+        "Powder supplementation",
+        "For prevention- 250 gm per tonne of feed for 2-4 weeks.",
+        "As Supportive therapy during acute infections- 750 gm per tonne of feed for 57 days."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
     id: 14,
-    name: "Phytogenic Anti-viral Immuno Modulator",
+    name: "Powerful Essential Oil Based Immunomodulator against Infectious Bronchitis and Avian Influenza",
     description:
       "Aurivir EO-1 is a unique blend of essential oils to prevent and control RNA viral infections in poultry. Aurivir-EO-1 is highly effective against Infectious Bronchitis and Avian Influenza.",
     segment: "Poultry",
     type: "Powder",
     category: "Immunomodulator , Other Specialty",
-    packaging: "250 gm 500 gm 1 kg",
+    packaging: "500 gm and 1 kg",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-EO1.webp",
     Productname: "/Assets/Product name/Poultry/Aurivir - EO1.webp",
-    composition: [
-      " Each pack contains:",
-      "Phytochemical principles of 1,8 cineol, Camphor, Thujone, Geranial, Neral, Citronellal, Linalool, Cinnamaldehyde, Eugenol, Silver nanoparticles, Octanoic acid, Alpha monolaurin, Lauric acid"
-    ],
+    composition:
+      [
+        "Each pack contains:",
+        "Phytochemical principles of 1-8 cineol, Thymol, Carvacrol, Terpinen-4-ol, Linalool, Cinnamaldehyde, Eugenol and Silver nanoparticles."
+      ],
     indications:
-      ["To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease).",
-        "Helps to reduce the incidence of bacterial and viral diseases.",
+      [
+        "Helps to prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza).",
         "Ensures faster recovery during disease outbreaks.",
         "Improves the antibody titre when given along with vaccinations.",
-        "Regular use prevents recurrence of infection."],
+        "Regular use prevents recurrence of infection."
+      ],
     usage:
-      [" Liquid supplementation",
-        "Volume of Aurivir EO liquid: 1 Liter mixed with 50-300 ltr. water",
-        "Average body weight of Birds: 1.5 kg bwt, 750 gm bwt, 250 gm bwt, 100 gm bwt"],
+      [
+        "Water supplementation",
+        "Prevention: 0.2 ml per litre of drinking water for 2 to 3 weeks",
+        "Therapeutic support: 0.5 ml per litre of drinking water for 5 to 7 days"
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 14,
+    name: "Powerful Essential Oil Based Immunomodulator against New Castle Disease",
+    description:
+      "Aurivir EO-2",
+    segment: "Poultry",
+    type: "Powder",
+    category: "Immunomodulator , Other Specialty",
+    packaging: "500 gm and 1 kg",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-EO2.webp",
+    Productname: "/Assets/Product name/Poultry/Aurivir - EO2.webp",
+    composition:
+      [
+        "Each Ltr. contains:  ",
+        "Phytochemical principles of 1-8 cineol, Carvacrol, Thymol",
+        "Vitamin A............20 million IU",
+        "Vitamin D₃............8 million IU"
+      ],
+    indications:
+      [
+        "Helps to prevent and control New Castle Disease virus infections Ensures faster recovery during disease outbreaks.",
+        "Improves the antibody titre when given along with vaccinations.",
+        "Regular use prevents recurrence of infection."
+      ],
+    usage:
+      [
+        "Prevention: 0.2 ml per litre of drinking water for 2 to 3 weeks",
+        "Therapeutic support: 0.5 ml per litre of drinking water for 5 to 7 days"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -420,19 +473,22 @@ const poultry_data = [
     segment: "Poultry",
     type: "Powder",
     category: "Immunomodulator , Other Specialty",
-    packaging: "1 kg 25 kg",
+    packaging: "1 kg and 25 kg",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-R.webp",
     Productname: "/Assets/Product name/Poultry/Aurivir - R.webp",
-    composition: [
+    composition: 
+    [
       "Each Kg contains:",
       "Phytochemical principles of Proanthocyanidins, Eugenol, Oleanolic acid, Carnosic acid Berberine-Quercetin Nanophosphosome® , Rosmarinic-Urosolic acid  Nanophosphosome® Vitamin C 75 gm, Cu (as glycinate complex) 300 mg, Mn (as glycinate complex) 150 mg Fortified with Selenium"
     ],
     indications:
-      ["To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease).",
+      [
+        "To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease).",
         "Help to reduce the incidence of bacterial and viral diseases.",
         "Ensures faster recovery during disease outbreaks.",
         "Improves the antibody titre when given along with vaccinations.",
-        "Regular use prevents recurrence of infection."],
+        "Regular use prevents recurrence of infection."
+      ],
     usage:
       ["For Poultry: Powder supplementation- For prevention- 400 gm per tonne of feed for 1-2 weeks. As Supportive therapy during acute infections- 1.2 kg per tonne of feed for 5-7 days."],
     report: " ",
@@ -441,7 +497,7 @@ const poultry_data = [
   },
   {
     id: 16,
-    name: "Phytogenic Anti-viral Immuno Modulator",
+    name: "Powerful Phytogenic Immunomodulator against Infectious Bursal Disease",
     description:
       "Aurivir-IBD is a unique blend of phytogenic extracts, vitamins and minerals to prevent and control double stranded RNA viral infections in poultry. Aurivir-IBD is highly effective against Infectious Bursal Disease.",
     segment: "Poultry",
@@ -450,19 +506,56 @@ const poultry_data = [
     packaging: "1 kg & 25 kg",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-IBD.webp",
     Productname: "/Assets/Product name/Poultry/Aurivir-IBD.webp",
-    composition: [
-      "Each Kg contains:",
-      "Phytochemical principles of Allicin, Berberine-Quercetin  Nanophosphosome® , Camellia sinensis  Nanophosphosome® , Vitamin C 75 gm, Cu (as glycinate complex) 300 mg, Mn (as glycinate complex) 150 mg Fortified with Selenium"
-    ],
+    composition:
+      [
+        "Each Kg contains:",
+        "Phytochemical principles of Myricitrin, Azadirachtin, Berberine-Quercetin  Nanophosphosome® , Withania Somnifera  Nanophosphosome® , Vitamin C 75 gm, Cu (as glycinate complex) 300 mg, Mn (as glycinate complex) 150 mg Fortified with Selenium"
+      ],
     indications:
-      ["To prevent and control RNA viral infections (Infectious Bursal Disease).",
-        "Helps to reduce the incidence of bacterial and viral diseases.",
+      [
+        "Helps to prevent and control RNA viral infections (Infectious Bursal Disease).",
         "Ensures faster recovery during disease outbreaks.",
         "Improves the antibody titre when given along with vaccinations.",
-        "Regular use prevents recurrence of infection."],
+        "Regular use prevents recurrence of infection."
+      ],
     usage:
-      ["For Poultry: Powder supplementation- For prevention- 400 gm per tonne of feed for 1-2 weeks.",
-        "As Supportive therapy during acute infections- 1.2 kg per tonne of feed for 5-7 days."],
+      [
+        "For Poultry: Powder supplementation- For prevention- 400 gm per tonne of feed for 1-2 weeks.",
+        "As Supportive therapy during acute infections- 1.2 kg per tonne of feed for 5-7 days."
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
+  {
+    id: 17,
+    name: "Powerful Phytogenic Immunomodulator against New Castle Disease",
+    description:
+      "Aurivir-ND",
+    segment: "Poultry",
+    type: "Powder",
+    category: "Immunomodulator, Other Specialty",
+    packaging: "1 kg & 25 kg",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-ND.webp",
+    Productname: "/Assets/Product name/Poultry/Aurivir-ND.webp",
+    composition:
+      [
+        "Each Kg contains:",
+        "Phytochemical principles of Allicin, Azadirachtin, Polyphenols, Camellia sinensis Nanophosphosome® Vitamin C 75 gm, Cu (as glycinate complex) 300 mg, Mn (as glycinate complex) 150 mg Fortified with Selenium"
+      ],
+    indications:
+      [
+        "Helps to prevent and control New Castle Disease virus infection.",
+        "Ensures faster recovery during disease outbreaks.",
+        "Improves the antibody titre when given along with vaccinations.",
+        "Regular use prevents recurrence of infection."
+      ],
+    usage:
+      [
+        "For Poultry:",
+        "Powder supplementation- For prevention- 700 gm per tonne of feed for 1-2 weeks. ",
+        "As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -616,30 +709,30 @@ const poultry_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 23,
-  //   name: "Powerful Mycotoxin Binder and Immunomodulator",
-  //   description:
-  //     "Acitox Forte Liquid is an innovative mineral-based mycotoxin binder formulated to combat the toxic secondary metabolites produced by certain fungi and mould species and to protect the poultry from their ill effects.",
-  //   segment: "Poultry, Health Supplementsqua",
-  //   type: "Powder",
-  //   category: "Toxin Binder , Other Specialty",
-  //   packaging: "25 Kg Bag",
-  //   Productimg: "/Assets/Product images/Veterinary/Poultry/Acitox FORTE Liquid.webp",
-  //   Productname: "/Assets/Product name/Poultry/Acitox Forte Liquid.webp",
-  //   composition: [
-  //     "Each ltr contains:",
-  //     "Citric acid monohydrate 60 gm, Phosphoric acid 60 gm, Lactic acid 20 gm, Biotin 0.015 gm, Nicotinamide 1 gm, Calcium chloride 3 gm, Potassium Iodide 0.046 gm, Sodium Selenite 0.788 gm, Zinc chloride 3.2 gm, Ferric chloride 3 gm, Magnesium chloride hexahydrate 2.5 gm, Manganese chloride 6.31 gm, Copper sulphate 0.32 gm, Cobalt sulphate 0.0338 gm, Vitamin B₁ 1 gm, Vitamin B₂ 0.06 gm,  Vitamin B₆ 0.8 gm, Vitamin B₁₂ 0.006  gm, Yeast extract 20 gm  (Saccharomyces cerevisiae 4.125x10 CFU, equivalent to 0.12 gm Nitrogen content) Protein hydrolysate (40% Amino acid, 20 gm Nitrogen from Amino acid)"
-  //   ],
-  //   indications:
-  //     ["Effectively neutralizes mycotoxins, improves immune system, improves vaccination response, reduces mortality, improves feed conversion ratio, improves growth, bodyweight and egg production"],
-  //   usage:
-  //     ["Poultry- For prevention: 0.5 ml/ litre of drinking water For treatment:1 ml/ litre of drinking water",
-  //       "LivestockSmall animal:5-10 ml/animal/day Large animal:50-60 ml/animal/day Or as directed by the registered veterinarian practitioner."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 23,
+    name: "Powerful Mycotoxin Binder and Immunomodulator",
+    description:
+      "Acitox Forte Liquid is an innovative mineral-based mycotoxin binder formulated to combat the toxic secondary metabolites produced by certain fungi and mould species and to protect the poultry from their ill effects.",
+    segment: "Poultry, Health Supplementsqua",
+    type: "Powder",
+    category: "Toxin Binder , Other Specialty",
+    packaging: "25 Kg Bag",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Acitox FORTE Liquid.webp",
+    Productname: "/Assets/Product name/Poultry/Acitox Forte Liquid.webp",
+    composition: [
+      "Each ltr contains:",
+      "Citric acid monohydrate 60 gm, Phosphoric acid 60 gm, Lactic acid 20 gm, Biotin 0.015 gm, Nicotinamide 1 gm, Calcium chloride 3 gm, Potassium Iodide 0.046 gm, Sodium Selenite 0.788 gm, Zinc chloride 3.2 gm, Ferric chloride 3 gm, Magnesium chloride hexahydrate 2.5 gm, Manganese chloride 6.31 gm, Copper sulphate 0.32 gm, Cobalt sulphate 0.0338 gm, Vitamin B₁ 1 gm, Vitamin B₂ 0.06 gm,  Vitamin B₆ 0.8 gm, Vitamin B₁₂ 0.006  gm, Yeast extract 20 gm  (Saccharomyces cerevisiae 4.125x10 CFU, equivalent to 0.12 gm Nitrogen content) Protein hydrolysate (40% Amino acid, 20 gm Nitrogen from Amino acid)"
+    ],
+    indications:
+      ["Effectively neutralizes mycotoxins, improves immune system, improves vaccination response, reduces mortality, improves feed conversion ratio, improves growth, bodyweight and egg production"],
+    usage:
+      ["Poultry- For prevention: 0.5 ml/ litre of drinking water For treatment:1 ml/ litre of drinking water",
+        "LivestockSmall animal:5-10 ml/animal/day Large animal:50-60 ml/animal/day Or as directed by the registered veterinarian practitioner."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 24,
     name: "Powerful Mycotoxin Binder and Antioxidant",
@@ -679,27 +772,29 @@ const poultry_data = [
     segment: "Livestock , Poultry , Swine",
     type: "Powder",
     category: "Performance Enhancer , Nutrition Supplement",
-    packaging: "250 ml Bottle 500 ml Bottle 1 Ltr Bottle 5 Ltr Jarx",
+    packaging: "1 Ltr Bottle, 5 Ltr Jar and 25 Ltr Jar",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Nomino.webp",
     Productname: "/Assets/Product name/Poultry/Nomino.webp",
-    composition: [
-      "Each Litre contains:",
-      "Vitamin A 5,00,000 IU, Vitamin D3 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B1 1,250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg, Vitamin B₁₂ 5,300 mcg, Vitamin K 350 mg, Vitamin H 10,00,000 mcg, Vitamin C 10,000 mg, Niacin 1,400 mg, D-Panthenol 625 mg, Folic Acid precursor 625 mg, L-Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 10,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 4,000 mg, Organic Manganese 10,000 mg, Organic Zinc 10,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
-      "Enriched with banana flavour"
-    ],
+    composition:
+      [
+        "Each Litre contains:",
+        "Vitamin A 5,00,000 IU, Vitamin D3 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B1 1,250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg, Vitamin B₁₂ 5,300 mcg, Vitamin K 350 mg, Vitamin H 10,00,000 mcg, Vitamin C 10,000 mg, Niacin 1,400 mg, D-Panthenol 625 mg, Folic Acid precursor 625 mg, L-Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 10,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 4,000 mg, Organic Manganese 10,000 mg, Organic Zinc 10,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
+        "Enriched with banana flavour"
+      ],
     indications:
-      ["Improves oogenesis and hatchability during stress",
-        "Alleviates stress & increase egg production",
-        "Improves digestive performance and enhances growth",
-        "Augments immunity in birds and animals during periods of stress, vaccination, heat stress, disease challenges and when feed intake is reduced"],
+      [
+        "Improves oogenesis and fertility during stress ",
+        "Enhances hatchability of eggs and chick quality in layers Increases growth in chicks, kids, piglets, calves & Goats. Augments immunity in birds during periods, stress, vaccination disease challenges and when feed intake is reduced"
+      ],
     usage:
-      ["Through oral route",
-        "Birds-",
-        "Chicks up to 1 week- 5 ml daily per 100 birds",
-        "Chicks more than 1 week-7.5 ml daily per 100 birds",
-        "Broilers more than 2 week-10 ml daily per 100 birds",
-        "Layers-10 ml daily per 100 birds",
-        "Breeders-15 ml daily per 100 birds"],
+      [
+        "Through oral route per 100 Birds",
+        "Chicks up to 1 week-5 ml daily",
+        "Chicks more than 1 week-7.5 ml daily",
+        "Broiler more than 2 week-10 ml daily ",
+        "Layers- 10 ml daily ",
+        "Breeders- 15 ml daily "
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -872,21 +967,24 @@ const poultry_data = [
     segment: "Poultry, Swine",
     type: "Powder",
     category: "Immunomodulator , Other Specialty",
-    packaging: "1 Kg Pack 25 Kg Drum",
+    packaging: "1 Kg and 25 Kg Bags",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurigain.webp",
     Productname: "/Assets/Product name/Poultry/Aurigain.webp",
-    composition: [
-      "Each pack contains:",
-      "Phytochemical extracts of-",
-      "Leptadenia reticulate, Asparagus racemosus, Trigonella foenum",
-      "Ocimum Sanctum, Phyllanthus Embllica, Andrographis Paniculata, Eclipta Alba, Sacchromyces cerevisiae, Bacillus coagulans, Aspergillus oryzae, DL Methionine, Niacin, Biotin, Fortified with Essential oils"
-    ],
+    composition:
+      [
+        "Each pack contains:",
+        "Phytochemical extracts derived from-",
+        "Leptadenia reticulate, Asparagus racemosus, Trigonella foenum",
+        "Ocimum Sanctum, Phyllanthus Embllica, Andrographis Paniculata, Eclipta Alba, Sacchromyces cerevisiae, Bacillus coagulans, Aspergillus oryzae, DL Methionine, Niacin, Biotin, Fortified with Essential oils"
+      ],
     indications:
-      ["Initiates faster growth in growing pig, goat kid and calf/heifer to achieve higher weight gain."],
+      ["Initiates faster growth in growing broiler achieve higher weight gain."],
     usage:
-      ["Broilers:",
+      [
+        "Broilers:",
         "For 100 birds during 30 days period.",
-        "10 gm daily for 10 days followed by 20 gm daily for next 20 days."],
+        "10 gm daily for 10 days followed by 20 gm daily for next 20 days."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -899,12 +997,14 @@ const poultry_data = [
     segment: "Poultry , Aqua , Swine",
     type: "Powder",
     category: "Performance Enhancer , Immunomodulator",
-    packaging: "100 gm and 500 gm HDPE bottle",
+    packaging: "100 gm, 250 gm and 1 kg",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurigrow.webp",
     Productname: "/Assets/Product name/Poultry/Aurigrow.webp",
-    composition: [
-      "xtracts of Allium Sativum and Ocimum sanctum, Phhytochemical principles of Thymol, Curcumin and Capsaicin Nucleotides, Vitamin C,FOS, Selenium, Zinc, Esterified Butyrate, Organic acid derivatives, Fermentation Extracts Base of Ginger, Garlic & Inulin QS"
-    ],
+    composition:
+      [
+        "Each pack Contains:",
+        "Extracts of Allium sativum and Ocimum sanctum, Phytochemical principles of  Thymol, Eugenol, Curcumin and Capsaicin, Nucleotides, Vitamin C, Mannan oligosaccharide, Zinc, Organic acid derivatives, Postbiotic Metabolites of Bacillus Spp., Protease enzyme & Inulin"
+      ],
     indications:
       ["Growth promoter Immunity enhancer Strong antibacterial and antifungal supplement"],
     usage:
@@ -1046,14 +1146,15 @@ const poultry_data = [
     segment: "Poultry",
     type: "Liquid",
     category: "Nutrition Supplement , Performance Enhancer , Other Specialty",
-    packaging: "1 Ltr Bottle 5 Ltr Jar",
+    packaging: "1 Ltr Bottle and 5 Ltr Jar",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Aurimino.webp",
     Productname: "/Assets/Product name/Poultry/Aurimino.webp",
-    composition: [
-      "Each Litre Contains:",
-      "Protein Hydrolysate 360 gm, Arginine 5200mg,  Cystine1050mg, Glycine 3150mg,  Histidine 2000mg, Isoleucine 3275mg, Leucine 5700mg, L-Lysine 4500mg, DL-Methionine 1350mg, Phenylalanine 3400mg, Serine 3800mg, Tyrosine 3200mg, Threonine ,2900mg",
-      "Tryptophan 1210mg, Valine 3500mg, Calcium 170mg, Chloride 2900mg, Cobalt 4.0mg, Copper 4.0mg, Iodine 2090mg, Iron 20mg, Magnesium 1820mg, Manganesen 16mg, Potassium 680mg, Sodium 2100mg, Zinc 6.66mg, Papain 1020mg, Yeast Extract 2060mg, Carbohydrates 3200mg, Antioxidant 120mg"
-    ],
+    composition:
+      [
+        "Each Litre Contains:",
+        "Protein Hydrolysate 360 gm, Arginine 5200 mg,  Cystine 1050 mg, Glycine 3150 mg,  Histidine 2000 mg, Isoleucine 3275 mg, Leucine 5700 mg, L-Lysine 4500 mg, DL-Methionine 1350 mg, Phenylalanine 3400 mg, Serine 3800 mg, Tyrosine 3200 mg, Threonine 2900 mg",
+        "Tryptophan 1210 mg, Valine 3500 mg, Calcium 170 mg, Chloride 2900 mg, Cobalt 4.0 mg, Copper 4.0 mg, Iodine 2090 mg, Iron 20 mg, Magnesium 1820 mg, Manganesen 16 mg, Potassium 680 mg, Sodium 2100 mg, Zinc 6.66 mg, Papain 1020 mg, Yeast Extract 2060 mg, Carbohydrates 3200 mg, Antioxidant 120mg"
+      ],
     indications:
       [
         "Ultimate source of amino acids and minerals for growth and egg production,",
@@ -1063,7 +1164,12 @@ const poultry_data = [
         "Reduces mortality."
       ],
     usage:
-      ["Chicks- 10 ml to 15 ml per Litre of water or 20 ml per 100 birds, Layers- 15 ml to 20 ml per Litre of water or 20 ml to 25 ml per 100 birds. Growers & Broilers- 20 ml to 25 ml per Litre of water or 20 ml to 25 ml per 100 birds. To be administered through drinking water on regular basis or as advised by a Veterinarian/ Nutritionist."],
+      [
+        "Chicks- 10 ml to 15 ml per Litre of water or 20 ml per 100 birds,",
+        "Layers- 15 ml to 20 ml per Litre of water or 20 ml to 25 ml per 100 birds.",
+        "Growers & Broilers- 20 ml to 25 ml per Litre of water or 20 ml to 25 ml per 100 birds.",
+        "To be administered through drinking water on regular basis or as advised by a Veterinarian/ Nutritionist."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -1169,7 +1275,7 @@ const poultry_data = [
   },
   {
     id: 42,
-    name: " ",
+    name: "Pentavalent Efficacy Non-Antibiotic Growth Promoter",
     description:
       "Auriquinol Power is a blend of potentiated Chloro hydroxyquinoline, organic acid salts and mannan oligosaccharides with pentavalent efficacy.",
     segment: "Poultry",
@@ -1178,29 +1284,12 @@ const poultry_data = [
     packaging: "1 kg and 25 kg bag",
     Productimg: "/Assets/Product images/Veterinary/Poultry/Auriquinol.webp",
     Productname: "/Assets/Product name/Poultry/Auriquinol Power.webp",
-    composition: [
-      "Each 100 gm contains:",
-      "Alpha amylase…………….40000 unit",
-      "Pectinase…………………….1400 unit",
-      "Cellulase………………….20000 unit",
-      "Acid protease…………..……..20 unit",
-      "Lipase………………………….20 unit",
-      "Beta glucanase……………..7500 unit",
-      "Beta mannanase……………7500 unit",
-      "Alpha galactosidase………..600 unit",
-      "Xylanase………………….200000 unit",
-      "Phytase…………………………….20 unit",
-      "Invertase………………………400 unit",
-      "Hemi-cellulase……………………1500 unit"
-    ],
+    composition:
+      ["Each kg contains: Potentiated Chloro Hydroxyquinolines 550 gm, Acidifiers 25 gm, Mannan Oligosaccharides 25 gm"],
     indications:
-      ["Cocktail enzymes to optimize digestion, feed conversion and productivity"],
+      ["Improves weight gain and FCR, Regulates intestinal pH, Reduces mortality, Minimises wet droppings, Maintains gut integrity, It controls diarrhoea by slowing down the intestinal motility"],
     usage:
-      ["Feed Grade Enzyme Powder: 500 gm per ton feed Water Soluble Enzyme",
-        "Powder: 50-100 gm mixed with water for 5000",
-        "Chicks 125-175 gm mixed with water for 5000",
-        "Growers 200-250 gm mixed with water for 5000",
-        "Layers 250-350 gm mixed with water for 5000 Broilers/Breeders."],
+      ["Broilers and layers: 100g/ton of feed for growth promotion "],
     report: " ",
     brochure: " ",
     feedback: " "
@@ -1617,7 +1706,7 @@ const poultry_data = [
       "Phosphatidyl",
       "Ethanolamine, Phosphatidyl serine",
       "Phosphatidyl inositol",
-      "Phytochemical extracts of -Andrographis paniculata, Picrorhiza Kurroa, Phylanthus niruri, Cichorium intybus, and Chromium propionate"
+      "Phytochemical extracts derived from -Andrographis paniculata, Picrorhiza Kurroa, Phylanthus niruri, Cichorium intybus, and Chromium propionate"
     ],
     indications:
       ["Improves liver functions Scavenging oxygen free radicals and promotes regeneration of damage tissues and cells",
@@ -1817,7 +1906,7 @@ const poultry_data = [
       "Each gm contains:",
       "Microbial Lysozyme 3, 50,000 units",
       "Vitamin A 25000 IU",
-      "Vitamin D₃ 5,000 IU", 
+      "Vitamin D₃ 5,000 IU",
       "Vitamin E 40 IU",
       "Selenium 200 mcg",
       "Vitamin C 80 mg",
