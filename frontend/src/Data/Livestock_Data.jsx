@@ -10,11 +10,12 @@ const livestock_data = [
     packaging: "200 ml and 1 litre Bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auriplanta.webp",
     Productname: "/Assets/Product name/Livestock/Auriplanta.webp",
-    composition: [
-      "Each 100 ml contains",
-      "Phytochemical extracts derived from: ",
-      "Achyranthes aspera 12000 mg, Adhatoda vasica nees 9000 mg, Costus speciosus 5000 mg, Crotalaria retusa 6000 mg, Cyperus rotundus 10,000 mg, Gloriosa superba 5000 mg, Peganum harmala 3000 mg, Plumbago zeylanica 2500 mg, Copper sulphate 320 mg, Ferrous sulphate 640 mg, Cobalt sulphate 20 mg, Vitamin E 500 IU, Sodium selenite 500 mcg"
-    ],
+    composition:
+      [
+        "Each 100 ml contains",
+        "Phytochemical extracts derived from: ",
+        "Achyranthes aspera 12000 mg, Adhatoda vasica nees 9000 mg, Costus speciosus 5000 mg, Crotalaria retusa 6000 mg, Cyperus rotundus 10,000 mg, Gloriosa superba 5000 mg, Peganum harmala 3000 mg, Plumbago zeylanica 2500 mg, Copper sulphate 320 mg, Ferrous sulphate 640 mg, Cobalt sulphate 20 mg, Vitamin E 500 IU, Sodium selenite 500 mcg"
+      ],
     indications:
       [
         "• Supports easy parturition",
@@ -44,10 +45,11 @@ const livestock_data = [
     packaging: "10 x 4 boli",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Turbogil vet.webp",
     Productname: "/Assets/Product name/Livestock/Turbogil Vet.webp",
-    composition: [
-      "Each bolus contains :",
-      "Bacillus coagulans 3200 million cfu, Saccharomyces boulardii 600 million cfu, Bacillus subtilis 300 million cfu, Bacillus licheniformis 300 million cfu, Aspergillus oryzae 250 million cfu, Vitamin B₁ 30 mg, Vitamin B₆ 30 mg, Vitamin C 60 mg, Zinc sulphate 100 mg, Cobalt sulphate 20 mg, Copper sulphate 50 mg, Magnesium sulphate 40 mg, Alpha amylase 125 units, Acid protease 125 units, Cellulase 300 units, Phytase 60 units, Biotin 5 mg, Strychni semen 500 mg, Mannan-oligosaccharide 300 mg "
-    ],
+    composition:
+      [
+        "Each bolus contains :",
+        "Bacillus coagulans 3200 million cfu, Saccharomyces boulardii 600 million cfu, Bacillus subtilis 300 million cfu, Bacillus licheniformis 300 million cfu, Aspergillus oryzae 250 million cfu, Vitamin B₁ 30 mg, Vitamin B₆ 30 mg, Vitamin C 60 mg, Zinc sulphate 100 mg, Cobalt sulphate 20 mg, Copper sulphate 50 mg, Magnesium sulphate 40 mg, Alpha amylase 125 units, Acid protease 125 units, Cellulase 300 units, Phytase 60 units, Biotin 5 mg, Strychni semen 500 mg, Mannan-oligosaccharide 300 mg "
+      ],
     indications:
       [
         "• Chronic anorexia",
@@ -131,7 +133,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 48,
+    id: 5,
     name: "Herbal Liver Stimulant and Tonic",
     description:
       "Livauro is a purely herbal liver stimulant formulation with high quality phyto-chemical extracts to support liver health and reduce the risk of liver disorders.",
@@ -141,27 +143,35 @@ const livestock_data = [
     packaging: "500 ml Bottle 1 litre Bottle 5 litre Jar 25 litre Jar",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Livauro.webp",
     Productname: "/Assets/Product name/Livestock/Livauro.webp",
-    composition: [
-      "Each 10 ml contains:",
-      "Extract derived from",
-      "Andrographis paniculata 400 mg,",
-      "Tephrosia purpurea 200 mg,",
-      "Boerhavia diffusa 100 mg, Eclipta alba 200 mg, Picrorhiza kurroa 20 mg, Cichorium intybus 100 mg,",
-      "Phyllanthus niruri 200 mg"
-    ],
+    composition:
+      [
+        "Each 10 ml contains:",
+        "Extract derived from",
+        "Andrographis paniculata 400 mg,",
+        "Tephrosia purpurea 200 mg,",
+        "Boerhavia diffusa 100 mg, Eclipta alba 200 mg, Picrorhiza kurroa 20 mg, Cichorium intybus 100 mg,",
+        "Phyllanthus niruri 200 mg"
+      ],
     indications:
-      ["Improves digestion and consistency of stool",
+      [
+        "Improves digestion and consistency of stool",
         "Degenerative liver diseases (Hepatitis, Jaundice etc.)",
         "Supports recovery during vaccination, heat stress and disease challenges",
-        "Reduces convalescence period during, vaccination, stress and disease challenges. Improves consistency of stool, FCR and egg production in birds. Increases growth in chicks."],
+        "Reduces convalescence period during, vaccination, stress and disease challenges. Improves consistency of stool, FCR and egg production in birds. Increases growth in chicks."
+      ],
     usage:
-      ["Sheep/ Goat- 10-15 ml daily Calves/ Foals- 15- 20 ml daily Cow/ Buffalo/ Horse- 50 ml daily. Poultry: Birds- Broiler: Up to 2 week 5 ml daily per 100 birds, 3rd and 4th week 10 ml daily per 100 birds, 5th week onwards 20 ml daily per 100 birds, Chicks: 5 ml daily per 100 birds Growers: 10 ml daily per 100 birds Layers: 20 ml daily per 100 birds."],
+      [
+        "Sheep/ Goat- 10-15 ml daily Calves/ Foals- 15- 20 ml daily",
+        "Cow/ Buffalo/ Horse- 50 ml daily.",
+        "Poultry: Birds- Broiler: Up to 2 week 5 ml daily per 100 birds, 3rd and 4th week 10 ml daily per 100 birds, 5th week onwards 20 ml daily per 100 birds,",
+        "Chicks: 5 ml daily per 100 birds Growers: 10 ml daily per 100 birds Layers: 20 ml daily per 100 birds."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
-    id: 5,
+    id: 6,
     name: "Premium Herbal Liver Stimulant and Protectant",
     description:
       "LivauroForte is a purely herbal and advanced liver stimulant formulation with high quality phyto-chemical extracts to support liver health and reduce the risk of liver disorders.",
@@ -197,7 +207,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 6,
+    id: 7,
     name: "Instantly Bioavailable Nano Calcium and Magnesium with High Metabolizable Energy",
     description:
       "Gelmil Advanced 500 is instantly bioavailable oral anionic Calcium and Magnesium gel fortified with phosphorus and glucogenic precursers. Each bottle provides calcium equivalent to 5 bottles of I/V calcium. Serum calcium reaches to significant levels within 15 minutes and stays for extended periods. Self-dispensing squeezable bottle provides ease of administration",
@@ -207,15 +217,16 @@ const livestock_data = [
     packaging: "500 gm squeezable bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Gelmil Advanced 500.webp",
     Productname: "/Assets/Product name/Livestock/Gelmil Advanced-500.webp",
-    composition: [
-      "Each 500 gm Contains:",
-      "Calcium ……………......... 40 gm,",
-      "Phosphorus…………….…13 gm,",
-      "Magnesium…………………6 gm ,",
-      "Phyto bio- Calphos® ….....300 mg,",
-      "Vitamin D₃ ………...……50000 IU,",
-      "Gluconeogenic precursors (Propylene glycol, organic honey & Glycerol) eq. to Metabolizable energy value of 6,710 Kilojoules"
-    ],
+    composition:
+      [
+        "Each 500 gm Contains:",
+        "Calcium ……………......... 40 gm,",
+        "Phosphorus…………….…13 gm,",
+        "Magnesium…………………6 gm ,",
+        "Phyto bio- Calphos® ….....300 mg,",
+        "Vitamin D₃ ………...……50000 IU,",
+        "Gluconeogenic precursors (Propylene glycol, organic honey & Glycerol) eq. to Metabolizable energy value of 6,710 Kilojoules"
+      ],
     indications:
       [
         "Comprehensive nutrition supplement for Milk Fever and negative energy balance management",
@@ -233,7 +244,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 7,
+    id: 8,
     name: "Instantly Bioavailable Nano Calcium and Magnesium with Nanogel Technology",
     description:
       "Gelmil Nano is instantly bioavailable oral anionic Calcium and Magnesium gel fortified with phosphorus and gluconeogenic precursors. Each bottle provides calcium equivalent to 5 bottles of I/V calcium. Serum calcium reaches to significant levels within 15-30 minutes and stays for extended periods. Self-dispensing squeezable bottle provides ease of administration.",
@@ -266,7 +277,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 32,
+    id: 9,
     name: "Fortified Phosphorus Bolus",
     description:
       "Auriphos Bolus is an innovative nutritional supplement that supports reproductive health, metabolic functions and overall productivity by providing essential nutrients like phosphorus and vitamins. Auriphos Bolus significantly helps to prevent metabolic disorders like ketosis and milk fever, improves estrus cycle regularity and enhances overall reproductive efficiency of cattle and dairy animals.",
@@ -301,7 +312,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 8,
+    id: 10,
     name: "Single shot Powerful Phosphorus Supplement",
     description:
       "Auriphos Nano Gel is an innovative nutritional supplement that supports reproductive health, metabolic functions and overall productivity by providing essential nutrients like phosphorus and vitamins. Auriphos Nano Gel significantly helps to prevent metabolic disorders like ketosis and milk fever, improves estrus cycle regularity and enhances overall reproductive efficiency of cattle and dairy animals.",
@@ -336,7 +347,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 49,
+    id: 11,
     name: "Novel Formulation for Management of Mastitis",
     description:
       "Masti 24 is potentiated blend of Vitamins, Probiotics and Minerals that helps to prevent from subclinical mastitis and mastitis.It also helps to restore milk pH and improve the milk quality.",
@@ -346,10 +357,11 @@ const livestock_data = [
     packaging: "100 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Masti 24.webp",
     Productname: "/Assets/Product name/Livestock/Masti 24.webp",
-    composition: [
-      "Each 100 gm contains:",
-      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, Saccharomyces cerevisiae 100 billion CFU, Aspergillus oryzae 1000 million CFU, Bacillus coagulans 1000 million CFU, Bacillus subtilis 25 billion CFU, Bacillus licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg.",
-    ],
+    composition:
+      [
+        "Each 100 gm contains:",
+        "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, Saccharomyces cerevisiae 100 billion CFU, Aspergillus oryzae 1000 million CFU, Bacillus coagulans 1000 million CFU, Bacillus subtilis 25 billion CFU, Bacillus licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg.",
+      ],
     indications:
       ["Prevents sub-clinical mastitis & reduces the prevalence of mastitis Increases immunity & milk quality when milk production decreases"],
     usage:
@@ -359,7 +371,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 50,
+    id: 12,
     name: "Novel Formulation for Management of Mastitis",
     description:
       "Maspre is a potentiated blend of Vitamins, Probiotics and Minerals that helps in prevention from subclinical mastitis and mastitis. It also helps to restore milk pH and improve the milk quality.",
@@ -369,10 +381,11 @@ const livestock_data = [
     packaging: "75 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Maspre.webp",
     Productname: "/Assets/Product name/Livestock/Maspre.webp",
-    composition: [
-      "Each 75 gm contains:",
-      "Trisodium citrate 30 gm, Vitamin A 200000 IU, Vitamin D₃ 40000 IU, Vitamin E 1000 IU, Biotin 20 mg, Vitamin K 50 mg, Selenium 10 mg, Copper sulphate 1000 mg, Cobalt sulphate 50 mg, Zinc sulphate 3000 mg, Manganese sulphate 3000 mg, Potassium iodide 10 mg, Lactic acid bacillus 1 billion CFU, Live yeast 50 billion CFU, Serratiopeptidase 75 mg, Aspergillus oryzae 1 billion CFU, Methionine 5 gm, Bacillus subtilis 15 billion CFU, Bacillus licheniformis 15 billion CFU"
-    ],
+    composition:
+      [
+        "Each 75 gm contains:",
+        "Trisodium citrate 30 gm, Vitamin A 200000 IU, Vitamin D₃ 40000 IU, Vitamin E 1000 IU, Biotin 20 mg, Vitamin K 50 mg, Selenium 10 mg, Copper sulphate 1000 mg, Cobalt sulphate 50 mg, Zinc sulphate 3000 mg, Manganese sulphate 3000 mg, Potassium iodide 10 mg, Lactic acid bacillus 1 billion CFU, Live yeast 50 billion CFU, Serratiopeptidase 75 mg, Aspergillus oryzae 1 billion CFU, Methionine 5 gm, Bacillus subtilis 15 billion CFU, Bacillus licheniformis 15 billion CFU"
+      ],
     indications:
       ["Prevents sub-clinical mastitis & reduces the prevalence of mastitis",
         "Increases immunity & milk quality when milk production decreases"],
@@ -383,7 +396,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 51,
+    id: 13,
     name: "Strengthens udder defense mechanism",
     description:
       "Maspre dip is a unique formulation of essential oils and nano silver used for the management of healthy udder that strengthens the keratin layer of the teat canal and lumen. Maspre dip improves the udder defense system against pathogens, providing a physical as well as anti-microbial barrier.  ",
@@ -393,17 +406,18 @@ const livestock_data = [
     packaging: "1 Ltr, 5 Ltr, 25 Ltr and 50 Ltr",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Maspre dip.webp",
     Productname: "/Assets/Product name/Livestock/Maspre dip.webp",
-    composition: [
-      "Each 100 ml contains:",
-      "Tea tree oil ",
-      "Eucalyptus oil",
-      "Cinnamon oil",
-      "Thyme oil",
-      "Nano silver",
-      "Vitamin A ",
-      "Vitamin E ",
-      "Humectant & Preservative"
-    ],
+    composition:
+      [
+        "Each 100 ml contains:",
+        "Tea tree oil ",
+        "Eucalyptus oil",
+        "Cinnamon oil",
+        "Thyme oil",
+        "Nano silver",
+        "Vitamin A ",
+        "Vitamin E ",
+        "Humectant & Preservative"
+      ],
     indications:
       ["Helps in strengthening the keratin layer of the teat canal lumen to reduce the risk of infections, Enhances the udder defense mechanism and maintains healthy udder, Reduces pain and inflammation of udder "],
     usage:
@@ -413,7 +427,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 52,
+    id: 14,
     name: "Novel Formulation for Management of Mastitis",
     description:
       "Maspre Forte is a potentiated blend of Vitamins, Probiotics and Minerals that helps in prevention from subclinical mastitis and mastitis. It also helps to restore milk pH and improve the milk quality.",
@@ -423,13 +437,16 @@ const livestock_data = [
     packaging: "100 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Maspre forte.webp",
     Productname: "/Assets/Product name/Livestock/Maspre forte.webp",
-    composition: [
-      "Each 100 gm contains:",
-      "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg."
-    ],
+    composition:
+      [
+        "Each 100 gm contains:",
+        "Trisodium citrate 30000 mg, Vitamin A 200000 IU, Vitamin D₃ 100000 IU, Vitamin E 750 IU, Vitamin H 20 mg, Vitamin K 50 mg, Copper glycinate 1000 mg, Zinc glycinate 3000 mg, Manganese glycinate 3000 mg, Selenium 10 mg, Cobalt sulphate 50 mg, Potassium iodide 10 mg, Magnesium 1500 mg, Silica 2500 mg, S. cerevisiae 100 billion CFU, A. oryzae 1000 million CFU, B. coagulans 1000 million CFU, B. subtilis 25 billion CFU, B. licheniformis 25 billion CFU, Serratiopeptidase 100 mg, Methionine 5000 mg, Grape Polyphenol extract 150 mg, MOS Complex 20000 mg, Bromelain 1000 mg."
+      ],
     indications:
-      ["Prevention of sub clinical mastitis.",
-        "As an adjunct therapy in clinical mastitis."],
+      [
+        "Prevention of sub clinical mastitis.",
+        "As an adjunct therapy in clinical mastitis."
+      ],
     usage:
       ["For Cows and Buffaloes:In Subclinical Mastitis: 100 gm daily for 2-3 days. As an adjunct to Mastitis therapy: 100 gm daily for 3-5 days."],
     report: " ",
@@ -437,7 +454,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 53,
+    id: 15,
     name: "Anti-inflammatory gel for udder",
     description:
       "Maspre Gel is a unique topical formulation of anti-inflammatory, analgesic and immunostimulant phyto actives used for the management of udder mastitis that strengthens the keratin layer of the teat canal lumen and strengthens the udder defense system, there by boosting udder immunity.",
@@ -473,7 +490,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 9,
+    id: 16,
     name: "Unique Formulation for faster recovery from Mastitis",
     description:
       "Maspre Ultimate is a unique blend of phospholipase, Microbial lysozyme, bacteriocins producing Bacillus and other Probiotics, Vitamins, chelated minerals and enzymes to improve the efficacy of antibiotics & act as adjunct therapy in clinical mastitis.",
@@ -501,7 +518,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 10,
+    id: 17,
     name: "Optimizes Dry Period In Lactating Animals",
     description:
       "Drylact is an advance formulation enriched with herbal extracts, essential vitamins and minerals to improve hyperprolactinemia, metabolism and reproductive health in pre and postnatal lactation period.",
@@ -511,22 +528,32 @@ const livestock_data = [
     packaging: "500 gm bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Drylact.webp",
     Productname: "/Assets/Product name/Livestock/Drylact.webp",
-    composition: [
-      "Each Kg contains:",
-      "Salvia officinalis ext., Mentha piperita oil, Petroselinum crispum ext., Vitex agnus-castus berry ext.",
-      "Vitamin D₃ 180 IU, Vitamin E 180 IU, Vitamin B₁ 12.96 mg, Vitamin B₂ 11.88 mg, Vitamin B₆ 12.24 mg,",
-      "Vitamin B₁₂ 43.2 mcg, D-Panthenol 13.68 mg, Vitamin C 1440 mg, Niacinamide 120 mg, Copper glycinate 25 mg ,",
-      "Manganese Chloride tetrahydrate 42.5 mg, Zinc glycinate 100 mg, Potassium iodide 0.68 mg,",
-      "Cobalt (ll) sulphate 0.1 mg, Lactic acid 1.36 mg, Tocopherol extracts from vegetable oil 4.86 mg"
-    ],
-    indications: ["Drylact is intended for high-yielding cows entering the dry period, which still have high milk production. The product inhibits milk secretion and has a positive effect on udder tissue regeneration during the dry period. The product for oral use."],
-    usage: ["Give to high- Yielding cows orally with an infusion during drying off period in an amount of 500 g per 600 kg body weight a day. Up to 350 Kg bwt- it may be given 300 gms. May be repeated next days."],
+    composition:
+      [
+        "Each Kg contains:",
+        "Salvia officinalis ext., Mentha piperita oil, Petroselinum crispum ext., Vitex agnus-castus berry ext.",
+        "Vitamin D₃ 180 IU, Vitamin E 180 IU, Vitamin B₁ 12.96 mg, Vitamin B₂ 11.88 mg, Vitamin B₆ 12.24 mg,",
+        "Vitamin B₁₂ 43.2 mcg, D-Panthenol 13.68 mg, Vitamin C 1440 mg, Niacinamide 120 mg, Copper glycinate 25 mg ,",
+        "Manganese Chloride tetrahydrate 42.5 mg, Zinc glycinate 100 mg, Potassium iodide 0.68 mg,",
+        "Cobalt (ll) sulphate 0.1 mg, Lactic acid 1.36 mg, Tocopherol extracts from vegetable oil 4.86 mg"
+      ],
+    indications:
+      [
+        "Drylact is intended for high-yielding cows entering the dry period, which still have high milk production.",
+        "The product inhibits milk secretion and has a positive effect on udder tissue regeneration during the dry period.",
+        "The product for oral use."
+      ],
+    usage:
+      [
+        "Give to high- Yielding cows orally with an infusion during drying off period in an amount of 500 g per 600 kg body weight a day.",
+        "Up to 350 Kg bwt- it may be given 300 gms. May be repeated next days."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
-    id: 11,
+    id: 18,
     name: "Performance Enhancer & Growth Stlmulator",
     description:
       "Nomino is an advanced combination of organic minerals, essential amino acids, nucleotides, vitamins, electrolytes, fatty acids and grape polyphenols to improve immunity, alleviate stress, improve growth and production in birds and animals.",
@@ -536,10 +563,11 @@ const livestock_data = [
     packaging: "250 ml Bottle, 500 ml Bottle, 1 Ltr Bottle and 5 Ltr Jar",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Nomino.webp",
     Productname: "/Assets/Product name/Livestock/Nomino.webp",
-    composition: [
-      "Each Ltr. contains:",
-      "Vitamin A 500,000 IU, Vitamin D₃ 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B₁ 1,250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg,Vitamin B₁₂ 5,300 mcg, Vitamin K 350 mg, Vitamin H₁₂,500 mcg, Vitamin C 1,000 mg, Niacin 1,400 mg, D Panthenol 625 mg, Folic Acid precursor 625 mg, Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 1,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 2000 mg, Organic Manganese 1,000 mg, Organic Zinc 3,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
-    ],
+    composition:
+      [
+        "Each Ltr. contains:",
+        "Vitamin A 500,000 IU, Vitamin D₃ 1,00,000 IU, Vitamin E 10,000 mg, Vitamin B₁ 1,250 mg, Vitamin B₂ 500 mg, Vitamin B₆ 625 mg,Vitamin B₁₂ 5,300 mcg, Vitamin K 350 mg, Vitamin H₁₂,500 mcg, Vitamin C 1,000 mg, Niacin 1,400 mg, D Panthenol 625 mg, Folic Acid precursor 625 mg, Lysine 100 mg, DL-Methionine 1,500 mg, Protein Hydrolysate 1,000 mg, Iodine 500 mg, Selenium 125 mg, Cobalt 500 mg, Organic Copper 2000 mg, Organic Manganese 1,000 mg, Organic Zinc 3,000 mg, Sodium Chloride 9.815 g, Potassium Chloride 82.430 g, Magnesium sulphate Heptahydrate 455 mg, Citric Acid 3,280 mg, Essential Fatty acids 1,000 mg, Nucleotides 5,000 mg, Grape Polyphenol eq. to 3,000 IU Vitamin E activity",
+      ],
     indications:
       [
         "• Improves growth & production",
@@ -558,7 +586,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 12,
+    id: 19,
     name: "Powerful Hematinic",
     description:
       "Ferauri is a powerful Hematinic tonic which helps to improve the haemoglobin in blood.",
@@ -568,19 +596,20 @@ const livestock_data = [
     packaging: "250 ml & 500 ml",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Ferauri.webp",
     Productname: "/Assets/Product name/Livestock/Ferauri.webp",
-    composition: [
-      "Each 50 ml contains:",
-      "Chelated Ferrous glycinate 2250 mg (eq. to 450 mg of Iron)",
-      "Chelated Copper glycinate 600 mg (eq. to 90 mg of Copper)",
-      "Cobalt chloride 10 mg (eq. to 4.5 mg of Cobalt)",
-      "Cholecalciferol 25000 IU",
-      "Niacinamide 300 mg",
-      "Pyridoxine HCl 100 mg",
-      "Vitamin E 500 IU",
-      "Folic acid 15 mg",
-      "Cyanocobalamin 200 mcg",
-      "Calcium Pantothenate 100 mg",
-    ],
+    composition:
+      [
+        "Each 50 ml contains:",
+        "Chelated Ferrous glycinate 2250 mg (eq. to 450 mg of Iron)",
+        "Chelated Copper glycinate 600 mg (eq. to 90 mg of Copper)",
+        "Cobalt chloride 10 mg (eq. to 4.5 mg of Cobalt)",
+        "Cholecalciferol 25000 IU",
+        "Niacinamide 300 mg",
+        "Pyridoxine HCl 100 mg",
+        "Vitamin E 500 IU",
+        "Folic acid 15 mg",
+        "Cyanocobalamin 200 mcg",
+        "Calcium Pantothenate 100 mg",
+      ],
     indications:
       [
         "Supplementation of Iron and Copper during Anaemia or nutritional deficiency.",
@@ -597,7 +626,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 13,
+    id: 20,
     name: "Powerful Hematinic and Hepato-protectant",
     description:
       "Ferauri Plus is a powerful Hematinic and Hepato-protectant tonic which helps to improve the haemoglobin in blood as well as protects and improves the function of Liver cells.",
@@ -607,24 +636,25 @@ const livestock_data = [
     packaging: "250 ml & 500 ml",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Ferauri plus.webp",
     Productname: "/Assets/Product name/Livestock/Ferauri Plus.webp",
-    composition: [
-      "Each 50 ml contains:",
-      "Chelated Ferrous glycinate 2250 mg (eq. to 450 mg of Iron)",
-      "Chelated Copper glycinate 600 mg (eq. to 90 mg of Copper)",
-      "Cobalt chloride 10 mg (eq. to 4.5 mg of Cobalt)",
-      "Cholecalciferol 25000 IU",
-      "Niacinamide 300 mg",
-      "Pyridoxine HCl 100 mg",
-      "Vitamin E 500 IU",
-      "Folic acid 15 mg",
-      "Cyanocobalamin 200 mcg",
-      "Calcium Pantothenate 100 mg",
-      "Andrographis paniculata eq. to 8000 mg",
-      "Phyllanthus niruri eq. to 5000 mg",
-      "Eclipta alba eq. to 6000 mg",
-      "Boerhavia diffusa eq. to 4000 mg",
-      "Choline chloride 937.5 mg",
-    ],
+    composition:
+      [
+        "Each 50 ml contains:",
+        "Chelated Ferrous glycinate 2250 mg (eq. to 450 mg of Iron)",
+        "Chelated Copper glycinate 600 mg (eq. to 90 mg of Copper)",
+        "Cobalt chloride 10 mg (eq. to 4.5 mg of Cobalt)",
+        "Cholecalciferol 25000 IU",
+        "Niacinamide 300 mg",
+        "Pyridoxine HCl 100 mg",
+        "Vitamin E 500 IU",
+        "Folic acid 15 mg",
+        "Cyanocobalamin 200 mcg",
+        "Calcium Pantothenate 100 mg",
+        "Andrographis paniculata eq. to 8000 mg",
+        "Phyllanthus niruri eq. to 5000 mg",
+        "Eclipta alba eq. to 6000 mg",
+        "Boerhavia diffusa eq. to 4000 mg",
+        "Choline chloride 937.5 mg",
+      ],
     indications:
       [
         "Supplementation of Iron and Copper during Anaemia or nutritional deficiency.",
@@ -641,7 +671,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 14,
+    id: 21,
     name: "Uterine Tonic",
     description:
       "Partum 11 is a unique combination of phytochemical extracts and minerals that prevent post-partum complications i.e. Retention of placenta, Silent heat, repeat breeding, uterine infections with infertility and increases milk production.",
@@ -680,7 +710,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 15,
+    id: 22,
     name: "Super Nutrition with Nano-Dose Advantage",
     description:
       "Neuna Forte is a premium super rich nutrition enriched with MHA Chelates, Coated Vitamins, Potentiated Probiotics, Grape Polyphenols, Energy Booster Complex & Unique Phytobio-CalphosTM. A powerful nutrition supplement enriched with 23 essential nutrients for production, reproduction, better health and disease resistance in lactating cows and buffaloes",
@@ -709,7 +739,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 38,
+    id: 23,
     name: "Powerful Galactogogue Enrihed with SNF Builders",
     description:
       "Auromilk is novel galactogogue formulation with high quality bypass fat, bypass protein, calcium, coated vitamins, potentiated probiotics, immunomodulators and grape polyphenols for enhanced milk production, fat and SNF.",
@@ -719,10 +749,11 @@ const livestock_data = [
     packaging: "500 gm, 1 kg, 5 kg and 25 kg",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auromilk.webp",
     Productname: "/Assets/Product name/Livestock/Auro Milk.webp",
-    composition: [
-      "Each 1 kg contains :",
-      "Yeast 300 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 150 gm, Phosphorus 75 gm, Magnesium 14 gm, Elemental Zinc 9 gm, Elemental Copper 4.5 gm, Elemental Manganese 4 gm, Elemental Ferrus 2.5 gm, Methionine 100 gm, Niacin 7 gm, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D₃ 4 Lakh IU, Sulphur 16 gm, Selenium 4 mg, Potassium iodide 200 mg, Cobalt sulphate 200 mg, Chromium propionate 240 mg."
-    ],
+    composition:
+      [
+        "Each 1 kg contains :",
+        "Yeast 300 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 150 gm, Phosphorus 75 gm, Magnesium 14 gm, Elemental Zinc 9 gm, Elemental Copper 4.5 gm, Elemental Manganese 4 gm, Elemental Ferrus 2.5 gm, Methionine 100 gm, Niacin 7 gm, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D₃ 4 Lakh IU, Sulphur 16 gm, Selenium 4 mg, Potassium iodide 200 mg, Cobalt sulphate 200 mg, Chromium propionate 240 mg."
+      ],
     indications:
       ["Improves milk yield, Milk fat and SNF in dairy animals"],
     usage:
@@ -732,7 +763,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 16,
+    id: 24,
     name: "Premium Galactogogue Enrihed with SNF Builders and Mastitis Prevention Factors",
     description:
       "Auromilk Forte is novel galactogogue formulation with high quality bypass fat, bypass protein, calcium, coated vitamins, potentiated probiotics, immunomodulators and grape polyphenols for enhanced milk production, fat and SNF along with prevention of mastitis.",
@@ -742,11 +773,12 @@ const livestock_data = [
     packaging: "500 gm 1 kg 5 kg 25 kg",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auromilk forte.webp",
     Productname: "/Assets/Product name/Livestock/Auro Milk Forte.webp",
-    composition: [
-      "Each 1 kg contains :",
-      "Calcium 240 gm, Phosphorus 120 gm, Magnesium 20 gm, Sulphur 24 gm, Selenium 5 mg, Potassium iodide 300 mg, Cobalt Sulphate 300 mg, Chromium propionate 360 mg, Nutripro NPN 60 gm, Bypass Fat 300 gm, Bypass Protein 240 gm, Vitamin A (Coated) 15 Lakh IU, Vitamin D₃ (Coated) 7.5 Lakh IU, Vitamin E (Coated) 5000 IU, Biotin 300 mg, Niacin 10000 mg, Saccharomyces cerevisiae 500 Billion CFU, Lactobacillus sporogenes 2.5 billion CFU, Aspergillus oryzae 2.5 billion CFU, Bacillus subtilis 100 billion CFU, Bacillus licheniformis 100 billion CFU, Propionibacterium freudenrechii 30 billion CFU, Propionibacterium acidipropionici 0.3 billion CFU, Beta-glucan 21000 mg, Mannan oligosaccharide 27000 mg, Grape Polyphenols extract equivalent to Vitamin E acitivity 10,000 IU ,",
-      "Phytase Enzyme 1.8 gm. "
-    ],
+    composition:
+      [
+        "Each 1 kg contains :",
+        "Calcium 240 gm, Phosphorus 120 gm, Magnesium 20 gm, Sulphur 24 gm, Selenium 5 mg, Potassium iodide 300 mg, Cobalt Sulphate 300 mg, Chromium propionate 360 mg, Nutripro NPN 60 gm, Bypass Fat 300 gm, Bypass Protein 240 gm, Vitamin A (Coated) 15 Lakh IU, Vitamin D₃ (Coated) 7.5 Lakh IU, Vitamin E (Coated) 5000 IU, Biotin 300 mg, Niacin 10000 mg, Saccharomyces cerevisiae 500 Billion CFU, Lactobacillus sporogenes 2.5 billion CFU, Aspergillus oryzae 2.5 billion CFU, Bacillus subtilis 100 billion CFU, Bacillus licheniformis 100 billion CFU, Propionibacterium freudenrechii 30 billion CFU, Propionibacterium acidipropionici 0.3 billion CFU, Beta-glucan 21000 mg, Mannan oligosaccharide 27000 mg, Grape Polyphenols extract equivalent to Vitamin E acitivity 10,000 IU ,",
+        "Phytase Enzyme 1.8 gm. "
+      ],
     indications:
       [
         "Improves milk yield, Milk fat and SNF in dairy animals.",
@@ -759,7 +791,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 39,
+    id: 25,
     name: "Premium Galactogogue Enrihed with Rumen Protected Nanominerals",
     description:
       "Auromilk Plus is premium galactogogue formulation with high quality bypass fat, bypass protein, calcium, coated vitamins, potentiated probiotics, immunomodulators and grape polyphenols for enhanced milk production, fat and SNF.",
@@ -769,14 +801,17 @@ const livestock_data = [
     packaging: "500 gm, 1 kg, 5 kg and 25 kg",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auromilk plus.webp",
     Productname: "/Assets/Product name/Livestock/Auro Milk Plus.webp",
-    composition: [
-      "Each 1 kg contains :",
-      "Yeast 333 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 160 gm, Phosphorus 80 gm, Magnesium 14 gm, Zinc Neunamin 1600 mg, Manganese Neunamin 1600 mg, Copper Neunamin 550 mg, Iron Neunamin 640mg, Selenium Neunamin 16 mg, Iodine Neunamin 128 mg, Chromium Neunamin 32 mg Methionine 100 gm, Niacin 7 gm, Biotin 200 mg, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D₃ 5 Lakh IU, Vitamin E 3300 IU, Grape polyphenol ext.equivalent to Vitamin E activity 6600 IU, Sulphur 16 gm, Cobalt sulphate 200 mg."
-    ],
+    composition:
+      [
+        "Each 1 kg contains :",
+        "Yeast 333 Billion CFU, Lactobacillus sporogenes 2 Billion CFU, Aspergillus oryzae 2 Billion CFU, Bypass protein 80 gm, Nutripro NPN 20 gm, Bypass Fat 100 gm, Calcium 160 gm, Phosphorus 80 gm, Magnesium 14 gm, Zinc Neunamin 1600 mg, Manganese Neunamin 1600 mg, Copper Neunamin 550 mg, Iron Neunamin 640mg, Selenium Neunamin 16 mg, Iodine Neunamin 128 mg, Chromium Neunamin 32 mg Methionine 100 gm, Niacin 7 gm, Biotin 200 mg, Phytase enzyme 60000 IU, , Vitamin A 10 Lakh IU, Vitamin D₃ 5 Lakh IU, Vitamin E 3300 IU, Grape polyphenol ext.equivalent to Vitamin E activity 6600 IU, Sulphur 16 gm, Cobalt sulphate 200 mg."
+      ],
     indications:
-      ["Improves milk yield and Milk fat in dairy animals.",
+      [
+        "Improves milk yield and Milk fat in dairy animals.",
         "Rejuvenates rumen microflora.",
-        "Improves reproductive performance."],
+        "Improves reproductive performance."
+      ],
     usage:
       ["Cow/ Buffalo- 50 to 100 gm orally daily (50 gm for 10 litre producing cow and 8 litre producing buffalo)"],
     report: " ",
@@ -784,7 +819,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 17,
+    id: 26,
     name: "Antiviral Support Against Lumpy Skin Disease",
     description:
       "Aurilum Plus is an advanced phytochemical extracts-based formulation enriched with Methylene blue to support the management of Lumpy Skin Disease and its symptoms.",
@@ -803,13 +838,18 @@ const livestock_data = [
     indications:
       ["Management of Lumpy Skin Disease Symptoms Supportive therapy in cases of PPR affected animals"],
     usage:
-      ["Cattle: 40 ml thrice daily for 4 to 5 days at 8 hourly interval Calf: 20 ml thrice daily for 4 to 5 days at 8 hourly interval. Sheep/Goat: 10 ml thrice daily for 4 to 5 days at 8 hourly interval For best results, application of Aurilum Topical is recommended. Preventive Supplementation : Cattle : 2.5 ml twice daily Calf : 1 ml twice daily Till epidemic is over from the area"],
+      [
+        "Cattle: 40 ml thrice daily for 4 to 5 days at 8 hourly interval.",
+        "Calf: 20 ml thrice daily for 4 to 5 days at 8 hourly interval.",
+        "Sheep/Goat: 10 ml thrice daily for 4 to 5 days at 8 hourly interval For best results, application of Aurilum Topical is recommended.",
+        "Preventive Supplementation : Cattle : 2.5 ml twice daily Calf : 1 ml twice daily Till epidemic is over from the area"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
-    id: 37,
+    id: 27,
     name: "Powerful Calcium Supplementation for High Milk Yield, Better Health & Mastitis Prevention",
     description:
       "Aurocal Plus is powerful Calcium liquid supplementation for enhanced milk yield with reduced incidence of mastitis. Potassium iodide, Organic chromium, Biotin, Cobalt improves Galactopoiesis mechanism in the udder. High concentration of Ca, P, Mg and Vitamin D₃ improves mineral supplementation level in high yielding animals with strong immunity and udder defense mechanism due to Zinc Glycinate, Copper Glycinate and Lycopene.",
@@ -838,7 +878,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 18,
+    id: 28,
     name: "Premium Calcium supplementation for High Milk Yield and Mastitis Prevention",
     description:
       "Aurocal Plus Gold is 3 times stronger Calcium liquid supplementation for enhanced milk yield with reduced incidence of mastitis. Potassium iodide, Organic chromium, Biotin, Cobalt improves galactopoiesis mechanism in the udder. High concentration of Ca, P, Mg and Vitamin D₃ improves mineral supplementation level in high yielding animals with strong immunity and udder defense mechanism due to Zinc Glycinate, Copper Glycinate and Lycopene.",
@@ -870,7 +910,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 59,
+    id: 29,
     name: "Milk Enhancer Bolus fortilied with Neunamins",
     description:
       "Milky Vet Bolus is a Milk Enhancer bolus fortified with Carbon technology based Nano minerals, Calcium, phosphorus, Essential Vitamins and galactagogue herbs.",
@@ -880,26 +920,27 @@ const livestock_data = [
     packaging: "Strip of 2 Bolus",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Milky Vet.webp",
     Productname: "/Assets/Product name/Livestock/Milk Vet.webp",
-    composition: [
-      "Each bolus contains:",
-      "Calcium…………….. 2000 mg",
-      "Phosphorus… …..….1000 mg",
-      "Vitamin A…………….50000 IU",
-      "Vitamin D₃…………… 25000 IU",
-      "Vitamin E…………….. 100 mg",
-      "Biotin……………… 20000 mcg",
-      "Cobalt sulphate…..…… 20 mg",
-      "Nucleotides…………..1000 mg",
-      "Zinc Neunamin……80000 mcg",
-      "Manganese Neunamin ……80000 mcg",
-      "Copper Neunamin……….. 28000 mcg",
-      "Iron Neunamin………….… 32000 mcg",
-      "Selenium Neunamin….………800 mcg",
-      "Iodine Neunamin…………… 3200 mcg",
-      "Chromium Neunamin ………1600 mcg",
-      "Leptadenia reticulata ext. …………1000 mg",
-      "Asparagus racemosus ext. ……….1000 mg"
-    ],
+    composition:
+      [
+        "Each bolus contains:",
+        "Calcium…………….. 2000 mg",
+        "Phosphorus… …..….1000 mg",
+        "Vitamin A…………….50000 IU",
+        "Vitamin D₃…………… 25000 IU",
+        "Vitamin E…………….. 100 mg",
+        "Biotin……………… 20000 mcg",
+        "Cobalt sulphate…..…… 20 mg",
+        "Nucleotides…………..1000 mg",
+        "Zinc Neunamin……80000 mcg",
+        "Manganese Neunamin ……80000 mcg",
+        "Copper Neunamin……….. 28000 mcg",
+        "Iron Neunamin………….… 32000 mcg",
+        "Selenium Neunamin….………800 mcg",
+        "Iodine Neunamin…………… 3200 mcg",
+        "Chromium Neunamin ………1600 mcg",
+        "Leptadenia reticulata ext. …………1000 mg",
+        "Asparagus racemosus ext. ……….1000 mg"
+      ],
     indications:
       [
         "Increases milk yield in lactating animals",
@@ -915,7 +956,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 19,
+    id: 30,
     name: "Milk Enhancer Fortified with Neunamins",
     description:
       "Milky Vet Nano is a Milk Enhancer fortified with Carbon technology based essential vitamins, minerals and probiotics that improve milk yield, supports overall cow health and helps to improve digestion and metabolism.",
@@ -939,13 +980,14 @@ const livestock_data = [
       [
         "Recommended Usage:",
         "Cow/ Buffalow - 1-2 Sachet daily",
-        "Goat/Sheep – 1/2 Sachet daily or advised by a Registered veterinarian/consult ant"],
+        "Goat/Sheep – 1/2 Sachet daily or advised by a Registered veterinarian/consult ant"
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
-    id: 20,
+    id: 31,
     name: "Conception Promoter",
     description:
       "Omega Concept is an advanced formulation enriched with phyto-herbal extracts, essential omega fatty acids; minerals and vitamins that enhance conception rate, immunity and uterine health.",
@@ -970,7 +1012,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 21,
+    id: 32,
     name: "With Probiotics for Reproductive Health of Ovary and Uterus",
     description:
       "Neunamin Plus is an innovative formulation of carbon technology based rumen protected nano minerals fortified with probiotics and vitamins, regulates hormonal balance, vaginal pH, improves reproductive environment, immunity and reduces oxidative stress to optimize reproductive health of ovary and uterus in bovines.",
@@ -980,23 +1022,24 @@ const livestock_data = [
     packaging: "5X4 bolus Pack",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Neunamin plus.webp",
     Productname: "/Assets/Product name/Livestock/Neunamin Plus.webp",
-    composition: [
-      "Each Bolus Contains:",
-      "Zinc Neunamin…………………………………..1, 60,000 mcg",
-      "Manganese Neunamin……………………..1, 60,000 mcg",
-      "Copper Neunamin……………………………….55,000 mcg",
-      "Iron Neunamin…………………………………….64,000 mcg",
-      "Selenium Neunamin………………………………1, 600 mcg",
-      "Iodine Neunamin…………………………………..6, 400 mcg",
-      "Chromium Neunamin…………………………….3200 mcg",
-      "Vitamin A………………………………………………….50,000 IU",
-      "Vitamin D₃………………………………………………..20,000 IU",
-      "Vitamin E……………………………………………………….500 IU",
-      "MOS………………………………………………………………300 mg",
-      "Grape Polyphenol Ext.equivalent to",
-      "Vitamin E activity……………………………….……………..500 IU",
-      "Lactobacillus gasseri, Lactobacillus fermentum, Lactobacillus plantarum (Total Probiotic Count 2,000 million cfu)",
-    ],
+    composition:
+      [
+        "Each Bolus Contains:",
+        "Zinc Neunamin…………………………………..1, 60,000 mcg",
+        "Manganese Neunamin……………………..1, 60,000 mcg",
+        "Copper Neunamin……………………………….55,000 mcg",
+        "Iron Neunamin…………………………………….64,000 mcg",
+        "Selenium Neunamin………………………………1, 600 mcg",
+        "Iodine Neunamin…………………………………..6, 400 mcg",
+        "Chromium Neunamin…………………………….3200 mcg",
+        "Vitamin A………………………………………………….50,000 IU",
+        "Vitamin D₃………………………………………………..20,000 IU",
+        "Vitamin E……………………………………………………….500 IU",
+        "MOS………………………………………………………………300 mg",
+        "Grape Polyphenol Ext.equivalent to",
+        "Vitamin E activity……………………………….……………..500 IU",
+        "Lactobacillus gasseri, Lactobacillus fermentum, Lactobacillus plantarum (Total Probiotic Count 2,000 million cfu)",
+      ],
     indications:
       [
         "Improves mineral bioavailability and regulates hormonal balance to improve reproductive functions",
@@ -1011,7 +1054,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 62,
+    id: 33,
     name: "Carbon Technology Nano Minerals With Probiotics for Reproductive Health of Ovary and Uterus",
     description:
       "Neunamin Plus DS is an innovative formulation of carbon technology based rumen protected nano minerals fortified with probiotics and vitamins, regulates hormonal balance, vaginal pH, improves reproductive environment, immunity and reduces oxidative stress to optimize reproductive health of ovary and uterus in bovines.",
@@ -1021,23 +1064,24 @@ const livestock_data = [
     packaging: "10X2 boli",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Neunamin plus DS.webp",
     Productname: "/Assets/Product name/Livestock/Neunamin Plus DS.webp",
-    composition: [
-      "Each Bolus Contains:",
-      "Zinc Neunamin…………………………………..4,80,000 mcg",
-      "Manganese Neunamin……………………..4,80,000 mcg",
-      "Copper Neunamin………………………………2,40,000 mcg",
-      "Iron Neunamin…………………………………..1,92,000 mcg",
-      "Selenium Neunamin………………………………4,800 mcg",
-      "Iodine Neunamin…………………………………..1,9200 mcg",
-      "Chromium Neunamin…………………………….4,800 mcg",
-      "Vitamin A…………………………………………………1,00,000 IU",
-      "Vitamin D₃……………………………………………….. 40,000 IU",
-      "Vitamin E………………………………………………………..750 IU",
-      "MOS………………………………………………………………300 mg",
-      "Grape Polyphenol Ext.equivalent to",
-      "Vitamin E activity……………………………….……………..500 IU",
-      "Lactobacillus gasseri, Lactobacillus fermentum, Lactobacillus plantarum (Total Probiotic Count 5,000 million cfu)"
-    ],
+    composition:
+      [
+        "Each Bolus Contains:",
+        "Zinc Neunamin…………………………………..4,80,000 mcg",
+        "Manganese Neunamin……………………..4,80,000 mcg",
+        "Copper Neunamin………………………………2,40,000 mcg",
+        "Iron Neunamin…………………………………..1,92,000 mcg",
+        "Selenium Neunamin………………………………4,800 mcg",
+        "Iodine Neunamin…………………………………..1,9200 mcg",
+        "Chromium Neunamin…………………………….4,800 mcg",
+        "Vitamin A…………………………………………………1,00,000 IU",
+        "Vitamin D₃……………………………………………….. 40,000 IU",
+        "Vitamin E………………………………………………………..750 IU",
+        "MOS………………………………………………………………300 mg",
+        "Grape Polyphenol Ext.equivalent to",
+        "Vitamin E activity……………………………….……………..500 IU",
+        "Lactobacillus gasseri, Lactobacillus fermentum, Lactobacillus plantarum (Total Probiotic Count 5,000 million cfu)"
+      ],
     indications:
       [
         "Anoestrus due to nutritional deficency,silent estrus,",
@@ -1052,7 +1096,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 22,
+    id: 34,
     name: "Management of Tympany and Bloat",
     description:
       "Auribloat is an advanced formulation for the management of tympany and bloat problems in cattle.",
@@ -1062,14 +1106,16 @@ const livestock_data = [
     packaging: "1 litre Bottle 5 litre Jar",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auribloat.webp",
     Productname: "/Assets/Product name/Livestock/Auribloat.webp",
-    composition: [
-      "Each 5 ml contains:",
-      "(As simethicone USP emlusion) 1%",
-      "Simethicone 50 mg",
-      "Dill oil BP 25 mg"
-    ],
+    composition:
+      [
+        "Each 5 ml contains:",
+        "(As simethicone USP emlusion) 1%",
+        "Simethicone 50 mg",
+        "Dill oil BP 25 mg"
+      ],
     indications:
-      ["Quick and prompt relief from Tympany and Bloat.",
+      [
+        "Quick and prompt relief from Tympany and Bloat.",
         "Makes rumen environment normal and ambient."
       ],
     usage:
@@ -1079,7 +1125,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 23,
+    id: 35,
     name: "Management of Tympany and Bloat",
     description:
       "Auribloat Natura is an all natural formulation enriched with natural phyto-extracts, oils and MOS complex for the management of tympany and bloat problems in cattle.",
@@ -1106,42 +1152,42 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
+  // {
+  //   id: 36,
+  //   name: "Supports Immunity and Liver Health",
+  //   description:
+  //     "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
+  //   segment: "Livestock",
+  //   type: "Liquid",
+  //   category: "Immunomodulator , Liver Stimulant , Other Specialty",
+  //   packaging: "100 ml, 250 ml and 1 Ltr",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
+  //   Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
+  //   composition: [
+  //     "Each 100 ml contains:",
+  //     "Andrographis paniculata extract with Andrographoloids 900 mg",
+  //     "Tinospora cordifolia 300mg",
+  //     "Fortified with Bioenhancer",
+  //     "Technology"
+  //   ],
+  //   indications:
+  //     [
+  //       "• Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
+  //       "• Helps to rejuvenate liver cells",
+  //       "• Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
+  //     ],
+  //   usage:
+  //     [
+  //       "Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days.",
+  //       "Sheep/Goat: 3 ml/25 kg body weight for 5-7 days.",
+  //       "For regular supplementation, 1/4 of dose is recommended."
+  //     ],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
-    id: 24,
-    name: "Supports Immunity and Liver Health",
-    description:
-      "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
-    segment: "Livestock",
-    type: "Liquid",
-    category: "Immunomodulator , Liver Stimulant , Other Specialty",
-    packaging: "100 ml, 250 ml and 1 Ltr",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
-    Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
-    composition: [
-      "Each 100 ml contains:",
-      "Andrographis paniculata extract with Andrographoloids 900 mg",
-      "Tinospora cordifolia 300mg",
-      "Fortified with Bioenhancer",
-      "Technology"
-    ],
-    indications:
-      [
-        "• Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
-        "• Helps to rejuvenate liver cells",
-        "• Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
-      ],
-    usage:
-      [
-        "Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days.",
-        "Sheep/Goat: 3 ml/25 kg body weight for 5-7 days.",
-        "For regular supplementation, 1/4 of dose is recommended."
-      ],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 25,
+    id: 37,
     name: "Maggoticidal Topical Wound Healer 100% Actives No Gas",
     description:
       "Auriheal is a topical gasless spray formulation fortified with powerful essential oils for higher maggoticidal, wound healer and fly repellent action.",
@@ -1151,17 +1197,18 @@ const livestock_data = [
     packaging: "75 ml, 100 ml bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auriheal.webp",
     Productname: "/Assets/Product name/Livestock/Auriheal.webp",
-    composition: [
-      "Each 100 ml contains :",
-      "Ocimum sanctum oil 8 gm",
-      "Cinnamomum tamala oil 2 gm",
-      "Eucalyptus oil 8 gm",
-      "Cedrus deodara oil 2 gm",
-      "Azadirachta indica oil 5 gm",
-      "Pongamia pinnata oil 5 gm",
-      "Cymbopongon citratus oil 12gm",
-      "Curcuma longa oil 2 gm"
-    ],
+    composition:
+      [
+        "Each 100 ml contains :",
+        "Ocimum sanctum oil 8 gm",
+        "Cinnamomum tamala oil 2 gm",
+        "Eucalyptus oil 8 gm",
+        "Cedrus deodara oil 2 gm",
+        "Azadirachta indica oil 5 gm",
+        "Pongamia pinnata oil 5 gm",
+        "Cymbopongon citratus oil 12gm",
+        "Curcuma longa oil 2 gm"
+      ],
     indications:
       ["Wound healer Maggoticide Fly repellent Fungal infections Mange infestations"],
     usage:
@@ -1171,7 +1218,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 26,
+    id: 38,
     name: "Premium Liver Tonic",
     description:
       "Auriliv vet is an advance liver tonic fortified with L-Carnitine and Cynarin extract to support liver health and reduce the risk of liver conditions like fatty liver syndrome. L-Carnitine plays a key role in maintaining liver function due to its effect on lipid metabolism. It transports fatty acids into mitochondria for oxidation and also buffers excess acetyl CoA away from mitochondria. Cynarin extract have hepato-protective effects. It inhibits the biosynthesis of hepato-cholesterol and improves the bile secretion. Choline acts as a lipotrophic substance. Choline and Methionine deficiency increases the risk of Fatty liver as their deficiency causes the synthesis of very-low-density-lipoproteins (VLDL).",
@@ -1215,7 +1262,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 27,
+    id: 39,
     name: "Electrolytes Powder",
     description:
       "Aurilyte Plus is unique electrolyte formulation with a powerful combination of essential electrolytes, i.e. sodium, potassium, chloride; essential minerals, i.e. calcium, magnesium, phosphorus; and enriched with bicarbonates, betaine, probiotics and vitamin C to maintain electrolyte balance and mineral need in body especially during the cases of heat stress and dehydration.",
@@ -1249,13 +1296,19 @@ const livestock_data = [
         "Improves layer and broiler performance to increase processing yield and feed consumption"
       ],
     usage:
-      ["Calves/Sheep/ Goat: 10 to 30 gm per day. Cow/Buffalo/Horse/Camel: 50 gm per day. In case of heat induced panting administer 100 gm twice daily for 3 to 5 days or as directed by the veterinarians. Poultry: 10 gm per litre of water for 100 birds. Swine: 10 to 30 gm per day. In case of heat induced panting, administer 100 gm twice daily for 3 to 5 days or as directed by the veterinarians."],
+      [
+        "Calves/Sheep/ Goat: 10 to 30 gm per day.",
+        "Cow/Buffalo/Horse/Camel: 50 gm per day.",
+        "In case of heat induced panting administer 100 gm twice daily for 3 to 5 days or as directed by the veterinarians.",
+        "Poultry: 10 gm per litre of water for 100 birds.",
+        "Swine: 10 to 30 gm per day. In case of heat induced panting, administer 100 gm twice daily for 3 to 5 days or as directed by the veterinarians."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
-    id: 28,
+    id: 40,
     name: "Ivermectin Oral Solution Bp (vet) 0.08% W/v",
     description:
       "Aurimec is Ivermectin de-wormer solution for the management of gastro-intestinal nematodes and worms.",
@@ -1288,7 +1341,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 29,
+    id: 41,
     name: "Uterine Tonic and Galactogogue",
     description:
       "Aurimet is a premium uterine tonic and galactogogue enriched with natural plant extracts for the management of uterine health in cattle.",
@@ -1336,7 +1389,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 30,
+    id: 42,
     name: "Organic long acting mosquito repellent",
     description:
       "Aurimos Liquid is highly effective essential oil blend with Nano-emulsion Technology fortified with controlled release mechanism to prevent and control mosquito in the farm animal shed. A regular spray is used as potent mosquito repellent and killer. It is completely safe, effective and long acting formulation.",
@@ -1346,55 +1399,60 @@ const livestock_data = [
     packaging: "100 gm, 250 gm and 1 kg Bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Aurimos.webp",
     Productname: "/Assets/Product name/Livestock/Aurimos.webp",
-    composition: [
-      "Each 100 gm essential oil contains:",
-      "Eugenol…………… 5000 mg",
-      "Citral……………….. 3900 mg",
-      "Thymol…………….. 1300 mg",
-      "Linalool…………………2400 mg"
-    ],
+    composition:
+      [
+        "Each 100 gm essential oil contains:",
+        "Eugenol…………… 5000 mg",
+        "Citral……………….. 3900 mg",
+        "Thymol…………….. 1300 mg",
+        "Linalool…………………2400 mg"
+      ],
     indications:
       ["Prevent from the incidence of all kind of mosquitoes infections including Dengue, Chikungunya, Malaria, Zika virus"],
     usage:
-      ["10-20 gm needs to be diluted in 1 ltr of water to spray over 1000 sq. feet area, mainly roof, pillar and walls. The dilution depends on the intensity of mosquito problem in the area."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 31,
-    name: "Kidney Tonic, Rejuvenator and Protectant",
-    description:
-      "Aurinal is an advanced kidney tonic rejuvenator with phyto-chemical extracts, Vitamins and minerals to support Kidney Health and reduces the risk of Kidney disorders.",
-    segment: "Livestock",
-    type: "Liquid",
-    category: "Kidney Tonic Rejuvenator, Other Specialty",
-    packaging: "500 ml, 1 Ltr, 2 Ltr and 5 Ltr.",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/aurinal.webp",
-    Productname: "/Assets/Product name/Livestock/Aurinal.webp",
-    composition: [
-      "Each 200 ml contains",
-      "Phytochemical extracts derived from",
-      "Mentha piperita 11.6 gm, Coriandrum sativum 30 gm, Boerhavia diffusa 30 gm, Tinospora cordifolia 20 gm, Ocimum basilicum 30 gm, Tribulus terrestris 30 gm, Cyperus rotundus 20 gm, Ficus religiosa 29 gm, Trigonella foenum-graecum 29 gm, Moringa olifera 30 gm, Solanum nigrum 30 gm, Vitamin D₃ 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
-    ],
-    indications:
       [
-        "• Reduces risk of kidney stones formation (Urolithiasis) & deposition.",
-        "• Reduces kidney failure risk and nephrotoxicity.",
-        "• Improves FCR and reduces mortality.",
-        "• Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
-      ],
-    usage:
-      [
-        "• Cow/Buffalo: 75-100 ml twice daily for 7 to 10 days.",
-        "• Sheep/Goat: 30 ml twice daily for 7 to 10 days."
+        "10-20 gm needs to be diluted in 1 ltr of water to spray over 1000 sq. feet area, mainly roof, pillar and walls.",
+        "The dilution depends on the intensity of mosquito problem in the area."
       ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
+  // {
+  //   id: 43,
+  //   name: "Kidney Tonic, Rejuvenator and Protectant",
+  //   description:
+  //     "Aurinal is an advanced kidney tonic rejuvenator with phyto-chemical extracts, Vitamins and minerals to support Kidney Health and reduces the risk of Kidney disorders.",
+  //   segment: "Livestock",
+  //   type: "Liquid",
+  //   category: "Kidney Tonic Rejuvenator, Other Specialty",
+  //   packaging: "500 ml, 1 Ltr, 2 Ltr and 5 Ltr.",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurinal.webp",
+  //   Productname: "/Assets/Product name/Livestock/Aurinal.webp",
+  //   composition: 
+  //     [
+  //       "Each 200 ml contains",
+  //       "Phytochemical extracts derived from",
+  //       "Mentha piperita 11.6 gm, Coriandrum sativum 30 gm, Boerhavia diffusa 30 gm, Tinospora cordifolia 20 gm, Ocimum basilicum 30 gm, Tribulus terrestris 30 gm, Cyperus rotundus 20 gm, Ficus religiosa 29 gm, Trigonella foenum-graecum 29 gm, Moringa olifera 30 gm, Solanum nigrum 30 gm, Vitamin D₃ 25,000 IU, Niacin 1 gm, Folic acid 15 mg, Cyanocobalamin 500 mcg, Biotin 1 mg, Ferrous sulphate 1.2 gm"
+  //    ],
+  //   indications:
+  //     [
+  //       "• Reduces risk of kidney stones formation (Urolithiasis) & deposition.",
+  //       "• Reduces kidney failure risk and nephrotoxicity.",
+  //       "• Improves FCR and reduces mortality.",
+  //       "• Helps to maintain normal low level of blood urea nitrogen & serum creatinine."
+  //     ],
+  //   usage:
+  //     [
+  //       "• Cow/Buffalo: 75-100 ml twice daily for 7 to 10 days.",
+  //       "• Sheep/Goat: 30 ml twice daily for 7 to 10 days."
+  //     ],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
-    id: 33,
+    id: 44,
     name: "Now you can convert your ordinary feed to value added one",
     description:
       "Auriplus is a scienti ically formulated blend of natural essential oils designed to enhance immune function, optimize digestion, and promote overall health in animals.",
@@ -1404,17 +1462,18 @@ const livestock_data = [
     packaging: "1 Ltr., 5 Ltr. and 50 Ltr.",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Auriplus.webp",
     Productname: "/Assets/Product name/Livestock/Auriplus.webp",
-    composition: [
-      "Each 100 ml contains :",
-      "Ocimum sanctum oil 8 gm",
-      "Cinnamomum tamala oil 2 gm",
-      "Eucalyptus oil 8 gm",
-      "Cedrus deodara oil 2 gm",
-      "Azadirachta indica oil 5 gm",
-      "Pongamia pinnata oil 5 gm",
-      "Cymbopongon citratus oil 12gm",
-      "Curcuma longa oil 2 gm"
-    ],
+    composition:
+      [
+        "Each 100 ml contains :",
+        "Ocimum sanctum oil 8 gm",
+        "Cinnamomum tamala oil 2 gm",
+        "Eucalyptus oil 8 gm",
+        "Cedrus deodara oil 2 gm",
+        "Azadirachta indica oil 5 gm",
+        "Pongamia pinnata oil 5 gm",
+        "Cymbopongon citratus oil 12gm",
+        "Curcuma longa oil 2 gm"
+      ],
     indications:
       [
         "Improves digestion and nutrient absorption.",
@@ -1430,7 +1489,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 34,
+    id: 45,
     name: "Complete Gut Care with Synbiotics",
     description:
       "Auripro Gut Liquid is a full-spectrum cocktail of eleven extremely effective probiotic strains, fortified with Mannan oligosaccharides (MOS) providing a wide range of gut support and immunomodulation by colonizing across the complete digestive tract.",
@@ -1458,7 +1517,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 35,
+    id: 46,
     name: "Fertility Vitamin Complex",
     description:
       "Aurivit AD3E is an advanced fetility complex enriched with vitamin A, Vitamin D₃, Vitamin E and Selenium.",
@@ -1491,7 +1550,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 36,
+    id: 47,
     name: "Fertility Vitamin Complex",
     description:
       "Aurivit AD3E Plus is an advanced fetility complex enriched with vitamin A, Vitamin C, Vitamin D₃, Vitamin E and Selenium.",
@@ -1501,16 +1560,18 @@ const livestock_data = [
     packaging: "100 ml 250 ml 500 ml 1 L",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD3 Plus.webp",
     Productname: "/Assets/Product name/Livestock/Aurivit plus.webp",
-    composition: [
-      "Each ml contains:",
-      "Vitamin A 1,00,000 IU,",
-      "Vitamin C 20 mg,",
-      "Vitamin D₃ 40,000 IU,",
-      "Vitamin E 40 IU,",
-      "Sodium selenite 100 mcg"
-    ],
+    composition:
+      [
+        "Each ml contains:",
+        "Vitamin A 1,00,000 IU,",
+        "Vitamin C 20 mg,",
+        "Vitamin D₃ 40,000 IU,",
+        "Vitamin E 40 IU,",
+        "Sodium selenite 100 mcg"
+      ],
     indications:
-      ["Maintains overall growth",
+      [
+        "Maintains overall growth",
         "Helps in healthy pregnancy and improves fertility in cattle",
         "Helps to improve immunity and fight stress conditions"
       ],
@@ -1521,7 +1582,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 40,
+    id: 48,
     name: "High Quality Pellet Binder",
     description:
       "Aurobind is combination of calcium sulphate and guar gum. Guar gum is a natural plant gum that rapidly binds the grist into a flexible matrix to give good flowability, lubricating the die and improving durability. This allows pellets to withstand the abrasions of sieving, cooling, handling and transportation.",
@@ -1531,12 +1592,12 @@ const livestock_data = [
     packaging: "25 kg Bag",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Aurobind.webp",
     Productname: "/Assets/Product name/Poultry/Auro Bind.webp",
-    composition: [
-      "Contains : Calcium sulphate,Guar gum"
-    ],
+    composition: ["Contains : Calcium sulphate,Guar gum"],
     indications:
-      ["Improve the quality and strength of feed pellet",
-        "Reduces dust and fines"],
+      [
+        "Improve the quality and strength of feed pellet",
+        "Reduces dust and fines"
+      ],
     usage:
       ["0.1% to 0.3% inclusion rate in feed"],
     report: " ",
@@ -1544,7 +1605,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 41,
+    id: 49,
     name: "Powerful phytoactives for rumen care",
     description:
       "Bovicare vet plus is an innovative formulation enriched with powerful phytoactives which correct bloating, improves digestive performance and reduces gut-inflamation",
@@ -1554,36 +1615,40 @@ const livestock_data = [
     packaging: "30 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/bovicare vet plus.webp",
     Productname: "/Assets/Product name/Livestock/Bovicare vet plus.webp",
-    composition: [
-      "Water Soluble Powder & each gm contains-",
-      "Trachyspermum ammi extract 60 mg",
-      "Ginger extract 50 mg",
-      "Andrographis paniculata 60 mg",
-      "DL-Methionine 80 mg",
-      "Vitamin B₆ 0.42 mg",
-      "Vitamin B₃ 8 mg",
-      "Biotin 80 mcg",
-      "Cobalt carbonate 0.2 mg",
-      "Anhydrous Dextrose 870 mg"
-    ],
+    composition:
+      [
+        "Water Soluble Powder & each gm contains-",
+        "Trachyspermum ammi extract 60 mg",
+        "Ginger extract 50 mg",
+        "Andrographis paniculata 60 mg",
+        "DL-Methionine 80 mg",
+        "Vitamin B₆ 0.42 mg",
+        "Vitamin B₃ 8 mg",
+        "Biotin 80 mcg",
+        "Cobalt carbonate 0.2 mg",
+        "Anhydrous Dextrose 870 mg"
+      ],
     indications:
-      ["Bloat, Digestive disorders caused by decreased activity of reticulum and rumen or sudden dietary changes and /or intoxication.",
+      [
+        "Bloat, Digestive disorders caused by decreased activity of reticulum and rumen or sudden dietary changes and /or intoxication.",
         "As a supportive therapy in diseases caused by foreign bodies and hypo-glycemic conditions in cattle, calves, sheep and goats."
       ],
     usage:
-      ["Supplementation (Supportive therapy)",
+      [
+        "Supplementation (Supportive therapy)",
         "Adult animal: 120 g twice daily.",
         "Calf: 60 g twice daily, Sheep/Goat: 30 g once daily.",
         "Supplementation (Prevention)",
         "Adult cattle: 30 gm twice daily",
         "Young animals: 30 gm per day for 2-3 consecutive days.",
-        "Administer as a drench with ½ to 1 litre of water or, as directed by the registered Veterinarian."],
+        "Administer as a drench with ½ to 1 litre of water or, as directed by the registered Veterinarian."
+      ],
     report: " ",
     brochure: " ",
     feedback: " "
   },
   {
-    id: 42,
+    id: 50,
     name: "The Rumen Buffer",
     description:
       "Bufto, the rumen buffer, is a unique blend of rumen buffering agents, probiotics, prebiotic, minerals, vitamin and amino acid to support ruminal acidosis and restore the normal ruminal pH and microflora.",
@@ -1593,10 +1658,11 @@ const livestock_data = [
     packaging: "25 kg bag",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Bufto.webp",
     Productname: "/Assets/Product name/Livestock/Bufto.webp",
-    composition: [
-      "Each kg contains:",
-      "Calcium 358 gm, Magnesium 120 gm, Cobalt sulphate  5 gm, Copper sulphate  15 gm, Zinc sulphate  30 gm, Manganese sulphate  5 gm, Saccharomyces cerevisiae  125 Billion CFU, Aspergillus oryzae  1.25 Billion CFU, Bacillus coagulans  1.25 Billion CFU, Bacillus licheniformis  25 billion CFU, Beta-Glucan  18 gm, Mannan oligosaccharide  22.5 gm"
-    ],
+    composition:
+      [
+        "Each kg contains:",
+        "Calcium 358 gm, Magnesium 120 gm, Cobalt sulphate  5 gm, Copper sulphate  15 gm, Zinc sulphate  30 gm, Manganese sulphate  5 gm, Saccharomyces cerevisiae  125 Billion CFU, Aspergillus oryzae  1.25 Billion CFU, Bacillus coagulans  1.25 Billion CFU, Bacillus licheniformis  25 billion CFU, Beta-Glucan  18 gm, Mannan oligosaccharide  22.5 gm"
+      ],
     indications:
       ["Restores normal rumen pH Reduces the risk of chronic indigestion Helps to improve appetite "],
     usage:
@@ -1606,7 +1672,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 43,
+    id: 51,
     name: "The Rumen Buffer",
     description:
       "Bufto Forte, the rumen buffer, is a unique blend of rumen buffering agents, probiotics, prebiotic, minerals, vitamin and amino acid to support ruminal acidosis and restore the normal ruminal pH and microflora.",
@@ -1616,18 +1682,20 @@ const livestock_data = [
     packaging: "100 gm and 200 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/bufto forte.webp",
     Productname: "/Assets/Product name/Livestock/Bufto Forte.webp",
-    composition: [
-      "Each 200 gm contains:",
-      "Calcium 73 gm, Magnesium 27 gm, DL-Methionine 10 gm, Biotin 20 mg, Cobalt sulphate 50 mg,",
-      "Copper sulphate 200 mg,",
-      "Zinc sulphate 400 mg,",
-      "Manganese sulphate 75 mg,",
-      "Saccharomyces cerevisiae 100 Billion CFU, Aspergillus oryzae",
-      "1 billion CFU, Bacillus coagulans 10 billion CFU, Bacillus licheniformis 25 billion CFU,",
-      "Fructo oligosaccharide 500 mg"
-    ],
+    composition:
+      [
+        "Each 200 gm contains:",
+        "Calcium 73 gm, Magnesium 27 gm, DL-Methionine 10 gm, Biotin 20 mg, Cobalt sulphate 50 mg,",
+        "Copper sulphate 200 mg,",
+        "Zinc sulphate 400 mg,",
+        "Manganese sulphate 75 mg,",
+        "Saccharomyces cerevisiae 100 Billion CFU, Aspergillus oryzae",
+        "1 billion CFU, Bacillus coagulans 10 billion CFU, Bacillus licheniformis 25 billion CFU,",
+        "Fructo oligosaccharide 500 mg"
+      ],
     indications:
-      ["Restores normal pH during rumen acidosis",
+      [
+        "Restores normal pH during rumen acidosis",
         "Reduces the risk of chronic indigestion",
         "Helps to improve appetite"
       ],
@@ -1638,7 +1706,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 44,
+    id: 52,
     name: "Phytoactive for rumen care",
     description:
       "Digerum is an innovative formulation enriched with powerful phytoactives which correct bloating, improves digestive performance and reduces gut-inflamation",
@@ -1683,7 +1751,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 45,
+    id: 53,
     name: "Estrus Inducing-Conception Promoter Nutrition Supplement",
     description:
       "Estromin is unique blend of MHA chelated minerals, vitamins, bioactive chromium and grape polyphenols to optimize metabolic and reproductive functions. Estromin supplements essential nutrients to activate gonadal system and induce fertile estrus in bovine.",
@@ -1693,12 +1761,13 @@ const livestock_data = [
     packaging: "10 X 4 Bolus in unit carton",
     Productimg: "/Assets/Product images/Veterinary/Livestock/estromin.webp",
     Productname: "/Assets/Product name/Livestock/Estro Min.webp",
-    composition: [
-      "Each bolus contains:",
-      "Copper Neunamin 120 mg, Zinc Neunamin 240 mg, Iron Neunamin 50 mg, Manganese Neunamin 240 mg,",
-      "Cobalt 5 mg, Iodine 6.5 mg, Selenium 1 mg, Bioactive chromium 2 mg, Vitamin A 50000 IU, Vitamin D₃ 10000 IU, Vitamin B₃ 10 mg, Vitamin E 250 IU,",
-      "Grape polyphenols eq. to 525 IU of Vitamin E activity.",
-    ],
+    composition:
+      [
+        "Each bolus contains:",
+        "Copper Neunamin 120 mg, Zinc Neunamin 240 mg, Iron Neunamin 50 mg, Manganese Neunamin 240 mg,",
+        "Cobalt 5 mg, Iodine 6.5 mg, Selenium 1 mg, Bioactive chromium 2 mg, Vitamin A 50000 IU, Vitamin D₃ 10000 IU, Vitamin B₃ 10 mg, Vitamin E 250 IU,",
+        "Grape polyphenols eq. to 525 IU of Vitamin E activity.",
+      ],
     indications:
       [
         "Anoestrus due to nutritional deficiency",
@@ -1712,7 +1781,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 46,
+    id: 54,
     name: "Estrus Inducing-Conception Promoter Nutrition Supplement",
     description:
       "Estromin DS is unique blend of MHA chelated minerals, vitamins, bioactive chromium and grape polyphenols to optimize metabolic and reproductive functions. Estromin supplements essential nutrients to activate gonadal system and induce fertile estrus in bovines",
@@ -1753,7 +1822,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 47,
+    id: 55,
     name: "High Milk Fat & Body Mass Gainer",
     description:
       "Fat-A-Fat is unique blend of phytochemical extracts, probiotics and amino acid that enhance the body weight, milk fat and improve milk production of dairy and beef animal.",
@@ -1763,7 +1832,8 @@ const livestock_data = [
     packaging: "16 gm sachet, Pack containing 60 sachets",
     Productimg: "/Assets/Product images/Veterinary/Livestock/fat a fat.webp",
     Productname: "/Assets/Product name/Livestock/Fat-a-Fat.webp",
-    composition: [
+    composition: 
+    [
       "Each 15 gm Sachet contains :",
       "Phytochemical extract derived from:",
       "Leptadenia reticulata, Asparagillus oryzae Niacin, Biotin, DL Methionine, Fortified with Homeo-nutrients"
@@ -1776,37 +1846,37 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
+  // {
+  //   id: 56,
+  //   name: "A Potent formulation for management of fibrous Mastitis",
+  //   description:
+  //     "Fibromast Forte",
+  //   segment: "Livestock",
+  //   type: "Powder",
+  //   category: "Preventive Concepts , Other Specialty",
+  //   packaging: "25 gm Sachets and 5 Sachets in unit carton",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/.webp",
+  //   Productname: "/Assets/Product name/Livestock/.webp",
+  //   composition:
+  //     [
+  //       "Each 25 gm Sachet contains :",
+  //       "Phytochemical extracts equivalent to Andrographis paniculata 800 mg Picrorhiza kurroa 225 mg, Ocimum sanctum 10000 mg, Aloe vera 1000 mg, Silymarin Nanophosphosome® 400 mg Serratiopeptidase, MOS,  Potassium iodide 200 mg, Niacin 1000 mg, Saccharomyces cerevisiae 60,000 million cfu, Bacillus coagulans 6,000 million cfu, Aspergillus oryzae 1000 million cfu, Chromium propionate 20 mg, Biotin 20 mg, DL Methionine,  Grape polyphenols eq. to Vitamin E activity 1500 IU, Vitamin A 50,000 IU, Vitamin D₃ 10,000 IU, Vitamin C 300 mg, Zinc glycinate 300 mg, Bromelain  & Microbial lysozyme 2,50,000 units, Enriched with Zingibain"
+  //     ],
+  //   indications:
+  //     [
+  //       "• Cleaves the peptide bond of collagen fibers to reduce the tissue fibrosis.",
+  //       "• Improves tissue healing, reduces udder inflammation and supports in the cases of fibrous mastitis.",
+  //       "• Effective in the cases of haemorrhagic mastitis.",
+  //       "• Helps to restore the milk yield."
+  //     ],
+  //   usage:
+  //     ["1  Sachet daily for 5 days or as per the recommendation of registered veterinary practitioner."],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
-    id: 47,
-    name: "A Potent formulation for management of fibrous Mastitis",
-    description:
-      "Fibromast Forte",
-    segment: "Livestock",
-    type: "Powder",
-    category: "Preventive Concepts , Other Specialty",
-    packaging: "25 gm Sachets and 5 Sachets in unit carton",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/.webp",
-    Productname: "/Assets/Product name/Livestock/.webp",
-    composition:
-      [
-        "Each 25 gm Sachet contains :",
-        "Phytochemical extracts equivalent to Andrographis paniculata 800 mg Picrorhiza kurroa 225 mg, Ocimum sanctum 10000 mg, Aloe vera 1000 mg, Silymarin Nanophosphosome® 400 mg Serratiopeptidase, MOS,  Potassium iodide 200 mg, Niacin 1000 mg, Saccharomyces cerevisiae 60,000 million cfu, Bacillus coagulans 6,000 million cfu, Aspergillus oryzae 1000 million cfu, Chromium propionate 20 mg, Biotin 20 mg, DL Methionine,  Grape polyphenols eq. to Vitamin E activity 1500 IU, Vitamin A 50,000 IU, Vitamin D₃ 10,000 IU, Vitamin C 300 mg, Zinc glycinate 300 mg, Bromelain  & Microbial lysozyme 2,50,000 units, Enriched with Zingibain"
-      ],
-    indications:
-      [
-        "• Cleaves the peptide bond of collagen fibers to reduce the tissue fibrosis.",
-        "• Improves tissue healing, reduces udder inflammation and supports in the cases of fibrous mastitis.",
-        "• Effective in the cases of haemorrhagic mastitis.",
-        "• Helps to restore the milk yield."
-      ],
-    usage:
-      ["1  Sachet daily for 5 days or as per the recommendation of registered veterinary practitioner."],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 54,
+    id: 57,
     name: "Synergistic Combination of Fenbendazole and Ivermectin",
     description:
       "Mecfen is combination of Fenbendazole and Ivermectin.Both anthelmintics act synergistically ensuring complete protection against round worm and tape worm infestation in bovines",
@@ -1835,7 +1905,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 55,
+    id: 58,
     name: "High Power Combination of Fenbendazole and lvermectin ",
     description:
       "Mecfen Forte bolus is combination of Fenbendazole and Ivermectin that is used against gastrointestinal parasites.",
@@ -1865,7 +1935,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 56,
+    id: 59,
     name: "Mega Spectrum Dewormer for Small Animals",
     description:
       "Mecfen Plus is unique combination of Fenbendazole, Ivermectin and Praziquantel. Mecfen Plus ensures complete protection against round worm and tape worm infestation in small animal like- Sheep, Goat, Calf, Foals and Pig.",
@@ -1900,7 +1970,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 57,
+    id: 60,
     name: "Postbiotic Growth Promoter",
     description:
       [
@@ -1913,7 +1983,8 @@ const livestock_data = [
     packaging: "1 kg & 2 gm X 30 Sachet",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Metagrow-Vet.webp",
     Productname: "/Assets/Product name/Livestock/Metagrow-vet.webp",
-    composition: [
+    composition: 
+    [
       "Each sachet contains:",
       "High Metabolic Activators, Antimicrobial peptides, Antioxidants and Immunogens(Metabolic extracts of Saccharomyces and Bacillus probiotics enriched with enzymes)",
       "Fortified with Betglucan-Mannan oligosaccharides complex 416 gm/Kg",
@@ -1934,7 +2005,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 58,
+    id: 61,
     name: "A Potent Phytobiotic & Immunomodulator Against Metritis",
     description:
       "Metriwin is synergistic combination of powerful extracts of curcumin, Tinospora cordifolia , Allium sativum and Azadirachta Indica enriched with bioenhancer and metabolic potentiator technology. Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves the absorption of Curcuminoids, Tinospora cordifolia flavonoids, Allium sativum and Azadirachtin and also prevents its metabolic reduction through inhibition of P-gp, efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
@@ -1967,7 +2038,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 60,
+    id: 62,
     name: "Advanced Antibacterial for Acute Infections",
     description:
       "Neubac the latest fourth-generation fluoroquinolone with wide antimicrobial spectrum, quick response time and least chances of resistance. It is effective against gram positive and negative aerobes and anaerobes, mycoplasma and chlamydia. Highly effective against acute infections of respiratory, uterine and mammary system",
@@ -1991,7 +2062,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 61,
+    id: 63,
     name: "Management of Post-Parturient Problems",
     description:
       "Neulact is patented formulation to prevent post-partum complications (Retention of placenta, Milk Fever, Mastitis and Metritis) in peri-parturient animals. Fortified with power packs to provide loading dose of immune booster action. Provides ease of administration in granule form",
@@ -2020,7 +2091,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 63,
+    id: 64,
     name: "Supports Metabolic Activation",
     description:
       "Phosbol is an advanced combination enriched with essential vitamin and probiotic, to stimulate Metabolism, Growth & Homeostasis in birds and animals.",
@@ -2030,12 +2101,12 @@ const livestock_data = [
     packaging: "100 gm",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Phosbol.webp",
     Productname: "/Assets/Product name/Livestock/Phosbol.webp",
-    composition: 
-    [
-      "Each gm contains:",
-      "Butaphosphan INN 100 mg",
-      "Vitamin B₁₂ 50 mg"
-    ],
+    composition:
+      [
+        "Each gm contains:",
+        "Butaphosphan INN 100 mg",
+        "Vitamin B₁₂ 50 mg"
+      ],
     indications:
       [
         "Increases Meat, Milk & Egg Production",
@@ -2052,7 +2123,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 64,
+    id: 65,
     name: "A unique Protein Supplement with probiotics",
     description:
       "Probipro is a unique protein supplement enriched with probiotics, Grape polyphenols and Maize gluten to compensate the low grade of protein source in feed.",
@@ -2062,7 +2133,8 @@ const livestock_data = [
     packaging: "1 kg and 25 kg Bag",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Probipro.webp",
     Productname: "/Assets/Product name/Livestock/PROBI PRO.webp",
-    composition: [
+    composition: 
+    [
       "Each 1 kg contains",
       "Saccharomyces cerevisiae 300 billion cfu/gm, Lactobacillus sporogenes 3 billion cfu/gm, Aspergillus oryzae 3 billion cfu/gm, Propionibacterium freudenrechii 20 billion cfu/gm, Propionibacterium acidipropionici 0.2 billion cfu/gm, Grape polyphenols ext. 500 mg, Maize gluten 940 gm"
     ],
@@ -2074,69 +2146,69 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
+  // {
+  //   id: 66,
+  //   name: "Proven Digestive Stimulant",
+  //   description:
+  //     "Probirum is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for Simple Indigestion and Anorexia.",
+  //   segment: "Livestock",
+  //   type: "Granule",
+  //   category: "Digestive",
+  //   packaging: "15 gm sachets, 25 sachets in box",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum.webp",
+  //   Productname: "/Assets/Product name/Livestock/Probirum.webp",
+  //   composition:
+  //     [
+  //       "Each 15 gm Sachet contains :",
+  //       "Saccharomyces cerevisiae  5 X 10¹⁰ CFU,",
+  //       "Lactobacillus sporogenes 1 X 10⁹ CFU,",
+  //       "Aspergillus oryzae 1 X 10⁹ CFU",
+  //       "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
+  //     ],
+  //   indications:
+  //     [
+  //       "• Simple indigestion and anorexia",
+  //       "• Rumen Acidosis",
+  //       "• Low milk yield",
+  //     ],
+  //   usage:
+  //     [
+  //       "• Cattle/ Buffalo- 1 sachet orally B.I.D. for 2-3 days;",
+  //       "• Sheep/ Goat – ½ sachet orally B.I.D. for 2-3 days"
+  //     ],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
+  // {
+  //   id: 67,
+  //   name: "Proven Digestive Stimulant",
+  //   description:
+  //     "Probirum- vet Bolus is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for simple indigestion and anorexia.",
+  //   segment: "Livestock",
+  //   type: "Bolus",
+  //   category: "Digestive Enhancer",
+  //   packaging: "10X2 Bolis Pack",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum-vet Bolus.webp",
+  //   Productname: "/Assets/Product name/Livestock/Probirum-vet Bolus.webp",
+  //   composition:
+  //     [
+  //       "Each Bolus contains:",
+  //       "Cellulase 6000 units , Hemicellulase 150 units , Xylanase 4000 units, Pectinase 750 units , Lipase 1000 units , Papain 500 units , Protease 3000 units , Myo Inositol 75 mg, Biotin (Pure) 20 mg , Aspergillus oryzae 1000 million cfu, Saccharomyces cerevisiae 50000 million cfu, Lactobacillus sporogenes 2000 million cfu, Niacin 1 gm , DL Methionine 5 gm, Copper sulphate 100 mg , Zinc sulphate 200 mg, Cobalt sulphate 20 mg , MOS 300 mg Andrographis paniculata ext. 300 mg Phyllanthus niruri ext. 250 mg Eclipta alba ext. 300 mg Boerhavia diffusa ext. 125 mg"
+  //     ],
+  //   indications:
+  //     [
+  //       "• Simple indigestion and anorexia",
+  //       "• Rumen Acidosis",
+  //       "• Low milk yield"
+  //     ],
+  //   usage: ["Recommended Usage- 1 Bolus daily for 2-3 days"],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
   {
-    id: 65,
-    name: "Proven Digestive Stimulant",
-    description:
-      "Probirum is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for Simple Indigestion and Anorexia.",
-    segment: "Livestock",
-    type: "Granule",
-    category: "Digestive",
-    packaging: "15 gm sachets, 25 sachets in box",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum.webp",
-    Productname: "/Assets/Product name/Livestock/Probirum.webp",
-    composition:
-      [
-        "Each 15 gm Sachet contains :",
-        "Saccharomyces cerevisiae  5 X 10¹⁰ CFU,",
-        "Lactobacillus sporogenes 1 X 10⁹ CFU,",
-        "Aspergillus oryzae 1 X 10⁹ CFU",
-        "Cellulase 6,000 CU, Hemicellulase 150 HCU, Xylanase 4000 XU, Pectinase 750 PGU Papain 500 PU, Biotin 10 mg, Lipase 1000 LU, Fungal Protease 3000 PGU, DL-Methionine 5 gm, Niacin 1000 mg, Zinc Sulphate 200 mg, Cobalt Sulphate 20 mg, Copper Sulphate 100 mg, Magnesium Trisilicate 600 mg, Fructo-oligosaccharide 300 mg, Andrographis paniculata eq. to 4000 mg, Phyllanthus niruri eq. to 2500 mg, Eclipta alba eq. to 3000 mg, Boerahavia diffusa eq. to 1000 mg"
-      ],
-    indications:
-      [
-        "• Simple indigestion and anorexia",
-        "• Rumen Acidosis",
-        "• Low milk yield",
-      ],
-    usage:
-      [
-        "• Cattle/ Buffalo- 1 sachet orally B.I.D. for 2-3 days;",
-        "• Sheep/ Goat – ½ sachet orally B.I.D. for 2-3 days"
-      ],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 66,
-    name: "Proven Digestive Stimulant",
-    description:
-      "Probirum- vet Bolus is unique combination of rumen specific enzymes with potentiated probiotics, essential amino acids, essential minerals and vitamins for simple indigestion and anorexia.",
-    segment: "Livestock",
-    type: "Bolus",
-    category: "Digestive Enhancer",
-    packaging: "10X2 Bolis Pack",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Probirum-vet Bolus.webp",
-    Productname: "/Assets/Product name/Livestock/Probirum-vet Bolus.webp",
-    composition:
-      [
-        "Each Bolus contains:",
-        "Cellulase 6000 units , Hemicellulase 150 units , Xylanase 4000 units, Pectinase 750 units , Lipase 1000 units , Papain 500 units , Protease 3000 units , Myo Inositol 75 mg, Biotin (Pure) 20 mg , Aspergillus oryzae 1000 million cfu, Saccharomyces cerevisiae 50000 million cfu, Lactobacillus sporogenes 2000 million cfu, Niacin 1 gm , DL Methionine 5 gm, Copper sulphate 100 mg , Zinc sulphate 200 mg, Cobalt sulphate 20 mg , MOS 300 mg Andrographis paniculata ext. 300 mg Phyllanthus niruri ext. 250 mg Eclipta alba ext. 300 mg Boerhavia diffusa ext. 125 mg"
-      ],
-    indications:
-      [
-        "• Simple indigestion and anorexia",
-        "• Rumen Acidosis",
-        "• Low milk yield"
-      ],
-    usage: ["Recommended Usage- 1 Bolus daily for 2-3 days"],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
-  {
-    id: 67,
+    id: 68,
     name: "Supports Joint Health",
     description:
       "Suportho is an advanced liquid formulation enriched with Glucosamine and Chondroitin sulphate to support joint health in livestock as well as Equines.",
@@ -2166,7 +2238,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 68,
+    id: 69,
     name: "Phytobiotic Intrauterine Infusion",
     description:
       "Thypin-IU is a blend of potent phytobiotic essential oils used to prevent and control the postpartum intrauterine infections and diseases caused by bacteria, mycoplasma and protozoa.",
@@ -2193,7 +2265,7 @@ const livestock_data = [
     feedback: " "
   },
   {
-    id: 69,
+    id: 70,
     name: "Broad Spectrum Flukicide and Endectocide",
     description:
       "Triclauri is a broad spectrum and powerful flukicide drench against all forms i.e.early immature, immature and adult liver flukes.Also effective against nasal bots, round worm, lung worm and itch mite",
@@ -2203,7 +2275,8 @@ const livestock_data = [
     packaging: "100 ml, 500 ml and 1 litre Bottle",
     Productimg: "/Assets/Product images/Veterinary/Livestock/Triclauri.webp",
     Productname: "/Assets/Product name/Livestock/Triclauri.webp",
-    composition: [
+    composition: 
+    [
       "Each ml contains:",
       "Triclabendazole…………..50 mg",
       "Ivermectin……………………1 mg"
@@ -2221,38 +2294,39 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  {
-    id: 70,
-    name: "A Metabolic Activator for Weight Gain",
-    description:
-      "Aurigain Bolus is unique blend of phytochemical extracts, probiotics, amino acid and growth enzymes that enhance growth and weight gain in cattle.",
-    segment: "Livestock",
-    type: "Bolus",
-    category: "Growth Promoter, Other Specialty",
-    packaging: "10X2 Bolus",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurigain Bolus.webp",
-    Productname: "/Assets/Product name/Livestock/Aurigain bolus.webp",
-    composition: [
-      "Each Bolus contains:",
-      "Phytochemical extract derived from ",
-      "Leptadenia reticulata 30 gm, Asparagus recemosus 6 gm, Trigonella foenum 7gm ,Andrographis paniculata 3 gm, Phyllanthus niruri 2.5 gm, Eclipta alba 3 gm, Boerhavia diffusa 1 gm, Saccharomyces cerevisiae 25000 million cfu, Bacillus licheniformis 36000 million cfu, Bacillus subtilis 50000 million cfu, Aspergillus oryzae 250 million cfu, DL Methionine 1 gm, Niacin 500 mg, MOS 1000 mg, Biotin 20 mg, Cobalt sulphate 20 mg",
-      "Enriched with Phytase enzyme"
-    ],
-    indications:
-      [
-        "• Initiates faster growth in growing calf and heifer to achieve higher and early weight gain.",
-        "• Helps in fattening of weak animals.",
-        "• Improves milk quality and production. "
-      ],
-    usage:
-      [
-        "• Cow & Buffalo: 1 bolus B.I.D for 30 to 60 days.",
-        "• Calf/Heifer/Goat 1/2 bolus daily for 60 days."
-      ],
-    report: " ",
-    brochure: " ",
-    feedback: " "
-  },
+  // {
+  //   id: 71,
+  //   name: "A Metabolic Activator for Weight Gain",
+  //   description:
+  //     "Aurigain Bolus is unique blend of phytochemical extracts, probiotics, amino acid and growth enzymes that enhance growth and weight gain in cattle.",
+  //   segment: "Livestock",
+  //   type: "Bolus",
+  //   category: "Growth Promoter, Other Specialty",
+  //   packaging: "10X2 Bolus",
+  //   Productimg: "/Assets/Product images/Veterinary/Livestock/Aurigain Bolus.webp",
+  //   Productname: "/Assets/Product name/Livestock/Aurigain bolus.webp",
+  //   composition: 
+  //    [
+  //       "Each Bolus contains:",
+  //       "Phytochemical extract derived from ",
+  //       "Leptadenia reticulata 30 gm, Asparagus recemosus 6 gm, Trigonella foenum 7gm ,Andrographis paniculata 3 gm, Phyllanthus niruri 2.5 gm, Eclipta alba 3 gm, Boerhavia diffusa 1 gm, Saccharomyces cerevisiae 25000 million cfu, Bacillus licheniformis 36000 million cfu, Bacillus subtilis 50000 million cfu, Aspergillus oryzae 250 million cfu, DL Methionine 1 gm, Niacin 500 mg, MOS 1000 mg, Biotin 20 mg, Cobalt sulphate 20 mg",
+  //       "Enriched with Phytase enzyme"
+  //    ],
+  //   indications:
+  //     [
+  //       "• Initiates faster growth in growing calf and heifer to achieve higher and early weight gain.",
+  //       "• Helps in fattening of weak animals.",
+  //       "• Improves milk quality and production. "
+  //     ],
+  //   usage:
+  //     [
+  //       "• Cow & Buffalo: 1 bolus B.I.D for 30 to 60 days.",
+  //       "• Calf/Heifer/Goat 1/2 bolus daily for 60 days."
+  //     ],
+  //   report: " ",
+  //   brochure: " ",
+  //   feedback: " "
+  // },
 ];
 
 export default livestock_data;

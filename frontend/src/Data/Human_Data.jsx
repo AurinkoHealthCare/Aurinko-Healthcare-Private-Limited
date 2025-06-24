@@ -73,7 +73,7 @@ const human_data = [
       "Auricam is a green tea supplement, a nano-emulsified EGCG (Epigallocatechin gallates) Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Auricam (Green tea Nanophosphosome) contains polyphenols i.e EGCG and caffeine, easily crosses the gut barrier resulting in significantly higher blood level. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the EGCG and caffeine to reach the systemic circulation and also increases its absorption and bioavailability. Bioenhancer and Metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve EGCG and caffeine absorption as well as prevents its metabolic reduction through inhibition of P-gp efflux pump, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule",
-    category: "Other Specialty",
+    category: "Weight management",
     packaging: "30, 60 and 90 Capsules Container",
     Productimg: "/Assets/Product images/Human/Health Supplements/Auricam.webp",
     Productname: "/Assets/Product name/Health suppliments/Auricam.webp",

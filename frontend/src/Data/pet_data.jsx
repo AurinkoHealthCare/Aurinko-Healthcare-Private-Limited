@@ -371,8 +371,8 @@ const pet_data = [
     type: "Tablet",
     category: "Other Specialty",
     packaging: "250 mg and 500 mg pack with 60 & 90 capsules",
-    Productimg: "/Assets/Product images/Veterinary/Pet/Aurigus Pet.webp",
-    Productname: "/Assets/Product name/Pet/Aurigus Pet.webp",
+    Productimg: "/Assets/Product images/Veterinary/Pet/Aurimaca Pet.webp",
+    Productname: "/Assets/Product name/Pet/Aurimaca Pet.webp",
     composition: [
       "Each 500 mg Capsule contains:",
       "Lepidium meyenii root extract……………………….450 mg",
