@@ -5,7 +5,8 @@ const images = [
   "/Assets/banner/Nanophosphosom.webp",
   "/Assets/banner/Neuna particle.webp",
   "/Assets/banner/Nunamin.webp",
-  "/Assets/banner/aurinko banner.jpg",
+  "/Assets/banner/Auribery Plus.webp",
+  "/Assets/banner/Reintoni.webp"
 ];
 
 export default function ImageSlider() {
@@ -57,9 +58,8 @@ export default function ImageSlider() {
         {images.map((_, index) => (
           <button
             key={index}
-            className={`w-2 h-2 lg:w-3 lg:h-3 rounded-2xl transition-colors duration-300 ${
-              index === currentIndex ? "bg-white scale-125" : "bg-gray-400"
-            }`}
+            className={`w-2 h-2 lg:w-3 lg:h-3 rounded-2xl transition-colors duration-300 ${index === currentIndex ? "bg-white scale-125" : "bg-gray-400"
+              }`}
             onClick={() => setCurrentIndex(index)}
             aria-label={`Go to slide ${index + 1}`}
           />

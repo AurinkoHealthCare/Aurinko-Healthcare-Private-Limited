@@ -706,7 +706,7 @@ const livestock_data = [
         "• After 25-30 days of delivery, 100 ml orel daily for 5 days or as advised by the qualified veterinary practitioner"
       ],
     report: " ",
-    brochure: " ",
+    brochure: "/Assets/pdf/litrature pdf/",
     feedback: " "
   },
   {
