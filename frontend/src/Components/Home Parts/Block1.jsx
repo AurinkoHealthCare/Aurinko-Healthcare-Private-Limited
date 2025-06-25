@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-
 const images = [
   '/Assets/Aurinko Home 1.png',
-  '/Assets/Aurinko Home 2.jpeg',
-  '/Assets/Aurinko Home 3.jpeg',
+  '/Assets/Aurinko Home 2.jpeg'
 ];
 
 const Block1 = () => {
@@ -15,7 +13,7 @@ const Block1 = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);

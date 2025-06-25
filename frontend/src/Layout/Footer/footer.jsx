@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6 ">
 
             <div>
-              <h5 className="font-semibold mb-2">Head Office</h5>
+              <h5 className="font-semibold mb-2">India Head Office</h5>
               <p className="mb-2 font-semibold">Aurinko Healthcare Private Limited</p>
               <p>
                 <i className="fas fa-map-marker-alt mr-2"></i>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h5 className="font-semibold mb-2">Subsidiary company (Zimbabwe)</h5>
+              <h5 className="font-semibold mb-2">Zimbabwe</h5>
               <p className="mb-2 font-semibold">
                 Aurinko Healthcare Zimbabwe Private Limited
               </p>
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h5 className="font-semibold mb-2">Subsidiary company (Korea)</h5>
+              <h5 className="font-semibold mb-2">Korea</h5>
                <p className="mb-2 font-semibold">
                 Aurinko Healthcare Korea Private Limited
               </p>
