@@ -3,7 +3,7 @@ const v_nanophosphosome_data = [
     id: 1,
     name: "Highly Bioavailable Natural Pigments",
     description:
-      "Yeco Nanophosphosome is a nano emulsified Lutein-Zeaxanthin Phosphatidylcholine Ethanolamine-Inositol-Serine Complex enriched with bioenhancer and metabolic potentiator technology. Yeco Nanophosphosome (Lutein-Zeaxanthin Nanophosphosome) easily crosses the gut barrier resulting in significantly higher blood levels of lutein and zeaxanthin. potentiated phospholipid complex acts as carrier mediated transport system, which directs lutein and zeaxanthin to reach the systemic circulation with enhanced bioavailability. Bioenhancer and metabolic potentiator technology enhances the permeability of intestinal microvilli and improves absorption as well prevents it’s metabolic reduction through invention of P-gp, CYP3AG and UGT Yeco Nanophosphosome provides consistent and uniform color for egg yolk, broiler skin and improves health and immunity.",
+      "Yeco Nanophosphosome® is a nano emulsified Lutein-Zeaxanthin Phosphatidylcholine Ethanolamine-Inositol-Serine Complex enriched with bioenhancer and metabolic potentiator technology. Yeco Nanophosphosome® (Lutein-Zeaxanthin Nanophosphosome®) easily crosses the gut barrier resulting in significantly higher blood levels of lutein and zeaxanthin. potentiated phospholipid complex acts as carrier mediated transport system, which directs lutein and zeaxanthin to reach the systemic circulation with enhanced bioavailability. Bioenhancer and metabolic potentiator technology enhances the permeability of intestinal microvilli and improves absorption as well prevents it’s metabolic reduction through invention of P-gp, CYP3AG and UGT Yeco Nanophosphosome® provides consistent and uniform color for egg yolk, broiler skin and improves health and immunity.",
     segment: "Poultry, Aqua",
     type: "Powder",
     category: "Other Specialty",
@@ -12,12 +12,12 @@ const v_nanophosphosome_data = [
     Productname: "/Assets/Product name/Poultry/Yeco.webp",
     composition: [
       "Each kg contains:",
-      "Lutein-Zeaxanthin Nanophosphosome",
+      "Lutein-Zeaxanthin Nanophosphosome®",
       "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine Inositol-Serine Complex) 200 gm",
       "Lutein 32 gm",
       "Zeaxanthin 2 gm",
       "Each kg contains:",
-      "Curcumin-Lutein-Zeaxanthin Nanophosphosome",
+      "Curcumin-Lutein-Zeaxanthin Nanophosphosome®",
       "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine-Inositol-Serine Complex) 400 gm",
       "Curcumin 85 gm",
       "Lutein 32 gm",

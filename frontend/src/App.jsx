@@ -1,5 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home/Home";
+import Nanophosphome from "./Data/banner_data/Nanophosphome"
+import Neuna_particles from "./Data/banner_data/neuna-particle"
+import Nunamin from "./Data/banner_data/nunamin"
+import Auribery_plus from "./Data/banner_data/auribery-plus"
+import Reintoni from "./Data/banner_data/reintoni"
 import ContactUs from "./Pages/contact/contact";
 import About from "./Pages/About us/about";
 import VisionMission from "./Pages/About us/vision&mission";
@@ -45,6 +50,11 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/nanophosphosom" element={<Nanophosphome />} />
+        <Route path="/neuna-particle" element={<Neuna_particles />} />
+        <Route path="/nunamin" element={<Nunamin />} />
+        <Route path="/auribery-plus" element={<Auribery_plus />} />
+        <Route path="/reintoni" element={<Reintoni />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/vision-mission" element={<VisionMission />} />
         <Route path="/manufacturing-facility" element={<ManufacturingFacility />} />

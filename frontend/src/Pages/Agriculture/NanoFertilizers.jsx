@@ -17,7 +17,7 @@ const NanoFertilizers = () => {
           <h1 className="lg:text-4xl font-bold">Nano Fertilizers</h1>
         </div>
       </div>
-      {/* <div className="flex flex-col min-h-screen w-full p-4">
+      <div className="flex flex-col min-h-screen w-full p-4">
         {nano_fertilizers_data?.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4">
             {nano_fertilizers_data.map((product) => (
@@ -27,7 +27,7 @@ const NanoFertilizers = () => {
         ) : (
           <p className="text-center text-gray-600">No health supplements available.</p>
         )}
-      </div> */}
+      </div>
     </div>
   );
 }

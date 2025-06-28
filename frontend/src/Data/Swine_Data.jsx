@@ -352,39 +352,39 @@ const Swine_Data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 13,
-  //   name: "Phytogenic Anti-viral Prevention Programme",
-  //   description:
-  //     "Aurivir is a unique blend of phytogenic extracts and antioxidants to prevent and control RNA viral infections in poultry, swine and cattle. It is highly effective against Infectious Bronchitis, Avain Influenza, New Castle Disease, Infectious Bursal Disease, Swine Flu, Swine enteric Coronavirus disease and Bovine respiratory disease complex.",
-  //   segment: "Swine, Poultry",
-  //   type: "Liquid, Powder",
-  //   category: "Immunomodulator , Other Specialty",
-  //   packaging: "1 Ltr 5 Ltr 25 Ltr Jar 1 kg 25 Kg Drum",
-  //   Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir.webp",
-  //   Productname: "/Assets/Product name/Poultry/Aurivir.webp",
-  //   composition: [
-  //     "Each kg contains:",
-  //     "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin-3-gallate, Grape Skin Nanophosphosome©",
-  //     "Vitamin C 75 gm",
-  //     "Selenium 3.96 mg",
-  //     "Copper (as glycinate complex) 600 mg",
-  //     "Manganese (as glycinate complex) 300 mg",
-  //     "Fortified with Carum carvi and Piperine"
-  //   ],
-  //   indications:
-  //     [
-  //       "To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease, Infectious Bursal Disease)",
-  //       "Help to reduce the incidence of bacterial and viral diseases",
-  //       "Ensures faster recovery during disease outbreaks. Improves the antibody titre when given along with vaccinations Regular use prevents recurrence of infection",
-  //       "Effective against RNA viral infections in swine (Swine Flu, Swine enteric Corona virus, Bovine respiratory disease complex)"
-  //     ],
-  //   usage:
-  //     ["For Poultry: Powder supplementation- For prevention- 600-700 gm per tonne of feed for 1-2 weeks. As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days. Liquid supplementation: *Preventive supplementation (for 1-2 weeks):- 1 ltr. diluted with 100 ltr. water for 2000 birds of 1.5 kg bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 750 gm bwt. 1 ltr. diluted with 200 ltr. water for 12000 birds of 250 gm bwt. 1 ltr. diluted with 200 ltr. water for 30000 birds of 100 gm bwt. *As Supportive therapy during acute infection (for 5-7 days):- 1 ltr. diluted with 50 ltr. water for 700 birds of 1.5 kg bwt. 1 ltr. diluted with 50 ltr. water for 1400 birds of 750 gm bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 250 gm bwt. 1 ltr. diluted with 100 ltr. water for 10000 birds of 100 gm bwt. For Swine: 1-2 weeks supplementation period. 1st Month 1.5 gm OD 5 ml BID 2nd Month 3 gm OD 10 ml BID 3rd Month 5 gm OD 18 ml BID 4th Month 7.5 gm OD 27 ml BID 5th Month 10 gm OD 35 ml BID 6th Month 12.5 gm OD 45 ml BID."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 13,
+    name: "Phytogenic Anti-viral Prevention Programme",
+    description:
+      "Aurivir is a unique blend of phytogenic extracts and antioxidants to prevent and control RNA viral infections in poultry, swine and cattle. It is highly effective against Infectious Bronchitis, Avain Influenza, New Castle Disease, Infectious Bursal Disease, Swine Flu, Swine enteric Coronavirus disease and Bovine respiratory disease complex.",
+    segment: "Swine, Poultry",
+    type: "Liquid, Powder",
+    category: "Immunomodulator , Other Specialty",
+    packaging: "1 Ltr 5 Ltr 25 Ltr Jar 1 kg 25 Kg Drum",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir.webp",
+    Productname: "/Assets/Product name/Poultry/Aurivir.webp",
+    composition: [
+      "Each kg contains:",
+      "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin-3-gallate, Grape Skin Nanophosphosome®",
+      "Vitamin C 75 gm",
+      "Selenium 3.96 mg",
+      "Copper (as glycinate complex) 600 mg",
+      "Manganese (as glycinate complex) 300 mg",
+      "Fortified with Carum carvi and Piperine"
+    ],
+    indications:
+      [
+        "To prevent and control RNA viral infections (Infectious Bronchitis, Avian Influenza, New Castle Disease, Infectious Bursal Disease)",
+        "Help to reduce the incidence of bacterial and viral diseases",
+        "Ensures faster recovery during disease outbreaks. Improves the antibody titre when given along with vaccinations Regular use prevents recurrence of infection",
+        "Effective against RNA viral infections in swine (Swine Flu, Swine enteric Corona virus, Bovine respiratory disease complex)"
+      ],
+    usage:
+      ["For Poultry: Powder supplementation- For prevention- 600-700 gm per tonne of feed for 1-2 weeks. As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days. Liquid supplementation: *Preventive supplementation (for 1-2 weeks):- 1 ltr. diluted with 100 ltr. water for 2000 birds of 1.5 kg bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 750 gm bwt. 1 ltr. diluted with 200 ltr. water for 12000 birds of 250 gm bwt. 1 ltr. diluted with 200 ltr. water for 30000 birds of 100 gm bwt. *As Supportive therapy during acute infection (for 5-7 days):- 1 ltr. diluted with 50 ltr. water for 700 birds of 1.5 kg bwt. 1 ltr. diluted with 50 ltr. water for 1400 birds of 750 gm bwt. 1 ltr. diluted with 100 ltr. water for 4000 birds of 250 gm bwt. 1 ltr. diluted with 100 ltr. water for 10000 birds of 100 gm bwt. For Swine: 1-2 weeks supplementation period. 1st Month 1.5 gm OD 5 ml BID 2nd Month 3 gm OD 10 ml BID 3rd Month 5 gm OD 18 ml BID 4th Month 7.5 gm OD 27 ml BID 5th Month 10 gm OD 35 ml BID 6th Month 12.5 gm OD 45 ml BID."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 14,
     name: "Phytogenic Anti-viral Prevention Programme",
@@ -398,7 +398,7 @@ const Swine_Data = [
     Productname: "/Assets/Product name/Poultry/Aurivir - S.webp",
     composition: [
       "Each kg contains:",
-      "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin - 3 - gallate, Grape Skin Nanophosphosome©",
+      "Phytochemical principles of Isoflavons, polyphenols, Epigallocatechin - 3 - gallate, Grape Skin Nanophosphosome®",
       "Vitamin C 75 gm",
       "Selenium 3.96 mg",
       "Copper(as glycinate complex) 600 mg",
@@ -427,8 +427,8 @@ const Swine_Data = [
     type: "Liquid",
     category: "Performance Enhancer , Other Specialty",
     packaging: "100 ml 250 ml 500 ml 1 L",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD₃.webp",
-    Productname: "/Assets/Product name/Livestock/Aurivit AD₃E.webp",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD3.webp",
+    Productname: "/Assets/Product name/Livestock/Aurivit AD3E.webp",
     composition: [
       "Each ml contains:",
       "Vitamin A 1,00,000 IU, Vitamin D₃ 40,000 IU, Vitamin E 40 IU, Sodium selenite 100 mcg"
@@ -454,7 +454,7 @@ const Swine_Data = [
     type: "Liquid",
     category: "Performance Enhancer , Other Specialty",
     packaging: "100 ml 250 ml 500 ml 1 L",
-    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD₃ Plus.webp",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/Aurivit-AD3 Plus.webp",
     Productname: "/Assets/Product name/Livestock/Aurivit plus.webp",
     composition: [
       "Each ml contains:",

@@ -1,17 +1,34 @@
 import { useState, useEffect, useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
-const images = [
-  "/Assets/banner/Nanophosphosom.webp",
-  "/Assets/banner/Neuna particle.webp",
-  "/Assets/banner/Nunamin.webp",
-  "/Assets/banner/Auribery Plus.webp",
-  "/Assets/banner/Reintoni.webp"
-];
+import { useNavigate } from "react-router-dom";
 
 export default function ImageSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef(null);
+  const navigate = useNavigate();
+
+  const images = [
+    {
+      src: "/Assets/banner/Nanophosphosom.webp",
+      path: "/nanophosphosom",
+    },
+    {
+      src: "/Assets/banner/Neuna particle.webp",
+      path: "/neuna-particle",
+    },
+    {
+      src: "/Assets/banner/Nunamin.webp",
+      path: "/nunamin",
+    },
+    {
+      src: "/Assets/banner/Auribery Plus.webp",
+      path: "/auribery-plus",
+    },
+    {
+      src: "/Assets/banner/Reintoni.webp",
+      path: "/reintoni",
+    },
+  ];
 
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
@@ -23,7 +40,6 @@ export default function ImageSlider() {
 
   useEffect(() => {
     intervalRef.current = setInterval(nextSlide, 4000);
-
     return () => clearInterval(intervalRef.current);
   }, []);
 
@@ -31,13 +47,14 @@ export default function ImageSlider() {
     <div className="relative w-full mx-auto">
       <div className="relative w-full h-full overflow-hidden">
         <img
-          src={images[currentIndex]}
+          src={images[currentIndex].src}
           alt={`Slide ${currentIndex + 1}`}
           className="w-full h-full transition-transform duration-500 ease-in-out"
-          loading={"eager"}
+          loading="eager"
         />
       </div>
 
+      {/* Left Button */}
       <button
         className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-900/50 text-white p-2 rounded-full hover:bg-gray-800 z-10"
         onClick={prevSlide}
@@ -46,6 +63,7 @@ export default function ImageSlider() {
         <FaChevronLeft />
       </button>
 
+      {/* Right Button */}
       <button
         className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-900/50 text-white p-2 rounded-full hover:bg-gray-800 z-10"
         onClick={nextSlide}
@@ -54,16 +72,14 @@ export default function ImageSlider() {
         <FaChevronRight />
       </button>
 
-      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex gap-2">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            className={`w-2 h-2 lg:w-3 lg:h-3 rounded-2xl transition-colors duration-300 ${index === currentIndex ? "bg-white scale-125" : "bg-gray-400"
-              }`}
-            onClick={() => setCurrentIndex(index)}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
+      {/* Know More Button */}
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex items-center gap-4">
+        <button
+          className="bg-orange-600 text-white text-[10px] px-3 py-[2px] lg:text-lg md:px-4 md:py-1 rounded-full hover:bg-green-700 transition duration-300"
+          onClick={() => navigate(images[currentIndex].path)}
+        >
+          Know More
+        </button>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ const human_data = [
     id: 1,
     name: "Supports Urinary Tract HealthCurcumin Nanophosphosome®",
     description:
-      "Auricur is Turmeric supplement, a nano-emulsified Curcumin Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Auricur (Curcumin Nanophosphosome) easily crosses the gut barrier resulting in significantly higher blood levels of Curcumin. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the Curcumin to reach the systemic circulation and also increases it’s absorption and bioavailability. Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves Curcumin absorption as well as prevents it’s metabolic reduction through inhibition of P-gp, CYP3AG and UGT.",
+      "Auricur is Turmeric supplement, a nano-emulsified Curcumin Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Auricur (Curcumin Nanophosphosome®) easily crosses the gut barrier resulting in significantly higher blood levels of Curcumin. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the Curcumin to reach the systemic circulation and also increases it’s absorption and bioavailability. Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves Curcumin absorption as well as prevents it’s metabolic reduction through inhibition of P-gp, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule , Tablet",
     category: "Immunomodulator , Other Specialty",
@@ -42,24 +42,15 @@ const human_data = [
     Productimg: "/Assets/Product images/Human/Health Supplements/Auricur Plus.webp",
     Productname: "/Assets/Product name/Health suppliments/Auricur Plus.webp",
     composition: [
-      "1 capsule",
-      "Curcumin Nanophosphosome®",
-      "and Tinospora cordifolia",
-      "* (Auricur®Plus) (Curcumin",
-      "Phosphatidylcholine -",
-      " Ethanolamine - Inositol - Serine",
-      "complex) 210 mg",
+      "1 capsule Curcumin Nanophosphosome® and Tinospora cordifolia * (Auricur®Plus) (Curcumin Phosphatidylcholine - Ethanolamine - Inositol - Serine complex) 210 mg",
       "Tinospora cordifolia extract 100 mg",
       "Curcuminoids 95 mg",
       "Alkaloids and Diterpenoid Bitters 10 mg",
-      "Daily Value not established",
-      "* Fortified with Turmerone, Piperine and",
-      "Cuminum cyminum",
-      "Other ingredients: Calcium carbonate,",
-      "Permitted class II preservative."
+      "Daily Value not established * Fortified with Turmerone, Piperine and Cuminum cyminum",
+      "Other ingredients: Calcium carbonate, Permitted class II preservative."
     ],
     indications:
-      ["Reports suggest that Curcumin and Tinospora cordifolia supplementation improves immunity, facilitates recovery during pain, inflammation, Rheumatoid arthritis, helps in wound healing & Diabetes management. Auricur® Plus is a combination of Curcumin Nanophosphosome and Tinospora cordifolia with technologically advanced bioenhancer and metabolic potentiator technology."],
+      ["Reports suggest that Curcumin and Tinospora cordifolia supplementation improves immunity, facilitates recovery during pain, inflammation, Rheumatoid arthritis, helps in wound healing & Diabetes management. Auricur® Plus is a combination of Curcumin Nanophosphosome® and Tinospora cordifolia with technologically advanced bioenhancer and metabolic potentiator technology."],
     usage:
       ["1 tablet/capsule twice daily with warm milk/water (morning/evening). Or as directed by qualified healthcare professional. This product is not intended to cure or prevent any disease."],
     report: " ",
@@ -70,7 +61,7 @@ const human_data = [
     id: 3,
     name: "Green Tea Nanophosphosome®",
     description:
-      "Auricam is a green tea supplement, a nano-emulsified EGCG (Epigallocatechin gallates) Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Auricam (Green tea Nanophosphosome) contains polyphenols i.e EGCG and caffeine, easily crosses the gut barrier resulting in significantly higher blood level. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the EGCG and caffeine to reach the systemic circulation and also increases its absorption and bioavailability. Bioenhancer and Metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve EGCG and caffeine absorption as well as prevents its metabolic reduction through inhibition of P-gp efflux pump, CYP3AG and UGT.",
+      "Auricam is a green tea supplement, a nano-emulsified EGCG (Epigallocatechin gallates) Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Auricam (Green tea Nanophosphosome®) contains polyphenols i.e EGCG and caffeine, easily crosses the gut barrier resulting in significantly higher blood level. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the EGCG and caffeine to reach the systemic circulation and also increases its absorption and bioavailability. Bioenhancer and Metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve EGCG and caffeine absorption as well as prevents its metabolic reduction through inhibition of P-gp efflux pump, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule",
     category: "Weight management",
@@ -79,14 +70,14 @@ const human_data = [
     Productname: "/Assets/Product name/Health suppliments/Auricam.webp",
     composition: [
       "Each Capsule contains:",
-      "Green tea Nanophosphosome ® (Auricam®)",
+      "Green tea Nanophosphosome® (Auricam®)",
       "Green tea Phosphatidylcholine-, Ethanolamine-Inositol-Serine complex 300 mg",
       "EGCG, minimum 50 mg",
       "Daily Value not established * Fortified with Caffeine & Piperine",
       "Other ingredients: Calcium Carbonate, Permitted class II preservative."
     ],
     indications:
-      ["Reports suggest that consuming green tea extract helps in weight loss management. Auricam is a Nanophosphosome form of green tea with technologically advanced bioenhancer and metabolic potentiator technology."],
+      ["Reports suggest that consuming green tea extract helps in weight loss management. Auricam is a Nanophosphosome® form of green tea with technologically advanced bioenhancer and metabolic potentiator technology."],
     usage:
       ["2 capsules daily once or in divided doses. Or as directed by qualified healthcare professional. Better results observed in empty stomach or 1 hr interval from food intake. This product is not intended to cure or prevent any disease."],
     report: " ",
@@ -97,7 +88,7 @@ const human_data = [
     id: 4,
     name: "Withania somnifera Nanophosphosome®",
     description:
-      "Aurisom is an Ashwagandha (Withania Somnifera) supplement, a nano-emulsified Withanolides Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Aurisom (Withania Somnifera Nanophosphosome) contains active principles i.e. Withanolides, Withaferin A and Withanosides that easily crosses the gut barrier resulting in significantly higher blood levels. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the Withanolides, Withaferin A and Withanosides to reach the systemic circulation and also increases its absorption and bioavailability. Bioenhancer and Metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve Withanolides, Withaferin A and Withanosides absorption as well prevents it’s metabolic reduction through inhibition of P-gp efflux pump, CYP3AG and UGT.", segment: "Human OTC",
+      "Aurisom is an Ashwagandha (Withania Somnifera) supplement, a nano-emulsified Withanolides Phosphatidyl Choline-Serine-Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology. Aurisom (Withania Somnifera Nanophosphosome®) contains active principles i.e. Withanolides, Withaferin A and Withanosides that easily crosses the gut barrier resulting in significantly higher blood levels. Potentiated phospholipid complex acts as carrier mediated transport system, which directs the Withanolides, Withaferin A and Withanosides to reach the systemic circulation and also increases its absorption and bioavailability. Bioenhancer and Metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve Withanolides, Withaferin A and Withanosides absorption as well prevents it’s metabolic reduction through inhibition of P-gp efflux pump, CYP3AG and UGT.", segment: "Human OTC",
     type: "Capsule",
     category: "Other Specialty",
     packaging: "30, 60 and 90 tablet/Capsules Container",
@@ -124,7 +115,7 @@ const human_data = [
     id: 5,
     name: "Curcumin Nanophosphosome®  with Boswellia serrata Extract",
     description:
-      "Aurijoint is a synergistic combination of Curcumin Nanophosphosome(a nano - emulsified Curcumin Phosphatidyl Choline - Serine - Ethanolamine complex) and Boswellic acid with technologically advanced bioenhancer and metabolic potentiator technology.Bioenhancer and metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve absorption as well prevents metabolic reduction through inhibition of P - gp efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
+      "Aurijoint is a synergistic combination of Curcumin Nanophosphosome® (a nano - emulsified Curcumin Phosphatidyl Choline - Serine - Ethanolamine complex) and Boswellic acid with technologically advanced bioenhancer and metabolic potentiator technology.Bioenhancer and metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve absorption as well prevents metabolic reduction through inhibition of P - gp efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule",
     category: "Other Specialty",
@@ -365,7 +356,7 @@ const human_data = [
     composition: [
       "Serving Size : 1 Capsule",
       "Servings Per Container : 30, 60 and 90 servings ",
-      "Crataegus monogyna Nanophosphosome(Vitexin - 2' rhamnoside - Phospha dylcholine Ethanolamine - Inositol - Serine complex).......210 mg (1200 mg %Daily value)",
+      "Crataegus monogyna Nanophosphosome® (Vitexin - 2' rhamnoside - Phospha dylcholine Ethanolamine - Inositol - Serine complex).......210 mg (1200 mg %Daily value)",
       "Vitexin - 2'-rhamnoside........06 mg",
       "Daily value not established ",
       "Other ingredients: Calcium carbonate, Permi ed class II preserva ve. "
@@ -514,7 +505,7 @@ const human_data = [
     id: 17,
     name: "Silybum marianum and Andrographis paniculata Nanophosphosome®",
     description:
-      "Auriliv is a synergistic combination of Silybum marianum and Andrographis paniculata Nanophosphosome(a nano- emulsified Silymarin - Andrographolide Phosphatidyl Choline - Serine - Ethanolamine complex) with technologically advanced bioenhancer and metabolic potentiator technology.Bioenhancer and metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve actives’ absorption as well prevents their metabolic reduction through inhibition of P - gp efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
+      "Auriliv is a synergistic combination of Silybum marianum and Andrographis paniculata Nanophosphosome® (a nano- emulsified Silymarin - Andrographolide Phosphatidyl Choline - Serine - Ethanolamine complex) with technologically advanced bioenhancer and metabolic potentiator technology.Bioenhancer and metabolic activator technology enhances the passive diffusion and active transport mechanism through intestinal microvilli to improve actives’ absorption as well prevents their metabolic reduction through inhibition of P - gp efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule",
     category: "Liver Stimulant, Other Specialty",
@@ -648,7 +639,7 @@ const human_data = [
     id: 21,
     name: "Complementary Food Supplement Brain Health & Cognition Support",
     description:
-      "Aurimind Plus is a synergis c combina on of Withania somnifera, Convolvulus prostrates and Bacopa monnieri Nanophosphosome (Withanolides-Convolvulus Alkaloids Phospha dylcholine- Ethanolamine-Inositol-serine complex) and Withania somnifera, Convolvulus prostrates and Bacopa monnieri with technologically advanced bioenhancer and metabolic poten ator technology. Bioenhancer and metabolic ac vator technology enhances the passive diffusion and ac ve transport mechanism through intes nal microvilli to improve absorp on as well prevents metabolic reduc on through inhibi on of P-gp efflux pump, ATPase ac vity, CYP3A4, CYP3AG and UGT.",
+      "Aurimind Plus is a synergis c combina on of Withania somnifera, Convolvulus prostrates and Bacopa monnieri Nanophosphosome® (Withanolides-Convolvulus Alkaloids Phospha dylcholine- Ethanolamine-Inositol-serine complex) and Withania somnifera, Convolvulus prostrates and Bacopa monnieri with technologically advanced bioenhancer and metabolic poten ator technology. Bioenhancer and metabolic ac vator technology enhances the passive diffusion and ac ve transport mechanism through intes nal microvilli to improve absorp on as well prevents metabolic reduc on through inhibi on of P-gp efflux pump, ATPase ac vity, CYP3A4, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule",
     category: "Other Specialty",
@@ -658,7 +649,7 @@ const human_data = [
     composition: [
       "Serving Size : 1 Capsule",
       "Servings Per Container: 30, 60 and 90 servings",
-      "Withania somnifera and Convolvulus prostratus Nanophosphosome®*(Withanolides-Convolvulus Alkaloids Phosphadylcholine-Ethanolamine-InositolSerine complex).....400 mg(2 gm %Daily value)",
+      "Withania somnifera and Convolvulus prostratus Nanophosphosome® *(Withanolides-Convolvulus Alkaloids Phosphadylcholine-Ethanolamine-InositolSerine complex).....400 mg(2 gm %Daily value)",
       "Bacopa monnieri extract.....100 mg(2 gm %Daily value)",
       "Withanolides.....12.5 mg",
       "Convolvulus prostratus alkaloides.....4 mg",
@@ -728,7 +719,7 @@ const human_data = [
     composition: [
       "Serving Size : 1 Capsule",
       "Servings Per Container:30, 60 and 90 servings",
-      "Serenoa repens Nanophosphosome®*(Phytosterol Phospha dylcholine-Ethanolamine-Inositol-Serine complex).......125 mg",
+      "Serenoa repens Nanophosphosome® *(Phytosterol Phospha dylcholine-Ethanolamine-Inositol-Serine complex).......125 mg",
       "Urtica dioica extract.......................120 mg ",
       "Prunus africana Extract.......................50 mg",
       "Phytosterols.......................27 mg",
@@ -756,7 +747,7 @@ const human_data = [
     id: 24,
     name: "Grape skin Nanophosphosome®",
     description:
-      "Auritrol is a Grape skin supplement, a nano - emulsified Resveratrol Phosphatidyl Choline - Serine - Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology.AURITROL(Grape skin Nanophosphosome), a potentiated Phospholipid complex supports cognitive and memory function, and helps to improve the visual impairment, as it easily crosses the gut barrier resulting in significantly higher blood levels ultimately improve the cases of over weight patients suffering from Diabetes mellitus type II.The complex acts as carrier mediated transport system, which directs the Resveratrol to reach the systemic circulation and also increase it’s absorption and bioavailability.Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves Resveratrol absorption as well prevents it’s metabolic reduction through inhibition of P - gp, CYP3AG and UGT.",
+      "Auritrol is a Grape skin supplement, a nano - emulsified Resveratrol Phosphatidyl Choline - Serine - Ethanolamine complex enriched with Bioenhancer and Metabolic Potentiator technology.AURITROL(Grape skin Nanophosphosome®), a potentiated Phospholipid complex supports cognitive and memory function, and helps to improve the visual impairment, as it easily crosses the gut barrier resulting in significantly higher blood levels ultimately improve the cases of over weight patients suffering from Diabetes mellitus type II.The complex acts as carrier mediated transport system, which directs the Resveratrol to reach the systemic circulation and also increase it’s absorption and bioavailability.Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves Resveratrol absorption as well prevents it’s metabolic reduction through inhibition of P - gp, CYP3AG and UGT.",
     segment: "Human OTC",
     type: "Capsule",
     category: "Other Specialty",

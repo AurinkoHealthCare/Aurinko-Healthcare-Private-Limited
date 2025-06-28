@@ -64,7 +64,7 @@ export const block8Data = [
     id: 4,
     image: "/Assets/Product images/Veterinary/Poultry/Yeco Nanophosphosome.webp",
     hoverImage: "/Assets/banner/Add banner/Yeco nanophosphome.webp",
-    title: "Yeco Nanophosphosome",
+    title: "Yeco Nanophosphosome®",
     segment: "Poultry",
     rating: 4.0,
   },

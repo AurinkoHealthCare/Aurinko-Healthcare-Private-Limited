@@ -8,7 +8,7 @@ const ArticlesReports = [
   {
     id: 2,
     title: "Auricur English Article",
-    paragraph: "Curcumin Nanophosphosome© Vital Support to Your Respiratory System",
+    paragraph: "Curcumin Nanophosphosome® Vital Support to Your Respiratory System",
     pdf: "Assets/pdf/Article/Article2.pdf",
   }
 ];

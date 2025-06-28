@@ -1152,40 +1152,40 @@ const livestock_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 36,
-  //   name: "Supports Immunity and Liver Health",
-  //   description:
-  //     "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
-  //   segment: "Livestock",
-  //   type: "Liquid",
-  //   category: "Immunomodulator , Liver Stimulant , Other Specialty",
-  //   packaging: "100 ml, 250 ml and 1 Ltr",
-  //   Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
-  //   Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
-  //   composition: [
-  //     "Each 100 ml contains:",
-  //     "Andrographis paniculata extract with Andrographoloids 900 mg",
-  //     "Tinospora cordifolia 300mg",
-  //     "Fortified with Bioenhancer",
-  //     "Technology"
-  //   ],
-  //   indications:
-  //     [
-  //       "• Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
-  //       "• Helps to rejuvenate liver cells",
-  //       "• Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
-  //     ],
-  //   usage:
-  //     [
-  //       "Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days.",
-  //       "Sheep/Goat: 3 ml/25 kg body weight for 5-7 days.",
-  //       "For regular supplementation, 1/4 of dose is recommended."
-  //     ],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 36,
+    name: "Supports Immunity and Liver Health",
+    description:
+      "Aurigraph 9 Plus is a technologically advanced liver health supplement enriched with health benefits of Andrographis paniculata and Tinospora cordifolia fortified with Bioenhancer technology to support liver health and immunity.",
+    segment: "Livestock",
+    type: "Liquid",
+    category: "Immunomodulator , Liver Stimulant , Other Specialty",
+    packaging: "100 ml, 250 ml and 1 Ltr",
+    Productimg: "/Assets/Product images/Veterinary/Livestock/aurigraph 9 plus.webp",
+    Productname: "/Assets/Product name/Livestock/Aurigraph 9 Plus.webp",
+    composition: [
+      "Each 100 ml contains:",
+      "Andrographis paniculata extract with Andrographoloids 900 mg",
+      "Tinospora cordifolia 300mg",
+      "Fortified with Bioenhancer",
+      "Technology"
+    ],
+    indications:
+      [
+        "• Supports Immunity against viral infections (FMD, Parainfluenza) and healthy liver function",
+        "• Helps to rejuvenate liver cells",
+        "• Acts as Hepatoprotective and helps to reduce the risk of liver disorders"
+      ],
+    usage:
+      [
+        "Cow/Buffalo/ Horse: 6 ml/100 kg body weight for 5-7 days.",
+        "Sheep/Goat: 3 ml/25 kg body weight for 5-7 days.",
+        "For regular supplementation, 1/4 of dose is recommended."
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 37,
     name: "Maggoticidal Topical Wound Healer 100% Actives No Gas",

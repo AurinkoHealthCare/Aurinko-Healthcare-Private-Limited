@@ -3,7 +3,7 @@ const poultry_data = [
     id: 1,
     name: "Highly Bioavailable Natural Pigments",
     description:
-      "Yeco Nanophosphosome is a nano emulsified Lutein-Zeaxanthin Phosphatidylcholine Ethanolamine-Inositol-Serine Complex enriched with bioenhancer and metabolic potentiator technology. Yeco Nanophosphosome (Lutein-Zeaxanthin Nanophosphosome) easily crosses the gut barrier resulting in significantly higher blood levels of lutein and zeaxanthin. potentiated phospholipid complex acts as carrier mediated transport system, which directs lutein and zeaxanthin to reach the systemic circulation with enhanced bioavailability. Bioenhancer and metabolic potentiator technology enhances the permeability of intestinal microvilli and improves absorption as well prevents it’s metabolic reduction through invention of P-gp, CYP3AG and UGT Yeco Nanophosphosome provides consistent and uniform color for egg yolk, broiler skin and improves health and immunity.",
+      "Yeco Nanophosphosome® is a nano emulsified Lutein-Zeaxanthin Phosphatidylcholine Ethanolamine-Inositol-Serine Complex enriched with bioenhancer and metabolic potentiator technology. Yeco Nanophosphosome® (Lutein-Zeaxanthin Nanophosphosome®) easily crosses the gut barrier resulting in significantly higher blood levels of lutein and zeaxanthin. potentiated phospholipid complex acts as carrier mediated transport system, which directs lutein and zeaxanthin to reach the systemic circulation with enhanced bioavailability. Bioenhancer and metabolic potentiator technology enhances the permeability of intestinal microvilli and improves absorption as well prevents it’s metabolic reduction through invention of P-gp, CYP3AG and UGT Yeco Nanophosphosome® provides consistent and uniform color for egg yolk, broiler skin and improves health and immunity.",
     segment: "Poultry, Aqua",
     type: "Powder",
     category: "Other Specialty",
@@ -13,12 +13,12 @@ const poultry_data = [
     composition:
       [
         "Each kg contains:",
-        "Lutein-Zeaxanthin Nanophosphosome",
+        "Lutein-Zeaxanthin Nanophosphosome®",
         "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine Inositol-Serine Complex) 200 gm",
         "Lutein 32 gm",
         "Zeaxanthin 2 gm",
         "Each kg contains:",
-        "Curcumin-Lutein-Zeaxanthin Nanophosphosome",
+        "Curcumin-Lutein-Zeaxanthin Nanophosphosome®",
         "(Lutein-Zeaxanthin Phosphatidylcholine-Ethanolamine-Inositol-Serine Complex) 400 gm",
         "Curcumin 85 gm",
         "Lutein 32 gm",
@@ -474,39 +474,39 @@ const poultry_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 14,
-  //   name: "Powerful Essential Oil Based Immunomodulator against New Castle Disease",
-  //   description:
-  //     "Aurivir EO-2",
-  //   segment: "Poultry",
-  //   type: "Powder",
-  //   category: "Immunomodulator , Other Specialty",
-  //   packaging: "500 gm and 1 kg",
-  //   Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-EO2.webp",
-  //   Productname: "/Assets/Product name/Poultry/Aurivir - EO2.webp",
-  //   composition:
-  //     [
-  //       "Each Ltr. contains:  ",
-  //       "Phytochemical principles of 1-8 cineol, Carvacrol, Thymol",
-  //       "Vitamin A............20 million IU",
-  //       "Vitamin D₃............8 million IU"
-  //     ],
-  //   indications:
-  //     [
-  //       "Helps to prevent and control New Castle Disease virus infections Ensures faster recovery during disease outbreaks.",
-  //       "Improves the antibody titre when given along with vaccinations.",
-  //       "Regular use prevents recurrence of infection."
-  //     ],
-  //   usage:
-  //     [
-  //       "Prevention: 0.2 ml per litre of drinking water for 2 to 3 weeks",
-  //       "Therapeutic support: 0.5 ml per litre of drinking water for 5 to 7 days"
-  //     ],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 14,
+    name: "Powerful Essential Oil Based Immunomodulator against New Castle Disease",
+    description:
+      "Aurivir EO-2",
+    segment: "Poultry",
+    type: "Powder",
+    category: "Immunomodulator , Other Specialty",
+    packaging: "500 gm and 1 kg",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-EO2.webp",
+    Productname: "/Assets/Product name/Poultry/Aurivir - EO2.webp",
+    composition:
+      [
+        "Each Ltr. contains:  ",
+        "Phytochemical principles of 1-8 cineol, Carvacrol, Thymol",
+        "Vitamin A............20 million IU",
+        "Vitamin D₃............8 million IU"
+      ],
+    indications:
+      [
+        "Helps to prevent and control New Castle Disease virus infections Ensures faster recovery during disease outbreaks.",
+        "Improves the antibody titre when given along with vaccinations.",
+        "Regular use prevents recurrence of infection."
+      ],
+    usage:
+      [
+        "Prevention: 0.2 ml per litre of drinking water for 2 to 3 weeks",
+        "Therapeutic support: 0.5 ml per litre of drinking water for 5 to 7 days"
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 15,
     name: "Powerful Phytogenic Immunomodulator against Infectious Bronchitis and Avian Influenza",
@@ -574,39 +574,39 @@ const poultry_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 17,
-  //   name: "Powerful Phytogenic Immunomodulator against New Castle Disease",
-  //   description:
-  //     "Aurivir-ND",
-  //   segment: "Poultry",
-  //   type: "Powder",
-  //   category: "Immunomodulator, Other Specialty",
-  //   packaging: "1 kg & 25 kg",
-  //   Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir-ND.webp",
-  //   Productname: "/Assets/Product name/Poultry/Aurivir-ND.webp",
-  //   composition:
-  //     [
-  //       "Each Kg contains:",
-  //       "Phytochemical principles of Allicin, Azadirachtin, Polyphenols, Camellia sinensis Nanophosphosome® Vitamin C 75 gm, Cu (as glycinate complex) 300 mg, Mn (as glycinate complex) 150 mg Fortified with Selenium"
-  //     ],
-  //   indications:
-  //     [
-  //       "Helps to prevent and control New Castle Disease virus infection.",
-  //       "Ensures faster recovery during disease outbreaks.",
-  //       "Improves the antibody titre when given along with vaccinations.",
-  //       "Regular use prevents recurrence of infection."
-  //     ],
-  //   usage:
-  //     [
-  //       "For Poultry:",
-  //       "Powder supplementation- For prevention- 700 gm per tonne of feed for 1-2 weeks. ",
-  //       "As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days."
-  //     ],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 17,
+    name: "Powerful Phytogenic Immunomodulator against New Castle Disease",
+    description:
+      "Aurivir-ND",
+    segment: "Poultry",
+    type: "Powder",
+    category: "Immunomodulator, Other Specialty",
+    packaging: "1 kg & 25 kg",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Aurivir - ND.webp",
+    Productname: "/Assets/Product name/Poultry/Aurivir-ND.webp",
+    composition:
+      [
+        "Each Kg contains:",
+        "Phytochemical principles of Allicin, Azadirachtin, Polyphenols, Camellia sinensis Nanophosphosome® Vitamin C 75 gm, Cu (as glycinate complex) 300 mg, Mn (as glycinate complex) 150 mg Fortified with Selenium"
+      ],
+    indications:
+      [
+        "Helps to prevent and control New Castle Disease virus infection.",
+        "Ensures faster recovery during disease outbreaks.",
+        "Improves the antibody titre when given along with vaccinations.",
+        "Regular use prevents recurrence of infection."
+      ],
+    usage:
+      [
+        "For Poultry:",
+        "Powder supplementation- For prevention- 700 gm per tonne of feed for 1-2 weeks. ",
+        "As Supportive therapy during acute infections- 2 kg per tonne of feed for 5-7 days."
+      ],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 17,
     name: "Powerful Toxin Binder",
@@ -1705,44 +1705,44 @@ const poultry_data = [
     brochure: " ",
     feedback: " "
   },
-  // {
-  //   id: 53,
-  //   name: "From Follicle to Egg — Reproductive Health Redefined",
-  //   description:
-  //     "Folova is a scientifically formulated blend of phytogenic extracts, essential vitamins, and key minerals designed to support reproductive health and performance in poultry. Its unique composition promotes hormonal balance, improves ovarian function, and enhances egg production efficiency in laying birds.",
-  //   segment: "Poultry",
-  //   type: "Powder",
-  //   category: "Other Specialty",
-  //   packaging: "1 kg & 25 kg ",
-  //   Productimg: "/Assets/Product images/Veterinary/Poultry/.webp",
-  //   Productname: "/Assets/Product name/Poultry/.webp",
-  //   composition:
-  //     [
-  //       "Each Kg contains: ",
-  //       "Phytochemical principles Berberine-Quercetin Nanophosphosome® ",
-  //       "Vitex agnus castus berry ext. ",
-  //       "Soya isoflavones ",
-  //       "Salvia officinalis ext. ",
-  //       "Vitamin A 1,00,00,000 IU, ",
-  //       "Vitamin D₃ 20,00,000 IU ",
-  //       "Cu (as glycinate complex) 600 mg, ",
-  //       "Zn (as glycinate complex) 1800 mg, ",
-  //       "Mn (as glycinate complex) 1800 mg ",
-  //       "Fortified with Selenium"
-  //     ],
-  //   indications:
-  //     [
-  //       "Indicated for optimizing reproductive functions in poultry.",
-  //       "Supports and enhances folliculogenesis and the ovulation process.",
-  //       "Recommended for maintaining peak egg production in laying hens, especially during stress, molting, or production drops.",
-  //       "Suitable for use in breeder and layer flocks to improve overall reproductive efficiency."
-  //     ],
-  //   usage:
-  //     ["Layers/Breeders:500 gm per ton of feed (or as recommended by a veterinarian or poultry nutritionist)Mix thoroughly into feed to ensure uniform distribution."],
-  //   report: " ",
-  //   brochure: " ",
-  //   feedback: " "
-  // },
+  {
+    id: 53,
+    name: "From Follicle to Egg — Reproductive Health Redefined",
+    description:
+      "Folova is a scientifically formulated blend of phytogenic extracts, essential vitamins, and key minerals designed to support reproductive health and performance in poultry. Its unique composition promotes hormonal balance, improves ovarian function, and enhances egg production efficiency in laying birds.",
+    segment: "Poultry",
+    type: "Powder",
+    category: "Other Specialty",
+    packaging: "1 kg & 25 kg ",
+    Productimg: "/Assets/Product images/Veterinary/Poultry/Folova.webp",
+    Productname: "/Assets/Product name/Poultry/Folova.webp",
+    composition:
+      [
+        "Each Kg contains: ",
+        "Phytochemical principles Berberine-Quercetin Nanophosphosome® ",
+        "Vitex agnus castus berry ext. ",
+        "Soya isoflavones ",
+        "Salvia officinalis ext. ",
+        "Vitamin A 1,00,00,000 IU, ",
+        "Vitamin D₃ 20,00,000 IU ",
+        "Cu (as glycinate complex) 600 mg, ",
+        "Zn (as glycinate complex) 1800 mg, ",
+        "Mn (as glycinate complex) 1800 mg ",
+        "Fortified with Selenium"
+      ],
+    indications:
+      [
+        "Indicated for optimizing reproductive functions in poultry.",
+        "Supports and enhances folliculogenesis and the ovulation process.",
+        "Recommended for maintaining peak egg production in laying hens, especially during stress, molting, or production drops.",
+        "Suitable for use in breeder and layer flocks to improve overall reproductive efficiency."
+      ],
+    usage:
+      ["Layers/Breeders:500 gm per ton of feed (or as recommended by a veterinarian or poultry nutritionist)Mix thoroughly into feed to ensure uniform distribution."],
+    report: " ",
+    brochure: " ",
+    feedback: " "
+  },
   {
     id: 54,
     name: "Powerful Antiviral Supplement",

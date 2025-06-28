@@ -333,9 +333,9 @@ const pet_data = [
   },
   {
     id: 10,
-    name: "Curcumin Nanophosphosome with Boswellia serrata Extract",
+    name: "Curcumin Nanophosphosome® with Boswellia serrata Extract",
     description:
-      "Aurijoint Pet is a Nanophosphosome form of Curcumin with Boswellia serrata extract enriched with bio - enhancer and metabolic potentiator technology.Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves the absorption of the actives and also prevents their metabolic reduction through inhibition of P - gp, efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
+      "Aurijoint Pet is a Nanophosphosome® form of Curcumin with Boswellia serrata extract enriched with bio - enhancer and metabolic potentiator technology.Bioenhancer and Metabolic potentiator technology enhances the permeability of intestinal microvilli and improves the absorption of the actives and also prevents their metabolic reduction through inhibition of P - gp, efflux pump, ATPase activity, CYP3A4, CYP3AG and UGT.",
     segment: "Pet",
     type: "Capsule",
     category: "Other Specialty",
@@ -345,7 +345,7 @@ const pet_data = [
     composition: [
       "1 Capsule:",
       "Each 500 mg capsule contains",
-      "Curcumin Nanophosphosome© and Boswellia",
+      "Curcumin Nanophosphosome® and Boswellia",
       "serrata * (Aurijoint)(Curcumin Phosphatidyl -",
       "choline - Ethanolamine - Inositol - Serine complex) 250 mg",
       "Boswellia serrata extract 50 mg",
