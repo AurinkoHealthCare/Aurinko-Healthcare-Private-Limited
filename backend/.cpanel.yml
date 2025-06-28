@@ -4,4 +4,4 @@ deployment:
     - /bin/echo "📦 Installing dependencies"
     - /usr/local/bin/npm install --prefix=/home/ccewbybn/aurinko/backend
     - /bin/echo "✅ Restarting Node.js App"
-    - /usr/local/bin/ea-nodejs20 app /home/ccewbybn/aurinko/backend restart
+    - /usr/local/bin/ea-nodejs20 app restart /home/ccewbybn/aurinko/backend
