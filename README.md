@@ -36,7 +36,8 @@ We strive to improve the lives of people, animals, and farmers by delivering hig
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- *(Optional)* React / Tailwind CSS / Bootstrap *(if used)*
+- **React**
+- **Tailwind CSS** 
 
 ---
 
